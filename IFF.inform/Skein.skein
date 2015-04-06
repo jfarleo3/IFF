@@ -7,7 +7,7 @@
     <result xml:space="preserve">IFF&#x000A;An Interactive Fiction by Joseph Farleo&#x000A;Release 1 / Serial number 150406 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Sleeping Quarters Male&#x000A;Sleeping quarters for the men on this expedition. To the southeast is the common room.&#x000A;&#x000A;You can see an Alarm Clock, a Wardrobe (closed) and a Backpack (closed) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <temporary score="80">NO</temporary>
     <children>
       <child nodeId="node-0x02E9C590"/>
