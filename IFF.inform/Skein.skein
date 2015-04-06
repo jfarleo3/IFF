@@ -1,1378 +1,1083 @@
-<?xml version="1.0"?>
-<Skein rootNode="node-0x152f70" xmlns="http://www.logicalshift.org.uk/IF/Skein">
-  <generator>Zoom</generator>
-  <activeNode nodeId="node-0x19f130" />
-  <item nodeId="node-0x152f70">
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x00368748" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7 for Windows</generator>
+  <activeNode nodeId="node-0x00368748"/>
+  <item nodeId="node-0x00368748">
     <command xml:space="preserve">- start -</command>
-    <result xml:space="preserve">
-
-
-IFF
-An Interactive Fiction by Joseph Farleo
-Release 1 / Serial number 150403 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
-
-Sleeping Quarters Male
-Sleeping quarters for the men on this expedition. To the southeast is the common room.
-
-You can see an Alarm Clock, a Wardrobe (closed) and a Backpack (closed) here.
-
-&gt;</result>
+    <result xml:space="preserve">IFF&#x000A;An Interactive Fiction by Joseph Farleo&#x000A;Release 1 / Serial number 150406 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Sleeping Quarters Male&#x000A;Sleeping quarters for the men on this expedition. To the southeast is the common room.&#x000A;&#x000A;You can see an Alarm Clock, a Wardrobe (closed) and a Backpack (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <temporary score="80">NO</temporary>
     <children>
-      <child nodeId="node-0x1b37a0" />
-      <child nodeId="node-0x1b3750" />
-      <child nodeId="node-0x1b48d0" />
-      <child nodeId="node-0x1b56d0" />
-      <child nodeId="node-0x1b49b0" />
-      <child nodeId="node-0x1b3dd0" />
-      <child nodeId="node-0x152fc0" />
-      <child nodeId="node-0x1b3460" />
-      <child nodeId="node-0x1b33f0" />
-      <child nodeId="node-0x1b3c80" />
-      <child nodeId="node-0x1b33a0" />
+      <child nodeId="node-0x02E9C590"/>
+      <child nodeId="node-0x02E9C050"/>
+      <child nodeId="node-0x02E9C520"/>
+      <child nodeId="node-0x02E9C4B0"/>
+      <child nodeId="node-0x02E98810"/>
+      <child nodeId="node-0x02E8DF98"/>
+      <child nodeId="node-0x02E8DF28"/>
+      <child nodeId="node-0x02E93BC8"/>
     </children>
   </item>
-  <item nodeId="node-0x1b33a0">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Sleeping Quarters Male
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1">YES</temporary>
-  </item>
-  <item nodeId="node-0x1b3c80">
-    <command xml:space="preserve">take wardrobe&apos;=</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
+  <item nodeId="node-0x02E9C590">
+    <command xml:space="preserve">take clock</command>
+    <result xml:space="preserve">That's fixed in place.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="4">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b3cf0" />
-    </children>
   </item>
-  <item nodeId="node-0x1b3cf0">
+  <item nodeId="node-0x02E9C050">
     <command xml:space="preserve">take wardrobe</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="4">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b3d60" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b3d60">
-    <command xml:space="preserve">examine self</command>
-    <result xml:space="preserve">As good-looking as ever.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="3">YES</temporary>
-  </item>
-  <item nodeId="node-0x1b33f0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">The door is locked. I guess I&apos;ll just have to hold it.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="18">YES</temporary>
-  </item>
-  <item nodeId="node-0x1b3460">
-    <command xml:space="preserve">examine alarm clock</command>
-    <result xml:space="preserve">Is it that late already? I have to get to get to the dig site!
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="78">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b3560" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b3560">
-    <command xml:space="preserve">open wardrobe</command>
-    <result xml:space="preserve">You open Wardrobe, revealing Jacket.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="78">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b35b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b35b0">
-    <command xml:space="preserve">take jacket</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="78">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b3600" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b3600">
-    <command xml:space="preserve">wear jacket</command>
-    <result xml:space="preserve">You put on Jacket.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="78">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b3670" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b3670">
-    <command xml:space="preserve">take backpack</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="78">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b36e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b36e0">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Sleeping Quarters Male
-Sleeping quarters for the men on this mission. To the southeast is the common room.
-
-You can see Alarm Clock and Wardrobe (empty) here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="78">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b34d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b34d0">
-    <command xml:space="preserve">se</command>
-    <result xml:space="preserve">
-Common Room
-Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the tables in the middle of the room. 
- To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside
-
-You can see Kitchen Table (on which is Sack Lunch), Bathroom door and Outside the Base here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="78">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b3830" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b3830">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">(first opening Bathroom door)
-It&apos;s locked. I guess I&apos;ll just have to hold it.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="78">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b3880" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b3880">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  Backpack (closed)
-  Jacket (being worn)
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="78">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b38d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b38d0">
-    <command xml:space="preserve">open backpack</command>
-    <result xml:space="preserve">You open Backpack, revealing Pair of gloves, Hat, Flashlight and Flare.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="78">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b3940" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b3940">
-    <command xml:space="preserve">take lunch</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="78">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b39b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b39b0">
-    <command xml:space="preserve">put lunch in backpack</command>
-    <result xml:space="preserve">You put Sack Lunch into Backpack.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="78">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b3a20" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b3a20">
-    <command xml:space="preserve">close backpack</command>
-    <result xml:space="preserve">You close Backpack.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="78">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b3a90" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b3a90">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Common Room
-Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the tables in the middle of the room. 
- To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside
-
-You can see Kitchen Table, Bathroom door and Outside the Base here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="77">YES</temporary>
-  </item>
-  <item nodeId="node-0x152fc0">
-    <command xml:space="preserve">restore</command>
-    <result xml:space="preserve">Restore failed.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="236">YES</temporary>
-    <children>
-      <child nodeId="node-0x14fac0" />
-    </children>
-  </item>
-  <item nodeId="node-0x14fac0">
-    <command xml:space="preserve">restore</command>
-    <result xml:space="preserve">Restore failed.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="236">YES</temporary>
-    <children>
-      <child nodeId="node-0x14fb10" />
-    </children>
-  </item>
-  <item nodeId="node-0x14fb10">
-    <command xml:space="preserve">clear</command>
-    <result xml:space="preserve">What do you want to clear?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="235">YES</temporary>
-  </item>
-  <item nodeId="node-0x1b3dd0">
-    <command xml:space="preserve">open wardrobe</command>
-    <result xml:space="preserve">You open the Wardrobe, revealing Jacket.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="80">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b3e40" />
-      <child nodeId="node-0xd822640" />
-    </children>
-  </item>
-  <item nodeId="node-0xd822640">
-    <command xml:space="preserve">wear jacked</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="80">YES</temporary>
-    <children>
-      <child nodeId="node-0x33bab0" />
-    </children>
-  </item>
-  <item nodeId="node-0x33bab0">
-    <command xml:space="preserve">wear jacket</command>
-    <result xml:space="preserve">(first taking Jacket)
-You put on Jacket.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="80">YES</temporary>
-    <children>
-      <child nodeId="node-0x1af550" />
-    </children>
-  </item>
-  <item nodeId="node-0x1af550">
-    <command xml:space="preserve">open backpack</command>
-    <result xml:space="preserve">You open the Backpack, revealing a pair of gloves, a hat, a Flashlight and a Flare.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="80">YES</temporary>
-    <children>
-      <child nodeId="node-0x3cde50" />
-    </children>
-  </item>
-  <item nodeId="node-0x3cde50">
-    <command xml:space="preserve">wear gloves</command>
-    <result xml:space="preserve">(first taking the pair of gloves)
-You put on the pair of gloves.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="80">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bdcd0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bdcd0">
-    <command xml:space="preserve">wear hat</command>
-    <result xml:space="preserve">(first taking the hat)
-You put on the hat.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="80">YES</temporary>
-    <children>
-      <child nodeId="node-0x1eab40" />
-    </children>
-  </item>
-  <item nodeId="node-0x1eab40">
-    <command xml:space="preserve">se</command>
-    <result xml:space="preserve">
-Common Room
-Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the tables in the middle of the room. 
- To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside
-
-You can see Base Door, Kitchen Table (on which is Sack Lunch) and a bathroom door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="80">YES</temporary>
-    <children>
-      <child nodeId="node-0x50cbd0" />
-    </children>
-  </item>
-  <item nodeId="node-0x50cbd0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">(first opening Base Door)
-
-Outside the Base
-To the north, you can see the covered area that houses the snowmobiles.
-
-You can see Base Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="80">YES</temporary>
-    <children>
-      <child nodeId="node-0x14af80" />
-    </children>
-  </item>
-  <item nodeId="node-0x14af80">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Covered Area
-This is the area where we park the snowmibles. All the spaces for snowmobiles are empty except for one.
-
-You can see a Snowmobile here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="80">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b60c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b60c0">
-    <command xml:space="preserve">ride snowmobile</command>
-    <result xml:space="preserve">I can&apos;t start it without the keys.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="80">YES</temporary>
-    <children>
-      <child nodeId="node-0xd82aa50" />
-    </children>
-  </item>
-  <item nodeId="node-0xd82aa50">
-    <command xml:space="preserve">look under snowmobile</command>
-    <result xml:space="preserve">You&apos;ve discovered keys!
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="80">YES</temporary>
-    <children>
-      <child nodeId="node-0x168710" />
-    </children>
-  </item>
-  <item nodeId="node-0x168710">
-    <command xml:space="preserve">ride snowmobile</command>
-    <result xml:space="preserve">You mount the Snowmobile.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="80">YES</temporary>
-    <children>
-      <child nodeId="node-0x362720" />
-    </children>
-  </item>
-  <item nodeId="node-0x362720">
-    <command xml:space="preserve">dismount snowmobile</command>
-    <result xml:space="preserve">I only understood you as far as wanting to dismount.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="80">YES</temporary>
-    <children>
-      <child nodeId="node-0x19f130" />
-    </children>
-  </item>
-  <item nodeId="node-0x19f130">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Dig Site
-You can see Snowmobile ride ends on the second turn the player here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="79">YES</temporary>
-  </item>
-  <item nodeId="node-0x1b3e40">
-    <command xml:space="preserve">wear jacket</command>
-    <result xml:space="preserve">(first taking Jacket)
-You put on Jacket.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="26">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b3eb0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b3eb0">
-    <command xml:space="preserve">open backpack</command>
-    <result xml:space="preserve">You open the Backpack, revealing a pair of gloves, a hat, a Flashlight and a Flare.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="26">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b3f20" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b3f20">
-    <command xml:space="preserve">wear gloves</command>
-    <result xml:space="preserve">(first taking the pair of gloves)
-You put on the pair of gloves.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="26">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b3f90" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b3f90">
-    <command xml:space="preserve">wear hat</command>
-    <result xml:space="preserve">(first taking the hat)
-You put on the hat.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="26">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b4710" />
-      <child nodeId="node-0x1b4000" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b4000">
-    <command xml:space="preserve">take backpack</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="290">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b4070" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b4070">
-    <command xml:space="preserve">se</command>
-    <result xml:space="preserve">
-Common Room
-Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the tables in the middle of the room. 
- To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside
-
-You can see Base Door, Kitchen Table (on which is Sack Lunch) and a bathroom door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="290">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b40e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b40e0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">(first opening Base Door)
-
-Outside the Base
-To the north, you can see the covered area that houses the snowmobiles.
-
-You can see Base Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="290">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b3b00" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b3b00">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Covered Area
-You can see a Snowmobile and keys to the snowmobile here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="290">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b3b70" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b3b70">
-    <command xml:space="preserve">enter snowmobile</command>
-    <result xml:space="preserve">Which do you mean, the Snowmobile or keys to the snowmobile?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="290">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b3be0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b3be0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">I only understood you as far as wanting to enter south.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="290">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b4390" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b4390">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="290">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b4400" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b4400">
-    <command xml:space="preserve">dismount snowmobile</command>
-    <result xml:space="preserve">I only understood you as far as wanting to dismount.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="290">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b4470" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b4470">
-    <command xml:space="preserve">dismount</command>
-    <result xml:space="preserve">You are not riding anything.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="290">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b44e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b44e0">
-    <command xml:space="preserve">ride snowmobile</command>
-    <result xml:space="preserve">Which do you mean, the Snowmobile or keys to the snowmobile?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="290">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b4550" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b4550">
-    <command xml:space="preserve">dismount</command>
-    <result xml:space="preserve">You are not riding anything.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="290">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b45c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b45c0">
-    <command xml:space="preserve">ride snowmobile</command>
-    <result xml:space="preserve">Which do you mean, the Snowmobile or keys to the snowmobile?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="290">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b4630" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b4630">
-    <command xml:space="preserve">snowmobile</command>
-    <result xml:space="preserve">Which do you mean, the Snowmobile or keys to the snowmobile?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="290">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b46a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b46a0">
-    <command xml:space="preserve">ride the snowmobile</command>
-    <result xml:space="preserve">Which do you mean, the Snowmobile or keys to the snowmobile?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="289">YES</temporary>
-  </item>
-  <item nodeId="node-0x1b4710">
-    <command xml:space="preserve">se</command>
-    <result xml:space="preserve">
-Common Room
-Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the tables in the middle of the room. 
- To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside
-
-You can see Base Door, Kitchen Table (on which is Sack Lunch) and a bathroom door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="26">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b4780" />
-      <child nodeId="node-0x1dda30" />
-    </children>
-  </item>
-  <item nodeId="node-0x1dda30">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="26">YES</temporary>
-    <children>
-      <child nodeId="node-0x1dc8a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1dc8a0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">(first opening Base Door)
-
-Outside the Base
-To the north, you can see the covered area that houses the snowmobiles.
-
-You can see Base Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="26">YES</temporary>
-    <children>
-      <child nodeId="node-0x1ac8b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1ac8b0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Covered Area
-All the other space for snowmobiles are empty.
-
-You can see a Snowmobile here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="26">YES</temporary>
-    <children>
-      <child nodeId="node-0x325150" />
-    </children>
-  </item>
-  <item nodeId="node-0x325150">
-    <command xml:space="preserve">look under snowmobile</command>
-    <result xml:space="preserve">You&apos;ve discovered keys!
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="26">YES</temporary>
-    <children>
-      <child nodeId="node-0x5ed850" />
-    </children>
-  </item>
-  <item nodeId="node-0x5ed850">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  keys
-  a hat (being worn)
-  a pair of gloves (being worn)
-  Jacket (being worn)
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="26">YES</temporary>
-    <children>
-      <child nodeId="node-0x2ba3b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x2ba3b0">
-    <command xml:space="preserve">ride snowmobile</command>
-    <result xml:space="preserve">You mount the Snowmobile.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="26">YES</temporary>
-    <children>
-      <child nodeId="node-0x190890" />
-    </children>
-  </item>
-  <item nodeId="node-0x190890">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Covered Area (on the Snowmobile)
-All the other space for snowmobiles are empty.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="25">YES</temporary>
-  </item>
-  <item nodeId="node-0x1b4780">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">(first opening Base Door)
-
-Outside the Base
-To the north, you can see the covered area that houses the snowmobiles.
-
-You can see Base Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="10">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b47f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b47f0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Covered Area
-All the other space for snowmobiles are empty.
-
-You can see a Snowmobile and keys here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="10">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b4860" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b4860">
-    <command xml:space="preserve">take keys</command>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="9">YES</temporary>
-  </item>
-  <item nodeId="node-0x1b49b0">
-    <command xml:space="preserve">se</command>
-    <result xml:space="preserve">
-Common Room
-Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the tables in the middle of the room. 
- To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside
-
-You can see Base Door, Kitchen Table (on which is Sack Lunch) and a bathroom door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="233">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b5580" />
-      <child nodeId="node-0x1b52e0" />
-      <child nodeId="node-0x1b4a20" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b4a20">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">(first opening Base Door)
-I&apos;ll freeze to death if I go out there dressed like this!
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="233">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b5270" />
-      <child nodeId="node-0x1b4a90" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b4a90">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="233">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b4150" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b4150">
-    <command xml:space="preserve">nw</command>
-    <result xml:space="preserve">
-Sleeping Quarters Male
-Sleeping quarters for the men on this expedition. To the southeast is the common room.
-
-You can see Alarm Clock, a Wardrobe (closed) and a Backpack (closed) here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="233">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b41c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b41c0">
-    <command xml:space="preserve">examine alarm clock</command>
-    <result xml:space="preserve">Is it that late already? I have to get to get to the dig site!
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="233">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b4230" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b4230">
-    <command xml:space="preserve">open wardrobe</command>
-    <result xml:space="preserve">You open the Wardrobe, revealing Jacket.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="233">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b42a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b42a0">
-    <command xml:space="preserve">take jacket</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="233">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b4310" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b4310">
-    <command xml:space="preserve">wear jacket</command>
-    <result xml:space="preserve">You put on Jacket.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="233">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b4b00" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b4b00">
-    <command xml:space="preserve">take backpack</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="233">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b4b70" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b4b70">
-    <command xml:space="preserve">open backpack</command>
-    <result xml:space="preserve">You open the Backpack, revealing a pair of gloves, a hat, a Flashlight and a Flare.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="233">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b4be0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b4be0">
-    <command xml:space="preserve">take gloves</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="233">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b4c50" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b4c50">
-    <command xml:space="preserve">wear gloves</command>
-    <result xml:space="preserve">You put on the pair of gloves.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="233">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b4cc0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b4cc0">
-    <command xml:space="preserve">take hat</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="233">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b4d30" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b4d30">
-    <command xml:space="preserve">wear hat</command>
-    <result xml:space="preserve">You put on the hat.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="233">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b4da0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b4da0">
-    <command xml:space="preserve">se</command>
-    <result xml:space="preserve">
-Common Room
-Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the tables in the middle of the room. 
- To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside
-
-You can see Base Door, Kitchen Table (on which is Sack Lunch) and a bathroom door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="233">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b4e10" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b4e10">
-    <command xml:space="preserve">take lunch</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="233">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b4e80" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b4e80">
-    <command xml:space="preserve">put lunch in backpack</command>
-    <result xml:space="preserve">You put Sack Lunch into the Backpack.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="233">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b4ef0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b4ef0">
-    <command xml:space="preserve">close backpack</command>
-    <result xml:space="preserve">You close the Backpack.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="233">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b4f60" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b4f60">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  a hat (being worn)
-  a pair of gloves (being worn)
-  a Backpack (closed)
-  Jacket (being worn)
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="233">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b4fd0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b4fd0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">(first opening Base Door)
-
-Outside the Base
-To the north, you can see the covered area that houses the snowmobiles.
-
-You can see Base Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="233">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b5040" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b5040">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Covered Area
-You can see a Snowmobile here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="233">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b50b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b50b0">
-    <command xml:space="preserve">use snowmobile</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="233">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b5120" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b5120">
-    <command xml:space="preserve">use snowmobile</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="233">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b5190" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b5190">
-    <command xml:space="preserve">use the snowmobile</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="233">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b5200" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b5200">
-    <command xml:space="preserve">save</command>
-    <result xml:space="preserve">Save failed.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="232">YES</temporary>
-  </item>
-  <item nodeId="node-0x1b5270">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">(first opening Bathroom door)
-It&apos;s locked. I guess I&apos;ll just have to hold it.
-
-You can&apos;t, since Bathroom door leads nowhere.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="13">YES</temporary>
-  </item>
-  <item nodeId="node-0x1b52e0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">(first opening door1)
-It&apos;s locked. I guess I&apos;ll just have to hold it.
-
-Bathroom
-You can see door1 here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="21">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b5510" />
-      <child nodeId="node-0x1b54a0" />
-      <child nodeId="node-0x1b5350" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b5350">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Bathroom
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="18">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b53c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b53c0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Main Room
-Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the tables in the middle of the room. 
- To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="18">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b5430" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b5430">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Main Room
-Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the tables in the middle of the room. 
- To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="17">YES</temporary>
-  </item>
-  <item nodeId="node-0x1b54a0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">(first opening Bathroom door)
-It seems to be locked.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="21">YES</temporary>
-  </item>
-  <item nodeId="node-0x1b5510">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Main Room
-Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the tables in the middle of the room. 
- To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="12">YES</temporary>
-  </item>
-  <item nodeId="node-0x1b5580">
-    <command xml:space="preserve">sw</command>
-    <result xml:space="preserve">
-Sleeping Quarters Female
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="6">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b55f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b55f0">
-    <command xml:space="preserve">ne</command>
-    <result xml:space="preserve">
-Main Room
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="6">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b5660" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b5660">
-    <command xml:space="preserve">nw</command>
-    <result xml:space="preserve">
-Sleeping Quarters Male
-
-&gt;</result>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="5">YES</temporary>
   </item>
-  <item nodeId="node-0x1b56d0">
-    <command xml:space="preserve">sw</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="8">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b5740" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b5740">
-    <command xml:space="preserve">se</command>
-    <result xml:space="preserve">
-Main Room
-Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the tables in the middle of the room. 
- To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="7">YES</temporary>
-  </item>
-  <item nodeId="node-0x1b48d0">
+  <item nodeId="node-0x02E9C520">
     <command xml:space="preserve">wearing</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="3">YES</temporary>
     <children>
-      <child nodeId="node-0x1b4940" />
+      <child nodeId="node-0x02E9C1A0"/>
     </children>
   </item>
-  <item nodeId="node-0x1b4940">
+  <item nodeId="node-0x02E9C1A0">
     <command xml:space="preserve">examine self</command>
-    <result xml:space="preserve">As good-looking as ever.
-
-&gt;</result>
+    <result xml:space="preserve">As good-looking as ever.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="2">YES</temporary>
   </item>
-  <item nodeId="node-0x1b3750">
-    <command xml:space="preserve">take wardrobe</command>
+  <item nodeId="node-0x02E9C4B0">
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E9C130"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E9C130">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">&#x000A;Main Room&#x000A;Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the tables in the middle of the room. &#x000A; To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+  </item>
+  <item nodeId="node-0x02E98810">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">&#x000A;Common Room&#x000A;Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the tables in the middle of the room. &#x000A; To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside&#x000A;&#x000A;You can see Base Door, Kitchen Table (on which is Sack Lunch) and a bathroom door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="233">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E9C360"/>
+      <child nodeId="node-0x02E991B0"/>
+      <child nodeId="node-0x02E98730"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E9C360">
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">&#x000A;Sleeping Quarters Female&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E9BFE0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E9BFE0">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">&#x000A;Main Room&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E9C3D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E9C3D0">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">&#x000A;Sleeping Quarters Male&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="5">YES</temporary>
   </item>
-  <item nodeId="node-0x1b37a0">
-    <command xml:space="preserve">take clock</command>
-    <result xml:space="preserve">That&apos;s fixed in place.
-
-&gt;</result>
+  <item nodeId="node-0x02E991B0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening door1)&#x000A;It's locked. I guess I'll just have to hold it.&#x000A;&#x000A;Bathroom&#x000A;You can see door1 here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="4">YES</temporary>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E9BD40"/>
+      <child nodeId="node-0x02E9C210"/>
+      <child nodeId="node-0x02E99060"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E9BD40">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">&#x000A;Main Room&#x000A;Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the tables in the middle of the room. &#x000A; To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="12">YES</temporary>
+  </item>
+  <item nodeId="node-0x02E9C210">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening Bathroom door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+  </item>
+  <item nodeId="node-0x02E99060">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Bathroom&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E990D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E990D0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">&#x000A;Main Room&#x000A;Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the tables in the middle of the room. &#x000A; To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E99140"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E99140">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Main Room&#x000A;Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the tables in the middle of the room. &#x000A; To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="17">YES</temporary>
+  </item>
+  <item nodeId="node-0x02E98730">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening Base Door)&#x000A;I'll freeze to death if I go out there dressed like this!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="233">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E98B20"/>
+      <child nodeId="node-0x02E98F10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E98B20">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening Bathroom door)&#x000A;It's locked. I guess I'll just have to hold it.&#x000A;&#x000A;You can't, since Bathroom door leads nowhere.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="13">YES</temporary>
+  </item>
+  <item nodeId="node-0x02E98F10">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="233">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E98F80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E98F80">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">&#x000A;Sleeping Quarters Male&#x000A;Sleeping quarters for the men on this expedition. To the southeast is the common room.&#x000A;&#x000A;You can see Alarm Clock, a Wardrobe (closed) and a Backpack (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="233">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E985E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E985E0">
+    <command xml:space="preserve">examine alarm clock</command>
+    <result xml:space="preserve">Is it that late already? I have to get to get to the dig site!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="233">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E98340"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E98340">
+    <command xml:space="preserve">open wardrobe</command>
+    <result xml:space="preserve">You open the Wardrobe, revealing Jacket.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="233">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E98CE0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E98CE0">
+    <command xml:space="preserve">take jacket</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="233">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E98650"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E98650">
+    <command xml:space="preserve">wear jacket</command>
+    <result xml:space="preserve">You put on Jacket.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="233">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E987A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E987A0">
+    <command xml:space="preserve">take backpack</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="233">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E983B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E983B0">
+    <command xml:space="preserve">open backpack</command>
+    <result xml:space="preserve">You open the Backpack, revealing a pair of gloves, a hat, a Flashlight and a Flare.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="233">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E98FF0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E98FF0">
+    <command xml:space="preserve">take gloves</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="233">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E98960"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E98960">
+    <command xml:space="preserve">wear gloves</command>
+    <result xml:space="preserve">You put on the pair of gloves.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="233">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E98420"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E98420">
+    <command xml:space="preserve">take hat</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="233">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E98490"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E98490">
+    <command xml:space="preserve">wear hat</command>
+    <result xml:space="preserve">You put on the hat.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="233">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E986C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E986C0">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">&#x000A;Common Room&#x000A;Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the tables in the middle of the room. &#x000A; To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside&#x000A;&#x000A;You can see Base Door, Kitchen Table (on which is Sack Lunch) and a bathroom door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="233">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E98EA0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E98EA0">
+    <command xml:space="preserve">take lunch</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="233">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E98E30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E98E30">
+    <command xml:space="preserve">put lunch in backpack</command>
+    <result xml:space="preserve">You put Sack Lunch into the Backpack.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="233">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E98DC0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E98DC0">
+    <command xml:space="preserve">close backpack</command>
+    <result xml:space="preserve">You close the Backpack.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="233">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E98500"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E98500">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a hat (being worn)&#x000A;  a pair of gloves (being worn)&#x000A;  a Backpack (closed)&#x000A;  Jacket (being worn)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="233">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E98260"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E98260">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening Base Door)&#x000A;&#x000A;Outside the Base&#x000A;To the north, you can see the covered area that houses the snowmobiles.&#x000A;&#x000A;You can see Base Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="233">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E98570"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E98570">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">&#x000A;Covered Area&#x000A;You can see a Snowmobile here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="233">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E98A40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E98A40">
+    <command xml:space="preserve">use snowmobile</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="233">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E98880"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E98880">
+    <command xml:space="preserve">use snowmobile</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="233">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E988F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E988F0">
+    <command xml:space="preserve">use the snowmobile</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="233">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E98AB0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E98AB0">
+    <command xml:space="preserve">save</command>
+    <result xml:space="preserve">Save failed.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="232">YES</temporary>
+  </item>
+  <item nodeId="node-0x02E8DF98">
+    <command xml:space="preserve">open wardrobe</command>
+    <result xml:space="preserve">You open the Wardrobe, revealing Jacket.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="80">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E94B68"/>
+      <child nodeId="node-0x02E8DCF8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E94B68">
+    <command xml:space="preserve">wear jacket</command>
+    <result xml:space="preserve">(first taking Jacket)&#x000A;You put on Jacket.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="26">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E94E78"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E94E78">
+    <command xml:space="preserve">open backpack</command>
+    <result xml:space="preserve">You open the Backpack, revealing a pair of gloves, a hat, a Flashlight and a Flare.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="26">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E94EE8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E94EE8">
+    <command xml:space="preserve">wear gloves</command>
+    <result xml:space="preserve">(first taking the pair of gloves)&#x000A;You put on the pair of gloves.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="26">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E950A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E950A8">
+    <command xml:space="preserve">wear hat</command>
+    <result xml:space="preserve">(first taking the hat)&#x000A;You put on the hat.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="26">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E95348"/>
+      <child nodeId="node-0x02E95188"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E95348">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">&#x000A;Common Room&#x000A;Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the tables in the middle of the room. &#x000A; To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside&#x000A;&#x000A;You can see Base Door, Kitchen Table (on which is Sack Lunch) and a bathroom door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="26">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E98B90"/>
+      <child nodeId="node-0x02E95268"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E98B90">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening Base Door)&#x000A;&#x000A;Outside the Base&#x000A;To the north, you can see the covered area that houses the snowmobiles.&#x000A;&#x000A;You can see Base Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E98C70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E98C70">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">&#x000A;Covered Area&#x000A;All the other space for snowmobiles are empty.&#x000A;&#x000A;You can see a Snowmobile and keys here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E989D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E989D0">
+    <command xml:space="preserve">take keys</command>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+  </item>
+  <item nodeId="node-0x02E95268">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="26">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E952D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E952D8">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening Base Door)&#x000A;&#x000A;Outside the Base&#x000A;To the north, you can see the covered area that houses the snowmobiles.&#x000A;&#x000A;You can see Base Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="26">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E957A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E957A8">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">&#x000A;Covered Area&#x000A;All the other space for snowmobiles are empty.&#x000A;&#x000A;You can see a Snowmobile here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="26">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E95738"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E95738">
+    <command xml:space="preserve">look under snowmobile</command>
+    <result xml:space="preserve">You've discovered keys!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="26">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E95658"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E95658">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  keys&#x000A;  a hat (being worn)&#x000A;  a pair of gloves (being worn)&#x000A;  Jacket (being worn)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="26">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E956C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E956C8">
+    <command xml:space="preserve">ride snowmobile</command>
+    <result xml:space="preserve">You mount the Snowmobile.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="26">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E982D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E982D0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Covered Area (on the Snowmobile)&#x000A;All the other space for snowmobiles are empty.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+  </item>
+  <item nodeId="node-0x02E95188">
+    <command xml:space="preserve">take backpack</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="290">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E949A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E949A8">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">&#x000A;Common Room&#x000A;Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the tables in the middle of the room. &#x000A; To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside&#x000A;&#x000A;You can see Base Door, Kitchen Table (on which is Sack Lunch) and a bathroom door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="290">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E95578"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E95578">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening Base Door)&#x000A;&#x000A;Outside the Base&#x000A;To the north, you can see the covered area that houses the snowmobiles.&#x000A;&#x000A;You can see Base Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="290">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E95508"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E95508">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">&#x000A;Covered Area&#x000A;You can see a Snowmobile and keys to the snowmobile here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="290">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E94F58"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E94F58">
+    <command xml:space="preserve">enter snowmobile</command>
+    <result xml:space="preserve">Which do you mean, the Snowmobile or keys to the snowmobile?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="290">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E94FC8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E94FC8">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">I only understood you as far as wanting to enter south.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="290">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E94A18"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E94A18">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="290">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E94BD8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E94BD8">
+    <command xml:space="preserve">dismount snowmobile</command>
+    <result xml:space="preserve">I only understood you as far as wanting to dismount.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="290">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E955E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E955E8">
+    <command xml:space="preserve">dismount</command>
+    <result xml:space="preserve">You are not riding anything.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="290">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E953B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E953B8">
+    <command xml:space="preserve">ride snowmobile</command>
+    <result xml:space="preserve">Which do you mean, the Snowmobile or keys to the snowmobile?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="290">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E94AF8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E94AF8">
+    <command xml:space="preserve">dismount</command>
+    <result xml:space="preserve">You are not riding anything.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="290">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E94D28"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E94D28">
+    <command xml:space="preserve">ride snowmobile</command>
+    <result xml:space="preserve">Which do you mean, the Snowmobile or keys to the snowmobile?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="290">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E94858"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E94858">
+    <command xml:space="preserve">snowmobile</command>
+    <result xml:space="preserve">Which do you mean, the Snowmobile or keys to the snowmobile?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="290">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E95118"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E95118">
+    <command xml:space="preserve">ride the snowmobile</command>
+    <result xml:space="preserve">Which do you mean, the Snowmobile or keys to the snowmobile?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="289">YES</temporary>
+  </item>
+  <item nodeId="node-0x02E8DCF8">
+    <command xml:space="preserve">wear jacked</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="80">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E8DE48"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E8DE48">
+    <command xml:space="preserve">wear jacket</command>
+    <result xml:space="preserve">(first taking Jacket)&#x000A;You put on Jacket.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="80">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E8E008"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E8E008">
+    <command xml:space="preserve">open backpack</command>
+    <result xml:space="preserve">You open the Backpack, revealing a pair of gloves, a hat, a Flashlight and a Flare.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="80">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E94C48"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E94C48">
+    <command xml:space="preserve">wear gloves</command>
+    <result xml:space="preserve">(first taking the pair of gloves)&#x000A;You put on the pair of gloves.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="80">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E951F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E951F8">
+    <command xml:space="preserve">wear hat</command>
+    <result xml:space="preserve">(first taking the hat)&#x000A;You put on the hat.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="80">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E95498"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E95498">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">&#x000A;Common Room&#x000A;Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the tables in the middle of the room. &#x000A; To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside&#x000A;&#x000A;You can see Base Door, Kitchen Table (on which is Sack Lunch) and a bathroom door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="80">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E94D98"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E94D98">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening Base Door)&#x000A;&#x000A;Outside the Base&#x000A;To the north, you can see the covered area that houses the snowmobiles.&#x000A;&#x000A;You can see Base Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="80">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E95038"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E95038">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">&#x000A;Covered Area&#x000A;This is the area where we park the snowmibles. All the spaces for snowmobiles are empty except for one.&#x000A;&#x000A;You can see a Snowmobile here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="80">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E95428"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E95428">
+    <command xml:space="preserve">ride snowmobile</command>
+    <result xml:space="preserve">I can't start it without the keys.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="80">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E94CB8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E94CB8">
+    <command xml:space="preserve">look under snowmobile</command>
+    <result xml:space="preserve">You've discovered keys!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="80">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E94E08"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E94E08">
+    <command xml:space="preserve">ride snowmobile</command>
+    <result xml:space="preserve">You mount the Snowmobile.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="80">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E94A88"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E94A88">
+    <command xml:space="preserve">dismount snowmobile</command>
+    <result xml:space="preserve">I only understood you as far as wanting to dismount.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="80">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E94938"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E94938">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Dig Site&#x000A;You can see Snowmobile ride ends on the second turn the player here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="79">YES</temporary>
+  </item>
+  <item nodeId="node-0x02E8DF28">
+    <command xml:space="preserve">restore</command>
+    <result xml:space="preserve">Restore failed.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="236">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E8DC88"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E8DC88">
+    <command xml:space="preserve">restore</command>
+    <result xml:space="preserve">Restore failed.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="236">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E8DDD8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E8DDD8">
+    <command xml:space="preserve">clear</command>
+    <result xml:space="preserve">What do you want to clear?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="235">YES</temporary>
+  </item>
+  <item nodeId="node-0x02E93BC8">
+    <command xml:space="preserve">examine alarm clock</command>
+    <result xml:space="preserve">Is it that late already? I have to get to get to the dig site!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="78">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E93C38"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E93C38">
+    <command xml:space="preserve">open wardrobe</command>
+    <result xml:space="preserve">You open Wardrobe, revealing Jacket.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="78">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E93CA8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E93CA8">
+    <command xml:space="preserve">take jacket</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="78">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E93D18"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E93D18">
+    <command xml:space="preserve">wear jacket</command>
+    <result xml:space="preserve">You put on Jacket.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="78">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E93D88"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E93D88">
+    <command xml:space="preserve">take backpack</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="78">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E8E2A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E8E2A8">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Sleeping Quarters Male&#x000A;Sleeping quarters for the men on this mission. To the southeast is the common room.&#x000A;&#x000A;You can see Alarm Clock and Wardrobe (empty) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="78">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E8E1C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E8E1C8">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">&#x000A;Common Room&#x000A;Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the tables in the middle of the room. &#x000A; To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside&#x000A;&#x000A;You can see Kitchen Table (on which is Sack Lunch), Bathroom door and Outside the Base here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="78">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E8E318"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E8E318">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening Bathroom door)&#x000A;It's locked. I guess I'll just have to hold it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="78">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E8E0E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E8E0E8">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  Backpack (closed)&#x000A;  Jacket (being worn)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="78">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E8DEB8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E8DEB8">
+    <command xml:space="preserve">open backpack</command>
+    <result xml:space="preserve">You open Backpack, revealing Pair of gloves, Hat, Flashlight and Flare.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="78">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E8E158"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E8E158">
+    <command xml:space="preserve">take lunch</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="78">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E8E238"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E8E238">
+    <command xml:space="preserve">put lunch in backpack</command>
+    <result xml:space="preserve">You put Sack Lunch into Backpack.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="78">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E8E388"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E8E388">
+    <command xml:space="preserve">close backpack</command>
+    <result xml:space="preserve">You close Backpack.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="78">YES</temporary>
   </item>
 </Skein>
