@@ -30,6 +30,8 @@ Sleeping Quarters Male is a room with printed name 'Sleeping Quarters (Male)' an
 The player is in Sleeping Quarters Male. 
 the Alarm Clock is an object with description "Is it that late already? I have to get to get to the dig site!".
 Alarm Clock is fixed in place. Alarm Clock is in Sleeping Quarters Male. 
+Instead of taking alarm clock:
+	say "Why would you need to bring your alarm clock with you?".
 the Wardrobe is a closed openable object in Sleeping Quarters Male. Jacket is a wearable object inside Wardrobe.
 Wardrobe is fixed in place. 
 the Backpack is a closed openable object in Sleeping Quarters Male. 
@@ -49,7 +51,7 @@ The apple is an edible object inside Sack Lunch with description "A Honeycrisp A
 The sweetroll is an edible object inside Sack Lunch with description "A sweetroll. A roll that is sweet. Duh".
 
 Common room is southeast of Sleeping Quarters Male. 
-Sleeping Quarters Female is a room with printed name 'Sleeping Quarters (Female)' and description "Sleeping quarters for the women on this expedition. To the southeast is the common room.". 
+Sleeping Quarters Female is a room with printed name 'Sleeping Quarters (Female)' and description "Sleeping quarters for the women on this expedition. To the northeast is the common room.". 
 Common room is northeast of Sleeping Quarters Female. 
 the bathroom door is a door. the bathroom door is north of Common Room. 
 Instead of opening the bathroom door:
@@ -62,11 +64,17 @@ Before opening Base Door:
 		say "I'll freeze to death if I go out there dressed like this!";
 		stop the action.
 Garage is a room with description "This is the area where we park the snowmibles. All the spaces for snowmobiles are empty except for one.". 
-Dig Site is a room. 
+Dig Site is a room. Dig site is east of garage door. 
 Garage is north of Outside the Base. 
-The Snowmobile is a rideable vehicle. keys is an object.  
-The Snowmobile is in Covered Area. keys is beneath The Snowmobile. 
+The Garage Door is a door. Garage door is east of Garage. 
+The Snowmobile is a rideable vehicle with description "There appears to be something shiny underneath it.". keys is an object.  
+The Snowmobile is in Garage. keys is beneath The Snowmobile. 
 Before mounting The Snowmobile:
 	unless the player is holding keys:
 		say "I can't start it without the keys.";
+		stop the action.
+		
+Before opening Garage Door:
+	unless the player is on the snowmobile:
+		say "Well I'm not going to walk all the way to the dig site.";
 		stop the action.
