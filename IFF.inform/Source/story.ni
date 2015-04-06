@@ -43,7 +43,7 @@ the Flare is an object inside backpack.
 [Common Room]
 Common Room is a room with description 
 "Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the tables in the middle of the room. [line break] To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside". 
-[Kitchen & the slunch]
+[Kitchen & the lunch]
 Kitchen Table is an object in Common Room. Kitchen table is fixed in place. 
 The Sack Lunch is a closed openable object on Kitchen Table with description "A sack lunch".
 The PB & J sandwich is an edible object inside Sack Lunch with description "A PB & J sandwich with the perfect ratio and pleasantly soft, yet not soggy, bread".
