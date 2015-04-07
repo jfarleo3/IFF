@@ -32,11 +32,11 @@ the Alarm Clock is an object with description "Is it that late already? I have t
 Alarm Clock is fixed in place. Alarm Clock is in Sleeping Quarters Male. 
 Instead of taking alarm clock:
 	say "Why would you need to bring your alarm clock with you?".
-the Wardrobe is a closed openable object in Sleeping Quarters Male. Coat is a wearable object inside Wardrobe with description "Puffed up to the brim with the finest Groobler feathers. This blue coat is sure to keep me nice and toasty down to 50 Kelvin.".
+the Wardrobe is a closed openable object in Sleeping Quarters Male. Coat is a wearable object inside Wardrobe with description "Puffed up to the brim with the finest Groobler feathers. This blue coat is sure to keep me nice and toasty down to 50 Kelvin.". Understand "jacket" as coat.
 Wardrobe is fixed in place. 
 the Backpack is a closed openable object in Sleeping Quarters Male. 
 the pair of gloves is a wearable object inside backpack with description "Don't want frostbite. Better put these on.". 
-the hat is a wearable object inside backpack with description "This will definitely keep my ears warm.". 
+the hat is a wearable object inside backpack with description "This will definitely keep my ears warm.". Understand "cap" as hat.
 the Flashlight is an object inside backpack with description "Solar charged to the brim.".
 the Flare is an object inside backpack with description "I only have one of these. Better make good use of it.". 
 
@@ -68,8 +68,8 @@ the preserved thoracic sac is fixed in place.
 Instead of taking the preserved thoracic sac:
 	say "I am not taking that nasty, slimy thing with me. No way.".
 the EDP is an object on the Tables with description "The Environmental Discovery Pager. Each of the archeologists is supposed to have one. Looks like Carl forgot to take his with him. Again. I had better return it to him. [paragraph break] The EDP currently has Chapter 1 and Chapter 2 completed".
-	The Chapter 1 is an object inside the EDP with description "It reads [quotation] A bad start already, dang it. There's a really cool ice cave filled with all sorts of specimens on the first floor of the caverns, but I left this darn thing up here again. I left my observations of the species in the cavern on the icy ledge where Russeau was deciphering the glyphs. He said he'd left it there, and I haven't been able to remember to bring it back to base yet. My memory has never been impressive.[quotation]".
-	The Chapter 2 is an object inside the EDP with description "It reads [quotation]The second level of the caverns is even more amazing! I still cannot believe I forgot this EDP back here again. I left my notes for that section of the cavern...shoot, I don't even remember where I put them! I remember Russeau saying something about the first layer's inhabitants being a sort of translating explorative species based on his findings, and he sounded excited to search the seond level for more glyphs from their discoveries. Perhaps they know even more about this planet's history than we do![quotation]".
+	The Chapter 1 is an object inside the EDP with description "It reads 'A bad start already, dang it. There's a really cool ice cave filled with all sorts of specimens on the first floor of the caverns, but I left this darn thing up here again. I left my observations of the species in the cavern on the icy ledge where Russeau was deciphering the glyphs. He said he'd left it there, and I haven't been able to remember to bring it back to base yet. My memory has never been impressive.'".
+	The Chapter 2 is an object inside the EDP with description "It reads 'The second level of the caverns is even more amazing! I still cannot believe I forgot this EDP back here again. I left my notes for that section of the cavern...shoot, I don't even remember where I put them! I remember Russeau saying something about the first layer's inhabitants being a sort of translating explorative species based on his findings, and he sounded excited to search the seond level for more glyphs from their discoveries. Perhaps they know even more about this planet's history than we do!'".
 
 Common room is southeast of Sleeping Quarters Male. 
 Sleeping Quarters Female is a room with printed name 'Sleeping Quarters (Female)' and description "Sleeping quarters for the women on this expedition. To the northeast is the common room.". 
@@ -79,9 +79,10 @@ Instead of opening the bathroom door:
 	say "It's locked. I guess I'll just have to hold it.".
 Base Door is a door. Base Door is east of Common Room. 
 Outside the Base is a room with description "To the north, you can see the covered area that houses the snowmobiles.". 
-Outside the Base is east of Base Door. 
+Outside the Base is east of Base Door.
+
 Before opening Base Door:
-	unless the player is wearing the jacket and the player is wearing the gloves and the player is wearing the hat:
+	unless the player is wearing the coat and the player is wearing the gloves and the player is wearing the hat:
 		say "I'll freeze to death if I go out there dressed like this!";
 		stop the action.
 Garage is a room with description "This is the area where we park the snowmobiles. All the spaces for snowmobiles are empty except for one.". 

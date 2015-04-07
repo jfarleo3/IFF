@@ -14,7 +14,7 @@ Reading language definition from <C:\Program Files (x86)\Inform 7\Internal\Langu
 Phase I ... Lexical analysis
 -----------------------------------------------------
 
-I've now read your source text, which is 1351 words long.
+I've now read your source text, which is 1358 words long.
 
 
 -----------------------------------------------------
@@ -108,43 +108,6 @@ Phase XII ... Code generation
 
 ==== Phase XII.6 ... Compiling first block of phrases ====
 
-                (a.2) problem message:
-                found: (A)'player is wearing the jacket and the player is wearing the gloves and the player is wearing the hat'/UNKNOWN/UNKNOWN
-                expected: (G)'condition'/CONDITION_FMY/UNKNOWN
-                Problem PM_CompoundConditionFailed issued from inform7/Chapter 20/Type Checking.w, line 905
-
-                  >--> In the sentence 'unless the player is wearing the jacket and the player
-                    is wearing the gloves and the player is wearing the hat' (source text, line 84),
-                    I was expecting that 'player is wearing the jacket and the player is
-                    wearing the gloves and the player is wearing the hat' would be a condition.
-                    It didn't make sense as one long phrase, but because it was divided up by
-                    'and'/'or', I tried breaking it down into smaller conditions, but that
-                    didn't work either. 'player is wearing the jacket' was okay; 'the player is
-                    wearing the gloves' was okay; 'the player is wearing the hat' was okay; but
-                    that combination of conditions isn't allowed to be joined together with
-                    'and' or 'or', because that would just be too confusing. For example, 'if
-                    the player is carrying a container or a supporter' has an obvious meaning
-                    in English, but Inform reads it as two different conditions glued together:
-                    'if the player is carrying a container', and also 'a supporter'. The
-                    meaning of the first is obvious. The second part is true if the current
-                    item under discussion is a supporter - for instance, the noun of the
-                    current action, or the item to which a definition applies. Both of these
-                    conditions are useful in different circumstances, but combining them in one
-                    condition like this makes a very misleading line of text. So Inform
-                    disallows it.
-
-0. group:0    [0389] gross    "unless ( c - condition ) begin" ((A)'player is wearing the jacket and the player is wearing the gloves and the player is wearing the hat'/UNKNOWN/UNKNOWN)
-
-    I was trying to match this phrase:
-
-
-      unless (player is wearing the jacket and the player is wearing the gloves
-    and the player is wearing the hat - a condition): 
-
-
-    But I didn't recognise 'player is wearing the jacket and the player is
-    wearing the gloves and the player is wearing the hat'.
-
 
 
 ==== Phase XII.7 ... Compiling the rulebooks ====
@@ -167,12 +130,53 @@ Phase XII ... Code generation
 
 
 
+==== Phase XII.12 ... Compiling GPR tokens for parsing various kinds of value ====
+
+
+
+==== Phase XII.13 ... Compiling second block of phrases ====
+
+
+
+==== Phase XII.14 ... Compiling noun and scope filter tokens ====
+
+
+
+==== Phase XII.15 ... Compiling chronology ====
+
+
+
+==== Phase XII.16 ... Compiling I6 Verb directives ====
+
+
+
+==== Phase XII.17 ... Slashing grammar (G1) ====
+
+
+
+==== Phase XII.18 ... Determining grammar (G2) ====
+
+
+
+==== Phase XII.19 ... Sorting and compiling non-value grammar (G3, G4) ====
+
+
+
+==== Phase XII.20 ... Compiling noun and scope filter tokens ====
+
+
+
+==== Phase XII.21 ... Compiling routines from predicate calculus ====
+
+Providing for a total heap of 8192, given requirement of 8192
+
+
 -----------------------------------------------------
 Phase XIII ... Compilation now complete
 -----------------------------------------------------
 
-Total of 4 files written as streams.
-CPU time: 251 centiseconds
+Total of 107 files written as streams.
+CPU time: 2117 centiseconds
 
 
 That concludes the debugging log from this run of Inform.
