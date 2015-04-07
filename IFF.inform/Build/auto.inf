@@ -42336,9 +42336,9 @@ Array TX_R_399 --> CONSTANT_PACKED_TEXT_STORAGE TX_R_399_R;
     ResponseViaActivity(R_109_RESP_A);
 ];
 [ R_TX_S_132 ;
-    #ifdef DEBUG; if (suppress_text_substitution) { print "~Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the tables in the middle of the room. [line break] To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside~"; rtrue; }
+    #ifdef DEBUG; if (suppress_text_substitution) { print "~Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the tables in the middle of the room. [line break] To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside.~"; rtrue; }
     #endif; ! DEBUG
-    say__p=1;ParaContent(); print "Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the tables in the middle of the room. ";ParaContent(); new_line;ParaContent(); print " To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside"; .L_Say485; .L_SayX483;
+    say__p=1;ParaContent(); print "Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the tables in the middle of the room. ";ParaContent(); new_line;ParaContent(); print " To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside."; .L_Say485; .L_SayX483;
     rtrue;
 ];
 [ R_TX_S_133 ;
@@ -49919,7 +49919,7 @@ Constant TX_PS_69 = "Chapter 1";
 Constant TX_PS_71 = "Chapter 2";
 Constant TX_PS_41 = "Coat";
 Constant TX_PS_52 = "Common Room";
-Constant TX_PS_63 = "Craig and Reala were working on examining the molecular structure of the Phosphorescent Space Penguins~ thoracic sacs. Originally used as a mating and warning signal, the sacs might allow us to use the cells for more efficient glow-in-the-dark stuff. But our job isn't to find a use for it anyway. That's the engineers~ concern. On the table is a laser scalpel, a microscope, a preserved thoracic sac, and a EDP";
+Constant TX_PS_63 = "Craig and Reala were working on examining the molecular structure of the Phosphorescent Space Penguins~ thoracic sacs. Originally used as a mating and warning signal, the sacs might allow us to use the cells for more efficient glow-in-the-dark stuff. But our job isn't to find a use for it anyway. That's the engineers~ concern.";
 Constant TX_PS_83 = "Dig Site";
 Constant TX_PS_45 = "Don't want frostbite. Better put these on.";
 Constant TX_PS_68 = "EDP";
