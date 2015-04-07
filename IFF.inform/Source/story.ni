@@ -32,13 +32,13 @@ the Alarm Clock is an object with description "Is it that late already? I have t
 Alarm Clock is fixed in place. Alarm Clock is in Sleeping Quarters Male. 
 Instead of taking alarm clock:
 	say "Why would you need to bring your alarm clock with you?".
-the Wardrobe is a closed openable object in Sleeping Quarters Male. Jacket is a wearable object inside Wardrobe.
+the Wardrobe is a closed openable object in Sleeping Quarters Male. Coat is a wearable object inside Wardrobe with description "Puffed up to the brim with the finest Groobler feathers. This blue coat is sure to keep me nice and toasty down to 50 Kelvin.".
 Wardrobe is fixed in place. 
 the Backpack is a closed openable object in Sleeping Quarters Male. 
 the pair of gloves is a wearable object inside backpack with description "Don't want frostbite. Better put these on.". 
 the hat is a wearable object inside backpack with description "This will definitely keep my ears warm.". 
-the Flashlight is an object inside backpack.
-the Flare is an object inside backpack. 
+the Flashlight is an object inside backpack with description "Solar charged to the brim.".
+the Flare is an object inside backpack with description "I only have one of these. Better make good use of it.". 
 
 [Common Room]
 Common Room is a room with description 
@@ -49,6 +49,27 @@ The Sack Lunch is a closed openable object on Kitchen Table with description "A 
 The PB & J sandwich is an edible object inside Sack Lunch with description "A PB & J sandwich with the perfect ratio and pleasantly soft, yet not soggy, bread".
 The apple is an edible object inside Sack Lunch with description "A Honeycrisp Apple. The superior apple, ever since you discovered Red Delicious Apples were filled of lies".
 The sweetroll is an edible object inside Sack Lunch with description "A sweetroll. A roll that is sweet. Duh".
+
+[Tables and Lab equipment]
+Tables is an object in Common Room with description 
+"Craig and Reala were working on examining the molecular structure of the Phosphorescent Space Penguins' thoracic sacs. Originally used as a mating and warning signal, the sacs might allow us to use the cells for more efficient glow-in-the-dark stuff. But our job isn't to find a use for it anyway. That's the engineers' concern. On the table is a laser scalpel, a microscope, a preserved thoracic sac, and a EDP". 
+Tables is fixed in place.
+the microscope is an object on the Tables with description "The microscope has been in Reala's family for generations. Outdated, but still operational.".
+the microscope is fixed in place.
+the microscope is not edible.
+Instead of taking the microscope:
+	say "Why would you need a microscope?".
+Understand "use [the microscope]" as eating.
+Understand "look through [the microscope]" as eating.
+Instead of eating the microscope:
+	say "Glowy stuff, glowy stuff, and more glowy stuff. Only the biologists really know what to make of whatever the heck this stuff is.".
+the preserved thoracic sac is an object on the Tables with description "Gross.".
+the preserved thoracic sac is fixed in place.
+Instead of taking the preserved thoracic sac:
+	say "I am not taking that nasty, slimy thing with me. No way.".
+the EDP is an object on the Tables with description "The Environmental Discovery Pager. Each of the archeologists is supposed to have one. Looks like Carl forgot to take his with him. Again. I had better return it to him. [paragraph break] The EDP currently has Chapter 1 and Chapter 2 completed".
+	The Chapter 1 is an object inside the EDP with description "It reads [quotation] A bad start already, dang it. There's a really cool ice cave filled with all sorts of specimens on the first floor of the caverns, but I left this darn thing up here again. I left my observations of the species in the cavern on the icy ledge where Russeau was deciphering the glyphs. He said he'd left it there, and I haven't been able to remember to bring it back to base yet. My memory has never been impressive.[quotation]".
+	The Chapter 2 is an object inside the EDP with description "It reads [quotation]The second level of the caverns is even more amazing! I still cannot believe I forgot this EDP back here again. I left my notes for that section of the cavern...shoot, I don't even remember where I put them! I remember Russeau saying something about the first layer's inhabitants being a sort of translating explorative species based on his findings, and he sounded excited to search the seond level for more glyphs from their discoveries. Perhaps they know even more about this planet's history than we do![quotation]".
 
 Common room is southeast of Sleeping Quarters Male. 
 Sleeping Quarters Female is a room with printed name 'Sleeping Quarters (Female)' and description "Sleeping quarters for the women on this expedition. To the northeast is the common room.". 
@@ -63,7 +84,7 @@ Before opening Base Door:
 	unless the player is wearing the jacket and the player is wearing the gloves and the player is wearing the hat:
 		say "I'll freeze to death if I go out there dressed like this!";
 		stop the action.
-Garage is a room with description "This is the area where we park the snowmibles. All the spaces for snowmobiles are empty except for one.". 
+Garage is a room with description "This is the area where we park the snowmobiles. All the spaces for snowmobiles are empty except for one.". 
 Dig Site is a room. Dig site is east of garage door. 
 Garage is north of Outside the Base. 
 The Garage Door is a door. Garage door is east of Garage. 
