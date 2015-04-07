@@ -53,9 +53,9 @@ The sweetroll is an edible object inside Sack Lunch with description "A sweetrol
 Understand "roll" as sweetroll.
 
 [Tables and Lab equipment]
-Lab Tables is an object in Common Room with description 
-"Craig and Reala had been working on examining the molecular structure of the Phosphorescent Space Penguin thoracic sac. Originally used as a mating and warning signal, the sac cells might allow us to create more efficient glow-in-the-dark stuff. But our job isn[']t to find a use for it anyway. That[']s the engineers' concern.". 
-Lab Tables is fixed in place.
+the Lab Tables is an object in Common Room with description 
+"Craig and Reala had been working on examining the molecular structure of the Phosphorescent Space Penguin thoracic sac. Originally used as a mating and warning signal, the sac cells might allow us to create more efficient glow-in-the-dark stuff. But our job isn[']t to find a use for it anyway. That[']s the engineers['] concern.". 
+the Lab Tables are fixed in place.
 the microscope is an object on the Lab Tables with description "The microscope has been in Reala[']s family for generations. Outdated, but still operational.".
 the microscope is fixed in place.
 the microscope is not edible.
