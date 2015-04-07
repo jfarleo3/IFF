@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-0x03504E60" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Inform 7 for Windows</generator>
-  <activeNode nodeId="node-0x13841FB0"/>
+  <activeNode nodeId="node-0x03504E60"/>
   <item nodeId="node-0x03504E60">
     <command xml:space="preserve">- start -</command>
-    <result xml:space="preserve">IFF&#x000A;An Interactive Fiction by Joseph Farleo&#x000A;Release 1 / Serial number 150407 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Sleeping Quarters Male&#x000A;Sleeping quarters for the men on this expedition. To the southeast is the common room.&#x000A;&#x000A;You can see an Alarm Clock, a Wardrobe (closed) and a Backpack (closed) here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">IFF&#x000A;An Interactive Fiction by Joseph Farleo&#x000A;Release 1 / Serial number 150407 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Male Sleeping Quarters&#x000A;Sleeping quarters for the men on this expedition. To the southeast is the common room.&#x000A;&#x000A;You can see an Alarm Clock, a Wardrobe (closed) and a Backpack (closed) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <children>
       <child nodeId="node-0x138433D0"/>
+      <child nodeId="node-0x138418B0"/>
     </children>
   </item>
   <item nodeId="node-0x138433D0">
@@ -608,6 +609,498 @@
   <item nodeId="node-0x13841FB0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:&#x000A;  keys&#x000A;  a hat (being worn)&#x000A;  a pair of gloves (being worn)&#x000A;  an EDP&#x000A;    a Chapter 1&#x000A;    a Chapter 2&#x000A;  a Sack Lunch (closed)&#x000A;  a Backpack (closed)&#x000A;  Coat (being worn)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x13841AE0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x13841AE0">
+    <command xml:space="preserve">examine coat</command>
+    <result xml:space="preserve">Puffed up to the brim with the finest Groobler feathers. This blue coat is sure to keep me nice and toasty down to 50 Kelvin.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x13842640"/>
+    </children>
+  </item>
+  <item nodeId="node-0x13842640">
+    <command xml:space="preserve">mount snowmobile</command>
+    <result xml:space="preserve">You mount the Snowmobile.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x13841BC0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x13841BC0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Outside the Base (on the Snowmobile)&#x000A;To the north, you can see the covered area that houses the snowmobiles.&#x000A;&#x000A;You can see Base Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x13842020"/>
+    </children>
+  </item>
+  <item nodeId="node-0x13842020">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x138418B0">
+    <command xml:space="preserve">take alarm clock</command>
+    <result xml:space="preserve">Why would you need to bring your alarm clock with you?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x13841C30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x13841C30">
+    <command xml:space="preserve">open wardrobe</command>
+    <result xml:space="preserve">You open the Wardrobe, revealing a coat.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x13841990"/>
+    </children>
+  </item>
+  <item nodeId="node-0x13841990">
+    <command xml:space="preserve">put on coat</command>
+    <result xml:space="preserve">(first taking the coat)&#x000A;You put on the coat.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x13841A70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x13841A70">
+    <command xml:space="preserve">take backpack</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x138422C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x138422C0">
+    <command xml:space="preserve">open backpack</command>
+    <result xml:space="preserve">You open the Backpack, revealing a pair of gloves, a hat, a Flashlight and a Flare.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x13842090"/>
+    </children>
+  </item>
+  <item nodeId="node-0x13842090">
+    <command xml:space="preserve">put on gloves</command>
+    <result xml:space="preserve">(first taking the pair of gloves)&#x000A;You put on the pair of gloves.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x13842100"/>
+    </children>
+  </item>
+  <item nodeId="node-0x13842100">
+    <command xml:space="preserve">put on hat</command>
+    <result xml:space="preserve">(first taking the hat)&#x000A;You put on the hat.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1210BAD0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1210BAD0">
+    <command xml:space="preserve">close packpack</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1210BB40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1210BB40">
+    <command xml:space="preserve">clos backpack</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1210BBB0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1210BBB0">
+    <command xml:space="preserve">close backpack</command>
+    <result xml:space="preserve">You close the Backpack.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1210BC20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1210BC20">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">Common Room&#x000A;Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the tables in the middle of the room. &#x000A; To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside.&#x000A;&#x000A;You can see Base Door, Kitchen Table (on which is a Sack Lunch (closed)), Tables (on which are a microscope, a preserved thoracic sac, an EDP (in which are a Chapter 1 and a Chapter 2) and a scalpel) and a bathroom door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1210B4B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1210B4B0">
+    <command xml:space="preserve">examine table</command>
+    <result xml:space="preserve">On Kitchen Table is a Sack Lunch (closed).&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1210B520"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1210B520">
+    <command xml:space="preserve">take sack lunch</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1210B050"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1210B050">
+    <command xml:space="preserve">open lunch</command>
+    <result xml:space="preserve">You open the Sack Lunch, revealing a PB &amp; J sandwich, an apple and a sweetroll.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1210B2F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1210B2F0">
+    <command xml:space="preserve">examine sandwich</command>
+    <result xml:space="preserve">A PB &amp; J sandwich with the perfect ratio and pleasantly soft, yet not soggy, bread&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1210B210"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1210B210">
+    <command xml:space="preserve">examine apple</command>
+    <result xml:space="preserve">A Honeycrisp Apple. The superior apple, ever since you discovered Red Delicious Apples were filled of lies&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1210ACD0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1210ACD0">
+    <command xml:space="preserve">examine sweetroll</command>
+    <result xml:space="preserve">A sweetroll. A roll that is sweet. Duh.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1210B440"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1210B440">
+    <command xml:space="preserve">examine roll</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1210B9F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1210B9F0">
+    <command xml:space="preserve">close sack</command>
+    <result xml:space="preserve">You close the Sack Lunch.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1210B590"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1210B590">
+    <command xml:space="preserve">examine microscope</command>
+    <result xml:space="preserve">The microscope has been in Reala's family for generations. Outdated, but still operational.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1210B0C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1210B0C0">
+    <command xml:space="preserve">look through microscope</command>
+    <result xml:space="preserve">Glowy stuff, glowy stuff, and more glowy stuff. Only the biologists really know what to make of whatever the heck this stuff is.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1210B130"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1210B130">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">Which do you mean, Base Door or the bathroom door?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1210B830"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1210B830">
+    <command xml:space="preserve">open bathroom door</command>
+    <result xml:space="preserve">It's locked. I guess I'll just have to hold it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1210B600"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1210B600">
+    <command xml:space="preserve">take edp</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1210B980"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1210B980">
+    <command xml:space="preserve">examine edp</command>
+    <result xml:space="preserve">The Environmental Discovery Pager. Each of the archeologists is supposed to have one. Looks like Carl forgot to take his with him. Again. I had better return it to him.&#x000A;&#x000A;In the EDP are a Chapter 1 and a Chapter 2.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1210B280"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1210B280">
+    <command xml:space="preserve">read chapter 1</command>
+    <result xml:space="preserve">It says, &#x000A;&#x000A;"A bad start already, dang it. There's a really cool ice cave filled with all sorts of specimens on the first floor of the caverns, but I forgot this darn thing up here again. I left my observations of the species in the cavern on the icy ledge where Russeau was deciphering the glyphs. He said he'd left it there so I could find it again, but I haven't been able to remember to bring it back to base yet. Sadly. my memory has never been impressive."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1210B670"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1210B670">
+    <command xml:space="preserve">examine chapter 2</command>
+    <result xml:space="preserve">It says, &#x000A;&#x000A;"The second level of the caverns is even more amazing! I still cannot believe I forgot this EDP back here again. I left my notes for that section of the cavern ... shoot, I don't even remember where I put them! Maybe I left hints to its whereabouts. Ugh, why am I so forgetful?! &#x000A;&#x000A;I remember Russeau saying something about the first layer's inhabitants being a sort of translating explorative species based on his findings, and he sounded excited to search the seond level for more glyphs from their discoveries. Perhaps they know even more about this planet's history than we do!"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1210B6E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1210B6E0">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1210B750"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1210B750">
+    <command xml:space="preserve">examine tables</command>
+    <result xml:space="preserve">Craig and Reala had been working on examining the molecular structure of the Phosphorescent Space Penguin thoracic sac. Originally used as a mating and warning signal, the sac cells might allow us to create more efficient glow-in-the-dark stuff. But our job isn't to find a use for it anyway. That's the engineers" concern.&#x000A;&#x000A;On Tables are a microscope, a preserved thoracic sac and a scalpel.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1210B3D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1210B3D0">
+    <command xml:space="preserve">take scalpel</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1210AE20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1210AE20">
+    <command xml:space="preserve">examine scalpel</command>
+    <result xml:space="preserve">A laser scalpel. Makes clean cuts. Don't want to be on the wrong end of one.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1210AD40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1210AD40">
+    <command xml:space="preserve">examine sac</command>
+    <result xml:space="preserve">Gross.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1210B7C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1210B7C0">
+    <command xml:space="preserve">take sac</command>
+    <result xml:space="preserve">I am not taking that nasty, slimy thing with me. No way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1210B910"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1210B910">
+    <command xml:space="preserve">examine table</command>
+    <result xml:space="preserve">You see nothing special about Kitchen Table.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1210AF00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1210AF00">
+    <command xml:space="preserve">examine tables</command>
+    <result xml:space="preserve">Craig and Reala had been working on examining the molecular structure of the Phosphorescent Space Penguin thoracic sac. Originally used as a mating and warning signal, the sac cells might allow us to create more efficient glow-in-the-dark stuff. But our job isn't to find a use for it anyway. That's the engineers" concern.&#x000A;&#x000A;On Tables are a microscope and a preserved thoracic sac.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1210BA60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1210BA60">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a scalpel&#x000A;  an EDP&#x000A;    a Chapter 1&#x000A;    a Chapter 2&#x000A;  a Sack Lunch (closed)&#x000A;  a hat (being worn)&#x000A;  a pair of gloves (being worn)&#x000A;  a Backpack (closed)&#x000A;  a coat (being worn)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1210AE90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1210AE90">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1210B1A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1210B1A0">
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">Female Sleeping Quarters&#x000A;Sleeping quarters for the women on this expedition. To the northeast is the common room.&#x000A;&#x000A;This sword is a collectors item of Reala's. She claims it glows blue when danger is near. Riiiight.&#x000A;&#x000A;You can also see a first aid kit (in which are a tampons, a bandage and a granola bar) and a Dresser (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1210B8A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1210B8A0">
+    <command xml:space="preserve">examine swrod</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x1210AFE0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1210AFE0">
+    <command xml:space="preserve">examine sword</command>
+    <result xml:space="preserve">You see nothing special about the Elvish Sword.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x13842DB0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x13842DB0">
+    <command xml:space="preserve">take swrod</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
