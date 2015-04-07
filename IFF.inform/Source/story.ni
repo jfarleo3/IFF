@@ -78,7 +78,7 @@ Common room is southeast of Male Sleeping Quarters.
 Female Sleeping Quarters is a room with description "Sleeping quarters for the women on this expedition. To the northeast is the common room.".
 
 [Female Sleeping Quarters]
-the first aid kit is an open openable object with description "The first aid kit for the team. Kendall must have left it open when she went to restock it with tampons. It doesn't look like she's done so yet.".
+the first aid kit is an open openable object in Female Sleeping Quarters with description "The first aid kit for the team. Kendall must have left it open when she went to restock it with tampons. It doesn't look like she's done so yet.".
 the tampon is an object in the first aid kit with description "Good for bullet wounds, nose bleeds, and, of course, female hygiene.".
 the bandage is an object in the first aid kit with description "You never know when you need to patch someone up.".
 the granola bar is an edible object in the first aid kit with description "It's crunchier than you would like it to be.".

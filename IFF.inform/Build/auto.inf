@@ -11415,7 +11415,7 @@ Object -> -> I144_edp ""
     with IK2_Count 17
     with IK2_Link I145_chapter_1
     with IK5_Count 3
-    with IK5_Link I153_dresser
+    with IK5_Link I149_first_aid_kit
     with KD_Count 5
     with name 'edp' 'containers//p' 
     with action_bitmap 0 0 0 0 0 0 
@@ -11483,7 +11483,7 @@ Object -> I157_bathroom_door ""
     with door_dir I50_north
     has mark_as_thing
     with IK2_Count 29
-    with IK2_Link I153_dresser
+    with IK2_Link I149_first_aid_kit
     with IK4_Count 0
     with IK4_Link I158_base_door
     with KD_Count 4
@@ -11514,9 +11514,82 @@ Object I148_female_sleeping_quarter ""
     with article BC_305
 ;
 
-Object -> I153_dresser ""
+Object -> I149_first_aid_kit ""
     class K5_container
     with short_name BC_306
+    with description BC_307
+    has open
+    has openable
+    with vector 0
+    has mark_as_thing
+    with IK2_Count 21
+    with IK2_Link I150_tampon
+    with IK5_Count 4
+    with IK5_Link I153_dresser
+    with KD_Count 5
+    with name 'first' 'aid' 'kit' 'containers//p' 
+    with action_bitmap 0 0 0 0 0 0 
+    with initial BC_308
+    with list_together BC_309
+    with plural BC_310
+    with article BC_311
+;
+
+Object -> -> I150_tampon ""
+    class K2_thing
+    with short_name BC_312
+    with description BC_313
+    with vector 0
+    has mark_as_thing
+    with IK2_Count 22
+    with IK2_Link I151_bandage
+    with KD_Count 2
+    with name 'tampon' 'things//p' 
+    with action_bitmap 0 0 0 0 0 0 
+    with initial BC_314
+    with list_together BC_315
+    with plural BC_316
+    with article BC_317
+;
+
+Object -> -> I151_bandage ""
+    class K2_thing
+    with short_name BC_318
+    with description BC_319
+    with vector 0
+    has mark_as_thing
+    with IK2_Count 23
+    with IK2_Link I152_granola_bar
+    with KD_Count 2
+    with name 'bandage' 'things//p' 
+    with action_bitmap 0 0 0 0 0 0 
+    with initial BC_320
+    with list_together BC_321
+    with plural BC_322
+    with article BC_323
+;
+
+Object -> -> I152_granola_bar ""
+    class K2_thing
+    with short_name BC_324
+    with description BC_325
+    has edible
+    with vector 0
+    has mark_as_thing
+    with IK2_Count 24
+    with IK2_Link I153_dresser
+    with KD_Count 2
+    with name 'granola' 'bar' 'things//p' 
+    with action_bitmap 0 0 0 0 0 0 
+    with initial BC_326
+    with list_together BC_327
+    with plural BC_328
+    with article BC_329
+;
+
+Object -> I153_dresser ""
+    class K5_container
+    with short_name BC_330
     has ~open
     has openable
     with vector 0
@@ -11524,21 +11597,21 @@ Object -> I153_dresser ""
     with IK2_Count 25
     with IK2_Link I154_clothes
     with IK5_Count 5
-    with IK5_Link I149_first_aid_kit
+    with IK5_Link nothing
     with KD_Count 5
     with name 'dresser' 'containers//p' 
     with action_bitmap 0 0 0 0 0 0 
-    with description BC_307
-    with initial BC_308
-    with list_together BC_309
-    with plural BC_310
-    with article BC_311
+    with description BC_331
+    with initial BC_332
+    with list_together BC_333
+    with plural BC_334
+    with article BC_335
 ;
 
 Object -> -> I154_clothes ""
     class K2_thing
-    with short_name BC_312
-    with description BC_313
+    with short_name BC_336
+    with description BC_337
     has static
     with vector 0
     has mark_as_thing
@@ -11547,16 +11620,16 @@ Object -> -> I154_clothes ""
     with KD_Count 2
     with name 'clothes' 'things//p' 
     with action_bitmap 0 0 0 0 0 0 
-    with initial BC_314
-    with list_together BC_315
-    with plural BC_316
-    with article BC_317
+    with initial BC_338
+    with list_together BC_339
+    with plural BC_340
+    with article BC_341
 ;
 
 Object -> -> I155_rope ""
     class K2_thing
-    with short_name BC_318
-    with description BC_319
+    with short_name BC_342
+    with description BC_343
     with vector 0
     has mark_as_thing
     with IK2_Count 27
@@ -11564,96 +11637,23 @@ Object -> -> I155_rope ""
     with KD_Count 2
     with name 'rope' 'things//p' 
     with action_bitmap 0 0 0 0 0 0 
-    with initial BC_320
-    with list_together BC_321
-    with plural BC_322
-    with article BC_323
-;
-
-Object -> I156_elvish_sword ""
-    class K2_thing
-    with short_name BC_324
-    with description BC_325
-    has static
-    with vector 0
-    has mark_as_thing
-    with IK2_Count 28
-    with IK2_Link I149_first_aid_kit
-    with KD_Count 2
-    with name 'elvish' 'sword' 'things//p' 
-    with action_bitmap 0 0 0 0 0 0 
-    with initial BC_326
-    with list_together BC_327
-    with plural BC_328
-    with article BC_329
-;
-
-Object I149_first_aid_kit ""
-    class K5_container
-    with short_name BC_330
-    with description BC_331
-    has open
-    has openable
-    with vector 0
-    has mark_as_thing
-    with IK2_Count 21
-    with IK2_Link I150_tampon
-    with IK5_Count 4
-    with IK5_Link nothing
-    with KD_Count 5
-    with name 'first' 'aid' 'kit' 'containers//p' 
-    with action_bitmap 0 0 0 0 0 0 
-    with initial BC_332
-    with list_together BC_333
-    with plural BC_334
-    with article BC_335
-;
-
-Object -> I150_tampon ""
-    class K2_thing
-    with short_name BC_336
-    with description BC_337
-    with vector 0
-    has mark_as_thing
-    with IK2_Count 22
-    with IK2_Link I151_bandage
-    with KD_Count 2
-    with name 'tampon' 'things//p' 
-    with action_bitmap 0 0 0 0 0 0 
-    with initial BC_338
-    with list_together BC_339
-    with plural BC_340
-    with article BC_341
-;
-
-Object -> I151_bandage ""
-    class K2_thing
-    with short_name BC_342
-    with description BC_343
-    with vector 0
-    has mark_as_thing
-    with IK2_Count 23
-    with IK2_Link I152_granola_bar
-    with KD_Count 2
-    with name 'bandage' 'things//p' 
-    with action_bitmap 0 0 0 0 0 0 
     with initial BC_344
     with list_together BC_345
     with plural BC_346
     with article BC_347
 ;
 
-Object -> I152_granola_bar ""
+Object -> I156_elvish_sword ""
     class K2_thing
     with short_name BC_348
     with description BC_349
-    has edible
+    has static
     with vector 0
     has mark_as_thing
-    with IK2_Count 24
+    with IK2_Count 28
     with IK2_Link I158_base_door
     with KD_Count 2
-    with name 'granola' 'bar' 'things//p' 
+    with name 'elvish' 'sword' 'things//p' 
     with action_bitmap 0 0 0 0 0 0 
     with initial BC_350
     with list_together BC_351
@@ -50220,21 +50220,21 @@ Constant TX_PS_69 = "Chapter 2";
 Constant TX_PS_52 = "Common Room";
 Constant TX_PS_94 = "Dig Site";
 Constant TX_PS_45 = "Don't want frostbite. Better put these on.";
-Constant TX_PS_75 = "Dresser";
+Constant TX_PS_83 = "Dresser";
 Constant TX_PS_66 = "EDP";
-Constant TX_PS_78 = "Elvish Sword";
+Constant TX_PS_86 = "Elvish Sword";
 Constant TX_PS_73 = "Female Sleeping Quarters";
 Constant TX_PS_100 = "Fiction";
 Constant TX_PS_50 = "Flare";
 Constant TX_PS_48 = "Flashlight";
 Constant TX_PS_96 = "Garage door";
 Constant TX_PS_90 = "Garage";
-Constant TX_PS_82 = "Good for bullet wounds, nose bleeds, and, of course, female hygiene.";
+Constant TX_PS_78 = "Good for bullet wounds, nose bleeds, and, of course, female hygiene.";
 Constant TX_PS_65 = "Gross.";
 Constant TX_PS_51 = "I only have one of these. Better make good use of it.";
 Constant TX_PS_2 = "IFF";
 Constant TX_PS_39 = "Is it that late already? I have to get to get to the dig site!";
-Constant TX_PS_86 = "It's crunchier than you would like it to be.";
+Constant TX_PS_82 = "It's crunchier than you would like it to be.";
 Constant TX_PS_4 = "Joseph Farleo";
 Constant TX_PS_98 = "Keys";
 Constant TX_PS_89 = "Kind of nippy out here. To the north, you can see the covered area that houses the snowmobiles.";
@@ -50252,20 +50252,20 @@ Constant TX_PS_74 = "Sleeping quarters for the women on this expedition. To the 
 Constant TX_PS_92 = "Snowmobile";
 Constant TX_PS_49 = "Solar charged to the brim.";
 Constant TX_PS_67 = "The Environmental Discovery Pager. Each of the archeologists is supposed to have one. Looks like Carl forgot to take his with him. Again. I had better return it to him.";
-Constant TX_PS_80 = "The first aid kit for the team. Kendall must have left it open when she went to restock it with tampons. It doesn't look like she's done so yet.";
+Constant TX_PS_76 = "The first aid kit for the team. Kendall must have left it open when she went to restock it with tampons. It doesn't look like she's done so yet.";
 Constant TX_PS_93 = "There appears to be something shiny underneath it.";
 Constant TX_PS_91 = "This is the area where we park the snowmobiles. All the spaces for snowmobiles are empty except for one.";
 Constant TX_PS_47 = "This will definitely keep my ears warm.";
 Constant TX_PS_105 = "UNDO the last command";
 Constant TX_PS_40 = "Wardrobe";
-Constant TX_PS_84 = "You never know when you need to patch someone up.";
+Constant TX_PS_80 = "You never know when you need to patch someone up.";
 Constant TX_PS_37 = "Yourself";
 Constant TX_PS_10 = "animals";
 Constant TX_PS_58 = "apple";
 Constant TX_PS_16 = "backdrops";
-Constant TX_PS_83 = "bandage";
+Constant TX_PS_79 = "bandage";
 Constant TX_PS_72 = "bathroom door";
-Constant TX_PS_76 = "clothes";
+Constant TX_PS_84 = "clothes";
 Constant TX_PS_41 = "coat";
 Constant TX_PS_13 = "containers";
 Constant TX_PS_17 = "devices";
@@ -50273,9 +50273,9 @@ Constant TX_PS_19 = "directions";
 Constant TX_PS_12 = "doors";
 Constant TX_PS_30 = "down";
 Constant TX_PS_27 = "east";
-Constant TX_PS_79 = "first aid kit";
+Constant TX_PS_75 = "first aid kit";
 Constant TX_PS_95 = "garage door";
-Constant TX_PS_85 = "granola bar";
+Constant TX_PS_81 = "granola bar";
 Constant TX_PS_46 = "hat";
 Constant TX_PS_31 = "inside";
 Constant TX_PS_97 = "keys";
@@ -50292,7 +50292,7 @@ Constant TX_PS_64 = "preserved thoracic sac";
 Constant TX_PS_18 = "regions";
 Constant TX_PS_11 = "rideable animals";
 Constant TX_PS_6 = "rideable vehicles";
-Constant TX_PS_77 = "rope";
+Constant TX_PS_85 = "rope";
 Constant TX_PS_54 = "sack lunch";
 Constant TX_PS_70 = "scalpel";
 Constant TX_PS_103 = "see some suggestions for AMUSING things to do";
@@ -50301,7 +50301,7 @@ Constant TX_PS_25 = "southeast";
 Constant TX_PS_26 = "southwest";
 Constant TX_PS_5 = "supporters";
 Constant TX_PS_60 = "sweetroll";
-Constant TX_PS_81 = "tampon";
+Constant TX_PS_77 = "tampon";
 Constant TX_PS_21 = "the";
 Constant TX_PS_29 = "up";
 Constant TX_PS_14 = "vehicles";
@@ -57762,49 +57762,49 @@ Array BC_303 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_304 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_305 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_306 --> PACKED_TEXT_STORAGE TX_PS_75;
-Array BC_307 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_307 --> PACKED_TEXT_STORAGE TX_PS_76;
 Array BC_308 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_309 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_310 --> PACKED_TEXT_STORAGE TX_PS_13;
 Array BC_311 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_312 --> PACKED_TEXT_STORAGE TX_PS_76;
-Array BC_313 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_137;
+Array BC_312 --> PACKED_TEXT_STORAGE TX_PS_77;
+Array BC_313 --> PACKED_TEXT_STORAGE TX_PS_78;
 Array BC_314 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_315 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_316 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_317 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_318 --> PACKED_TEXT_STORAGE TX_PS_77;
-Array BC_319 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_138;
+Array BC_318 --> PACKED_TEXT_STORAGE TX_PS_79;
+Array BC_319 --> PACKED_TEXT_STORAGE TX_PS_80;
 Array BC_320 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_321 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_322 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_323 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_324 --> PACKED_TEXT_STORAGE TX_PS_78;
-Array BC_325 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_139;
+Array BC_324 --> PACKED_TEXT_STORAGE TX_PS_81;
+Array BC_325 --> PACKED_TEXT_STORAGE TX_PS_82;
 Array BC_326 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_327 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_328 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_329 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_330 --> PACKED_TEXT_STORAGE TX_PS_79;
-Array BC_331 --> PACKED_TEXT_STORAGE TX_PS_80;
+Array BC_330 --> PACKED_TEXT_STORAGE TX_PS_83;
+Array BC_331 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_332 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_333 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_334 --> PACKED_TEXT_STORAGE TX_PS_13;
 Array BC_335 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_336 --> PACKED_TEXT_STORAGE TX_PS_81;
-Array BC_337 --> PACKED_TEXT_STORAGE TX_PS_82;
+Array BC_336 --> PACKED_TEXT_STORAGE TX_PS_84;
+Array BC_337 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_137;
 Array BC_338 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_339 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_340 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_341 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_342 --> PACKED_TEXT_STORAGE TX_PS_83;
-Array BC_343 --> PACKED_TEXT_STORAGE TX_PS_84;
+Array BC_342 --> PACKED_TEXT_STORAGE TX_PS_85;
+Array BC_343 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_138;
 Array BC_344 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_345 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_346 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_347 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_348 --> PACKED_TEXT_STORAGE TX_PS_85;
-Array BC_349 --> PACKED_TEXT_STORAGE TX_PS_86;
+Array BC_348 --> PACKED_TEXT_STORAGE TX_PS_86;
+Array BC_349 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_139;
 Array BC_350 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_351 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_352 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
