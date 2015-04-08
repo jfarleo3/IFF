@@ -1,7 +1,7 @@
 "IFF" by Joseph Farleo, Andrew Slembarski, and Sydney Young
 
 Include Rideable Vehicles by Graham Nelson.
-[need looking around and examine room]
+[need to change everything to second person]
 Understand "look around" as looking.
 Understand "examine room" as looking.
 [*Defining hiding objects underneath other objects. Code from IF7 documentation: Example 233 - Beneath the Surface.]
@@ -44,8 +44,8 @@ the Flashlight is an object inside backpack with description "Solar charged to t
 the Flare is an object inside backpack with description "I only have one of these. Better make good use of it.". 
 
 [Common Room]
-Common Room is a room with description 
-"Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the lab tables in the middle of the room. [line break] To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside.". 
+Common Room is a room with description "Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the lab tables in the middle of the room. [line break] To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside.". 
+
 [Kitchen & the lunch]
 Kitchen Table is an object in Common Room. Kitchen table is fixed in place. 
 The sack lunch is a closed openable object on Kitchen Table with description "A sack lunch".
@@ -84,12 +84,11 @@ the first aid kit is an open openable object in Female Sleeping Quarters with de
 the tampon is an object in the first aid kit with description "Good for bullet wounds, nose bleeds, and, of course, female hygiene.".
 the bandage is an object in the first aid kit with description "You never know when you need to patch someone up.".
 the granola bar is an edible object in the first aid kit with description "It's crunchier than you would like it to be.".
-the Dresser is a closed openable object in Female Sleeping Quarters.
+the Dresser is a closed openable object in Female Sleeping Quarters. the Dresser is fixed in place. 
 the clothes are an object in the Dresser with description "They smell nicer than the those in the other room, that[']s for sure.".
 the clothes are fixed in place.
 instead of taking the clothes:
 	say "They[']re not really my style.".
-the rope is an object in the Dresser with description "Made of the toughest and most flexible treated carbon fiber bonds. This model glows a bright yellow. [paragraph break]Jasmine has a good ten of these. Couldn[']t hurt to have one.".
 the Elvish Sword is an object in Female Sleeping Quarters with description "This sword is a collectors item of Reala[']s. She claims it glows blue when danger is near. Riiiight.".
 the Elvish Sword is fixed in place.
 instead of taking the Elvish Sword:
@@ -107,8 +106,9 @@ Before opening Base Door:
 	unless the player is wearing the coat and the player is wearing the gloves and the player is wearing the hat:
 		say "I[']ll freeze to death if I go out there dressed like this!";
 		stop the action.
+
 Garage is a room with description "This is the area where we park the snowmobiles. All the spaces for snowmobiles are empty except for one.". 
-Dig Site is a room. Dig site is east of garage door. 
+
 Garage is north of Outside the Base. 
 The Garage Door is a door. Garage door is east of Garage.
 The Snowmobile is a rideable vehicle with description "There appears to be something shiny underneath it.". keys is an object.  
@@ -120,7 +120,36 @@ Before mounting The Snowmobile:
 		
 Before opening Garage Door:
 	unless the player is on the snowmobile:
-		say "Well I[']m not going to walk all the way to the dig site.";
+		say "Well I[']m not going to walk all the way there.";
 		stop the action.
 
 [Dig Site]
+Dig Site is a room with description "To the north is the elevator that leads down the hole. You can see a ladder leading up to the drilling rig. In the distance to the 	east, you can barely see the outline of the garage door". Dig site is east of garage door. 
+
+Drilling rig is a room with description "Controls for the laser drill used to create the hole in the ice. You 	probably shouldn[']t mess with them". Drilling rig is above ladder. 
+the rope is an object in the drilling rig with description "Made of the toughest and most flexible treated 	carbon fiber bonds. This model glows a bright yellow. [paragraph break]Couldn[']t hurt to have one.".
+Level 1 Keycard is an object with description ".". Level 1 Keycard is in drilling rig. 
+Ladder is a door. Ladder is above dig site. 
+
+Before opening Ladder:
+	if the player is on the snowmobile:
+		say "You should maybe dismount the snowmobile first.";
+		stop the action. 
+
+Elevator Door 0 is a door with printed name "Elevator Door". Elevator Door 0 is north of dig site. 
+Elevator level 0 is a room with description "Ground Level." and printed name "Elevator". Elevator level 0 is north of the Elevator Door 0. 
+
+Before opening Elevator door 0:
+	if the player is on the snowmobile:
+		say "You should maybe dismount the snowmobile first.";
+		stop the action. 
+
+Elevator Door 1 is a door with printed name "Elevator Door". Elevator Door 1 is below Elevator Level 0. 
+Elevator level 1 is a room with description "Level 1." and printed name "Elevator". Elevator level 1 is below of the Elevator Door 1. 
+
+Before opening Elevator Door 1:
+	unless the player is holding Level 1 Keycard:
+		say "ACCESS DENIED";
+		stop the action.
+		
+
