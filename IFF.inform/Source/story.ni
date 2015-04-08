@@ -1,7 +1,9 @@
-"IFF" by Joseph Farleo
+"IFF" by Joseph Farleo, Andrew Slembarski, and Sydney Young
 
 Include Rideable Vehicles by Graham Nelson.
 [need looking around and examine room]
+Understand "look around" as looking.
+Understand "examine room" as looking.
 [*Defining hiding objects underneath other objects. Code from IF7 documentation: Example 233 - Beneath the Surface.]
 Underlying relates various things to one thing. The verb to underlie means the underlying relation. The verb to be under means the underlying relation. The verb to be beneath means the underlying relation.
 
@@ -108,7 +110,7 @@ Before opening Base Door:
 Garage is a room with description "This is the area where we park the snowmobiles. All the spaces for snowmobiles are empty except for one.". 
 Dig Site is a room. Dig site is east of garage door. 
 Garage is north of Outside the Base. 
-The Garage Door is a door. Garage door is east of Garage. 
+The Garage Door is a door. Garage door is east of Garage.
 The Snowmobile is a rideable vehicle with description "There appears to be something shiny underneath it.". keys is an object.  
 The Snowmobile is in Garage. keys is beneath The Snowmobile.
 Before mounting The Snowmobile:
@@ -120,3 +122,5 @@ Before opening Garage Door:
 	unless the player is on the snowmobile:
 		say "Well I[']m not going to walk all the way to the dig site.";
 		stop the action.
+
+[Dig Site]

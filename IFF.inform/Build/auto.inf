@@ -43,7 +43,7 @@ Global Story = BC_0;
 Constant Headline BC_1;
 Constant Story_Author BC_2;
 Release 1;
-Serial "150407";
+Serial "150408";
 
 Default Story 0;
 Default Headline 0;
@@ -49922,6 +49922,7 @@ Verb 'inventory' 'i//' 'inv'
 ;
 Verb 'look' 'l//'
     *  -> Look
+    * 'around'  -> Look
     * noun  -> Examine
     * 'through' noun=Noun_Filter_1  -> Eat
     * 'at' noun  -> Examine
@@ -49953,6 +49954,7 @@ Verb 'exit' 'leave' 'out'
     *  -> Exit
 ;
 Verb 'examine' 'x//' 'watch' 'describe' 'check'
+    * 'room'  -> Look
     * noun  -> Examine
 ;
 Verb 'read'
@@ -50233,7 +50235,7 @@ Constant TX_PS_51 = "I only have one of these. Better make good use of it.";
 Constant TX_PS_2 = "IFF";
 Constant TX_PS_39 = "Is it that late already? I have to get to get to the dig site!";
 Constant TX_PS_82 = "It's crunchier than you would like it to be.";
-Constant TX_PS_4 = "Joseph Farleo";
+Constant TX_PS_4 = "Joseph Farleo, Andrew Slembarski, and Sydney Young";
 Constant TX_PS_98 = "Keys";
 Constant TX_PS_89 = "Kind of nippy out here. To the north, you can see the covered area that houses the snowmobiles.";
 Constant TX_PS_53 = "Kitchen Table";
