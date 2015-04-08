@@ -152,4 +152,12 @@ Before opening Elevator Door 1:
 		say "ACCESS DENIED";
 		stop the action.
 		
+Elevator Door 2 is a door with printed name "Elevator Door". Elevator Door 2 is below Elevator Level 1. 
+Elevator level 2 is a room with description "Level 2." and printed name "Elevator". Elevator level 2 is below of the Elevator Door 2. 
+
+Before opening Elevator Door 2:
+	unless the player is holding Level 2 Keycard:
+		say "ACCESS DENIED";
+		stop the action.
+		
 
