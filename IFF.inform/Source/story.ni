@@ -145,19 +145,32 @@ Before opening Elevator door 0:
 		stop the action. 
 
 Elevator Door 1 is a door with printed name "Elevator Door". Elevator Door 1 is below Elevator Level 0. 
-Elevator level 1 is a room with description "Level 1." and printed name "Elevator". Elevator level 1 is below of the Elevator Door 1. 
+Elevator level 1 is a room with description "Level 1." and printed name "Elevator". Elevator level 1 is below the Elevator Door 1. 
 
 Before opening Elevator Door 1:
 	unless the player is holding Level 1 Keycard:
 		say "ACCESS DENIED";
 		stop the action.
 		
-Elevator Door 2 is a door with printed name "Elevator Door". Elevator Door 2 is below Elevator Level 1. 
-Elevator level 2 is a room with description "Level 2." and printed name "Elevator". Elevator level 2 is below of the Elevator Door 2. 
+[First Floor]
+Artifact room is a room with description "There is another room to the east.". Artifact room is south of Elevator level 1. Supply crate is an object. Supply crate is fixed in place. Supply crate is in Artifact Room. The ice pick is an object. The ice pick is in supply crate. 
+Makeshift Grappling Hook is an object. 
 
-Before opening Elevator Door 2:
+Every turn:
+	if the player is holding the rope and the player is holding the ice pick:
+		now the rope is nowhere;
+		now the ice pick is nowhere;
+		now the player carries the Makeshift Grappling Hook;
+		say "You combine the rope with the ice pick to make a makeshift grappling hook.";
+
+Ledge Room is a room with description "The artifact room is back to the west.". Ledge room is east of Artifact room. Broken Ladder is an object. Broken ladder is in Ledge Room. 
+
+		
+Level 2 keycard is an object. 
+Elevator Door 2 is a door with printed name "Elevator Door". Elevator Door 2 is below Elevator Level 1. 
+Elevator level 2 is a room with description "Level 2." and printed name "Elevator". Elevator level 2 is below the Elevator Door 2. 
+
+[Before opening Elevator Door 2:
 	unless the player is holding Level 2 Keycard:
 		say "ACCESS DENIED";
-		stop the action.
-		
-
+		stop the action.]
