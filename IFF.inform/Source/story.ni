@@ -81,29 +81,29 @@ the EDP is an object on the Lab Tables with description "The Environmental Disco
 the scalpel is an object on the Lab Tables with description "A laser scalpel.  It can clean cuts or cauterize a wound. It can even do both at the same time, but that wouldn't be very effective at... anything, really.".
 
 Common room is southeast of Male Sleeping Quarters. 
-Female Sleeping Quarters is a room with description "Sleeping quarters for the women on this expedition. To the northeast is the common room.".
+Female Sleeping Quarters is a room with description "Sleeping quarters for the women on this expedition. It[']s rather rude of you to go snooping around people[']s personal spaces when they're not around, you know. Tsk. Don[']t expect to get invited to my house anytime soon. The room is far from tidy, but it seems impeccable compared to the rest of this outpost. There is a first-aid kit atop the side table, and a dresser in the far corner of the room. An Elvish Sword is mounted above one of the beds".
 
 [Female Sleeping Quarters]
 the first aid kit is an open openable object in Female Sleeping Quarters with description "The first aid kit for the team. Kendall must have left it open when she went to restock it with tampons. It doesn't look like she's done so yet.".
 the tampon is an object in the first aid kit with description "Good for bullet wounds, nose bleeds, and, of course, female hygiene.".
-the bandage is an object in the first aid kit with description "You never know when you need to patch someone up.".
-the granola bar is an edible object in the first aid kit with description "It's crunchier than you would like it to be.".
-the Dresser is a closed openable object in Female Sleeping Quarters. the Dresser is fixed in place. 
-the clothes are an object in the Dresser with description "They smell nicer than the those in the other room, that[']s for sure.".
+the bandage is an object in the first aid kit with description "Bandages and old bottles of red liquid will cure almost any wound, as any purveyor of video games will know.".
+the granola bar is an edible object in the first aid kit with description "It's crunchier than you would like it to be. Why is there a granola bar in a first aid kit, anyway?".
+the Dresser is a closed openable object in Female Sleeping Quarters. the Dresser is fixed in place. the dresser has the description
+the clothes are an object in the Dresser with description "They smell nicer than the those in the other room, that[']s for sure. Why are you going through their clothes? Please stop this.".
 the clothes are fixed in place.
 instead of taking the clothes:
-	say "They[']re not really my style.".
+	say "Those reallt don't suit your style. Also, they do not belong to you. They belong to someone else, who is not you. Please leave the clothes alone.".
 the Elvish Sword is an object in Female Sleeping Quarters with description "This sword is a collectors item of Reala[']s. She claims it glows blue when danger is near. Riiiight.".
 the Elvish Sword is fixed in place.
 instead of taking the Elvish Sword:
-	say "I[']m pretty sure Reala would kill me if  I took her sword, let alone touch it.".
+	say "I[']m pretty sure Reala would kill you if you so much as touch her sword, let alone take it.".
 
 Common room is northeast of Female Sleeping Quarters. 
 the bathroom door is a door. the bathroom door is north of Common Room. 
 Instead of opening the bathroom door:
-	say "It[']s locked. I guess I[']ll just have to hold it.".
+	say "It[']s locked. You[']ll just have to hold it.".
 Base Door is a door. Base Door is east of Common Room. 
-Outside the Base is a room with description "Kind of nippy out here. To the north, you can see the covered area that houses the snowmobiles.". 
+Outside the Base is a room with description "Kind of nippy out here. That is to say, the frigid winds of the surface feel like they're slicing you through to the bone and you are eternally humbled by the vast empty expanse of the surface, which makes you feel very small, and very insignificant, and very cold, but you hate to be melodramatic. To the north, you can see the covered area that houses the snowmobiles.". 
 Outside the Base is east of Base Door.
 
 Before opening Base Door:
@@ -111,33 +111,33 @@ Before opening Base Door:
 		say "You can[']t go out there dressed like this! Your tauntaun will freeze before you reach the first marker! [']Then I[']ll see you in hell['], you chuckle to no-one in particular. What a nerd.";
 		stop the action.
 
-Garage is a room with description "This is the area where we park the snowmobiles. All the spaces for snowmobiles are empty except for one.". 
+Garage is a room with description "This is the parking area for the snowmobiles. The edges are lined with benches that are covered in tools that you won't need. All the spaces for snowmobiles are empty except for one.". 
 
 Garage is north of Outside the Base. 
 The Garage Door is a door. Garage door is east of Garage.
-The Snowmobile is a rideable vehicle with description "There appears to be something shiny underneath it.". keys is an object.  
+The Snowmobile is a rideable vehicle with description "A current-model hover snow bike, but you and your friends all just call it a snowmobile, sort of in the same vein of how people call tissues Kleenex. You catch a glimpse of something shiny beneath the snowmobile.". keys is an object.  
 The Snowmobile is in Garage. keys is beneath The Snowmobile.
 Before mounting The Snowmobile:
 	unless the player is holding keys:
-		say "I can[']t start it without the keys.";
+		say "Try though you might, you can[']t start it without the keys.";
 		stop the action.
 		
 Before opening Garage Door:
 	unless the player is on the snowmobile:
-		say "Well I[']m not going to walk all the way there.";
+		say "You[']re not going to walk all the way to the dig site. Do you remember what I told you about your tauntaun freezing? The implication is that you'd freeze too. You can[']t walk there.";
 		stop the action.
 
 [Dig Site]
-Dig Site is a room with description "To the north is the elevator that leads down the hole. You can see a ladder leading up to the drilling rig. In the distance to the east, you can barely see the outline of the garage door". Dig site is east of garage door. 
+Dig Site is a room with description "There is a huge crater where a series of expiditions have unearthed layers upon layers of ancient species that have rizen in the thawed cycles of this water moon and fallen during the freezing cycles. The moon is a scientific marvel, where new species rise and fall in a cycle of evolution and mass extinction. The crater is surrounded by a lattice of drilling rigs and decends through strata that encompass entire lifetimes of civilizations. To the north is the elevator that leads down the hole. You can see a ladder leading up to the drilling rig. In the distance to the east, you can barely see the outline of the garage door". Dig site is east of garage door. 
 
-Drilling rig is a room with description "Controls for the laser drill used to create the hole in the ice. You probably shouldn[']t mess with them". Drilling rig is above ladder. 
-the rope is an object in the drilling rig with description "Made of the toughest and most flexible treated carbon fiber bonds. This model glows a bright yellow. [paragraph break]Couldn[']t hurt to have one.".
-Level 1 Keycard is an object with description ".". Level 1 Keycard is in drilling rig. 
+Drilling rig is a room with description "There are controls here for the laser drill used to create the hole in the ice. Try not to break them, double-oh-seven. You can see a coil of rope and a passcard here.". Drilling rig is above ladder. 
+the rope is an object in the drilling rig with description "Made of the toughest and most flexible tspace age polymers. This model glows a bright yellow in the dark. [paragraph break]Couldn[']t hurt to have one.".
+Keycard is an object with description "Everyone in the group is issued a passcard. You can use it to access Level 1 and Level 2 of the dig site. There has been significantly more research done on Level 1 than Level 2".  Keycard is in drilling rig. 
 Ladder is a door. Ladder is open. Ladder is above dig site. 
 
 Before opening Ladder:
 	if the player is on the snowmobile:
-		say "You should maybe dismount the snowmobile first.";
+		say "You could try to climb the ladder with the snowmobile, but I don't think that's especially likely to work. Maybe getting off of the snowmobile first would help.";
 		stop the action. 
 
 Elevator Door 0 is a door with printed name "Elevator Door". Elevator Door 0 is north of dig site. 
@@ -145,19 +145,19 @@ Elevator level 0 is a room with description "Ground Level." and printed name "El
 
 Before opening Elevator door 0:
 	if the player is on the snowmobile:
-		say "You should maybe dismount the snowmobile first.";
+		say "You could try to use the elevator with the snowmobile, but I don't think that's especially likely to work. Maybe getting off of the snowmobile first would help.";
 		stop the action. 
 
 Elevator Door 1 is a door with printed name "Elevator Door". Elevator Door 1 is below Elevator Level 0. 
 Elevator level 1 is a room with description "Level 1." and printed name "Elevator". Elevator level 1 is below the Elevator Door 1. 
 
 Before opening Elevator Door 1:
-	unless the player is holding Level 1 Keycard:
-		say "ACCESS DENIED";
+	unless the player is holding Keycard:
+		say "ACCESS DENIED - KEYCARD REQUIRED";
 		stop the action.
 		
-[First Floor]
-Artifact room is a room with description "There is another room to the east.". Artifact room is south of Elevator level 1. Supply crate is an object. Supply crate is fixed in place. Supply crate is in Artifact Room. The ice pick is an object. The ice pick is in supply crate. 
+[Level 1]
+Artifact room is a room with description "You are in the artifact room, so called because it appears to be the remains of a city that seems to have faltered in its development during a medieval period. Among the stony alien ruins lie a plethora of ancient artifacts and tools . There is a supply crate in the room, The specimen room is to the west and the ledge room is to the east.". Artifact room is south of Elevator level 1. Supply crate is an object. Supply crate is fixed in place. Supply crate is in Artifact Room. The ice pick is an object. The ice pick is in supply crate. 
 Makeshift Grappling Hook is an object. 
 
 Every turn:
@@ -165,49 +165,46 @@ Every turn:
 		now the rope is nowhere;
 		now the ice pick is nowhere;
 		now the player carries the Makeshift Grappling Hook;
-		say "You combine the rope with the ice pick to make a makeshift grappling hook.";
+		say "You combine the rope with the ice pick to make a makeshift grappling hook. You appear to have secretly been MacGyver all along.";
 		
 Specimen Room is a room with description "The artifact room is back to the east.". Specimen Room is west of Artifact room. 
-Portable Laser Jackhammer U is an object with description "The power cell appears to be missing.". Portable laser Jackhamer U has printed name "Portable Laser Jackhammer (Uncharged)". Portable Laser Jackhammer U is in Specimen Room. 
+Portable Laser Jackhammer U is an object with description "The power cell appears to be missing. Typical.". Portable laser Jackhamer U has printed name "Portable Laser Jackhammer (Uncharged)". Portable Laser Jackhammer U is in Specimen Room. 
 
 Before taking Portable Laser Jackhammer:
 	if the player carries the ice pick or the player carries the Makeshift Grappling Hook:
 		say "You use the ice pick to break the tool out of the ice.";
 	otherwise:
-		say "It appears to be partially frozen in the ice.";
+		say "The jackhammer is frozen in ice from water melted by the heat exuded by it when it was laid down. You bet you know who hasn't been taking care of the tools. You're not going to say any names, but if the person were here you would levy a passive-aggressive accusatory glare at them.";
 		stop the action;
 
-LedgeRoom is a room with description "The artifact room is back to the west." and printed name "Ledge Room.". LedgeRoom is east of Artifact room. Broken Ladder is an object. Broken ladder is in LedgeRoom. 
+LedgeRoom is a room with description "Here the ice falters, cascading downward in what may once have been a waterfall in a cup-shaped canyon east of the City Ruins. Beyond and above a series of ledges there is a wall of glyphs that Russeau has been translating.  There is a series of three ledges that crawl across the lip of the round canyon to the Glyph Wall. The artifact room is back to the west." and printed name "Ledge Room.". LedgeRoom is east of Artifact room. Broken Ladder is an object. Broken ladder is in LedgeRoom. 
 
 Ledge is a door. Ledge is open. Ledge is above LedgeRoom and below First Ledge. 
 
 Instead of climbing Ledge:
 	try entering Ledge;
 
-First Ledge is a room with description "To the north, across the bottomless pit, you see another ledge. A third appears to be above it.". 
-Second Ledge is a room with description "The first ledge is back to the south across the pit. There is another ledge above you.". 
-Third Ledge is a room with description "". 
+First Ledge is a room with description "To the north, across the bottomless pit, you see another ledge. A third appears to be above it. The pit is, of course, not literally bottomless. That would be nonsense. It is, in actuality, merely a very deep pit. Certainly deep enough to send your frail mortal frame to a horribly unpleasant demise. Better be careful, hmm?". 
+Second Ledge is a room with description "The first ledge is back to the south across the surprisingly-finite-pit. There is another ledge above you, leading to the Glyph Wall.". 
+Third Ledge is a room with description "Atop the canyon, the world seems eerily still. The snowy world around you is silent and vacant. A sense of peace comes over you here. There is a wall of Mysterious Glyphs that Russeau has been hard at work translating into meanings you can understand. His Translation Matrix lies abandoned in the snow. What happened to him?". 
 
 Second Ledge is north of First Ledge. Third Ledge is above second ledge. 
-
-Bridge is a number that varies. Bridge is usually 0. 
-
 Before going north from First Ledge:
 	if bridge is 0:
 		if the player carries broken ladder:
-			say "You use pieces of the broken ladder to make a path across to the other side.";
+			say "You use the nearly broken ladder to make a stereotypically-rickety path across to the other side. You would think that on this expididtion full of doctors and geniuses someone would have thought to make a more permenant bridge, but no, that would make too much sense. Leave the intern to improvize his way across, I'm sure it will be fine. You really home this thing can carry your weight. You are more than a little afraid";
 			now broken ladder is nowhere;
 			now Bridge is 1;
-			now the description of First Ledge is "To the north, across the bottomless pit, you see another ledge. A third appears to be above it. The broken ladder now acts as a bridge across the gap.";
+			now the description of First Ledge is "To the north, across the not-quite-bottomless pit, you see another ledge. A third appears to be above it. The broken ladder now acts as a rickety excuse for a  bridge across the gap. Are you actually going to walk on that?";
 		otherwise:
-			say "It[']s much too far to jump.";
+			say "It[']s much too far to jump. Your little legs never even got you onto the school basketball team, let alone across a wide-open space that wide and open. Find some way to bridge the gap.";
 			stop the action;
 			
 Before going from Second Ledge to Third Ledge:
 	if the player carries Makeshift Grappling Hook:
-		say "You throw your maksehift grappling hook and it catches in the ice. You can now climb the rope to reach the third ledge";
+		say "You throw your maksehift grappling hook and it catches in the ice. You can now climb the rope to reach the third ledge. Stunning show, good sir. Somewhere in the distance your childhood adventurer hero sheds a single tear.";
 	otherwise:
-		say "You can't reach the third ledge from all the way down here.";
+		say "You can't reach the third ledge from all the way down here. If only you had some sort of mobile climbing aid that could latch onto  the lip of that ledge.";
 		stop the action;
 
 Translation Matrix is an object with description "Russeau's translations. He has been spending a lot of time on decyphering the glyphs with this.". Translation Matrix is in Third Ledge with description "These glyphs don't make any sense without a translator.".
@@ -216,9 +213,9 @@ Mysterious Glyphs is an object in Third Ledge. Mysterious Glyphs is fixed in pla
 Every turn:
 	if the player carries Translation Matrix:
 		say "The glyphs start to makes sense.";
-		now the description of Mysterious Glyphs is "The glyphs start to make sense. They say '' .";
+		now the description of Mysterious Glyphs is "The glyphs start to make sense. They tell of hard times and troubles of mythic proportions. The glyph wall appears to recall a legend of a great beast from the warming sea, who swallowed cities and snatched prey from the air, dragging it back to the depths below. The glyphs also relate archeological discoveries by contemporaries that also tell of the tentacled, clawed beast from the sea and warn of its return. If this creature is real, it has been alive for a very, very long time. You start to wonder about the ruins and how they seem to have been smashed to pieces before the great freeze... [line break]Maybe Russeau, Carl, Reala and the others went to Level 2 to persue the archological findings detailed on the Glyph Wall. That doesn't explain why their belongings are just scattered around, but at least it's a lead.";
 	otherwise:
-		say "The glyphs don't make any sense without a translator.";
+		say "We come in peace. Take me to your leader. Klaatu barada nikto. Koona t'chuta Solo? All will be one. Resistance is futile. That's not what these glyphs say. You have no idea what the glyphs say. They won't make any sense without a translator.";
 		now the description of Mysterious Glyphs is "These glyphs don't make any sense without a translator.";
 		stop the action;
 	
