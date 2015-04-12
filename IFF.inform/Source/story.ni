@@ -17,46 +17,47 @@ Understand "hide [something preferably held] under [something]" as hiding it und
 Understand the commands "shove" and "conceal" and "stick" as "hide".
 
 Check hiding it under:
-	if the second noun is not fixed in place, say "[The second noun] wouldn't be a very effective place of concealment." instead.
+	if the second noun is not fixed in place, say "[The second noun] wouldn't be a very effective place of concealment. Try hiding [the first noun] with something that isn't so likely to be picked up and carried off, perhaps." instead.
 	
 Carry out hiding it under:
 	now the noun is nowhere;
 	now the noun underlies the second noun.
 	
 Report hiding it under:
-	say "You shove [the noun] out of sight beneath [the second noun]."
+	say "You shove [the noun] out of sight beneath [the second noun]. I'm sure you won't forget where you hid it this time, like you did with your arsenal of chargers and keys back home."
 
 [Rooms & their locations]
 [Sleeping Quarters: contains backpack, clock, and wardrobe]
-Male Sleeping Quarters is a room with description "Sleeping quarters for the men on this expedition. To the southeast is the common room.". 
+Male Sleeping Quarters is a room with description "This is the male sleeping quarters for this expidition. The walls are covered in movie posters and there are odds and ends, dishes and cups strewn everywhere. Somewhere in this dump there are records of the history-altering discoveries this expidition has made. To the southeast is the common room.". 
 The player is in Male Sleeping Quarters. 
-the Alarm Clock is an object with description "Is it that late already? I have to get to get to the dig site!".
+the Alarm Clock is an object with description "You're late. You're always late. Honestly, why can't you just wake up on time for once? Late, late late. You've got to hurry to the dig site! Who knows what you'll miss this time?".
 The alarm clock is fixed in place. The alarm clock is in Male Sleeping Quarters. 
 Instead of taking alarm clock:
-	say "Why would you need to bring your alarm clock with you?".
+	say "You don't even want to have this thing around, let alone take it with you out onto the surface. You really should pay more attention to it, though.".
 the Wardrobe is a closed openable object in Male Sleeping Quarters.
-The coat is a wearable object inside Wardrobe with description "Puffed up to the brim with the finest Groobler feathers. This blue coat is sure to keep me nice and toasty down to 50 Kelvin.". Understand "jacket" as coat.
+The coat is a wearable object inside Wardrobe with description "Puffed up to the brim with the finest Groobler feathers. This blue coat is sure to keep me nice and toasty down to 50 Kelvin. The Groobler has truly incredible plumage. It is your favorite bird.". Understand "jacket" as coat.
 Wardrobe is fixed in place. 
 the Backpack is a closed openable object in Male Sleeping Quarters. 
-the pair of gloves is a wearable object inside backpack with description "Don't want frostbite. Better put these on.". 
-the hat is a wearable object inside backpack with description "This will definitely keep my ears warm.". Understand "cap" as hat.
-the Flashlight is an object inside backpack with description "Solar charged to the brim.".
-the Flare is an object inside backpack with description "I only have one of these. Better make good use of it.". 
+the pair of gloves is a wearable object inside backpack with description "You don't want frostbite. The frost is vicious and will bite your fingers clean off, or so you've been told. You had better put these on.". 
+the hat is a wearable object inside backpack with description "This hat is thickly woven out of only the finest space-age polymers. It is guranteed to keep your ears warm for the remainder of your life, should you be trapped out in the brooding wastes of some forsaken ice-planet.". 
+Understand "cap" as hat.
+the Flashlight is an object inside backpack with description "This solar-powered flashlight traps light from the sun until you need to use it later.".
+the Flare is an object inside backpack with description "I only have one of these. Better it for the boss fight. [']Boss fight?['], you think. [']What boss fight?[']". 
 
 [Common Room]
-Common Room is a room with description "Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the lab tables in the middle of the room. [line break] To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside.". 
+Common Room is a room with description "Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the lab tables in the middle of the room, scientific research abandoned each morning to persue scientific FIELD research. You are not a scientist and do not understand what the other members of the expidition are doing when they peer at the artefacts they[']ve uncovered and make sounds like [']hmm['] and [']fascinating['].[line break] To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside.". 
 
 [Kitchen & the lunch]
 Kitchen Table is an object in Common Room. Kitchen table is fixed in place. 
 The sack lunch is a closed openable object on Kitchen Table with description "A sack lunch".
-The PB & J sandwich is an edible object inside Sack Lunch with description "A PB & J sandwich with the perfect ratio and pleasantly soft, yet not soggy, bread.".
-The apple is an edible object inside Sack Lunch with description "A Honeycrisp Apple. The superior apple, ever since you discovered Red Delicious Apples were filled of lies.".
-The sweetroll is an edible object inside Sack Lunch with description "A sweetroll. A roll that is sweet. Duh.".
+The PB & J sandwich is an edible object inside Sack Lunch with description "A PB & J sandwich with the perfect ratio of delectable crunchy peanut butter to grape jely and pleasantly soft, yet not soggy, bread. [']This is truly a work of art['], you think.".
+The apple is an edible object inside Sack Lunch with description "A Honeycrisp Apple. The superior apple, ever since you discovered Red Delicious Apples were filled of lies and gravel. They are nither red nor delicious and you hate them for their duplicity. How can you learn to trust again?".
+The sweetroll is an edible object inside Sack Lunch with description "A sweetroll. A roll that is sweet. Stealing them is a high crime, and you may find yourself persued by cranky, bad-kneed guards if you were to accidentially pilfer one.".
 Understand "roll" as sweetroll.
 
 [Tables and Lab equipment]
 the Lab Tables is an object in Common Room with description 
-"Craig and Reala had been working on examining the molecular structure of the Phosphorescent Space Penguin thoracic sac. Originally used as a mating and warning signal, the sac cells might allow us to create more efficient glow-in-the-dark stuff. But our job isn[']t to find a use for it anyway. That[']s the engineers['] concern.". 
+"Craig and Reala had been working on examining the molecular structure of the Phosphorescent Space Penguin thoracic sac. Originally used as a mating and warning signal, the sac cells might allow us to create more efficient glow-in-the-dark stuff. But our job isn[']t to find a use for it anyway. That[']s the engineers['] concern. You just think it's really gross and smells bad and want it gone.". 
 the Lab Tables are fixed in place.
 the microscope is an object on the Lab Tables with description "The microscope has been in Reala[']s family for generations. Outdated, but still operational.".
 the microscope is fixed in place.
@@ -66,15 +67,15 @@ Instead of taking the microscope:
 Understand "use [the microscope]" as eating.
 Understand "look through [the microscope]" as eating.
 Instead of eating the microscope:
-	say "Glowy stuff, glowy stuff, and more glowy stuff. Only the biologists really know what to make of whatever the heck this stuff is.".
+	say "Glowy stuff, glowy stuff, and more glowy stuff. Only the biologists really know what to make of whatever the heck this stuff is. All you know is that the mitochondria is the powerhouse of the cell.".
 the preserved thoracic sac is an object on the Lab Tables with description "Gross.".
 the preserved thoracic sac is fixed in place.
 Instead of taking the preserved thoracic sac:
-	say "I am not taking that nasty, slimy thing with me. No way.".
+	say "Please, no. There is absolutely no way you're taking that with you. I can't blame you, to be honest.".
 the EDP is an object on the Lab Tables with description "The Environmental Discovery Pager. Each of the archeologists is supposed to have one. Looks like Carl forgot to take his with him. Again. I had better return it to him.".
 	The Chapter 1 is an object inside the EDP with description "It says, [paragraph break]'A bad start already, dang it. There's a really cool ice cave filled with all sorts of specimens on the first floor of the caverns, but I forgot this darn thing up here again. I left my observations of the species in the cavern on the icy ledge where Russeau was deciphering the glyphs. He said he'd left it there so I could find it again, but I haven't been able to remember to bring it back to base yet. Sadly. my memory has never been impressive.'".
 	The Chapter 2 is an object inside the EDP with description "It says, [paragraph break]'The second level of the caverns is even more amazing! I still cannot believe I forgot this EDP back here again. I left my notes for that section of the cavern ... shoot, I don't even remember where I put them! Maybe I left hints to its whereabouts. Ugh, why am I so forgetful?! [paragraph break]I remember Russeau saying something about the first layer's inhabitants being a sort of translating explorative species based on his findings, and he sounded excited to search the seond level for more glyphs from their discoveries. Perhaps they know even more about this planet's history than we do!'".
-the scalpel is an object on the Lab Tables with description "A laser scalpel. Makes clean cuts. Don't want to be on the wrong end of one.".
+the scalpel is an object on the Lab Tables with description "A laser scalpel.  It can clean cuts or cauterize a wound. It can even do both at the same time, but that wouldn't be very effective at... anything, really.".
 
 Common room is southeast of Male Sleeping Quarters. 
 Female Sleeping Quarters is a room with description "Sleeping quarters for the women on this expedition. To the northeast is the common room.".
@@ -104,7 +105,7 @@ Outside the Base is east of Base Door.
 
 Before opening Base Door:
 	unless the player is wearing the coat and the player is wearing the gloves and the player is wearing the hat:
-		say "I[']ll freeze to death if I go out there dressed like this!";
+		say "You can[']t go out there dressed like this! Your tauntaun will freeze before you reach the first marker! [']Then I[']ll see you in hell['], you chuckle to no-one in particular. What a nerd.";
 		stop the action.
 
 Garage is a room with description "This is the area where we park the snowmobiles. All the spaces for snowmobiles are empty except for one.". 
