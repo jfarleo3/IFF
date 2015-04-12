@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-0x02608230" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Inform 7 for Windows</generator>
@@ -6,25 +7,61 @@
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">&#x000A;&#x000A;&#x000A;IFF&#x000A;An Interactive Fiction by Joseph Farleo, Andrew Slembarski, and Sydney Young&#x000A;Release 1 / Serial number 150408 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Male Sleeping Quarters&#x000A;Sleeping quarters for the men on this expedition. To the southeast is the common room.&#x000A;&#x000A;You can see an Alarm Clock, a Wardrobe (closed) and a Backpack (closed) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
+=======
+<?xml version="1.0"?>
+<Skein rootNode="node-0x289b650" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0x15a27660" />
+  <item nodeId="node-0x289b650">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+IFF
+An Interactive Fiction by Joseph Farleo, Andrew Slembarski, and Sydney Young
+Release 1 / Serial number 150411 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+
+Male Sleeping Quarters
+Sleeping quarters for the men on this expedition. To the southeast is the common room.
+
+You can see an Alarm Clock, a Wardrobe (closed) and a Backpack (closed) here.
+
+&gt;</result>
+>>>>>>> origin/master
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="161">NO</temporary>
+    <temporary score="668">NO</temporary>
     <children>
+<<<<<<< HEAD
       <child nodeId="node-0x02209338"/>
     </children>
   </item>
   <item nodeId="node-0x02209338">
+=======
+      <child nodeId="node-0x289b6c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x289b6c0">
+>>>>>>> origin/master
     <command xml:space="preserve">open wardrobe</command>
     <result xml:space="preserve">You open the Wardrobe, revealing a coat.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="161">YES</temporary>
+    <temporary score="668">YES</temporary>
     <children>
+<<<<<<< HEAD
       <child nodeId="node-0x022093A8"/>
     </children>
   </item>
   <item nodeId="node-0x022093A8">
+=======
+      <child nodeId="node-0x289c960" />
+      <child nodeId="node-0x289b710" />
+    </children>
+  </item>
+  <item nodeId="node-0x289b710">
+>>>>>>> origin/master
     <command xml:space="preserve">take jacket</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -32,10 +69,17 @@
     <changed>NO</changed>
     <temporary score="161">YES</temporary>
     <children>
+<<<<<<< HEAD
       <child nodeId="node-0x02209418"/>
     </children>
   </item>
   <item nodeId="node-0x02209418">
+=======
+      <child nodeId="node-0x289b8c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x289b8c0">
+>>>>>>> origin/master
     <command xml:space="preserve">wear jacket</command>
     <result xml:space="preserve">You put on the coat.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -43,10 +87,17 @@
     <changed>NO</changed>
     <temporary score="161">YES</temporary>
     <children>
+<<<<<<< HEAD
       <child nodeId="node-0x025FCE50"/>
     </children>
   </item>
   <item nodeId="node-0x025FCE50">
+=======
+      <child nodeId="node-0x289b910" />
+    </children>
+  </item>
+  <item nodeId="node-0x289b910">
+>>>>>>> origin/master
     <command xml:space="preserve">take backpack</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -54,10 +105,17 @@
     <changed>NO</changed>
     <temporary score="161">YES</temporary>
     <children>
+<<<<<<< HEAD
       <child nodeId="node-0x025FCF20"/>
     </children>
   </item>
   <item nodeId="node-0x025FCF20">
+=======
+      <child nodeId="node-0x289b960" />
+    </children>
+  </item>
+  <item nodeId="node-0x289b960">
+>>>>>>> origin/master
     <command xml:space="preserve">wear gloves</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -65,10 +123,17 @@
     <changed>NO</changed>
     <temporary score="161">YES</temporary>
     <children>
+<<<<<<< HEAD
       <child nodeId="node-0x025FD058"/>
     </children>
   </item>
   <item nodeId="node-0x025FD058">
+=======
+      <child nodeId="node-0x289b9b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x289b9b0">
+>>>>>>> origin/master
     <command xml:space="preserve">open backpack</command>
     <result xml:space="preserve">You open the Backpack, revealing a pair of gloves, a hat, a Flashlight and a Flare.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -76,10 +141,17 @@
     <changed>NO</changed>
     <temporary score="161">YES</temporary>
     <children>
+<<<<<<< HEAD
       <child nodeId="node-0x025FD168"/>
     </children>
   </item>
   <item nodeId="node-0x025FD168">
+=======
+      <child nodeId="node-0x289baa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x289baa0">
+>>>>>>> origin/master
     <command xml:space="preserve">wear gloves</command>
     <result xml:space="preserve">(first taking the pair of gloves)&#x000A;You put on the pair of gloves.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -87,10 +159,17 @@
     <changed>NO</changed>
     <temporary score="161">YES</temporary>
     <children>
+<<<<<<< HEAD
       <child nodeId="node-0x025FDA58"/>
     </children>
   </item>
   <item nodeId="node-0x025FDA58">
+=======
+      <child nodeId="node-0x289baf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x289baf0">
+>>>>>>> origin/master
     <command xml:space="preserve">wear hat</command>
     <result xml:space="preserve">(first taking the hat)&#x000A;You put on the hat.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -98,10 +177,17 @@
     <changed>NO</changed>
     <temporary score="161">YES</temporary>
     <children>
+<<<<<<< HEAD
       <child nodeId="node-0x025FDF70"/>
     </children>
   </item>
   <item nodeId="node-0x025FDF70">
+=======
+      <child nodeId="node-0x289bb40" />
+    </children>
+  </item>
+  <item nodeId="node-0x289bb40">
+>>>>>>> origin/master
     <command xml:space="preserve">se</command>
     <result xml:space="preserve">&#x000A;Common Room&#x000A;Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the lab tables in the middle of the room. &#x000A; To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside.&#x000A;&#x000A;You can see Base Door, Kitchen Table (on which is a sack lunch (closed)), a Lab Tables (on which are a microscope, a preserved thoracic sac, an EDP (in which are a Chapter 1 and a Chapter 2) and a scalpel) and a bathroom door here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -109,10 +195,17 @@
     <changed>NO</changed>
     <temporary score="161">YES</temporary>
     <children>
+<<<<<<< HEAD
       <child nodeId="node-0x025FE150"/>
     </children>
   </item>
   <item nodeId="node-0x025FE150">
+=======
+      <child nodeId="node-0x289bbb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x289bbb0">
+>>>>>>> origin/master
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">(first opening Base Door)&#x000A;&#x000A;Outside the Base&#x000A;Kind of nippy out here. To the north, you can see the covered area that houses the snowmobiles.&#x000A;&#x000A;You can see Base Door here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -120,10 +213,17 @@
     <changed>NO</changed>
     <temporary score="161">YES</temporary>
     <children>
+<<<<<<< HEAD
       <child nodeId="node-0x025FE328"/>
     </children>
   </item>
   <item nodeId="node-0x025FE328">
+=======
+      <child nodeId="node-0x289bc20" />
+    </children>
+  </item>
+  <item nodeId="node-0x289bc20">
+>>>>>>> origin/master
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">&#x000A;Garage&#x000A;This is the area where we park the snowmobiles. All the spaces for snowmobiles are empty except for one.&#x000A;&#x000A;You can see a Garage Door and a Snowmobile here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -131,10 +231,17 @@
     <changed>NO</changed>
     <temporary score="161">YES</temporary>
     <children>
+<<<<<<< HEAD
       <child nodeId="node-0x025FE3E0"/>
     </children>
   </item>
   <item nodeId="node-0x025FE3E0">
+=======
+      <child nodeId="node-0x289bd50" />
+    </children>
+  </item>
+  <item nodeId="node-0x289bd50">
+>>>>>>> origin/master
     <command xml:space="preserve">look under snowmobile</command>
     <result xml:space="preserve">You've discovered keys!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -142,10 +249,17 @@
     <changed>NO</changed>
     <temporary score="161">YES</temporary>
     <children>
+<<<<<<< HEAD
       <child nodeId="node-0x025FE4E8"/>
     </children>
   </item>
   <item nodeId="node-0x025FE4E8">
+=======
+      <child nodeId="node-0x289ba40" />
+    </children>
+  </item>
+  <item nodeId="node-0x289ba40">
+>>>>>>> origin/master
     <command xml:space="preserve">take keys</command>
     <result xml:space="preserve">You already have that.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -153,10 +267,17 @@
     <changed>NO</changed>
     <temporary score="161">YES</temporary>
     <children>
+<<<<<<< HEAD
       <child nodeId="node-0x025FE558"/>
     </children>
   </item>
   <item nodeId="node-0x025FE558">
+=======
+      <child nodeId="node-0x289bdc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x289bdc0">
+>>>>>>> origin/master
     <command xml:space="preserve">ride snow</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -164,10 +285,17 @@
     <changed>NO</changed>
     <temporary score="161">YES</temporary>
     <children>
+<<<<<<< HEAD
       <child nodeId="node-0x025FEB08"/>
     </children>
   </item>
   <item nodeId="node-0x025FEB08">
+=======
+      <child nodeId="node-0x289be30" />
+    </children>
+  </item>
+  <item nodeId="node-0x289be30">
+>>>>>>> origin/master
     <command xml:space="preserve">ride snowmobile</command>
     <result xml:space="preserve">You mount the Snowmobile.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -175,10 +303,17 @@
     <changed>NO</changed>
     <temporary score="161">YES</temporary>
     <children>
+<<<<<<< HEAD
       <child nodeId="node-0x025FE868"/>
     </children>
   </item>
   <item nodeId="node-0x025FE868">
+=======
+      <child nodeId="node-0x289bea0" />
+    </children>
+  </item>
+  <item nodeId="node-0x289bea0">
+>>>>>>> origin/master
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">(first opening the Garage Door)&#x000A;&#x000A;Dig Site (on the Snowmobile)&#x000A;To the north is the elevator that leads down the hole. You can see a ladder leading up to the drilling rig. In the distance to the  east, you can barely see the outline of the garage door&#x000A;&#x000A;You can see ladder, a Garage Door and Elevator Door here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -186,10 +321,17 @@
     <changed>YES</changed>
     <temporary score="161">YES</temporary>
     <children>
+<<<<<<< HEAD
       <child nodeId="node-0x025FEBE8"/>
     </children>
   </item>
   <item nodeId="node-0x025FEBE8">
+=======
+      <child nodeId="node-0x289bf10" />
+    </children>
+  </item>
+  <item nodeId="node-0x289bf10">
+>>>>>>> origin/master
     <command xml:space="preserve">up</command>
     <result xml:space="preserve">(first opening ladder)&#x000A;You should maybe dismount the snowmobile first.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -197,10 +339,17 @@
     <changed>YES</changed>
     <temporary score="161">YES</temporary>
     <children>
+<<<<<<< HEAD
       <child nodeId="node-0x025FEA98"/>
     </children>
   </item>
   <item nodeId="node-0x025FEA98">
+=======
+      <child nodeId="node-0x289bf80" />
+    </children>
+  </item>
+  <item nodeId="node-0x289bf80">
+>>>>>>> origin/master
     <command xml:space="preserve">take rope</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -208,10 +357,17 @@
     <changed>YES</changed>
     <temporary score="161">YES</temporary>
     <children>
+<<<<<<< HEAD
       <child nodeId="node-0x025FE7F8"/>
     </children>
   </item>
   <item nodeId="node-0x025FE7F8">
+=======
+      <child nodeId="node-0x289bff0" />
+    </children>
+  </item>
+  <item nodeId="node-0x289bff0">
+>>>>>>> origin/master
     <command xml:space="preserve">take keycard</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -219,10 +375,17 @@
     <changed>YES</changed>
     <temporary score="161">YES</temporary>
     <children>
+<<<<<<< HEAD
       <child nodeId="node-0x025FE478"/>
     </children>
   </item>
   <item nodeId="node-0x025FE478">
+=======
+      <child nodeId="node-0x289bc90" />
+    </children>
+  </item>
+  <item nodeId="node-0x289bc90">
+>>>>>>> origin/master
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -230,10 +393,17 @@
     <changed>YES</changed>
     <temporary score="161">YES</temporary>
     <children>
+<<<<<<< HEAD
       <child nodeId="node-0x025FE5C8"/>
     </children>
   </item>
   <item nodeId="node-0x025FE5C8">
+=======
+      <child nodeId="node-0x289bce0" />
+    </children>
+  </item>
+  <item nodeId="node-0x289bce0">
+>>>>>>> origin/master
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening Elevator Door)&#x000A;You should maybe dismount the snowmobile first.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -241,10 +411,17 @@
     <changed>YES</changed>
     <temporary score="161">YES</temporary>
     <children>
+<<<<<<< HEAD
       <child nodeId="node-0x025FE788"/>
     </children>
   </item>
   <item nodeId="node-0x025FE788">
+=======
+      <child nodeId="node-0x289c1e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x289c1e0">
+>>>>>>> origin/master
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -252,10 +429,17 @@
     <changed>YES</changed>
     <temporary score="161">YES</temporary>
     <children>
+<<<<<<< HEAD
       <child nodeId="node-0x025FE638"/>
     </children>
   </item>
   <item nodeId="node-0x025FE638">
+=======
+      <child nodeId="node-0x289c250" />
+    </children>
+  </item>
+  <item nodeId="node-0x289c250">
+>>>>>>> origin/master
     <command xml:space="preserve">dismount snowmobile</command>
     <result xml:space="preserve">I only understood you as far as wanting to dismount.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -263,10 +447,17 @@
     <changed>NO</changed>
     <temporary score="161">YES</temporary>
     <children>
+<<<<<<< HEAD
       <child nodeId="node-0x025FE6A8"/>
     </children>
   </item>
   <item nodeId="node-0x025FE6A8">
+=======
+      <child nodeId="node-0x289c2c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x289c2c0">
+>>>>>>> origin/master
     <command xml:space="preserve">dismount</command>
     <result xml:space="preserve">You dismount the Snowmobile.&#x000A;&#x000A;Dig Site&#x000A;To the north is the elevator that leads down the hole. You can see a ladder leading up to the drilling rig. In the distance to the  east, you can barely see the outline of the garage door&#x000A;&#x000A;You can see ladder, a Garage Door, a Snowmobile and Elevator Door here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -274,10 +465,17 @@
     <changed>YES</changed>
     <temporary score="161">YES</temporary>
     <children>
+<<<<<<< HEAD
       <child nodeId="node-0x025FEB78"/>
     </children>
   </item>
   <item nodeId="node-0x025FEB78">
+=======
+      <child nodeId="node-0x289c330" />
+    </children>
+  </item>
+  <item nodeId="node-0x289c330">
+>>>>>>> origin/master
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening Elevator Door)&#x000A;&#x000A;Elevator&#x000A;Ground Level.&#x000A;&#x000A;You can see Elevator Door and Elevator Door here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -285,10 +483,17 @@
     <changed>YES</changed>
     <temporary score="161">YES</temporary>
     <children>
+<<<<<<< HEAD
       <child nodeId="node-0x025FE718"/>
     </children>
   </item>
   <item nodeId="node-0x025FE718">
+=======
+      <child nodeId="node-0x289c3a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x289c3a0">
+>>>>>>> origin/master
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">(first opening Elevator Door)&#x000A;ACCESS DENIED&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -296,10 +501,17 @@
     <changed>YES</changed>
     <temporary score="161">YES</temporary>
     <children>
+<<<<<<< HEAD
       <child nodeId="node-0x025FE8D8"/>
     </children>
   </item>
   <item nodeId="node-0x025FE8D8">
+=======
+      <child nodeId="node-0x289c410" />
+    </children>
+  </item>
+  <item nodeId="node-0x289c410">
+>>>>>>> origin/master
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">(first opening Elevator Door)&#x000A;ACCESS DENIED&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -307,10 +519,17 @@
     <changed>YES</changed>
     <temporary score="161">YES</temporary>
     <children>
+<<<<<<< HEAD
       <child nodeId="node-0x025FE948"/>
     </children>
   </item>
   <item nodeId="node-0x025FE948">
+=======
+      <child nodeId="node-0x289c480" />
+    </children>
+  </item>
+  <item nodeId="node-0x289c480">
+>>>>>>> origin/master
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:&#x000A;  keys&#x000A;  a hat (being worn)&#x000A;  a pair of gloves (being worn)&#x000A;  a Backpack (open)&#x000A;    a Flashlight&#x000A;    a Flare&#x000A;  a coat (being worn)&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -318,10 +537,17 @@
     <changed>YES</changed>
     <temporary score="161">YES</temporary>
     <children>
+<<<<<<< HEAD
       <child nodeId="node-0x025FE9B8"/>
     </children>
   </item>
   <item nodeId="node-0x025FE9B8">
+=======
+      <child nodeId="node-0x289c4f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x289c4f0">
+>>>>>>> origin/master
     <command xml:space="preserve">looj</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -329,10 +555,17 @@
     <changed>YES</changed>
     <temporary score="161">YES</temporary>
     <children>
+<<<<<<< HEAD
       <child nodeId="node-0x025FEA28"/>
     </children>
   </item>
   <item nodeId="node-0x025FEA28">
+=======
+      <child nodeId="node-0x289c560" />
+    </children>
+  </item>
+  <item nodeId="node-0x289c560">
+>>>>>>> origin/master
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Elevator&#x000A;Ground Level.&#x000A;&#x000A;You can see Elevator Door and Elevator Door here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -340,10 +573,17 @@
     <changed>YES</changed>
     <temporary score="161">YES</temporary>
     <children>
+<<<<<<< HEAD
       <child nodeId="node-0x02601368"/>
     </children>
   </item>
   <item nodeId="node-0x02601368">
+=======
+      <child nodeId="node-0x289c5d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x289c5d0">
+>>>>>>> origin/master
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">&#x000A;Dig Site&#x000A;To the north is the elevator that leads down the hole. You can see a ladder leading up to the drilling rig. In the distance to the  east, you can barely see the outline of the garage door&#x000A;&#x000A;You can see Elevator Door, ladder, a Garage Door and a Snowmobile here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -351,10 +591,17 @@
     <changed>YES</changed>
     <temporary score="161">YES</temporary>
     <children>
+<<<<<<< HEAD
       <child nodeId="node-0x026013D8"/>
     </children>
   </item>
   <item nodeId="node-0x026013D8">
+=======
+      <child nodeId="node-0x289c640" />
+    </children>
+  </item>
+  <item nodeId="node-0x289c640">
+>>>>>>> origin/master
     <command xml:space="preserve">up</command>
     <result xml:space="preserve">(first opening ladder)&#x000A;&#x000A;Drilling rig&#x000A;Controls for the laser drill used to create the hole in the ice. You  probably shouldn't mess with them&#x000A;&#x000A;You can see ladder, a rope and Level 1 Keycard here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -362,10 +609,17 @@
     <changed>YES</changed>
     <temporary score="161">YES</temporary>
     <children>
+<<<<<<< HEAD
       <child nodeId="node-0x02600F08"/>
     </children>
   </item>
   <item nodeId="node-0x02600F08">
+=======
+      <child nodeId="node-0x289c060" />
+    </children>
+  </item>
+  <item nodeId="node-0x289c060">
+>>>>>>> origin/master
     <command xml:space="preserve">take level 1</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -373,10 +627,17 @@
     <changed>YES</changed>
     <temporary score="161">YES</temporary>
     <children>
+<<<<<<< HEAD
       <child nodeId="node-0x02600E98"/>
     </children>
   </item>
   <item nodeId="node-0x02600E98">
+=======
+      <child nodeId="node-0x289c0d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x289c0d0">
+>>>>>>> origin/master
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">&#x000A;Dig Site&#x000A;To the north is the elevator that leads down the hole. You can see a ladder leading up to the drilling rig. In the distance to the  east, you can barely see the outline of the garage door&#x000A;&#x000A;You can see ladder, Elevator Door, a Garage Door and a Snowmobile here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -384,10 +645,17 @@
     <changed>YES</changed>
     <temporary score="161">YES</temporary>
     <children>
+<<<<<<< HEAD
       <child nodeId="node-0x02600C68"/>
     </children>
   </item>
   <item nodeId="node-0x02600C68">
+=======
+      <child nodeId="node-0x289c140" />
+    </children>
+  </item>
+  <item nodeId="node-0x289c140">
+>>>>>>> origin/master
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">&#x000A;Elevator&#x000A;Ground Level.&#x000A;&#x000A;You can see Elevator Door and Elevator Door here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -395,15 +663,1343 @@
     <changed>YES</changed>
     <temporary score="161">YES</temporary>
     <children>
+<<<<<<< HEAD
       <child nodeId="node-0x02601058"/>
     </children>
   </item>
   <item nodeId="node-0x02601058">
+=======
+      <child nodeId="node-0x289c8f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x289c8f0">
+>>>>>>> origin/master
     <command xml:space="preserve">d</command>
     <result xml:space="preserve"></result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="160">YES</temporary>
+  </item>
+  <item nodeId="node-0x289c960">
+    <command xml:space="preserve">wear coat</command>
+    <result xml:space="preserve">(first taking the coat)
+You put on the coat.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="668">YES</temporary>
+    <children>
+      <child nodeId="node-0x289c9d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x289c9d0">
+    <command xml:space="preserve">open backpack</command>
+    <result xml:space="preserve">You open the Backpack, revealing a pair of gloves, a hat, a Flashlight and a Flare.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="668">YES</temporary>
+    <children>
+      <child nodeId="node-0x289ca40" />
+    </children>
+  </item>
+  <item nodeId="node-0x289ca40">
+    <command xml:space="preserve">wear gloves</command>
+    <result xml:space="preserve">(first taking the pair of gloves)
+You put on the pair of gloves.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="668">YES</temporary>
+    <children>
+      <child nodeId="node-0x289cab0" />
+    </children>
+  </item>
+  <item nodeId="node-0x289cab0">
+    <command xml:space="preserve">wear hat</command>
+    <result xml:space="preserve">(first taking the hat)
+You put on the hat.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="668">YES</temporary>
+    <children>
+      <child nodeId="node-0x289cb20" />
+    </children>
+  </item>
+  <item nodeId="node-0x289cb20">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">
+Common Room
+Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the lab tables in the middle of the room. 
+ To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside.
+
+You can see Base Door, Kitchen Table (on which is a sack lunch (closed)), a Lab Tables (on which are a microscope, a preserved thoracic sac, an EDP (in which are a Chapter 1 and a Chapter 2) and a scalpel) and a bathroom door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="668">YES</temporary>
+    <children>
+      <child nodeId="node-0x289cb90" />
+    </children>
+  </item>
+  <item nodeId="node-0x289cb90">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening Base Door)
+
+Outside the Base
+Kind of nippy out here. To the north, you can see the covered area that houses the snowmobiles.
+
+You can see Base Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="668">YES</temporary>
+    <children>
+      <child nodeId="node-0x289cc00" />
+    </children>
+  </item>
+  <item nodeId="node-0x289cc00">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Garage
+This is the area where we park the snowmobiles. All the spaces for snowmobiles are empty except for one.
+
+You can see a Garage Door and a Snowmobile here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="668">YES</temporary>
+    <children>
+      <child nodeId="node-0x289cc70" />
+    </children>
+  </item>
+  <item nodeId="node-0x289cc70">
+    <command xml:space="preserve">look under snowmobile</command>
+    <result xml:space="preserve">You&apos;ve discovered keys!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="668">YES</temporary>
+    <children>
+      <child nodeId="node-0x289cce0" />
+    </children>
+  </item>
+  <item nodeId="node-0x289cce0">
+    <command xml:space="preserve">ride snowmobile</command>
+    <result xml:space="preserve">You mount the Snowmobile.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="668">YES</temporary>
+    <children>
+      <child nodeId="node-0x289cd50" />
+    </children>
+  </item>
+  <item nodeId="node-0x289cd50">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the Garage Door)
+
+Dig Site (on the Snowmobile)
+To the north is the elevator that leads down the hole. You can see a ladder leading up to the drilling rig. In the distance to the  east, you can barely see the outline of the garage door
+
+You can see ladder, a Garage Door and Elevator Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="668">YES</temporary>
+    <children>
+      <child nodeId="node-0x289cdc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x289cdc0">
+    <command xml:space="preserve">dismount</command>
+    <result xml:space="preserve">You dismount the Snowmobile.
+
+Dig Site
+To the north is the elevator that leads down the hole. You can see a ladder leading up to the drilling rig. In the distance to the  east, you can barely see the outline of the garage door
+
+You can see ladder, a Garage Door, a Snowmobile and Elevator Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="668">YES</temporary>
+    <children>
+      <child nodeId="node-0x289ce30" />
+      <child nodeId="node-0x155984d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x155984d0">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">
+Drilling rig
+Controls for the laser drill used to create the hole in the ice. You  probably shouldn&apos;t mess with them
+
+You can see ladder, a rope and Level 1 Keycard here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="668">YES</temporary>
+    <children>
+      <child nodeId="node-0x19df50" />
+    </children>
+  </item>
+  <item nodeId="node-0x19df50">
+    <command xml:space="preserve">take rope</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="668">YES</temporary>
+    <children>
+      <child nodeId="node-0x28aebc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x28aebc0">
+    <command xml:space="preserve">take level 1 keycard</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="668">YES</temporary>
+    <children>
+      <child nodeId="node-0x3aa630" />
+      <child nodeId="node-0x1619d510" />
+    </children>
+  </item>
+  <item nodeId="node-0x1619d510">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Level 1 Keycard
+  a rope
+  keys
+  a hat (being worn)
+  a pair of gloves (being worn)
+  a coat (being worn)
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="668">YES</temporary>
+    <children>
+      <child nodeId="node-0x3a3230" />
+    </children>
+  </item>
+  <item nodeId="node-0x3a3230">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+Dig Site
+To the north is the elevator that leads down the hole. You can see a ladder leading up to the drilling rig. In the distance to the  east, you can barely see the outline of the garage door
+
+You can see ladder, a Garage Door, a Snowmobile and Elevator Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="668">YES</temporary>
+    <children>
+      <child nodeId="node-0x239a1380" />
+    </children>
+  </item>
+  <item nodeId="node-0x239a1380">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening Elevator Door)
+
+Elevator
+Ground Level.
+
+You can see Elevator Door and Elevator Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="668">YES</temporary>
+    <children>
+      <child nodeId="node-0xea85850" />
+    </children>
+  </item>
+  <item nodeId="node-0xea85850">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">(first opening Elevator Door)
+
+Elevator
+Level 1.
+
+You can see Elevator Door and Elevator Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="668">YES</temporary>
+    <children>
+      <child nodeId="node-0x161bbe20" />
+    </children>
+  </item>
+  <item nodeId="node-0x161bbe20">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Artifact room
+There is another room to the east.
+
+You can see Supply crate (in which is an ice pick) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="668">YES</temporary>
+    <children>
+      <child nodeId="node-0x1611b9c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1611b9c0">
+    <command xml:space="preserve">take ice pick</command>
+    <result xml:space="preserve">Taken.
+
+You combine the rope with the ice pick to make a makeshift grappling hook.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="668">YES</temporary>
+    <children>
+      <child nodeId="node-0x108644b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x108644b0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Ledge Room.
+The artifact room is back to the west.
+
+You can see Ledge and Broken Ladder here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="668">YES</temporary>
+    <children>
+      <child nodeId="node-0x10875020" />
+    </children>
+  </item>
+  <item nodeId="node-0x10875020">
+    <command xml:space="preserve">climb ledge</command>
+    <result xml:space="preserve">
+First Ledge
+To the north, across the bottomless pit, you see another ledge. A third appears to be above it.
+
+You can see Ledge here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="668">YES</temporary>
+    <children>
+      <child nodeId="node-0xeafa340" />
+    </children>
+  </item>
+  <item nodeId="node-0xeafa340">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">It&apos;s much too far to jump.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="668">YES</temporary>
+    <children>
+      <child nodeId="node-0xead4ca0" />
+    </children>
+  </item>
+  <item nodeId="node-0xead4ca0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">It&apos;s much too far to jump.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="668">YES</temporary>
+    <children>
+      <child nodeId="node-0x2387c2b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2387c2b0">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+Ledge Room.
+The artifact room is back to the west.
+
+You can see Ledge and Broken Ladder here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="668">YES</temporary>
+    <children>
+      <child nodeId="node-0x16141430" />
+    </children>
+  </item>
+  <item nodeId="node-0x16141430">
+    <command xml:space="preserve">take broken ladder</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="668">YES</temporary>
+    <children>
+      <child nodeId="node-0x238df0c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x238df0c0">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">
+First Ledge
+To the north, across the bottomless pit, you see another ledge. A third appears to be above it.
+
+You can see Ledge here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="668">YES</temporary>
+    <children>
+      <child nodeId="node-0xeab3d40" />
+    </children>
+  </item>
+  <item nodeId="node-0xeab3d40">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You use pieces of the broken ladder to make a path across to the other side.
+
+Second Ledge
+The first ledge is back to the south across the pit. There is another ledge above you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="668">YES</temporary>
+    <children>
+      <child nodeId="node-0x23854350" />
+    </children>
+  </item>
+  <item nodeId="node-0x23854350">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+First Ledge
+To the north, across the bottomless pit, you see another ledge. A third appears to be above it. The broken ladder now acts as a bridge across the gap.
+
+You can see Ledge here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="668">YES</temporary>
+    <children>
+      <child nodeId="node-0x108bf310" />
+    </children>
+  </item>
+  <item nodeId="node-0x108bf310">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Second Ledge
+The first ledge is back to the south across the pit. There is another ledge above you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="668">YES</temporary>
+    <children>
+      <child nodeId="node-0x23804fc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x23804fc0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Makeshift Grappling Hook
+  Level 1 Keycard
+  keys
+  a hat (being worn)
+  a pair of gloves (being worn)
+  a coat (being worn)
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="668">YES</temporary>
+    <children>
+      <child nodeId="node-0x1087bf50" />
+    </children>
+  </item>
+  <item nodeId="node-0x1087bf50">
+    <command xml:space="preserve">drop makeshift</command>
+    <result xml:space="preserve">Dropped.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="668">YES</temporary>
+    <children>
+      <child nodeId="node-0x161d4020" />
+    </children>
+  </item>
+  <item nodeId="node-0x161d4020">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You can&apos;t reach the third ledge from all the way down here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="668">YES</temporary>
+    <children>
+      <child nodeId="node-0x21d13fb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x21d13fb0">
+    <command xml:space="preserve">take makeshift</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="668">YES</temporary>
+    <children>
+      <child nodeId="node-0x15a27660" />
+    </children>
+  </item>
+  <item nodeId="node-0x15a27660">
+    <command xml:space="preserve">u</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="667">YES</temporary>
+  </item>
+  <item nodeId="node-0x3aa630">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="465">YES</temporary>
+    <children>
+      <child nodeId="node-0x16d33480" />
+    </children>
+  </item>
+  <item nodeId="node-0x16d33480">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+Dig Site
+To the north is the elevator that leads down the hole. You can see a ladder leading up to the drilling rig. In the distance to the  east, you can barely see the outline of the garage door
+
+You can see ladder, a Garage Door, a Snowmobile and Elevator Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="465">YES</temporary>
+    <children>
+      <child nodeId="node-0x28c3480" />
+    </children>
+  </item>
+  <item nodeId="node-0x28c3480">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening Elevator Door)
+
+Elevator
+Ground Level.
+
+You can see Elevator Door and Elevator Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="465">YES</temporary>
+    <children>
+      <child nodeId="node-0x1063cb00" />
+    </children>
+  </item>
+  <item nodeId="node-0x1063cb00">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">(first opening Elevator Door)
+
+Elevator
+Level 1.
+
+You can see Elevator Door and Elevator Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="465">YES</temporary>
+    <children>
+      <child nodeId="node-0x1061d5c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1061d5c0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Artifact room
+There is another room to the east.
+
+You can see Supply crate (in which is an ice pick) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="465">YES</temporary>
+    <children>
+      <child nodeId="node-0x1556a230" />
+    </children>
+  </item>
+  <item nodeId="node-0x1556a230">
+    <command xml:space="preserve">take ice pick</command>
+    <result xml:space="preserve">Taken.
+
+You combine the rope with the ice pick to make a makeshift grappling hook.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="465">YES</temporary>
+    <children>
+      <child nodeId="node-0x28b5b30" />
+    </children>
+  </item>
+  <item nodeId="node-0x28b5b30">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Specimen Room
+The artifact room is back to the east.
+
+You can see Portable Laser Jackhammer U here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="465">YES</temporary>
+    <children>
+      <child nodeId="node-0x28e3a80" />
+    </children>
+  </item>
+  <item nodeId="node-0x28e3a80">
+    <command xml:space="preserve">take portable</command>
+    <result xml:space="preserve">You use the ice pick to break the tool out of the ice.
+
+Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="465">YES</temporary>
+    <children>
+      <child nodeId="node-0x155ba6f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x155ba6f0">
+    <command xml:space="preserve">examine portable</command>
+    <result xml:space="preserve">The power cell appears to be missing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="465">YES</temporary>
+    <children>
+      <child nodeId="node-0x16d9eab0" />
+    </children>
+  </item>
+  <item nodeId="node-0x16d9eab0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Artifact room
+There is another room to the east.
+
+You can see Supply crate (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="465">YES</temporary>
+    <children>
+      <child nodeId="node-0x10621130" />
+    </children>
+  </item>
+  <item nodeId="node-0x10621130">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Ledge Room.
+The artifact room is back to the west.
+
+You can see Ledge and Broken Ladder here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="465">YES</temporary>
+    <children>
+      <child nodeId="node-0x15a2a0f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x15a2a0f0">
+    <command xml:space="preserve">climb ledge 1</command>
+    <result xml:space="preserve">I only understood you as far as wanting to climb Ledge.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="465">YES</temporary>
+    <children>
+      <child nodeId="node-0x1092d9b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1092d9b0">
+    <command xml:space="preserve">climb onto ledge 1</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="465">YES</temporary>
+    <children>
+      <child nodeId="node-0x1090f590" />
+    </children>
+  </item>
+  <item nodeId="node-0x1090f590">
+    <command xml:space="preserve">climb</command>
+    <result xml:space="preserve">What do you want to climb?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="465">YES</temporary>
+    <children>
+      <child nodeId="node-0x1082e300" />
+    </children>
+  </item>
+  <item nodeId="node-0x1082e300">
+    <command xml:space="preserve">climb ledge 1</command>
+    <result xml:space="preserve">I only understood you as far as wanting to climb Ledge.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="465">YES</temporary>
+    <children>
+      <child nodeId="node-0x10810980" />
+    </children>
+  </item>
+  <item nodeId="node-0x10810980">
+    <command xml:space="preserve">climb ledge</command>
+    <result xml:space="preserve">
+First Ledge
+To the north, across the bottomless pit, you see another ledge. A third appears to be above it.
+
+You can see Ledge and Bottomless Pit here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="465">YES</temporary>
+    <children>
+      <child nodeId="node-0x10976900" />
+    </children>
+  </item>
+  <item nodeId="node-0x10976900">
+    <command xml:space="preserve">climb a ledge</command>
+    <result xml:space="preserve">
+Ledge Room.
+The artifact room is back to the west.
+
+You can see Ledge and Broken Ladder here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="465">YES</temporary>
+    <children>
+      <child nodeId="node-0x108d4970" />
+    </children>
+  </item>
+  <item nodeId="node-0x108d4970">
+    <command xml:space="preserve">climb a Ledge</command>
+    <result xml:space="preserve">
+First Ledge
+To the north, across the bottomless pit, you see another ledge. A third appears to be above it.
+
+You can see Ledge and Bottomless Pit here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="465">YES</temporary>
+    <children>
+      <child nodeId="node-0x198b71e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x198b71e0">
+    <command xml:space="preserve">climb Ledge</command>
+    <result xml:space="preserve">
+Ledge Room.
+The artifact room is back to the west.
+
+You can see Ledge and Broken Ladder here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="465">YES</temporary>
+    <children>
+      <child nodeId="node-0x11e5cc10" />
+    </children>
+  </item>
+  <item nodeId="node-0x11e5cc10">
+    <command xml:space="preserve">examine ledge</command>
+    <result xml:space="preserve">You see nothing special about Ledge.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="465">YES</temporary>
+    <children>
+      <child nodeId="node-0x11e2ac20" />
+    </children>
+  </item>
+  <item nodeId="node-0x11e2ac20">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Ledge Room.
+The artifact room is back to the west.
+
+You can see Ledge and Broken Ladder here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="465">YES</temporary>
+    <children>
+      <child nodeId="node-0x174eb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x174eb0">
+    <command xml:space="preserve">climb ledge1</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="465">YES</temporary>
+    <children>
+      <child nodeId="node-0x1611a1f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1611a1f0">
+    <command xml:space="preserve">climb ledge</command>
+    <result xml:space="preserve">
+First Ledge
+To the north, across the bottomless pit, you see another ledge. A third appears to be above it.
+
+You can see Ledge and Bottomless Pit here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="465">YES</temporary>
+    <children>
+      <child nodeId="node-0x2f4250" />
+    </children>
+  </item>
+  <item nodeId="node-0x2f4250">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+Ledge Room.
+The artifact room is back to the west.
+
+You can see Ledge and Broken Ladder here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="465">YES</temporary>
+    <children>
+      <child nodeId="node-0x15ad2e90" />
+    </children>
+  </item>
+  <item nodeId="node-0x15ad2e90">
+    <command xml:space="preserve">take broken ladder</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="465">YES</temporary>
+    <children>
+      <child nodeId="node-0x15a3ff60" />
+    </children>
+  </item>
+  <item nodeId="node-0x15a3ff60">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">
+First Ledge
+To the north, across the bottomless pit, you see another ledge. A third appears to be above it.
+
+You can see Ledge and Bottomless Pit here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="465">YES</temporary>
+    <children>
+      <child nodeId="node-0x1613dc50" />
+    </children>
+  </item>
+  <item nodeId="node-0x1613dc50">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You use pieces of the broken ladder to make a path across to the other side.
+
+(first opening Bottomless Pit)
+
+Second Ledge
+The first ledge is back to the south across the pit. There is another ledge above you.
+
+You can see Bottomless Pit here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="465">YES</temporary>
+    <children>
+      <child nodeId="node-0x1980eb40" />
+    </children>
+  </item>
+  <item nodeId="node-0x1980eb40">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+First Ledge
+To the north, across the bottomless pit, you see another ledge. A third appears to be above it. The broken ladder now acts as a bridge across the gap.
+
+You can see Bottomless Pit and Ledge here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="465">YES</temporary>
+    <children>
+      <child nodeId="node-0x10855be0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10855be0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">It&apos;s much too far to jump.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="465">YES</temporary>
+    <children>
+      <child nodeId="node-0x11e88440" />
+    </children>
+  </item>
+  <item nodeId="node-0x11e88440">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Portable Laser Jackhammer U
+  Makeshift Grappling Hook
+  Level 1 Keycard
+  keys
+  a hat (being worn)
+  a pair of gloves (being worn)
+  a coat (being worn)
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="465">YES</temporary>
+    <children>
+      <child nodeId="node-0x1988b060" />
+    </children>
+  </item>
+  <item nodeId="node-0x1988b060">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="465">YES</temporary>
+    <children>
+      <child nodeId="node-0x1081d010" />
+    </children>
+  </item>
+  <item nodeId="node-0x1081d010">
+    <command xml:space="preserve">drop broken ladder</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="465">YES</temporary>
+    <children>
+      <child nodeId="node-0x28aa780" />
+    </children>
+  </item>
+  <item nodeId="node-0x28aa780">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">It&apos;s much too far to jump.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="465">YES</temporary>
+    <children>
+      <child nodeId="node-0x19890110" />
+    </children>
+  </item>
+  <item nodeId="node-0x19890110">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="465">YES</temporary>
+    <children>
+      <child nodeId="node-0x198bcd10" />
+    </children>
+  </item>
+  <item nodeId="node-0x198bcd10">
+    <command xml:space="preserve">close bottomless pit</command>
+    <result xml:space="preserve">You close Bottomless Pit.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="465">YES</temporary>
+    <children>
+      <child nodeId="node-0x16126c10" />
+    </children>
+  </item>
+  <item nodeId="node-0x16126c10">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">It&apos;s much too far to jump.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="464">YES</temporary>
+  </item>
+  <item nodeId="node-0x289ce30">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">(first opening ladder)
+
+Drilling rig
+Controls for the laser drill used to create the hole in the ice. You  probably shouldn&apos;t mess with them
+
+You can see ladder, a rope and Level 1 Keycard here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x289cea0" />
+    </children>
+  </item>
+  <item nodeId="node-0x289cea0">
+    <command xml:space="preserve">take rope</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x289cf10" />
+    </children>
+  </item>
+  <item nodeId="node-0x289cf10">
+    <command xml:space="preserve">take keycard</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x289cf80" />
+    </children>
+  </item>
+  <item nodeId="node-0x289cf80">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x289cff0" />
+    </children>
+  </item>
+  <item nodeId="node-0x289cff0">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+Dig Site
+To the north is the elevator that leads down the hole. You can see a ladder leading up to the drilling rig. In the distance to the  east, you can barely see the outline of the garage door
+
+You can see ladder, a Garage Door, a Snowmobile and Elevator Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x289c6b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x289c6b0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening Elevator Door)
+
+Elevator
+Ground Level.
+
+You can see Elevator Door and Elevator Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x289c720" />
+    </children>
+  </item>
+  <item nodeId="node-0x289c720">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">(first opening Elevator Door)
+
+Elevator
+Level 1.
+
+You can see Elevator Door and Elevator Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x289c790" />
+    </children>
+  </item>
+  <item nodeId="node-0x289c790">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Level 1 Keycard
+  a rope
+  keys
+  a hat (being worn)
+  a pair of gloves (being worn)
+  a coat (being worn)
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x289c800" />
+    </children>
+  </item>
+  <item nodeId="node-0x289c800">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">(first opening Elevator Door)
+
+Elevator
+Level 2.
+
+You can see Elevator Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x289c870" />
+    </children>
+  </item>
+  <item nodeId="node-0x289c870">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x289d060" />
+    </children>
+  </item>
+  <item nodeId="node-0x289d060">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x289d0d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x289d0d0">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">
+Elevator
+Level 1.
+
+You can see Elevator Door and Elevator Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x289d140" />
+    </children>
+  </item>
+  <item nodeId="node-0x289d140">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Artifact room
+There is another room to the east.
+
+You can see Supply crate (in which is an ice pick) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x289d1b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x289d1b0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Elevator
+Level 1.
+
+You can see Elevator Door and Elevator Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x289d220" />
+    </children>
+  </item>
+  <item nodeId="node-0x289d220">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+Elevator
+Level 2.
+
+You can see Elevator Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x289d290" />
+    </children>
+  </item>
+  <item nodeId="node-0x289d290">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x289d300" />
+    </children>
+  </item>
+  <item nodeId="node-0x289d300">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">
+Elevator
+Level 1.
+
+You can see Elevator Door and Elevator Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x289d370" />
+    </children>
+  </item>
+  <item nodeId="node-0x289d370">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Artifact room
+There is another room to the east.
+
+You can see Supply crate (in which is an ice pick) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x289d3e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x289d3e0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Artifact room
+There is another room to the east.
+
+You can see Supply crate (in which is an ice pick) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x289d450" />
+    </children>
+  </item>
+  <item nodeId="node-0x289d450">
+    <command xml:space="preserve">take ice pick</command>
+    <result xml:space="preserve">Taken.
+
+You combine the rope with the ice pick to make a makeshift grappling hook.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="176">YES</temporary>
+    <children>
+      <child nodeId="node-0x289d4c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x289d4c0">
+    <command xml:space="preserve">e</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="175">YES</temporary>
   </item>
 </Skein>
