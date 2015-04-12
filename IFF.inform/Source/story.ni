@@ -125,10 +125,10 @@ Before opening Garage Door:
 		stop the action.
 
 [Dig Site]
-Dig Site is a room with description "To the north is the elevator that leads down the hole. You can see a ladder leading up to the drilling rig. In the distance to the 	east, you can barely see the outline of the garage door". Dig site is east of garage door. 
+Dig Site is a room with description "To the north is the elevator that leads down the hole. You can see a ladder leading up to the drilling rig. In the distance to the east, you can barely see the outline of the garage door". Dig site is east of garage door. 
 
-Drilling rig is a room with description "Controls for the laser drill used to create the hole in the ice. You 	probably shouldn[']t mess with them". Drilling rig is above ladder. 
-the rope is an object in the drilling rig with description "Made of the toughest and most flexible treated 	carbon fiber bonds. This model glows a bright yellow. [paragraph break]Couldn[']t hurt to have one.".
+Drilling rig is a room with description "Controls for the laser drill used to create the hole in the ice. You probably shouldn[']t mess with them". Drilling rig is above ladder. 
+the rope is an object in the drilling rig with description "Made of the toughest and most flexible treated carbon fiber bonds. This model glows a bright yellow. [paragraph break]Couldn[']t hurt to have one.".
 Level 1 Keycard is an object with description ".". Level 1 Keycard is in drilling rig. 
 Ladder is a door. Ladder is open. Ladder is above dig site. 
 
@@ -210,7 +210,20 @@ Before going from Second Ledge to Third Ledge:
 
 	
 
-Translation Matrix is an object with description ".". Translation Matrix is in Third Ledge. 
+Translation Matrix is an object with description "Russeau's translations. He has been spending a lot of time on decyphering the glyphs with this.". Translation Matrix is in Third Ledge with description "These glyphs don't make any sense without a translator.".
+Mysterious Glyphs is an object in Third Ledge. Mysterious Glyphs is fixed in place.
+
+Every turn:
+	if the player carries Translation Matrix:
+		say "The glyphs start to makes sense.";
+		now the description of Mysterious Glyphs is "The glyphs start to make sense. They say '' ";
+	otherwise:
+		say "The glyphs don't make any sense without a translator.";
+		now the description of Mysterious Glyphs is "These glyphs don't make any sense without a translator.";
+		stop the action;
+	
+Carl's Notes 1 is an object with description "These are Carl's first set of notes. They say ''. ".
+
 
 		
 [Level 2 keycard is an object. ]
