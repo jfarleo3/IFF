@@ -2,8 +2,10 @@
 
 Include Rideable Vehicles by Graham Nelson.
 [need to change everything to second person]
+
 Understand "look around" as looking.
 Understand "examine room" as looking.
+
 [*Defining hiding objects underneath other objects. Code from IF7 documentation: Example 233 - Beneath the Surface.]
 Underlying relates various things to one thing. The verb to underlie means the underlying relation. The verb to be under means the underlying relation. The verb to be beneath means the underlying relation.
 
@@ -12,19 +14,20 @@ Instead of looking under a thing which is underlaid by something (called the los
 	now every thing which underlies the noun is carried by the player;
 	now every thing which underlies the noun does not underlie the noun.
 	
-Hiding it under is an action applying to one carried thing and one thing. Understand "put [something preferably held] under [something]" as hiding it under.
+[Hiding it under is an action applying to one carried thing and one thing. Understand "put [something preferably held] under [something]" as hiding it under.
 Understand "hide [something preferably held] under [something]" as hiding it under.
 Understand the commands "shove" and "conceal" and "stick" as "hide".
 
 Check hiding it under:
-	if the second noun is not fixed in place, say "[The second noun] wouldn't be a very effective place of concealment. Try hiding [the first noun] with something that isn't so likely to be picked up and carried off, perhaps." instead.
+	if the second noun is not fixed in place:
+		say "[The second noun] wouldn't be a very effective place of concealment. Try hiding [the first noun] with something that isn't so likely to be picked up and carried off, perhaps instead.".
 	
 Carry out hiding it under:
 	now the noun is nowhere;
 	now the noun underlies the second noun.
 	
 Report hiding it under:
-	say "You shove [the noun] out of sight beneath [the second noun]. I'm sure you won't forget where you hid it this time, like you did with your arsenal of chargers and keys back home."
+	say "You shove [the noun] out of sight beneath [the second noun]. I'm sure you won't forget where you hid it this time, like you did with your arsenal of chargers and keys back home."]
 
 [Rooms & their locations]
 [Sleeping Quarters: contains backpack, clock, and wardrobe]
@@ -206,9 +209,6 @@ Before going from Second Ledge to Third Ledge:
 	otherwise:
 		say "You can't reach the third ledge from all the way down here.";
 		stop the action;
-		
-
-	
 
 Translation Matrix is an object with description "Russeau's translations. He has been spending a lot of time on decyphering the glyphs with this.". Translation Matrix is in Third Ledge with description "These glyphs don't make any sense without a translator.".
 Mysterious Glyphs is an object in Third Ledge. Mysterious Glyphs is fixed in place.
@@ -216,13 +216,13 @@ Mysterious Glyphs is an object in Third Ledge. Mysterious Glyphs is fixed in pla
 Every turn:
 	if the player carries Translation Matrix:
 		say "The glyphs start to makes sense.";
-		now the description of Mysterious Glyphs is "The glyphs start to make sense. They say '' ";
+		now the description of Mysterious Glyphs is "The glyphs start to make sense. They say '' .";
 	otherwise:
 		say "The glyphs don't make any sense without a translator.";
 		now the description of Mysterious Glyphs is "These glyphs don't make any sense without a translator.";
 		stop the action;
 	
-Carl's Notes 1 is an object with description "These are Carl's first set of notes. They say ''. ".
+Carl's Notes 1 is an object with description "These are Carl's first set of notes. They say ''.".
 
 
 		

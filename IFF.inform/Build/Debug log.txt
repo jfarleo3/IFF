@@ -1,12 +1,12 @@
 Debugging log of Inform 7
-Inform called as: C:\Program Files (x86)\Inform 7\Compilers\ni -internal C:\Program Files (x86)\Inform 7\Internal -project C:\Users\Sydney Young\Documents\GitHub\IFF\IFF.inform -format=ulx
+Inform called as: /Applications/Inform.app/Contents/Resources/Compilers/ni -internal /Applications/Inform.app/Contents/Resources/Internal -external /Users/Joseph/Library/Inform -project /Users/Joseph/Desktop/Dropbox/School/Second Semester/ENGL 1102/Projects/Inform 7/IFF/IFF.inform -format=ulx
 Found language bundle 'English' (from .materials)
 Found language bundle 'French' (from .materials)
 Found language bundle 'German' (from .materials)
 Found language bundle 'Italian' (from .materials)
 Found language bundle 'Spanish' (from .materials)
 Found language bundle 'Swedish' (from .materials)
-Reading language definition from <C:\Program Files (x86)\Inform 7\Internal\Languages\English\Syntax.preform>
+Reading language definition from </Applications/Inform.app/Contents/Resources/Internal/Languages/English/Syntax.preform>
 720 declarations read (14002 words)
 
 
@@ -14,7 +14,7 @@ Reading language definition from <C:\Program Files (x86)\Inform 7\Internal\Langu
 Phase I ... Lexical analysis
 -----------------------------------------------------
 
-I've now read your source text, which is 2940 words long.
+I've now read your source text, which is 2794 words long.
 
 
 -----------------------------------------------------
@@ -108,47 +108,6 @@ Phase XII ... Code generation
 
 ==== Phase XII.6 ... Compiling first block of phrases ====
 
-                        (a.2) problem message:
-                        found: (A)'first noun'/UNKNOWN/UNKNOWN
-                        expected: (G)'object'/VALUE_FMY/CONSTANT_SPC-object
-                        Problem PM_Unknown issued from inform7/Chapter 20/Type Checking.w, line 1037
-
-                          >--> In the sentence 'if the second noun is not fixed in place, say "[The
-                            second noun] wouldn't be a ve [...] icked up and carried off, perhaps."
-                            instead' (source text, line 20), I was expecting to read an object, but
-                            instead found some text that I couldn't understand - 'first noun'.
-
-        0. group:0    [0371] proven   "say the ( something - object )" ((A)'second noun'/STORAGE_FMY/NONLOCAL_VARIABLE_SPC)
-        0. group:0    [0379] untested "say the ( something - object )" ((A)'second noun'/UNKNOWN/UNKNOWN)
-        0. group:0    [0479] untested "say ( something - text )" ((A)'second noun'/UNKNOWN/UNKNOWN)
-        0. group:0    [0480] untested "say ( something - number )" ((A)'second noun'/UNKNOWN/UNKNOWN)
-        0. group:0    [0481] untested "say ( ch - unicode character )" ((A)'second noun'/UNKNOWN/UNKNOWN)
-        0. group:0    [0482] untested "say ( val - sayable value of kind k )" ((A)'second noun'/UNKNOWN/UNKNOWN)
-        1. group:1    [0479] proven   "say ( something - text )" ((A)'" wouldn't be a very effective place of concealment. Try hiding "'/VALUE_FMY/CONSTANT_SPC-text)
-        1. group:1    [0480] untested "say ( something - number )" ((A)'" wouldn't be a very effective place of concealment. Try hiding "'/UNKNOWN/UNKNOWN)
-        1. group:1    [0481] untested "say ( ch - unicode character )" ((A)'" wouldn't be a very effective place of concealment. Try hiding "'/UNKNOWN/UNKNOWN)
-        1. group:1    [0482] untested "say ( val - sayable value of kind k )" ((A)'" wouldn't be a very effective place of concealment. Try hiding "'/UNKNOWN/UNKNOWN)
-        2. group:2    [0379] gross    "say the ( something - object )" ((A)'first noun'/UNKNOWN/UNKNOWN)
-        2. group:2    [0479] gross    "say ( something - text )" ((A)'first noun'/UNKNOWN/UNKNOWN)
-        2. group:2    [0480] gross    "say ( something - number )" ((A)'first noun'/UNKNOWN/UNKNOWN)
-        2. group:2    [0481] gross    "say ( ch - unicode character )" ((A)'first noun'/UNKNOWN/UNKNOWN)
-        2. group:2    [0482] gross    "say ( val - sayable value of kind k )" ((A)'first noun'/UNKNOWN/UNKNOWN)
-        3. group:3    [0479] untested "say ( something - text )" ((A)'" with something that isn't so likely to be picked up and carried off, perhaps."'/UNKNOWN/UNKNOWN)
-        3. group:3    [0480] untested "say ( something - number )" ((A)'" with something that isn't so likely to be picked up and carried off, perhaps."'/UNKNOWN/UNKNOWN)
-        3. group:3    [0481] untested "say ( ch - unicode character )" ((A)'" with something that isn't so likely to be picked up and carried off, perhaps."'/UNKNOWN/UNKNOWN)
-        3. group:3    [0482] untested "say ( val - sayable value of kind k )" ((A)'" with something that isn't so likely to be picked up and carried off, perhaps."'/UNKNOWN/UNKNOWN)
-
-            I was trying to match one of these phrases:
-
-
-            1.  say "[the first noun - object]" 
-
-
-            2.  say "[first noun - sayable value]" 
-
-
-            But I didn't recognise 'first noun'.
-
 
 
 ==== Phase XII.7 ... Compiling the rulebooks ====
@@ -171,12 +130,53 @@ Phase XII ... Code generation
 
 
 
+==== Phase XII.12 ... Compiling GPR tokens for parsing various kinds of value ====
+
+
+
+==== Phase XII.13 ... Compiling second block of phrases ====
+
+
+
+==== Phase XII.14 ... Compiling noun and scope filter tokens ====
+
+
+
+==== Phase XII.15 ... Compiling chronology ====
+
+
+
+==== Phase XII.16 ... Compiling I6 Verb directives ====
+
+
+
+==== Phase XII.17 ... Slashing grammar (G1) ====
+
+
+
+==== Phase XII.18 ... Determining grammar (G2) ====
+
+
+
+==== Phase XII.19 ... Sorting and compiling non-value grammar (G3, G4) ====
+
+
+
+==== Phase XII.20 ... Compiling noun and scope filter tokens ====
+
+
+
+==== Phase XII.21 ... Compiling routines from predicate calculus ====
+
+Providing for a total heap of 8192, given requirement of 8192
+
+
 -----------------------------------------------------
 Phase XIII ... Compilation now complete
 -----------------------------------------------------
 
-Total of 4 files written as streams.
-CPU time: 295 centiseconds
+Total of 105 files written as streams.
+CPU time: 128 centiseconds
 
 
 That concludes the debugging log from this run of Inform.
