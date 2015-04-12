@@ -129,7 +129,7 @@ Dig Site is a room with description "To the north is the elevator that leads dow
 Drilling rig is a room with description "Controls for the laser drill used to create the hole in the ice. You 	probably shouldn[']t mess with them". Drilling rig is above ladder. 
 the rope is an object in the drilling rig with description "Made of the toughest and most flexible treated 	carbon fiber bonds. This model glows a bright yellow. [paragraph break]Couldn[']t hurt to have one.".
 Level 1 Keycard is an object with description ".". Level 1 Keycard is in drilling rig. 
-Ladder is a door. Ladder is above dig site. 
+Ladder is a door. Ladder is open. Ladder is above dig site. 
 
 Before opening Ladder:
 	if the player is on the snowmobile:
@@ -162,11 +162,57 @@ Every turn:
 		now the ice pick is nowhere;
 		now the player carries the Makeshift Grappling Hook;
 		say "You combine the rope with the ice pick to make a makeshift grappling hook.";
+		
+Specimen Room is a room with description "The artifact room is back to the east.". Specimen Room is west of Artifact room. 
+Portable Laser Jackhammer U is an object with description "The power cell appears to be missing.". Portable laser Jackhamer U has printed name "Portable Laser Jackhammer (Uncharged)". Portable Laser Jackhammer U is in Specimen Room. 
 
-Ledge Room is a room with description "The artifact room is back to the west.". Ledge room is east of Artifact room. Broken Ladder is an object. Broken ladder is in Ledge Room. 
+Before taking Portable Laser Jackhammer:
+	if the player carries the ice pick or the player carries the Makeshift Grappling Hook:
+		say "You use the ice pick to break the tool out of the ice.";
+	otherwise:
+		say "It appears to be partially frozen in the ice.";
+		stop the action;
+
+LedgeRoom is a room with description "The artifact room is back to the west." and printed name "Ledge Room.". LedgeRoom is east of Artifact room. Broken Ladder is an object. Broken ladder is in LedgeRoom. 
+
+Ledge is a door. Ledge is open. Ledge is above LedgeRoom and below First Ledge. 
+
+Instead of climbing Ledge:
+	try entering Ledge;
+
+First Ledge is a room with description "To the north, across the bottomless pit, you see another ledge. A third appears to be above it.". 
+Second Ledge is a room with description "The first ledge is back to the south across the pit. There is another ledge above you.". 
+Third Ledge is a room with description "". 
+
+Second Ledge is north of First Ledge. Third Ledge is above second ledge. 
+
+Bridge is a number that varies. Bridge is usually 0. 
+
+Before going north from First Ledge:
+	if bridge is 0:
+		if the player carries broken ladder:
+			say "You use pieces of the broken ladder to make a path across to the other side.";
+			now broken ladder is nowhere;
+			now Bridge is 1;
+			now the description of First Ledge is "To the north, across the bottomless pit, you see another ledge. A third appears to be above it. The broken ladder now acts as a bridge across the gap.";
+		otherwise:
+			say "It[']s much too far to jump.";
+			stop the action;
+			
+Before going from Second Ledge to Third Ledge:
+	if the player carries Makeshift Grappling Hook:
+		say "You throw your maksehift grappling hook and it catches in the ice. You can now climb the rope to reach the third ledge";
+	otherwise:
+		say "You can't reach the third ledge from all the way down here.";
+		stop the action;
+		
+
+	
+
+Translation Matrix is an object with description ".". Translation Matrix is in Third Ledge. 
 
 		
-Level 2 keycard is an object. 
+[Level 2 keycard is an object. ]
 Elevator Door 2 is a door with printed name "Elevator Door". Elevator Door 2 is below Elevator Level 1. 
 Elevator level 2 is a room with description "Level 2." and printed name "Elevator". Elevator level 2 is below the Elevator Door 2. 
 
