@@ -78,7 +78,7 @@ Instead of taking the preserved thoracic sac:
 the EDP is an object on the Lab Tables with description "The Environmental Discovery Pager. Each of the archeologists is supposed to have one. Looks like Carl forgot to take his with him. Again. I had better return it to him.".
 	The Chapter 1 is an object inside the EDP with description "It says, [paragraph break]'A bad start already, dang it. There's a really cool ice cave filled with all sorts of specimens on the first floor of the caverns, but I forgot this darn thing up here again. I left my observations of the species in the cavern on the icy ledge where Russeau was deciphering the glyphs. He said he'd left it there so I could find it again, but I haven't been able to remember to bring it back to base yet. Sadly. my memory has never been impressive.'".
 	The Chapter 2 is an object inside the EDP with description "It says, [paragraph break]'The second level of the caverns is even more amazing! I still cannot believe I forgot this EDP back here again. I left my notes for that section of the cavern ... shoot, I don't even remember where I put them! Maybe I left hints to its whereabouts. Ugh, why am I so forgetful?! [paragraph break]I remember Russeau saying something about the first layer's inhabitants being a sort of translating explorative species based on his findings, and he sounded excited to search the seond level for more glyphs from their discoveries. Perhaps they know even more about this planet's history than we do!'".
-the scalpel is an object on the Lab Tables with description "A laser scalpel.  It can clean cuts or cauterize a wound. It can even do both at the same time, but that wouldn't be very effective at... anything, really.".
+the laser scalpel is an object on the Lab Tables with description "A laser scalpel.  It can clean cuts or cauterize a wound. It can even do both at the same time, but that wouldn't be very effective at... anything, really.".
 
 Common room is southeast of Male Sleeping Quarters. 
 Female Sleeping Quarters is a room with description "Sleeping quarters for the women on this expedition. To the northeast is the common room.".
@@ -133,6 +133,7 @@ Dig Site is a room with description "To the north is the elevator that leads dow
 Drilling rig is a room with description "Controls for the laser drill used to create the hole in the ice. You probably shouldn[']t mess with them". Drilling rig is above ladder. 
 the rope is an object in the drilling rig with description "Made of the toughest and most flexible treated carbon fiber bonds. This model glows a bright yellow. [paragraph break]Couldn[']t hurt to have one.".
 Level 1 Keycard is an object with description ".". Level 1 Keycard is in drilling rig. 
+Space Suit is a wearable object with description ".". Space Suit is in Drilling Rig.
 Ladder is a door. Ladder is open. Ladder is above dig site. 
 
 Before opening Ladder:
@@ -168,9 +169,11 @@ Every turn:
 		say "You combine the rope with the ice pick to make a makeshift grappling hook.";
 		
 Specimen Room is a room with description "The artifact room is back to the east.". Specimen Room is west of Artifact room. 
-Portable Laser Jackhammer U is an object with description "The power cell appears to be missing.". Portable laser Jackhamer U has printed name "Portable Laser Jackhammer (Uncharged)". Portable Laser Jackhammer U is in Specimen Room. 
+Portable Laser Jackhammer U is an object with description "The power cell appears to be missing." and printed name "Portable Laser Jackhammer (Uncharged)". Portable Laser Jackhammer U is in Specimen Room. 
 
-Before taking Portable Laser Jackhammer:
+Portable Laser Jackhammer C is an object with description "All charged up now." and printed name "Portable Laser Jackhammer (Charged)". Portable Laser Jackhammer C is nowhere. 
+
+Before taking Portable Laser Jackhammer U:
 	if the player carries the ice pick or the player carries the Makeshift Grappling Hook:
 		say "You use the ice pick to break the tool out of the ice.";
 	otherwise:
@@ -215,11 +218,11 @@ Mysterious Glyphs is an object in Third Ledge. Mysterious Glyphs is fixed in pla
 
 Every turn:
 	if the player carries Translation Matrix:
-		say "The glyphs start to makes sense.";
 		now the description of Mysterious Glyphs is "The glyphs start to make sense. They say '' .";
+		now the description of Spear gun is "The glyphs start to make sense. They say '' .";
 	otherwise:
-		say "The glyphs don't make any sense without a translator.";
 		now the description of Mysterious Glyphs is "These glyphs don't make any sense without a translator.";
+		now the description of Spear is "These glyphs don't make any sense without a translator.";
 		stop the action;
 	
 Carl's Notes 1 is an object with description "These are Carl's first set of notes. They say ''.".
@@ -229,6 +232,106 @@ Carl's Notes 1 is an object with description "These are Carl's first set of note
 [Level 2 keycard is an object. ]
 Elevator Door 2 is a door with printed name "Elevator Door". Elevator Door 2 is below Elevator Level 1. 
 Elevator level 2 is a room with description "Level 2." and printed name "Elevator". Elevator level 2 is below the Elevator Door 2. 
+
+Backup Power Cell is an object with description ".". Backup Power Cell is in Elevator level 2. 
+
+Every turn:
+	if the player is holding the Backup Power Cell and the player is holding Portable Laser Jackhammer U:
+		now the Backup Power Cell is nowhere;
+		now the Portable Laser Jackhammer U is nowhere;
+		now the player carries the Portable Laser Jackhammer C;
+		say "You use the power cell from the elevator to power the jackhammer.";
+
+[We need to decide on a name for the first room on floor 2. For now I've just named it "Room 1"]
+
+Room 1 is a room with description ".". Room 1 is south of Elevator Level 2. 
+Underwater tunnel is a room with description ".". Underwater tunnel is west of Room 1.
+
+Patch of thin ice is an object with description ".". Patch of thin ice is in Room 1.
+
+Melting is an action applying to one visible thing.
+Understand "melt [thing]" as melting.
+Understand "solder [thing]" as melting.
+
+Before melting the Patch of thin ice:
+	if the player carries Portable Laser Jackhammer C:
+		say "You use the laser jackhammer to melt the patch of thin ice.";
+		now the Patch of thin ice is nowhere;
+	otherwise:
+		say "If only you had some tool to help you.";
+		stop the action;
+		
+Before going west from Room 1:
+	if the Patch of thin ice is in room 1:
+		say "This ice is in your way.";
+		stop the action;
+	otherwise:
+		unless the player is wearing the space suit:
+			say "You'll surely freeze to death if you try to swim without protective gear.";
+
+Secret Cavern is a room with description ".". Secret Cavern is above Underwater tunnel. 
+Spear Gun is an object with description ".". Spear gun is in Secret Cavern. 
+
+Ship Room is a room with description ".". Ship room is east of Room 1.
+
+[Taken from IF7 Documentation: Example 431 - Eyes, Fingers, Toes]
+The Ship door is a door with description ".". Ship door is east of Ship room. Ship door is locked. 
+
+The Ship Door has a list of numbers called the current combination.
+
+The Ship Door has a list of numbers called the true combination. The true combination of The Ship Door is {23, 16, 09}.
+
+Understand "set [something] to [a number]" as setting it numerically to. Setting it numerically to is an action applying to one thing and one number.
+
+
+Check setting something numerically to (this is the block setting numerically rule):
+	say "[The noun] cannot be set."
+
+Instead of setting The Ship Door numerically to the number understood:
+	truncate the current combination of the Ship Door to the last 2 entries;
+	add the number understood to the current combination of the Ship Door;
+	if the Ship Door is locked and the current combination of the Ship Door is the true combination of the Ship Door:
+		say "You enter [the number understood], and [the Ship Door] gives a joyous CLICK.";
+		now the Ship Door is unlocked;
+	otherwise if Ship Door is unlocked and the Ship Door is closed and the current combination of the Ship Door is not the true combination of the Ship Door:
+		say "Now [the Ship Door] clicks locked.";
+		now the Ship Door is locked;
+	otherwise:
+		say "You enter [the number understood] on the Ship Door.";
+		
+Ship Power is a number that varies. Ship Power is usually 0.
+		
+Control Room is a room with description ".". Control Room is east of Ship door. 
+Engine Room is a room with description ".". Engine Room is below Control Room. 
+
+Compartment 1 is an object with description ".". Compartment 1 is fixed in place. Compartment 1 is a closed openable opaque container. Wires 1 is an object with printed name "wires 1" and description ".". Wires 1 is in Compartment 1. Compartment 1 is in Engine Room. 
+
+Compartment 2 is an object with description ".". Compartment 2 is fixed in place. Compartment 2 is a closed  openable opaque container. Wires 2 is an object with printed name "wires 2" and description ".". Wires 2 is in Compartment 2. Compartment 2 is in Engine Room. 
+
+Compartment 3 is an object with description ".". Compartment 3 is fixed in place. Compartment 3 is a closed openable opaque container. Wires 3 is an object with printed name "wires 3" and description ".". Wires 3 is in Compartment 3. Compartment 3 is in Engine Room. 
+
+Before melting wires 3:
+	unless the player carries laser scalpel:
+		say "This task requires a very precise laser. You wouldn't want to break the ship even further.";
+		stop the action;
+	otherwise:
+		say "You manage to solder the two wire together using the laser scalpel. The ship should have power now.";
+		now ship power is 1;
+
+Compartment 4 is an object with description ".". Compartment 4 is fixed in place. Compartment 4 is a closed openable opaque container. Wires 4 is an object with printed name "wires 4" and description ".". Wires 4 is in Compartment 4. Compartment 4 is in Engine Room. 
+
+Big Red Button is a switched off device with description "." Big Red Button is in control room. 
+Understand "push [something switched off]" as switching on. 
+Understand "press [something switched off]" as switching on. 
+
+Before switching on Big Red Button:
+	if ship power is 0:
+		say "Nothing happens. The ship's power appears to be off.";
+		stop the action;
+	otherwise:
+		say "Blah blah story. You win.";
+		end the story;
+
 
 [Before opening Elevator Door 2:
 	unless the player is holding Level 2 Keycard:
