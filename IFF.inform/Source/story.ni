@@ -30,6 +30,15 @@ Understand "cap" as hat.
 the Flashlight is an object inside backpack with description "This solar-powered flashlight traps light from the sun until you need to use it later.".
 the Flare is an object inside backpack with description "You only have one of these. Better it for the boss fight. [']Boss fight?['], you think. [']What boss fight?[']". 
 
+
+[Losing Condition]
+Every turn:
+	unless the player is wearing the coat and the player is wearing the gloves and the player is wearing the hat:
+		unless the player is wearing the space suit:
+			unless the player is in Male Sleeping Quarters or the player is in Female Sleeping Quarters or the player is in Common Room or the player is in Garage or the player is in Drilling Rig:
+				say "You freeze to death or something. Game Over.";
+				end the story;
+		
 [Common Room]
 Common Room is a room with description "Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the lab table in the middle of the room, scientific research abandoned each morning to persue scientific FIELD research. You are not a scientist and do not understand what the other members of the expidition are doing when they peer at the artefacts they[']ve uncovered and make sounds like [']hmm['] and [']fascinating['].[line break] To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside.". 
 
@@ -62,6 +71,11 @@ the EDP is an object on the Lab Table with description "The Environmental Discov
 	The Chapter 1 is an object inside the EDP with description "It says, [paragraph break]'A bad start already, dang it. There's a really cool ice cave filled with all sorts of specimens on the first floor of the caverns, but I forgot this darn thing up here again. I left my observations of the species in the cavern on the icy ledge where Russeau was deciphering the glyphs. He said he'd left it there so I could find it again, but I haven't been able to remember to bring it back to base yet. Sadly. my memory has never been impressive.'".
 	The Chapter 2 is an object inside the EDP with description "It says, [paragraph break]'The second level of the caverns is even more amazing! I still cannot believe I forgot this EDP back here again. I left my notes for that section of the cavern ... shoot, I don't even remember where I put them! Maybe I left hints to its whereabouts. Ugh, why am I so forgetful?! [paragraph break]I remember Russeau saying something about the first layer's inhabitants being a sort of translating explorative species based on his findings, and he sounded excited to search the seond level for more glyphs from their discoveries. Perhaps they know even more about this planet's history than we do!'".
 the laser scalpel is an object on the Lab Table with description "A laser scalpel.  It can clean cuts or cauterize a wound. It can even do both at the same time, but that wouldn't be very effective at... anything, really.".
+
+[Losing Condition]
+Before eating the laser scalpel:
+	say "You lose.";
+	end the story;
 
 Common room is southeast of Male Sleeping Quarters. 
 Female Sleeping Quarters is a room with description "Sleeping quarters for the women on this expedition. It[']s rather rude of you to go snooping around people[']s personal spaces when they're not around, you know. Tsk. Don[']t expect to get invited to my house anytime soon. The room is far from tidy, but it seems impeccable compared to the rest of this outpost. There is a first-aid kit atop the side table, and a dresser in the far corner of the room. An Elvish Sword is mounted above one of the beds".
@@ -98,16 +112,21 @@ Garage is a room with description "This is the parking area for the snowmobiles.
 
 Garage is north of Outside the Base. 
 The Garage Door is a door. Garage door is east of Garage.
-The Snowmobile is a rideable vehicle with description "A current model hover-snow bike, but you and your friends all just call it a snowmobile, sort of in the same vein of how people call tissues Kleenex. You catch a glimpse of something shiny beneath the snowmobile.". keys is an object.  
+The Snowmobile is a rideable vehicle with description "A current model hover-snow bike, but you and your friends all just call it a snowmobile, sort of in the same vein of how people call tissues Kleenex. You catch a glimpse of something shiny under the snowmobile.". keys is an object.  
 The Snowmobile is in Garage. keys is beneath The Snowmobile.
 Before mounting The Snowmobile:
 	unless the player is holding keys:
 		say "Try though you might, you can[']t start it without the keys.";
 		stop the action.
 		
-Before opening Garage Door:
+Before going east from Garage:
 	unless the player is on the snowmobile:
 		say "You[']re not going to walk all the way to the dig site. Do you remember what I told you about your tauntaun freezing? The implication is that you'd freeze too. You can[']t walk there.";
+		stop the action.
+		
+Before going west from Dig Site:
+	unless the player is on the snowmobile:
+		say "You[']re not going to walk all the way back to the base. Do you remember what I told you about your tauntaun freezing? The implication is that you'd freeze too. You can[']t walk there.";
 		stop the action.
 
 [Dig Site]
@@ -115,7 +134,7 @@ Dig Site is a room with description "There is a huge crater where a series of ex
 
 
 Drilling rig is a room with description "There are controls here for the laser drill used to create the hole in the ice. Try not to break them, double-oh-seven. You can see a coil of rope and a passcard here.". Drilling rig is above ladder. 
-the rope is an object in the drilling rig with description "Made of the toughest and most flexible tspace age polymers. This model glows a bright yellow in the dark. [paragraph break]Couldn[']t hurt to have one.".
+the rope is an object in the drilling rig with description "Made of the toughest and most flexible space age polymers. This model glows a bright yellow in the dark. [paragraph break]Couldn[']t hurt to have one.".
 Keycard is an object with description "Everyone in the group is issued a passcard. You can use it to access Level 1 and Level 2 of the dig site. There has been significantly more research done on Level 1 than Level 2".  Keycard is in drilling rig. 
 Space Suit is a wearable object with description ".". Space Suit is in Drilling Rig.
 
@@ -168,7 +187,7 @@ Before taking Portable Laser Jackhammer U:
 		say "The jackhammer is frozen in ice from water melted by the heat exuded by it when it was laid down. You bet you know who hasn't been taking care of the tools. You're not going to say any names, but if the person were here you would levy a passive-aggressive accusatory glare at them.";
 		stop the action;
 
-LedgeRoom is a room with description "Here the ice falters, cascading downward in what may once have been a waterfall in a cup-shaped canyon east of the City Ruins. Beyond and above a series of ledges there is a wall of glyphs that Russeau has been translating.  There is a series of three ledges that crawl across the lip of the round canyon to the Glyph Wall. The artifact room is back to the west." and printed name "Ledge Room.". LedgeRoom is east of Artifact room. Broken Ladder is an object. Broken ladder is in LedgeRoom. 
+LedgeRoom is a room with description "Here the ice falters, cascading downward in what may once have been a waterfall in a cup-shaped canyon east of the City Ruins. Beyond and above a series of ledges there is a wall of glyphs that Russeau has been translating.  There is a series of three ledges that crawl across the lip of the round canyon to the Glyph Wall. You can climb up to the first ledge from here. The artifact room is back to the west." and printed name "Ledge Room.". LedgeRoom is east of Artifact room. Broken Ladder is an object. Broken ladder is in LedgeRoom. 
 
 Ledge is a door. Ledge is open. Ledge is above LedgeRoom and below First Ledge. 
 
@@ -192,8 +211,8 @@ Before going north from First Ledge:
 			now Bridge is 1;
 			now the description of First Ledge is "To the north, across the not-quite-bottomless pit, you see another ledge. A third appears to be above it. The broken ladder now acts as a rickety excuse for a  bridge across the gap. Are you actually going to walk on that?";
 		otherwise:
-			say "It[']s much too far to jump. Your little legs never even got you onto the school basketball team, let alone across a wide-open space that wide and open. Find some way to bridge the gap.";
-			stop the action;
+			say "You fall down the pit. Dead.";
+			end the story;
 			
 Before going from Second Ledge to Third Ledge:
 	if the player carries Makeshift Grappling Hook:
@@ -244,8 +263,14 @@ Before melting the Patch of thin ice:
 		say "You use the laser jackhammer to melt the patch of thin ice. Chunks crack away as  the pounding of the jackhammer reverberated through the cavern. Through the din of the hammering, you swear you can hear footsteps.";
 		now the Patch of thin ice is nowhere;
 	otherwise:
-		say "If only you had some tool to help you.";
-		stop the action;
+		if the player carries flare:
+			say "This flare might be more useful for something else. There's probably a better tool for this job around here somewhere.";
+		otherwise:
+			if the player carries the laser scalpel:
+				say "The laser scalpel is great for precision, but without more power, you[']ll die of old age before the ice melts.";
+			otherwise:
+				say "If only you had some tool to help you.";
+				stop the action;
 		
 Before going west from Dim Cavern:
 	if the Patch of thin ice is in Dim Cavern:
