@@ -222,11 +222,11 @@ Mysterious Glyphs is an object in Third Ledge. Mysterious Glyphs is fixed in pla
 
 Every turn:
 	if the player carries Translation Matrix:
+		say "The glyphs start to makes sense.";
 		now the description of Mysterious Glyphs is "The glyphs start to make sense. They tell of hard times and troubles of mythic proportions. The glyph wall appears to recall a legend of a great beast from the warming sea, who swallowed cities and snatched prey from the air, dragging it back to the depths below. The glyphs also relate archeological discoveries by contemporaries that also tell of the tentacled, clawed beast from the sea and warn of its return. If this creature is real, it has been alive for a very, very long time. You start to wonder about the ruins and how they seem to have been smashed to pieces before the great freeze... [line break]Maybe Russeau, Carl, Reala and the others went to Level 2 to persue the archological findings detailed on the Glyph Wall. That doesn't explain why their belongings are just scattered around, but at least it's a lead.";
-		now the description of the Monolith is "The glyphs are translatable with the Matrix you have and the experience from the wall of glyphs above. They tell of an impending freeze that would end the world as the contemporary peoplee knew it, and of the ship they crafted to try and escape. The monolith tells of the risk to aircraft posed by the beast beneath the waves and how they were running out of time. The launch date seems to have been very important to the people of the time. That date was 23, 16, 09 on their calendar system.".
 	otherwise:
 		now the description of Mysterious Glyphs is "They say [']We come in peace. Take me to your leader. Klaatu barada nikto. Koona t'chuta Solo? All will be one. Resistance is futile.['] That's not what these glyphs say. You have no idea what the glyphs say. They won't make any sense without a translator.";
-		now the description of the the Monolith is "They say [']We come in peace. Take me to your leader. Klaatu barada nikto. Koona t'chuta Solo? All will be one. Resistance is futile.['] That's not what these glyphs say. You have no idea what the glyphs say. They won't make any sense without a translator.".
+		now the description of Spear gun is "The glyphs start to make sense. They say ";
 	
 Carl's Notes 1 is an object with description "These are Carl's first set of notes. They say ''.".
 
@@ -274,7 +274,6 @@ Before going west from Room 1:
 
 Secret Cavern is a room with description "Teal light seeps from  a levitating black stone monolith in the room above the underwater tunnel. The monolith is inscribed with glyphs similar to those on the Glyph Wall above. There is what looks like an alien spear gun lying on the floor before it.". Secret Cavern is above Underwater tunnel. 
 Spear Gun is an object with description "A deadly-looking weapon left by lost civilization of the strata you are at. Why someone would need such a vicious projectile makes you shudder.". Spear gun is in Secret Cavern. 
-Monolith is a thing in Secret Cavern. Monolith is fixed in place.
 
 Ship Room is a room with description "It[']s all yellow metal and glowing blue orbs. A vague ambient humming meets your ears and the room smells not dissimilar to a hospital.". Ship room is east of Room 1.
 
