@@ -21,31 +21,31 @@ The alarm clock is fixed in place. The alarm clock is in Male Sleeping Quarters.
 Instead of taking alarm clock:
 	say "You don't even want to have this thing around, let alone take it with you out onto the surface. You really should pay more attention to it, though.".
 the Wardrobe is a closed openable object in Male Sleeping Quarters.
-The coat is a wearable object inside Wardrobe with description "Puffed up to the brim with the finest Groobler feathers. This blue coat is sure to keep me nice and toasty down to 50 Kelvin. The Groobler has truly incredible plumage. It is your favorite bird.". Understand "jacket" as coat.
+The coat is a wearable object inside Wardrobe with description "Puffed up to the brim with the finest Groobler feathers. This blue coat is sure to keep you nice and toasty down to 50 Kelvin. The Groobler has truly incredible plumage. It is your favorite bird.". Understand "jacket" as coat.
 Wardrobe is fixed in place. 
 the Backpack is a closed openable object in Male Sleeping Quarters. 
 the pair of gloves is a wearable object inside backpack with description "You don't want frostbite. The frost is vicious and will bite your fingers clean off, or so you've been told. You had better put these on.". 
 the hat is a wearable object inside backpack with description "This hat is thickly woven out of only the finest space-age polymers. It is guranteed to keep your ears warm for the remainder of your life, should you be trapped out in the brooding wastes of some forsaken ice-planet.". 
 Understand "cap" as hat.
 the Flashlight is an object inside backpack with description "This solar-powered flashlight traps light from the sun until you need to use it later.".
-the Flare is an object inside backpack with description "I only have one of these. Better it for the boss fight. [']Boss fight?['], you think. [']What boss fight?[']". 
+the Flare is an object inside backpack with description "You only have one of these. Better it for the boss fight. [']Boss fight?['], you think. [']What boss fight?[']". 
 
 [Common Room]
-Common Room is a room with description "Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the lab tables in the middle of the room, scientific research abandoned each morning to persue scientific FIELD research. You are not a scientist and do not understand what the other members of the expidition are doing when they peer at the artefacts they[']ve uncovered and make sounds like [']hmm['] and [']fascinating['].[line break] To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside.". 
+Common Room is a room with description "Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the lab table in the middle of the room, scientific research abandoned each morning to persue scientific FIELD research. You are not a scientist and do not understand what the other members of the expidition are doing when they peer at the artefacts they[']ve uncovered and make sounds like [']hmm['] and [']fascinating['].[line break] To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside.". 
 
 [Kitchen & the lunch]
 Kitchen Table is an object in Common Room. Kitchen table is fixed in place. 
 The sack lunch is a closed openable object on Kitchen Table with description "A sack lunch".
-The PB & J sandwich is an edible object inside Sack Lunch with description "A PB & J sandwich with the perfect ratio of delectable crunchy peanut butter to grape jely and pleasantly soft, yet not soggy, bread. [']This is truly a work of art['], you think.".
-The apple is an edible object inside Sack Lunch with description "A Honeycrisp Apple. The superior apple, ever since you discovered Red Delicious Apples were filled of lies and gravel. They are nither red nor delicious and you hate them for their duplicity. How can you learn to trust again?".
+The PB & J sandwich is an edible object inside Sack Lunch with description "A PB & J sandwich with the perfect ratio of delectable crunchy peanut butter to grape jelly and pleasantly soft, yet not soggy, bread. [']This is truly a work of art['], you think.".
+The apple is an edible object inside Sack Lunch with description "A Honeycrisp Apple. The superior apple, ever since you discovered Red Delicious Apples were filled of lies and gravel. They are neither red nor delicious and you hate them for their duplicity. How can you learn to trust again?".
 The sweetroll is an edible object inside Sack Lunch with description "A sweetroll. A roll that is sweet. Stealing them is a high crime, and you may find yourself persued by cranky, bad-kneed guards if you were to accidentially pilfer one.".
 Understand "roll" as sweetroll.
 
 [Tables and Lab equipment]
-the Lab Tables is an object in Common Room with description 
+the Lab Table is an object in Common Room with description 
 "Craig and Reala had been working on examining the molecular structure of the Phosphorescent Space Penguin thoracic sac. Originally used as a mating and warning signal, the sac cells might allow us to create more efficient glow-in-the-dark stuff. But our job isn[']t to find a use for it anyway. That[']s the engineers['] concern. You just think it's really gross and smells bad and want it gone.". 
-the Lab Tables are fixed in place.
-the microscope is an object on the Lab Tables with description "The microscope has been in Reala[']s family for generations. Outdated, but still operational.".
+the Lab Table are fixed in place.
+the microscope is an object on the Lab Table with description "The microscope has been in Reala[']s family for generations. Outdated, but still operational.".
 the microscope is fixed in place.
 the microscope is not edible.
 Instead of taking the microscope:
@@ -54,14 +54,14 @@ Understand "use [the microscope]" as eating.
 Understand "look through [the microscope]" as eating.
 Instead of eating the microscope:
 	say "Glowy stuff, glowy stuff, and more glowy stuff. Only the biologists really know what to make of whatever the heck this stuff is. All you know is that the mitochondria is the powerhouse of the cell.".
-the preserved thoracic sac is an object on the Lab Tables with description "Gross.".
+the preserved thoracic sac is an object on the Lab Table with description "Gross.".
 the preserved thoracic sac is fixed in place.
 Instead of taking the preserved thoracic sac:
 	say "Please, no. There is absolutely no way you're taking that with you. I can't blame you, to be honest.".
-the EDP is an object on the Lab Tables with description "The Environmental Discovery Pager. Each of the archeologists is supposed to have one. Looks like Carl forgot to take his with him. Again. I had better return it to him.".
+the EDP is an object on the Lab Table with description "The Environmental Discovery Pager. Each of the archeologists is supposed to have one. Looks like Carl forgot to take his with him. Again. I had better return it to him.".
 	The Chapter 1 is an object inside the EDP with description "It says, [paragraph break]'A bad start already, dang it. There's a really cool ice cave filled with all sorts of specimens on the first floor of the caverns, but I forgot this darn thing up here again. I left my observations of the species in the cavern on the icy ledge where Russeau was deciphering the glyphs. He said he'd left it there so I could find it again, but I haven't been able to remember to bring it back to base yet. Sadly. my memory has never been impressive.'".
 	The Chapter 2 is an object inside the EDP with description "It says, [paragraph break]'The second level of the caverns is even more amazing! I still cannot believe I forgot this EDP back here again. I left my notes for that section of the cavern ... shoot, I don't even remember where I put them! Maybe I left hints to its whereabouts. Ugh, why am I so forgetful?! [paragraph break]I remember Russeau saying something about the first layer's inhabitants being a sort of translating explorative species based on his findings, and he sounded excited to search the seond level for more glyphs from their discoveries. Perhaps they know even more about this planet's history than we do!'".
-the laser scalpel is an object on the Lab Tables with description "A laser scalpel.  It can clean cuts or cauterize a wound. It can even do both at the same time, but that wouldn't be very effective at... anything, really.".
+the laser scalpel is an object on the Lab Table with description "A laser scalpel.  It can clean cuts or cauterize a wound. It can even do both at the same time, but that wouldn't be very effective at... anything, really.".
 
 Common room is southeast of Male Sleeping Quarters. 
 Female Sleeping Quarters is a room with description "Sleeping quarters for the women on this expedition. It[']s rather rude of you to go snooping around people[']s personal spaces when they're not around, you know. Tsk. Don[']t expect to get invited to my house anytime soon. The room is far from tidy, but it seems impeccable compared to the rest of this outpost. There is a first-aid kit atop the side table, and a dresser in the far corner of the room. An Elvish Sword is mounted above one of the beds".
@@ -98,7 +98,7 @@ Garage is a room with description "This is the parking area for the snowmobiles.
 
 Garage is north of Outside the Base. 
 The Garage Door is a door. Garage door is east of Garage.
-The Snowmobile is a rideable vehicle with description "A current-model hover snow bike, but you and your friends all just call it a snowmobile, sort of in the same vein of how people call tissues Kleenex. You catch a glimpse of something shiny beneath the snowmobile.". keys is an object.  
+The Snowmobile is a rideable vehicle with description "A current model hover-snow bike, but you and your friends all just call it a snowmobile, sort of in the same vein of how people call tissues Kleenex. You catch a glimpse of something shiny beneath the snowmobile.". keys is an object.  
 The Snowmobile is in Garage. keys is beneath The Snowmobile.
 Before mounting The Snowmobile:
 	unless the player is holding keys:
@@ -119,15 +119,17 @@ the rope is an object in the drilling rig with description "Made of the toughest
 Keycard is an object with description "Everyone in the group is issued a passcard. You can use it to access Level 1 and Level 2 of the dig site. There has been significantly more research done on Level 1 than Level 2".  Keycard is in drilling rig. 
 Space Suit is a wearable object with description ".". Space Suit is in Drilling Rig.
 
-Ladder is a door. Ladder is open. Ladder is above dig site. 
+Ladder is a door. Ladder is open. Ladder is above dig site.
+Instead of climbing Ladder:
+	try entering Ladder;
 
 Before opening Ladder:
 	if the player is on the snowmobile:
 		say "You could try to climb the ladder with the snowmobile, but I don't think that's especially likely to work. Maybe getting off of the snowmobile first would help.";
-		stop the action. 
+		stop the action.
 
 Elevator Door 0 is a door with printed name "Elevator Door". Elevator Door 0 is north of dig site. 
-Elevator level 0 is a room with description "Ground Level." and printed name "Elevator". Elevator level 0 is north of the Elevator Door 0. 
+Elevator level 0 is a room with description "Ground Level. Exit is to the south." and printed name "Elevator". Elevator level 0 is north of the Elevator Door 0. 
 
 Before opening Elevator door 0:
 	if the player is on the snowmobile:
@@ -135,7 +137,7 @@ Before opening Elevator door 0:
 		stop the action. 
 
 Elevator Door 1 is a door with printed name "Elevator Door". Elevator Door 1 is below Elevator Level 0. 
-Elevator level 1 is a room with description "Level 1." and printed name "Elevator". Elevator level 1 is below the Elevator Door 1. 
+Elevator level 1 is a room with description "Level 1. Exit is to the south." and printed name "Elevator". Elevator level 1 is below the Elevator Door 1. 
 
 Before opening Elevator Door 1:
 	unless the player is holding Keycard:
@@ -155,7 +157,7 @@ Every turn:
 		
 Specimen Room is a room with description "The artifact room is back to the east.". Specimen Room is west of Artifact room. 
 
-Portable Laser Jackhammer U is an object with description "The power cell appears to be missing. Typical.". Portable laser Jackhamer U has printed name "Portable Laser Jackhammer (Uncharged)". Portable Laser Jackhammer U is in Specimen Room. 
+Portable Laser Jackhammer U is an object with description "The power cell appears to be missing. Typical.". Portable Laser Jackhammer U has printed name "Portable Laser Jackhammer (Uncharged)". Portable Laser Jackhammer U is in Specimen Room. 
 
 Portable Laser Jackhammer C is an object with description "All charged up now." and printed name "Portable Laser Jackhammer (Charged)". Portable Laser Jackhammer C is nowhere. 
 
@@ -174,13 +176,13 @@ Instead of climbing Ledge:
 	try entering Ledge;
 
 First Ledge is a room with description "To the north, across the bottomless pit, you see another ledge. A third appears to be above it. The pit is, of course, not literally bottomless. That would be nonsense. It is, in actuality, merely a very deep pit. Certainly deep enough to send your frail mortal frame to a horribly unpleasant demise. Better be careful, hmm?". 
-Second Ledge is a room with description "The first ledge is back to the south across the surprisingly-finite-pit. There is another ledge above you, leading to the Glyph Wall.". 
+Second Ledge is a room with description "The first ledge is back to the south across the surprisingly finite pit. There is another ledge above you, leading to the Glyph Wall.". 
 Third Ledge is a room with description "Atop the canyon, the world seems eerily still. The snowy world around you is silent and vacant. A sense of peace comes over you here. There is a wall of Mysterious Glyphs that Russeau has been hard at work translating into meanings you can understand. His Translation Matrix lies abandoned in the snow. What happened to him?". 
 
 Second Ledge is north of First Ledge. Third Ledge is above second ledge. 
 
 Bridge is a number that varies.
-Bridge is usually 0
+Bridge is usually 0.
 
 Before going north from First Ledge:
 	if bridge is 0:
@@ -315,5 +317,5 @@ Before switching on Big Red Button:
 		say "Nothing happens. The ship's power appears to be off.";
 		stop the action;
 	otherwise:
-		say "The ship's engine roars to life and the ship floods with light. It begins shuddering  and shaking as though it were falling apart and growing hotter by the minute. You sprint for the exit, stumbling out of the ship's door and across the ice splitting under foot. As you sprint for the elavator, a low moan begins from the direction of the eye in the wall, rising quickly to an earsplitting shriek that seems to reverberate into your very soul. You skid into the elevator ans swipe your card without heasitation and as you look through the door sliding shut, you see the wall that the eye was behind go white and split down the middle. It is stirring. You have to find your crew and escape. [line break] Our protagonist returned in a frothy panic to the expidition base to find the rest of his crew returned from another study site. A last-minute change of plans had diverted them from their original day plan and they'd spent a pleasant day studying the social behavior of phosphorescent space penguins. Upon feeling the tremors, the crew decided, despite their skepticism, to abide by the protagonist's warning and return to the shuttle. As the shuttle took off and escaped the moon's orbit, if any of them had been looking out of the right window, they'd have seen the dig site collapse in the wake of an explosion, collapsing on the eldritch something beneath the ice. A horrid shriek and one wiry arm protruding from the ice in a post-mortem grasp for vengance would be all that remained of the fate that they so narrowly escaped.";
+		say "The ship's engine roars to life and the ship floods with light. It begins shuddering  and shaking as though it were falling apart and growing hotter by the minute. You sprint for the exit, stumbling out of the ship's door and across the ice splitting under foot. As you sprint for the elavator, a low moan begins from the direction of the eye in the wall, rising quickly to an earsplitting shriek that seems to reverberate into your very soul. You skid into the elevator ans swipe your card without heasitation and as you look through the door sliding shut, you see the wall that the eye was behind go white and split down the middle. It is stirring. You have to find your crew and escape. [line break] Our protagonist returned in a frothy panic to the expidition base to find the rest of his crew returned from another study site. A last-minute change of plans, which was Carl's for some reason leaving the bathroom keys back at their last expedition near the colony of phosphorescent space penguins and Kendall crankily insisting that she did not wish to replace the bathroom handle, had diverted them from their original day plan and they'd spent a pleasant day studying the social behavior of the glowing flightless birds. Upon feeling the tremors, the crew decided, despite their skepticism, to abide by the protagonist's warning and return to the shuttle. As the shuttle took off and escaped the moon's orbit, if any of them had been looking out of the right window, they'd have seen the dig site collapse in the wake of an explosion, collapsing on the eldritch something beneath the ice. A horrid shriek and one wiry arm protruding from the ice in a post-mortem grasp for vengance would be all that remained of the fate that they so narrowly escaped.";
 		end the story;

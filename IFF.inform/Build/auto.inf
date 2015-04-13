@@ -4393,7 +4393,7 @@ Global lightflag = false;
 ! ListWriter.i6t: Memory
 ! ==== ==== ==== ==== ==== ==== ==== ==== ==== ====
 
-Constant REQUISITION_STACK_SIZE = 3*99;
+Constant REQUISITION_STACK_SIZE = 3*98;
 Array requisition_stack --> REQUISITION_STACK_SIZE;
 Global requisition_stack_pointer = 0;
 
@@ -9660,9 +9660,9 @@ Array property_metadata -->
     ! offset 60: property p14_adaptive_text_viewpoint
     "adaptive text viewpoint" NULL
     ! offset 62: property p15_current_combination
-    "current combination" I200_ship_door NULL
+    "current combination" I199_ship_door NULL
     ! offset 65: property p16_true_combination
-    "true combination" I200_ship_door NULL
+    "true combination" I199_ship_door NULL
     ! offset 68: property pluralname
     "plural-named" K1_room K2_thing K3_direction K9_region NULL
     ! offset 74: property proper
@@ -10548,7 +10548,7 @@ Constant IK9_First = nothing;
 Constant IK10_First = nothing;
 Constant IK11_First = nothing;
 Constant IK12_First = nothing;
-Constant IK13_First = I211_big_red_button;
+Constant IK13_First = I210_big_red_button;
 Constant IK14_First = nothing;
 Constant IK15_First = nothing;
 Constant IK16_First = nothing;
@@ -10576,20 +10576,20 @@ Array Map_Storage -->
  I169_elevator_door_0 0 0 0 0 0 0 I160_garage_door I165_ladder 0 0 0 ! Exits from: I163_dig_site
  0 0 0 0 0 0 0 0 0 I165_ladder 0 0 ! Exits from: I164_drilling_rig
  0 0 0 I169_elevator_door_0 0 0 0 0 0 I171_elevator_door_1 0 0 ! Exits from: I170_elevator_level_0
- 0 0 0 I173_artifact_room 0 0 0 0 I171_elevator_door_1 I190_elevator_door_2 0 0 ! Exits from: I172_elevator_level_1
- I172_elevator_level_1 0 0 0 0 0 I181_ledgeroom I177_specimen_room 0 0 0 0 ! Exits from: I173_artifact_room
+ 0 0 0 I173_artifact_room 0 0 0 0 I171_elevator_door_1 I189_elevator_door_2 0 0 ! Exits from: I172_elevator_level_1
+ I172_elevator_level_1 0 0 0 0 0 I180_ledgeroom I177_specimen_room 0 0 0 0 ! Exits from: I173_artifact_room
  0 0 0 0 0 0 I173_artifact_room 0 0 0 0 0 ! Exits from: I177_specimen_room
- 0 0 0 0 0 0 0 I173_artifact_room I183_ledge 0 0 0 ! Exits from: I181_ledgeroom
- I185_second_ledge 0 0 0 0 0 0 0 0 I183_ledge 0 0 ! Exits from: I184_first_ledge
- 0 0 0 I184_first_ledge 0 0 0 0 I186_third_ledge 0 0 0 ! Exits from: I185_second_ledge
- 0 0 0 0 0 0 0 0 0 I185_second_ledge 0 0 ! Exits from: I186_third_ledge
- 0 0 0 I193_dim_cavern 0 0 0 0 I190_elevator_door_2 0 0 0 ! Exits from: I191_elevator_level_2
- I191_elevator_level_2 0 0 0 0 0 I199_ship_room I194_underwater_tunnel 0 0 0 0 ! Exits from: I193_dim_cavern
- 0 0 0 0 0 0 I193_dim_cavern 0 I196_secret_cavern 0 0 0 ! Exits from: I194_underwater_tunnel
- 0 0 0 0 0 0 0 0 0 I194_underwater_tunnel 0 0 ! Exits from: I196_secret_cavern
- 0 0 0 0 0 0 I200_ship_door I193_dim_cavern 0 0 0 0 ! Exits from: I199_ship_room
- 0 0 0 0 0 0 0 I200_ship_door 0 I202_engine_room 0 0 ! Exits from: I201_control_room
- 0 0 0 0 0 0 0 0 I201_control_room 0 0 0 ! Exits from: I202_engine_room
+ 0 0 0 0 0 0 0 I173_artifact_room I182_ledge 0 0 0 ! Exits from: I180_ledgeroom
+ I184_second_ledge 0 0 0 0 0 0 0 0 I182_ledge 0 0 ! Exits from: I183_first_ledge
+ 0 0 0 I183_first_ledge 0 0 0 0 I185_third_ledge 0 0 0 ! Exits from: I184_second_ledge
+ 0 0 0 0 0 0 0 0 0 I184_second_ledge 0 0 ! Exits from: I185_third_ledge
+ 0 0 0 I192_dim_cavern 0 0 0 0 I189_elevator_door_2 0 0 0 ! Exits from: I190_elevator_level_2
+ I190_elevator_level_2 0 0 0 0 0 I198_ship_room I193_underwater_tunnel 0 0 0 0 ! Exits from: I192_dim_cavern
+ 0 0 0 0 0 0 I192_dim_cavern 0 I195_secret_cavern 0 0 0 ! Exits from: I193_underwater_tunnel
+ 0 0 0 0 0 0 0 0 0 I193_underwater_tunnel 0 0 ! Exits from: I195_secret_cavern
+ 0 0 0 0 0 0 I199_ship_door I192_dim_cavern 0 0 0 0 ! Exits from: I198_ship_room
+ 0 0 0 0 0 0 0 I199_ship_door 0 I201_engine_room 0 0 ! Exits from: I200_control_room
+ 0 0 0 0 0 0 0 0 I200_control_room 0 0 0 ! Exits from: I201_engine_room
 ;
 
 Class VPH_Class;
@@ -11282,7 +11282,7 @@ Object -> I136_kitchen_table ""
     with IK2_Count 9
     with IK2_Link I137_sack_lunch
     with IK6_Count 0
-    with IK6_Link I141_lab_tables
+    with IK6_Link I141_lab_table
     with KD_Count 6
     with name 'kitchen' 'table' 'supporters//p' 
     with action_bitmap 0 0 0 0 0 0 
@@ -11358,7 +11358,7 @@ Object -> -> -> I140_sweetroll ""
     with vector 0
     has mark_as_thing
     with IK2_Count 13
-    with IK2_Link I141_lab_tables
+    with IK2_Link I141_lab_table
     with KD_Count 2
     with name 'sweetroll' 'things//p' 'roll' 
     with parse_name Parse_Name_GV98
@@ -11369,7 +11369,7 @@ Object -> -> -> I140_sweetroll ""
     with article BC_250
 ;
 
-Object -> I141_lab_tables ""
+Object -> I141_lab_table ""
     class K6_supporter
     with short_name BC_251
     with description BC_252
@@ -11381,7 +11381,7 @@ Object -> I141_lab_tables ""
     with IK6_Count 1
     with IK6_Link I161_snowmobile
     with KD_Count 6
-    with name 'lab' 'tables' 'supporters//p' 
+    with name 'lab' 'table' 'supporters//p' 
     with action_bitmap 0 0 0 0 0 0 
     with initial BC_253
     with list_together BC_254
@@ -12007,7 +12007,7 @@ Object I171_elevator_door_1 ""
     with IK2_Count 38
     with IK2_Link I174_supply_crate
     with IK4_Count 5
-    with IK4_Link I183_ledge
+    with IK4_Link I182_ledge
     with KD_Count 4
     with name 'elevator' 'door' '1//' 'doors//p' 
     with action_bitmap 0 0 0 0 0 0 
@@ -12064,7 +12064,7 @@ Object -> I174_supply_crate ""
     with IK2_Count 39
     with IK2_Link I175_ice_pick
     with IK5_Count 6
-    with IK5_Link I203_compartment_1
+    with IK5_Link I202_compartment_1
     with KD_Count 5
     with name 'supply' 'crate' 'containers//p' 
     with action_bitmap 0 0 0 0 0 0 
@@ -12121,7 +12121,7 @@ Object I177_specimen_room ""
     with cap_short_name BC_474
     has mark_as_room
     with IK1_Count 10
-    with IK1_Link I181_ledgeroom
+    with IK1_Link I180_ledgeroom
     with KD_Count 1
     with name 'specimen' 'room' 'rooms//p' 
     with list_together BC_475
@@ -12135,94 +12135,75 @@ Object -> I178_portable_laser_jackhamm ""
     with description BC_479
     has proper
     with vector 0
-    with cap_short_name BC_480
     has mark_as_thing
     with IK2_Count 42
-    with IK2_Link I179_portable_laser_jackhame
+    with IK2_Link I179_portable_laser_jackhamm
     with KD_Count 2
     with name 'portable' 'laser' 'jackhammer' 'u//' 'things//p' 
     with action_bitmap 0 0 0 0 0 0 
-    with initial BC_481
-    with list_together BC_482
-    with plural BC_483
-    with article BC_484
+    with initial BC_480
+    with list_together BC_481
+    with plural BC_482
+    with article BC_483
 ;
 
-Object I179_portable_laser_jackhame ""
+Object I179_portable_laser_jackhamm ""
     class K2_thing
-    with short_name BC_485
+    with short_name BC_484
+    with description BC_485
     has proper
     with vector 0
     has mark_as_thing
     with IK2_Count 43
-    with IK2_Link I180_portable_laser_jackhamm
-    with KD_Count 2
-    with name 'portable' 'laser' 'jackhamer' 'u//' 'things//p' 
-    with action_bitmap 0 0 0 0 0 0 
-    with description BC_486
-    with initial BC_487
-    with list_together BC_488
-    with plural BC_489
-    with article BC_490
-;
-
-Object I180_portable_laser_jackhamm ""
-    class K2_thing
-    with short_name BC_491
-    with description BC_492
-    has proper
-    with vector 0
-    has mark_as_thing
-    with IK2_Count 44
-    with IK2_Link I182_broken_ladder
+    with IK2_Link I181_broken_ladder
     with KD_Count 2
     with name 'portable' 'laser' 'jackhammer' 'c//' 'things//p' 
     with action_bitmap 0 0 0 0 0 0 
-    with initial BC_493
-    with list_together BC_494
-    with plural BC_495
-    with article BC_496
+    with initial BC_486
+    with list_together BC_487
+    with plural BC_488
+    with article BC_489
 ;
 
-Object I181_ledgeroom ""
+Object I180_ledgeroom ""
     class K1_room
-    with short_name BC_497
-    with description BC_498
+    with short_name BC_490
+    with description BC_491
     has proper
     with vector 0
     with room_index -1
     has mark_as_room
     with IK1_Count 11
-    with IK1_Link I184_first_ledge
+    with IK1_Link I183_first_ledge
     with KD_Count 1
     with name 'ledgeroom' 'rooms//p' 
+    with list_together BC_492
+    with plural BC_493
+    with article BC_494
+;
+
+Object -> I181_broken_ladder ""
+    class K2_thing
+    with short_name BC_495
+    has proper
+    with vector 0
+    with cap_short_name BC_496
+    has mark_as_thing
+    with IK2_Count 44
+    with IK2_Link I182_ledge
+    with KD_Count 2
+    with name 'broken' 'ladder' 'things//p' 
+    with action_bitmap 0 0 0 0 0 0 
+    with description BC_497
+    with initial BC_498
     with list_together BC_499
     with plural BC_500
     with article BC_501
 ;
 
-Object -> I182_broken_ladder ""
-    class K2_thing
-    with short_name BC_502
-    has proper
-    with vector 0
-    with cap_short_name BC_503
-    has mark_as_thing
-    with IK2_Count 45
-    with IK2_Link I183_ledge
-    with KD_Count 2
-    with name 'broken' 'ladder' 'things//p' 
-    with action_bitmap 0 0 0 0 0 0 
-    with description BC_504
-    with initial BC_505
-    with list_together BC_506
-    with plural BC_507
-    with article BC_508
-;
-
-Object I183_ledge ""
+Object I182_ledge ""
     class K4_door
-    with short_name BC_509
+    with short_name BC_502
     has proper
     has open
     with vector 0
@@ -12231,145 +12212,145 @@ Object I183_ledge ""
         ;
         loc = location;
         if (loc == thedark) loc = real_location;
-        if (loc == I181_ledgeroom) return I58_up; return I59_down;],
+        if (loc == I180_ledgeroom) return I58_up; return I59_down;],
     with door_to [ 
         loc ! room of actor
         ;
         loc = location;
         if (loc == thedark) loc = real_location;
-        if (loc == I181_ledgeroom) return I184_first_ledge; return I181_ledgeroom;],
-    with found_in I181_ledgeroom I184_first_ledge
-    with cap_short_name BC_510
+        if (loc == I180_ledgeroom) return I183_first_ledge; return I180_ledgeroom;],
+    with found_in I180_ledgeroom I183_first_ledge
+    with cap_short_name BC_503
     has mark_as_thing
-    with IK2_Count 46
-    with IK2_Link I187_translation_matrix
+    with IK2_Count 45
+    with IK2_Link I186_translation_matrix
     with IK4_Count 6
-    with IK4_Link I190_elevator_door_2
+    with IK4_Link I189_elevator_door_2
     with KD_Count 4
     with name 'ledge' 'doors//p' 
     with action_bitmap 0 0 0 0 0 0 
-    with description BC_511
-    with initial BC_512
-    with list_together BC_513
-    with plural BC_514
-    with article BC_515
+    with description BC_504
+    with initial BC_505
+    with list_together BC_506
+    with plural BC_507
+    with article BC_508
 ;
 
-Object I184_first_ledge ""
+Object I183_first_ledge ""
     class K1_room
-    with short_name BC_516
-    with description BC_517
+    with short_name BC_509
+    with description BC_510
     has proper
     with vector 0
     with room_index -1
-    with cap_short_name BC_518
+    with cap_short_name BC_511
     has mark_as_room
     with IK1_Count 12
-    with IK1_Link I185_second_ledge
+    with IK1_Link I184_second_ledge
     with KD_Count 1
     with name 'first' 'ledge' 'rooms//p' 
-    with list_together BC_519
-    with plural BC_520
-    with article BC_521
+    with list_together BC_512
+    with plural BC_513
+    with article BC_514
 ;
 
-Object I185_second_ledge ""
+Object I184_second_ledge ""
     class K1_room
-    with short_name BC_522
-    with description BC_523
+    with short_name BC_515
+    with description BC_516
     has proper
     with vector 0
     with room_index -1
-    with cap_short_name BC_524
+    with cap_short_name BC_517
     has mark_as_room
     with IK1_Count 13
-    with IK1_Link I186_third_ledge
+    with IK1_Link I185_third_ledge
     with KD_Count 1
     with name 'second' 'ledge' 'rooms//p' 
-    with list_together BC_525
-    with plural BC_526
-    with article BC_527
+    with list_together BC_518
+    with plural BC_519
+    with article BC_520
 ;
 
-Object I186_third_ledge ""
+Object I185_third_ledge ""
     class K1_room
-    with short_name BC_528
-    with description BC_529
+    with short_name BC_521
+    with description BC_522
     has proper
     with vector 0
     with room_index -1
-    with cap_short_name BC_530
+    with cap_short_name BC_523
     has mark_as_room
     with IK1_Count 14
-    with IK1_Link I191_elevator_level_2
+    with IK1_Link I190_elevator_level_2
     with KD_Count 1
     with name 'third' 'ledge' 'rooms//p' 
+    with list_together BC_524
+    with plural BC_525
+    with article BC_526
+;
+
+Object -> I186_translation_matrix ""
+    class K2_thing
+    with short_name BC_527
+    with description BC_528
+    has proper
+    with vector 0
+    with cap_short_name BC_529
+    has mark_as_thing
+    with IK2_Count 46
+    with IK2_Link I187_mysterious_glyphs
+    with KD_Count 2
+    with name 'translation' 'matrix' 'things//p' 
+    with action_bitmap 0 0 0 0 0 0 
+    with initial BC_530
     with list_together BC_531
     with plural BC_532
     with article BC_533
 ;
 
-Object -> I187_translation_matrix ""
+Object -> I187_mysterious_glyphs ""
     class K2_thing
     with short_name BC_534
-    with description BC_535
     has proper
+    has static
     with vector 0
-    with cap_short_name BC_536
+    with cap_short_name BC_535
     has mark_as_thing
     with IK2_Count 47
-    with IK2_Link I188_mysterious_glyphs
+    with IK2_Link I188_carl_s_notes_1
     with KD_Count 2
-    with name 'translation' 'matrix' 'things//p' 
+    with name 'mysterious' 'glyphs' 'things//p' 
     with action_bitmap 0 0 0 0 0 0 
+    with description BC_536
     with initial BC_537
     with list_together BC_538
     with plural BC_539
     with article BC_540
 ;
 
-Object -> I188_mysterious_glyphs ""
+Object I188_carl_s_notes_1 ""
     class K2_thing
     with short_name BC_541
+    with description BC_542
     has proper
-    has static
     with vector 0
-    with cap_short_name BC_542
+    with cap_short_name BC_543
     has mark_as_thing
     with IK2_Count 48
-    with IK2_Link I189_carl_s_notes_1
+    with IK2_Link I189_elevator_door_2
     with KD_Count 2
-    with name 'mysterious' 'glyphs' 'things//p' 
+    with name 'carl^s' 'notes' '1//' 'things//p' 
     with action_bitmap 0 0 0 0 0 0 
-    with description BC_543
     with initial BC_544
     with list_together BC_545
     with plural BC_546
     with article BC_547
 ;
 
-Object I189_carl_s_notes_1 ""
-    class K2_thing
-    with short_name BC_548
-    with description BC_549
-    has proper
-    with vector 0
-    with cap_short_name BC_550
-    has mark_as_thing
-    with IK2_Count 49
-    with IK2_Link I190_elevator_door_2
-    with KD_Count 2
-    with name 'carl^s' 'notes' '1//' 'things//p' 
-    with action_bitmap 0 0 0 0 0 0 
-    with initial BC_551
-    with list_together BC_552
-    with plural BC_553
-    with article BC_554
-;
-
-Object I190_elevator_door_2 ""
+Object I189_elevator_door_2 ""
     class K4_door
-    with short_name BC_555
+    with short_name BC_548
     has proper
     with vector 0
     with door_dir [ 
@@ -12383,194 +12364,194 @@ Object I190_elevator_door_2 ""
         ;
         loc = location;
         if (loc == thedark) loc = real_location;
-        if (loc == I172_elevator_level_1) return I191_elevator_level_2; return I172_elevator_level_1;],
-    with found_in I172_elevator_level_1 I191_elevator_level_2
+        if (loc == I172_elevator_level_1) return I190_elevator_level_2; return I172_elevator_level_1;],
+    with found_in I172_elevator_level_1 I190_elevator_level_2
     has mark_as_thing
-    with IK2_Count 50
-    with IK2_Link I192_backup_power_cell
+    with IK2_Count 49
+    with IK2_Link I191_backup_power_cell
     with IK4_Count 7
-    with IK4_Link I200_ship_door
+    with IK4_Link I199_ship_door
     with KD_Count 4
     with name 'elevator' 'door' '2//' 'doors//p' 
     with action_bitmap 0 0 0 0 0 0 
-    with description BC_556
-    with initial BC_557
-    with list_together BC_558
-    with plural BC_559
-    with article BC_560
+    with description BC_549
+    with initial BC_550
+    with list_together BC_551
+    with plural BC_552
+    with article BC_553
 ;
 
-Object I191_elevator_level_2 ""
+Object I190_elevator_level_2 ""
     class K1_room
-    with short_name BC_561
-    with description BC_562
+    with short_name BC_554
+    with description BC_555
     has proper
     with vector 0
     with room_index -1
     has mark_as_room
     with IK1_Count 15
-    with IK1_Link I193_dim_cavern
+    with IK1_Link I192_dim_cavern
     with KD_Count 1
     with name 'elevator' 'level' '2//' 'rooms//p' 
+    with list_together BC_556
+    with plural BC_557
+    with article BC_558
+;
+
+Object -> I191_backup_power_cell ""
+    class K2_thing
+    with short_name BC_559
+    with description BC_560
+    has proper
+    with vector 0
+    with cap_short_name BC_561
+    has mark_as_thing
+    with IK2_Count 50
+    with IK2_Link I194_patch_of_thin_ice
+    with KD_Count 2
+    with name 'backup' 'power' 'cell' 'things//p' 
+    with action_bitmap 0 0 0 0 0 0 
+    with initial BC_562
     with list_together BC_563
     with plural BC_564
     with article BC_565
 ;
 
-Object -> I192_backup_power_cell ""
-    class K2_thing
+Object I192_dim_cavern ""
+    class K1_room
     with short_name BC_566
     with description BC_567
     has proper
     with vector 0
-    with cap_short_name BC_568
-    has mark_as_thing
-    with IK2_Count 51
-    with IK2_Link I195_patch_of_thin_ice
-    with KD_Count 2
-    with name 'backup' 'power' 'cell' 'things//p' 
-    with action_bitmap 0 0 0 0 0 0 
-    with initial BC_569
-    with list_together BC_570
-    with plural BC_571
-    with article BC_572
-;
-
-Object I193_dim_cavern ""
-    class K1_room
-    with short_name BC_573
-    with description BC_574
-    has proper
-    with vector 0
     with room_index -1
-    with cap_short_name BC_575
+    with cap_short_name BC_568
     has mark_as_room
     with IK1_Count 16
-    with IK1_Link I194_underwater_tunnel
+    with IK1_Link I193_underwater_tunnel
     with KD_Count 1
     with name 'dim' 'cavern' 'rooms//p' 
+    with list_together BC_569
+    with plural BC_570
+    with article BC_571
+;
+
+Object -> I194_patch_of_thin_ice ""
+    class K2_thing
+    with short_name BC_572
+    with description BC_573
+    has proper
+    with vector 0
+    with cap_short_name BC_574
+    has mark_as_thing
+    with IK2_Count 51
+    with IK2_Link I196_spear_gun
+    with KD_Count 2
+    with name 'patch' 'of' 'thin' 'ice' 'things//p' 
+    with action_bitmap 0 0 0 0 0 0 
+    with initial BC_575
     with list_together BC_576
     with plural BC_577
     with article BC_578
 ;
 
-Object -> I195_patch_of_thin_ice ""
-    class K2_thing
+Object I193_underwater_tunnel ""
+    class K1_room
     with short_name BC_579
     with description BC_580
     has proper
     with vector 0
-    with cap_short_name BC_581
-    has mark_as_thing
-    with IK2_Count 52
-    with IK2_Link I197_spear_gun
-    with KD_Count 2
-    with name 'patch' 'of' 'thin' 'ice' 'things//p' 
-    with action_bitmap 0 0 0 0 0 0 
-    with initial BC_582
-    with list_together BC_583
-    with plural BC_584
-    with article BC_585
-;
-
-Object I194_underwater_tunnel ""
-    class K1_room
-    with short_name BC_586
-    with description BC_587
-    has proper
-    with vector 0
     with room_index -1
-    with cap_short_name BC_588
+    with cap_short_name BC_581
     has mark_as_room
     with IK1_Count 17
-    with IK1_Link I196_secret_cavern
+    with IK1_Link I195_secret_cavern
     with KD_Count 1
     with name 'underwater' 'tunnel' 'rooms//p' 
-    with list_together BC_589
-    with plural BC_590
-    with article BC_591
+    with list_together BC_582
+    with plural BC_583
+    with article BC_584
 ;
 
-Object I196_secret_cavern ""
+Object I195_secret_cavern ""
     class K1_room
-    with short_name BC_592
-    with description BC_593
+    with short_name BC_585
+    with description BC_586
     has proper
     with vector 0
     with room_index -1
-    with cap_short_name BC_594
+    with cap_short_name BC_587
     has mark_as_room
     with IK1_Count 18
-    with IK1_Link I199_ship_room
+    with IK1_Link I198_ship_room
     with KD_Count 1
     with name 'secret' 'cavern' 'rooms//p' 
+    with list_together BC_588
+    with plural BC_589
+    with article BC_590
+;
+
+Object -> I196_spear_gun ""
+    class K2_thing
+    with short_name BC_591
+    with description BC_592
+    has proper
+    with vector 0
+    with cap_short_name BC_593
+    has mark_as_thing
+    with IK2_Count 52
+    with IK2_Link I197_monolith
+    with KD_Count 2
+    with name 'spear' 'gun' 'things//p' 
+    with action_bitmap 0 0 0 0 0 0 
+    with initial BC_594
     with list_together BC_595
     with plural BC_596
     with article BC_597
 ;
 
-Object -> I197_spear_gun ""
+Object -> I197_monolith ""
     class K2_thing
     with short_name BC_598
-    with description BC_599
     has proper
+    has static
     with vector 0
-    with cap_short_name BC_600
+    with cap_short_name BC_599
     has mark_as_thing
     with IK2_Count 53
-    with IK2_Link I198_monolith
+    with IK2_Link I199_ship_door
     with KD_Count 2
-    with name 'spear' 'gun' 'things//p' 
+    with name 'monolith' 'things//p' 
     with action_bitmap 0 0 0 0 0 0 
+    with description BC_600
     with initial BC_601
     with list_together BC_602
     with plural BC_603
     with article BC_604
 ;
 
-Object -> I198_monolith ""
-    class K2_thing
-    with short_name BC_605
-    has proper
-    has static
-    with vector 0
-    with cap_short_name BC_606
-    has mark_as_thing
-    with IK2_Count 54
-    with IK2_Link I200_ship_door
-    with KD_Count 2
-    with name 'monolith' 'things//p' 
-    with action_bitmap 0 0 0 0 0 0 
-    with description BC_607
-    with initial BC_608
-    with list_together BC_609
-    with plural BC_610
-    with article BC_611
-;
-
-Object I199_ship_room ""
+Object I198_ship_room ""
     class K1_room
-    with short_name BC_612
-    with description BC_613
+    with short_name BC_605
+    with description BC_606
     has proper
     with vector 0
     with room_index -1
-    with cap_short_name BC_614
+    with cap_short_name BC_607
     has mark_as_room
     with IK1_Count 19
-    with IK1_Link I201_control_room
+    with IK1_Link I200_control_room
     with KD_Count 1
     with name 'ship' 'room' 'rooms//p' 
-    with list_together BC_615
-    with plural BC_616
-    with article BC_617
+    with list_together BC_608
+    with plural BC_609
+    with article BC_610
 ;
 
-Object I200_ship_door ""
+Object I199_ship_door ""
     class K4_door
-    with short_name BC_618
-    with description BC_619
-    with p16_true_combination BC_620
+    with short_name BC_611
+    with description BC_612
+    with p16_true_combination BC_613
     has lockable
     has locked
     with vector 0
@@ -12579,123 +12560,148 @@ Object I200_ship_door ""
         ;
         loc = location;
         if (loc == thedark) loc = real_location;
-        if (loc == I199_ship_room) return I56_east; return I57_west;],
+        if (loc == I198_ship_room) return I56_east; return I57_west;],
     with door_to [ 
         loc ! room of actor
         ;
         loc = location;
         if (loc == thedark) loc = real_location;
-        if (loc == I199_ship_room) return I201_control_room; return I199_ship_room;],
-    with found_in I199_ship_room I201_control_room
+        if (loc == I198_ship_room) return I200_control_room; return I198_ship_room;],
+    with found_in I198_ship_room I200_control_room
     has mark_as_thing
-    with IK2_Count 55
-    with IK2_Link I211_big_red_button
+    with IK2_Count 54
+    with IK2_Link I210_big_red_button
     with IK4_Count 8
     with IK4_Link nothing
     with KD_Count 4
     with name 'ship' 'door' 'doors//p' 
     with action_bitmap 0 0 0 0 0 0 
-    with p15_current_combination BC_621
-    with initial BC_622
-    with list_together BC_623
-    with plural BC_624
-    with article BC_625
+    with p15_current_combination BC_614
+    with initial BC_615
+    with list_together BC_616
+    with plural BC_617
+    with article BC_618
 ;
 
-Object I201_control_room ""
+Object I200_control_room ""
     class K1_room
-    with short_name BC_626
-    with description BC_627
+    with short_name BC_619
+    with description BC_620
     has proper
     with vector 0
     with room_index -1
-    with cap_short_name BC_628
+    with cap_short_name BC_621
     has mark_as_room
     with IK1_Count 20
-    with IK1_Link I202_engine_room
+    with IK1_Link I201_engine_room
     with KD_Count 1
     with name 'control' 'room' 'rooms//p' 
-    with list_together BC_629
-    with plural BC_630
-    with article BC_631
+    with list_together BC_622
+    with plural BC_623
+    with article BC_624
 ;
 
-Object -> I211_big_red_button ""
+Object -> I210_big_red_button ""
     class K13_device
-    with short_name BC_632
-    with description BC_633
+    with short_name BC_625
+    with description BC_626
     has proper
     has ~on
     with vector 0
-    with cap_short_name BC_634
+    with cap_short_name BC_627
     has mark_as_thing
-    with IK2_Count 64
-    with IK2_Link I203_compartment_1
+    with IK2_Count 63
+    with IK2_Link I202_compartment_1
     with IK13_Count 0
     with IK13_Link nothing
     with KD_Count 13
     with name 'big' 'red' 'button' 'devices//p' 
     with action_bitmap 0 0 0 0 0 0 
-    with initial BC_635
-    with list_together BC_636
-    with plural BC_637
-    with article BC_638
+    with initial BC_628
+    with list_together BC_629
+    with plural BC_630
+    with article BC_631
 ;
 
-Object I202_engine_room ""
+Object I201_engine_room ""
     class K1_room
-    with short_name BC_639
-    with description BC_640
+    with short_name BC_632
+    with description BC_633
     has proper
     with vector 0
     with room_index -1
-    with cap_short_name BC_641
+    with cap_short_name BC_634
     has mark_as_room
     with IK1_Count 21
     with IK1_Link nothing
     with KD_Count 1
     with name 'engine' 'room' 'rooms//p' 
-    with list_together BC_642
-    with plural BC_643
-    with article BC_644
+    with list_together BC_635
+    with plural BC_636
+    with article BC_637
 ;
 
-Object -> I203_compartment_1 ""
+Object -> I202_compartment_1 ""
     class K5_container
-    with short_name BC_645
-    with description BC_646
+    with short_name BC_638
+    with description BC_639
     has proper
     has static
     has ~transparent
     has ~open
     has openable
     with vector 0
-    with cap_short_name BC_647
+    with cap_short_name BC_640
     has mark_as_thing
-    with IK2_Count 56
-    with IK2_Link I204_wires_1
+    with IK2_Count 55
+    with IK2_Link I203_wires_1
     with IK5_Count 7
-    with IK5_Link I205_compartment_2
+    with IK5_Link I204_compartment_2
     with KD_Count 5
     with name 'compartment' '1//' 'containers//p' 
     with action_bitmap 0 0 0 0 0 0 
-    with initial BC_648
-    with list_together BC_649
-    with plural BC_650
-    with article BC_651
+    with initial BC_641
+    with list_together BC_642
+    with plural BC_643
+    with article BC_644
 ;
 
-Object -> -> I204_wires_1 ""
+Object -> -> I203_wires_1 ""
     class K2_thing
-    with short_name BC_652
-    with description BC_653
+    with short_name BC_645
+    with description BC_646
     has proper
     with vector 0
     has mark_as_thing
-    with IK2_Count 57
-    with IK2_Link I205_compartment_2
+    with IK2_Count 56
+    with IK2_Link I204_compartment_2
     with KD_Count 2
     with name 'wires' '1//' 'things//p' 
+    with action_bitmap 0 0 0 0 0 0 
+    with initial BC_647
+    with list_together BC_648
+    with plural BC_649
+    with article BC_650
+;
+
+Object -> I204_compartment_2 ""
+    class K5_container
+    with short_name BC_651
+    with description BC_652
+    has proper
+    has static
+    has ~transparent
+    has ~open
+    has openable
+    with vector 0
+    with cap_short_name BC_653
+    has mark_as_thing
+    with IK2_Count 57
+    with IK2_Link I205_wires_2
+    with IK5_Count 8
+    with IK5_Link I206_compartment_3
+    with KD_Count 5
+    with name 'compartment' '2//' 'containers//p' 
     with action_bitmap 0 0 0 0 0 0 
     with initial BC_654
     with list_together BC_655
@@ -12703,42 +12709,42 @@ Object -> -> I204_wires_1 ""
     with article BC_657
 ;
 
-Object -> I205_compartment_2 ""
-    class K5_container
+Object -> -> I205_wires_2 ""
+    class K2_thing
     with short_name BC_658
     with description BC_659
+    has proper
+    with vector 0
+    has mark_as_thing
+    with IK2_Count 58
+    with IK2_Link I206_compartment_3
+    with KD_Count 2
+    with name 'wires' '2//' 'things//p' 
+    with action_bitmap 0 0 0 0 0 0 
+    with initial BC_660
+    with list_together BC_661
+    with plural BC_662
+    with article BC_663
+;
+
+Object -> I206_compartment_3 ""
+    class K5_container
+    with short_name BC_664
+    with description BC_665
     has proper
     has static
     has ~transparent
     has ~open
     has openable
     with vector 0
-    with cap_short_name BC_660
-    has mark_as_thing
-    with IK2_Count 58
-    with IK2_Link I206_wires_2
-    with IK5_Count 8
-    with IK5_Link I207_compartment_3
-    with KD_Count 5
-    with name 'compartment' '2//' 'containers//p' 
-    with action_bitmap 0 0 0 0 0 0 
-    with initial BC_661
-    with list_together BC_662
-    with plural BC_663
-    with article BC_664
-;
-
-Object -> -> I206_wires_2 ""
-    class K2_thing
-    with short_name BC_665
-    with description BC_666
-    has proper
-    with vector 0
+    with cap_short_name BC_666
     has mark_as_thing
     with IK2_Count 59
-    with IK2_Link I207_compartment_3
-    with KD_Count 2
-    with name 'wires' '2//' 'things//p' 
+    with IK2_Link I207_wires_3
+    with IK5_Count 9
+    with IK5_Link I208_compartment_4
+    with KD_Count 5
+    with name 'compartment' '3//' 'containers//p' 
     with action_bitmap 0 0 0 0 0 0 
     with initial BC_667
     with list_together BC_668
@@ -12746,42 +12752,42 @@ Object -> -> I206_wires_2 ""
     with article BC_670
 ;
 
-Object -> I207_compartment_3 ""
-    class K5_container
+Object -> -> I207_wires_3 ""
+    class K2_thing
     with short_name BC_671
     with description BC_672
+    has proper
+    with vector 0
+    has mark_as_thing
+    with IK2_Count 60
+    with IK2_Link I208_compartment_4
+    with KD_Count 2
+    with name 'wires' '3//' 'things//p' 
+    with action_bitmap 0 0 0 0 0 0 
+    with initial BC_673
+    with list_together BC_674
+    with plural BC_675
+    with article BC_676
+;
+
+Object -> I208_compartment_4 ""
+    class K5_container
+    with short_name BC_677
+    with description BC_678
     has proper
     has static
     has ~transparent
     has ~open
     has openable
     with vector 0
-    with cap_short_name BC_673
-    has mark_as_thing
-    with IK2_Count 60
-    with IK2_Link I208_wires_3
-    with IK5_Count 9
-    with IK5_Link I209_compartment_4
-    with KD_Count 5
-    with name 'compartment' '3//' 'containers//p' 
-    with action_bitmap 0 0 0 0 0 0 
-    with initial BC_674
-    with list_together BC_675
-    with plural BC_676
-    with article BC_677
-;
-
-Object -> -> I208_wires_3 ""
-    class K2_thing
-    with short_name BC_678
-    with description BC_679
-    has proper
-    with vector 0
+    with cap_short_name BC_679
     has mark_as_thing
     with IK2_Count 61
-    with IK2_Link I209_compartment_4
-    with KD_Count 2
-    with name 'wires' '3//' 'things//p' 
+    with IK2_Link I209_wires_4
+    with IK5_Count 10
+    with IK5_Link nothing
+    with KD_Count 5
+    with name 'compartment' '4//' 'containers//p' 
     with action_bitmap 0 0 0 0 0 0 
     with initial BC_680
     with list_together BC_681
@@ -12789,47 +12795,22 @@ Object -> -> I208_wires_3 ""
     with article BC_683
 ;
 
-Object -> I209_compartment_4 ""
-    class K5_container
+Object -> -> I209_wires_4 ""
+    class K2_thing
     with short_name BC_684
     with description BC_685
     has proper
-    has static
-    has ~transparent
-    has ~open
-    has openable
     with vector 0
-    with cap_short_name BC_686
     has mark_as_thing
     with IK2_Count 62
-    with IK2_Link I210_wires_4
-    with IK5_Count 10
-    with IK5_Link nothing
-    with KD_Count 5
-    with name 'compartment' '4//' 'containers//p' 
-    with action_bitmap 0 0 0 0 0 0 
-    with initial BC_687
-    with list_together BC_688
-    with plural BC_689
-    with article BC_690
-;
-
-Object -> -> I210_wires_4 ""
-    class K2_thing
-    with short_name BC_691
-    with description BC_692
-    has proper
-    with vector 0
-    has mark_as_thing
-    with IK2_Count 63
     with IK2_Link nothing
     with KD_Count 2
     with name 'wires' '4//' 'things//p' 
     with action_bitmap 0 0 0 0 0 0 
-    with initial BC_693
-    with list_together BC_694
-    with plural BC_695
-    with article BC_696
+    with initial BC_686
+    with list_together BC_687
+    with plural BC_688
+    with article BC_689
 ;
 
 Constant I70_english_language = 1;
@@ -12883,12 +12864,12 @@ Constant I122_masculine_gender = 2;
 Constant I123_feminine_gender = 3;
 Array Global_Vars -->
   (false) ! 7 darkness witnessed
-  (BC_697) ! 25 command prompt
+  (BC_690) ! 25 command prompt
   (I70_english_language) ! 29 language of play
-  (BC_698) ! 32 story author
-  (BC_699) ! 33 story headline
-  (BC_700) ! 34 story genre
-  (BC_701) ! 35 story description
+  (BC_691) ! 32 story author
+  (BC_692) ! 33 story headline
+  (BC_693) ! 34 story genre
+  (BC_694) ! 35 story description
   (1) ! 36 release number
   (0) ! 37 story creation year
   (0) ! 45 locale paragraph count
@@ -12905,14 +12886,14 @@ Array Global_Vars -->
 
 
 Array T0_final_question_options table  tab_0_0 tab_0_1 tab_0_2 tab_0_3 tab_0_4;
-Array tab_0_0 table $0664 0 (BC_702) (BC_703) (BC_704) (BC_705) (BC_706) ;
+Array tab_0_0 table $0664 0 (BC_695) (BC_696) (BC_697) (BC_698) (BC_699) ;
 Array tab_0_1 table $0465 1 (0) (0) (1) (0) (0) ;
 Array tab_0_2 table $2066 2 (Consult_Grammar_102) (Consult_Grammar_103) (Consult_Grammar_104) (Consult_Grammar_105) (Consult_Grammar_106) ;
 Array tab_0_3 table $0067 3 (IMMEDIATELY_RESTART_VM_R) (IMMEDIATELY_RESTORE_SAVED_R) ( TABLE_NOVALUE) (IMMEDIATELY_QUIT_R) (IMMEDIATELY_UNDO_R) ;
 Array tab_0_4 table $0068 4 ( TABLE_NOVALUE) ( TABLE_NOVALUE) (V27_amusing_a_victorious_pla) ( TABLE_NOVALUE) ( TABLE_NOVALUE) ;
 Array T1_locale_priorities table  tab_1_0 tab_1_1;
-Array tab_1_0 table $0869 NULL ( TABLE_NOVALUE)  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
-Array tab_1_1 table $446a 5 ( TABLE_NOVALUE)  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
+Array tab_1_0 table $0869 NULL ( TABLE_NOVALUE)  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
+Array tab_1_1 table $446a 5 ( TABLE_NOVALUE)  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
 Array TB_Blanks -> 
   ! For table T0_final_question_options
   $00  ! Column 0
@@ -12922,7 +12903,7 @@ Array TB_Blanks ->
   $1b  ! Column 4
   
   ! For table T1_locale_priorities
-  $ff $ff $ff $ff $ff $ff $ff $ff $03  ! Column 1
+  $ff $ff $ff $ff $ff $ff $ff $ff $01  ! Column 1
   
   ! End of table
   NULL NULL;
@@ -13693,8 +13674,8 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ! ----------------------------------------------------------------------------------------------------
 ! No specific request
 ! Every turn:
-[ R_844 ;
-    if (debug_rules) DB_Rule(R_844, 844);
+[ R_845 ;
+    if (debug_rules) DB_Rule(R_845, 845);
     ! [1: if the player is holding the rope and the player is holding the ice pick begin]
     if ((((player == HolderOf(I166_rope)))) && (((player == HolderOf(I175_ice_pick))))){
         ! [2: now the rope is nowhere]
@@ -13712,7 +13693,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ];
 ! No specific request
 ! Every turn:
-[ R_849 I7RBLK;
+[ R_850 I7RBLK;
     @push I7SFRAME;
     StackFrameCreate(6);
     BlkValueCreateOnStack(4, TEXT_TY);
@@ -13726,24 +13707,24 @@ Array ActionHappened --> 0 0 0 0 0 0;
     return I7RBLK; ! nothing
 ];
 [ KERNEL_0 ;
-    if (debug_rules) DB_Rule(R_849, 849);
+    if (debug_rules) DB_Rule(R_850, 850);
     ! [1: if the player carries translation matrix begin]
-    if (((player == CarrierOf(I187_translation_matrix)))){
+    if (((player == CarrierOf(I186_translation_matrix)))){
         ! [2: now the description of spear gun is ~A deadly-looking weapon left by lost civilization of the strata you are at. Why someone would need such a vicious projectile makes you shudder. The alien glyphs carved into it correspond to the numbers 23, 16, and 9.~]
-        BlkValueCopy(GProperty(10, I197_spear_gun,description), TX_L_175);
+        BlkValueCopy(GProperty(10, I196_spear_gun,description), TX_L_174);
         ! [3: now the description of mysterious glyphs is ~The glyphs start to make sense. They tell of hard times and troubles of mythic proportions. The glyph wall appears to recall a legend of a great beast from the warming sea, who swallowed cities and snatched prey from the air, dragging it back to the depths below. The glyphs also relate archeological discoveries by contemporaries that also tell of the tentacled, clawed beast from the sea and warn of its return. If this creature is real, it has been alive for a very, very long time. You start to wonder about the ruins and how they seem to have been smashed to pieces before the great freeze... [line break]Maybe Russeau, Carl, Reala and the others went to Level 2 to persue the archological findings detailed on the Glyph Wall. That doesn't explain why their belongings are just scattered around, but at least it's a lead.~]
-        BlkValueCopy(GProperty(10, I188_mysterious_glyphs,description), (TEXT_TY_ExpandIfPerishable(I7SFRAME,TX_S_146)));
+        BlkValueCopy(GProperty(10, I187_mysterious_glyphs,description), (TEXT_TY_ExpandIfPerishable(I7SFRAME,TX_S_146)));
         ! [4: now the description of the monolith is ~The glyphs are translatable with the Matrix you have and the experience from the wall of glyphs above. They tell of an impending freeze that would end the world as the contemporary peoplee knew it, and of the ship they crafted to try and escape. The monolith tells of the risk to aircraft posed by the beast beneath the waves and how they were running out of time. The launch date seems to have been very important to the people of the time. That date was 23, 16, 09 on their calendar system.~]
-        BlkValueCopy(GProperty(10, I198_monolith,description), TX_L_176);
+        BlkValueCopy(GProperty(10, I197_monolith,description), TX_L_175);
         ! [5: otherwise]
         } else {
 
         ! [6: now the description of mysterious glyphs is ~They say [']We come in peace. Take me to your leader. Klaatu barada nikto. Koona t'chuta Solo? All will be one. Resistance is futile.['] That's not what these glyphs say. You have no idea what the glyphs say. They won't make any sense without a translator.~]
-        BlkValueCopy(GProperty(10, I188_mysterious_glyphs,description), (TEXT_TY_ExpandIfPerishable((I7SFRAME+WORDSIZE*2),TX_S_147)));
+        BlkValueCopy(GProperty(10, I187_mysterious_glyphs,description), (TEXT_TY_ExpandIfPerishable((I7SFRAME+WORDSIZE*2),TX_S_147)));
         ! [7: now the description of the the monolith is ~They say [']We come in peace. Take me to your leader. Klaatu barada nikto. Koona t'chuta Solo? All will be one. Resistance is futile.['] That's not what these glyphs say. You have no idea what the glyphs say. They won't make any sense without a translator.~]
-        BlkValueCopy(GProperty(10, I198_monolith,description), (TEXT_TY_ExpandIfPerishable((I7SFRAME+WORDSIZE*4),TX_S_148)));
+        BlkValueCopy(GProperty(10, I197_monolith,description), (TEXT_TY_ExpandIfPerishable((I7SFRAME+WORDSIZE*4),TX_S_148)));
         ! [8: now the description of spear gun is ~A deadly-looking weapon left by lost civilization of the strata you are at. Why someone would need such a vicious projectile makes you shudder. There are strange alien glyphs carved into the barrel.~]
-        BlkValueCopy(GProperty(10, I197_spear_gun,description), TX_L_177);
+        BlkValueCopy(GProperty(10, I196_spear_gun,description), TX_L_176);
         ! [9: end if]
         }
 
@@ -13751,16 +13732,16 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ];
 ! No specific request
 ! Every turn:
-[ R_850 ;
-    if (debug_rules) DB_Rule(R_850, 850);
+[ R_851 ;
+    if (debug_rules) DB_Rule(R_851, 851);
     ! [1: if the player is holding the backup power cell and the player is holding portable laser jackhammer u begin]
-    if ((((player == HolderOf(I192_backup_power_cell)))) && (((player == HolderOf(I178_portable_laser_jackhamm))))){
+    if ((((player == HolderOf(I191_backup_power_cell)))) && (((player == HolderOf(I178_portable_laser_jackhamm))))){
         ! [2: now the backup power cell is nowhere]
-        RemoveFromPlay(I192_backup_power_cell);;
+        RemoveFromPlay(I191_backup_power_cell);;
         ! [3: now the portable laser jackhammer u is nowhere]
         RemoveFromPlay(I178_portable_laser_jackhamm);;
         ! [4: now the player carries the portable laser jackhammer c]
-        MoveObject(I180_portable_laser_jackhamm,player);
+        MoveObject(I179_portable_laser_jackhamm,player);
         ! [5: say ~You use the power cell from the elevator to power the jackhammer.~]
         say__p=1;ParaContent(); print "You use the power cell from the elevator to power the jackhammer."; new_line; .L_Say3; .L_SayX3;
         ! [6: end if]
@@ -14272,22 +14253,22 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ! ----------------------------------------------------------------------------------------------------
 ! No specific request
 ! Before going north from First Ledge:
-[ R_847 ;
-    if ((((action ==##Go) &&  (actor==player) && ((noun == I50_north) && (true)) && (((MStack-->MstVON(20007,0)) == I184_first_ledge) && ((MStack-->MstVON(20007,0)) ofclass K1_room)) && ((MStack-->MstVON(20007,1)) ~= nothing)))) { ! Runs only when pattern matches
+[ R_848 ;
+    if ((((action ==##Go) &&  (actor==player) && ((noun == I50_north) && (true)) && (((MStack-->MstVON(20007,0)) == I183_first_ledge) && ((MStack-->MstVON(20007,0)) ofclass K1_room)) && ((MStack-->MstVON(20007,1)) ~= nothing)))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_847, 847);
+    if (debug_rules) DB_Rule(R_848, 848);
     ! [1: if bridge is 0 begin]
     if ((((Global_Vars-->10) == 0))){
         ! [2: if the player carries broken ladder begin]
-        if (((player == CarrierOf(I182_broken_ladder)))){
+        if (((player == CarrierOf(I181_broken_ladder)))){
             ! [3: say ~You use the nearly broken ladder to make a stereotypically-rickety path across to the other side. You would think that on this expididtion full of doctors and geniuses someone would have thought to make a more permenant bridge, but no, that would make too much sense. Leave the intern to improvize his way across, I'm sure it will be fine. You really home this thing can carry your weight. You are more than a little afraid~]
             say__p=1;ParaContent(); print "You use the nearly broken ladder to make a stereotypically-rickety path across to the other side. You would think that on this expididtion full of doctors and geniuses someone would have thought to make a more permenant bridge, but no, that would make too much sense. Leave the intern to improvize his way across, I'm sure it will be fine. You really home this thing can carry your weight. You are more than a little afraid"; .L_Say9; .L_SayX9;
             ! [4: now broken ladder is nowhere]
-            RemoveFromPlay(I182_broken_ladder);;
+            RemoveFromPlay(I181_broken_ladder);;
             ! [5: now bridge is 1]
             (Global_Vars-->10) = 1;
             ! [6: now the description of first ledge is ~To the north, across the not-quite-bottomless pit, you see another ledge. A third appears to be above it. The broken ladder now acts as a rickety excuse for a  bridge across the gap. Are you actually going to walk on that?~]
-            BlkValueCopy(GProperty(10, I184_first_ledge,description), TX_L_178);
+            BlkValueCopy(GProperty(10, I183_first_ledge,description), TX_L_177);
             ! [7: otherwise]
             } else {
 
@@ -14301,17 +14282,17 @@ Array ActionHappened --> 0 0 0 0 0 0;
         ! [11: end if]
         }
 
-        } else if (debug_rules > 1) DB_Rule(R_847, 847, 'action');
+        } else if (debug_rules > 1) DB_Rule(R_848, 848, 'action');
         rfalse;
 ];
 ! No specific request
 ! Before going west from Dim Cavern:
-[ R_852 ;
-    if ((((action ==##Go) &&  (actor==player) && ((noun == I57_west) && (true)) && (((MStack-->MstVON(20007,0)) == I193_dim_cavern) && ((MStack-->MstVON(20007,0)) ofclass K1_room)) && ((MStack-->MstVON(20007,1)) ~= nothing)))) { ! Runs only when pattern matches
+[ R_853 ;
+    if ((((action ==##Go) &&  (actor==player) && ((noun == I57_west) && (true)) && (((MStack-->MstVON(20007,0)) == I192_dim_cavern) && ((MStack-->MstVON(20007,0)) ofclass K1_room)) && ((MStack-->MstVON(20007,1)) ~= nothing)))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_852, 852);
+    if (debug_rules) DB_Rule(R_853, 853);
     ! [1: if the patch of thin ice is in dim cavern begin]
-    if (((I193_dim_cavern == ContainerOf(I195_patch_of_thin_ice)))){
+    if (((I192_dim_cavern == ContainerOf(I194_patch_of_thin_ice)))){
         ! [2: say ~This ice is in your way.~]
         say__p=1;ParaContent(); print "This ice is in your way."; new_line; .L_Say11; .L_SayX11;
         ! [3: stop the action]
@@ -14331,15 +14312,15 @@ Array ActionHappened --> 0 0 0 0 0 0;
         ! [9: end if]
         }
 
-        } else if (debug_rules > 1) DB_Rule(R_852, 852, 'action');
+        } else if (debug_rules > 1) DB_Rule(R_853, 853, 'action');
         rfalse;
 ];
 ! No specific request
 ! Before going from Second Ledge to Third Ledge:
-[ R_848 ;
-    if ((((action ==##Go) &&  (actor==player) && (((MStack-->MstVON(20007,0)) == I185_second_ledge) && ((MStack-->MstVON(20007,0)) ofclass K1_room)) && (((MStack-->MstVON(20007,1)) == I186_third_ledge) && (true))))) { ! Runs only when pattern matches
+[ R_849 ;
+    if ((((action ==##Go) &&  (actor==player) && (((MStack-->MstVON(20007,0)) == I184_second_ledge) && ((MStack-->MstVON(20007,0)) ofclass K1_room)) && (((MStack-->MstVON(20007,1)) == I185_third_ledge) && (true))))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_848, 848);
+    if (debug_rules) DB_Rule(R_849, 849);
     ! [1: if the player carries makeshift grappling hook begin]
     if (((player == CarrierOf(I176_makeshift_grappling_hoo)))){
         ! [2: say ~You throw your maksehift grappling hook and it catches in the ice. You can now climb the rope to reach the third ledge. Stunning show, good sir. Somewhere in the distance your childhood adventurer hero sheds a single tear.~]
@@ -14354,7 +14335,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
         ! [6: end if]
         }
 
-        } else if (debug_rules > 1) DB_Rule(R_848, 848, 'action');
+        } else if (debug_rules > 1) DB_Rule(R_849, 849, 'action');
         rfalse;
 ];
 ! No specific request
@@ -14413,10 +14394,10 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ];
 ! No specific request
 ! Before opening Ladder:
-[ R_841 ;
+[ R_842 ;
     if ((((action ==##Open) &&  (actor==player) && ((noun == I165_ladder) && (true))))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_841, 841);
+    if (debug_rules) DB_Rule(R_842, 842);
     ! [1: if the player is on the snowmobile begin]
     if (((I161_snowmobile == SupporterOf(player)))){
         ! [2: say ~You could try to climb the ladder with the snowmobile, but I don't think that's especially likely to work. Maybe getting off of the snowmobile first would help.~]
@@ -14426,15 +14407,15 @@ Array ActionHappened --> 0 0 0 0 0 0;
         ! [4: end if]
         }
 
-        } else if (debug_rules > 1) DB_Rule(R_841, 841, 'action');
+        } else if (debug_rules > 1) DB_Rule(R_842, 842, 'action');
         rfalse;
 ];
 ! No specific request
 ! Before opening Elevator door 0:
-[ R_842 ;
+[ R_843 ;
     if ((((action ==##Open) &&  (actor==player) && ((noun == I169_elevator_door_0) && (true))))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_842, 842);
+    if (debug_rules) DB_Rule(R_843, 843);
     ! [1: if the player is on the snowmobile begin]
     if (((I161_snowmobile == SupporterOf(player)))){
         ! [2: say ~You could try to use the elevator with the snowmobile, but I don't think that's especially likely to work. Maybe getting off of the snowmobile first would help.~]
@@ -14444,15 +14425,15 @@ Array ActionHappened --> 0 0 0 0 0 0;
         ! [4: end if]
         }
 
-        } else if (debug_rules > 1) DB_Rule(R_842, 842, 'action');
+        } else if (debug_rules > 1) DB_Rule(R_843, 843, 'action');
         rfalse;
 ];
 ! No specific request
 ! Before opening Elevator Door 1:
-[ R_843 ;
+[ R_844 ;
     if ((((action ==##Open) &&  (actor==player) && ((noun == I171_elevator_door_1) && (true))))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_843, 843);
+    if (debug_rules) DB_Rule(R_844, 844);
     ! [1: unless the player is holding keycard begin]
     if (~~(((player == HolderOf(I167_keycard))))){
         ! [2: say ~ACCESS DENIED - KEYCARD REQUIRED~]
@@ -14462,15 +14443,15 @@ Array ActionHappened --> 0 0 0 0 0 0;
         ! [4: end unless]
         }
 
-        } else if (debug_rules > 1) DB_Rule(R_843, 843, 'action');
+        } else if (debug_rules > 1) DB_Rule(R_844, 844, 'action');
         rfalse;
 ];
 ! No specific request
 ! Before taking Portable Laser Jackhammer U:
-[ R_845 ;
+[ R_846 ;
     if ((((action ==##Take) &&  (actor==player) && ((noun == I178_portable_laser_jackhamm) && (true))))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_845, 845);
+    if (debug_rules) DB_Rule(R_846, 846);
     ! [1: if the player carries the ice pick or the player carries the makeshift grappling hook begin]
     if ((((player == CarrierOf(I175_ice_pick)))) || (((player == CarrierOf(I176_makeshift_grappling_hoo))))){
         ! [2: say ~You use the ice pick to break the tool out of the ice.~]
@@ -14485,21 +14466,21 @@ Array ActionHappened --> 0 0 0 0 0 0;
         ! [6: end if]
         }
 
-        } else if (debug_rules > 1) DB_Rule(R_845, 845, 'action');
+        } else if (debug_rules > 1) DB_Rule(R_846, 846, 'action');
         rfalse;
 ];
 ! No specific request
 ! Before melting the Patch of thin ice:
-[ R_851 ;
-    if ((((action ==##A79_melting) &&  (actor==player) && ((noun == I195_patch_of_thin_ice) && (true))))) { ! Runs only when pattern matches
+[ R_852 ;
+    if ((((action ==##A79_melting) &&  (actor==player) && ((noun == I194_patch_of_thin_ice) && (true))))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_851, 851);
+    if (debug_rules) DB_Rule(R_852, 852);
     ! [1: if the player carries portable laser jackhammer c begin]
-    if (((player == CarrierOf(I180_portable_laser_jackhamm)))){
+    if (((player == CarrierOf(I179_portable_laser_jackhamm)))){
         ! [2: say ~You use the laser jackhammer to melt the patch of thin ice. Chunks crack away as  the pounding of the jackhammer reverberated through the cavern. Through the din of the hammering, you swear you can hear footsteps.~]
         say__p=1;ParaContent(); print "You use the laser jackhammer to melt the patch of thin ice. Chunks crack away as  the pounding of the jackhammer reverberated through the cavern. Through the din of the hammering, you swear you can hear footsteps."; new_line; .L_Say23; .L_SayX23;
         ! [3: now the patch of thin ice is nowhere]
-        RemoveFromPlay(I195_patch_of_thin_ice);;
+        RemoveFromPlay(I194_patch_of_thin_ice);;
         ! [4: otherwise]
         } else {
 
@@ -14510,15 +14491,15 @@ Array ActionHappened --> 0 0 0 0 0 0;
         ! [7: end if]
         }
 
-        } else if (debug_rules > 1) DB_Rule(R_851, 851, 'action');
+        } else if (debug_rules > 1) DB_Rule(R_852, 852, 'action');
         rfalse;
 ];
 ! No specific request
 ! Before melting wires 3:
-[ R_855 ;
-    if ((((action ==##A79_melting) &&  (actor==player) && ((noun == I208_wires_3) && (true))))) { ! Runs only when pattern matches
+[ R_856 ;
+    if ((((action ==##A79_melting) &&  (actor==player) && ((noun == I207_wires_3) && (true))))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_855, 855);
+    if (debug_rules) DB_Rule(R_856, 856);
     ! [1: unless the player carries laser scalpel begin]
     if (~~(((player == CarrierOf(I147_laser_scalpel))))){
         ! [2: say ~This task requires a very precise laser. You wouldn't want to break the ship even further.~]
@@ -14535,15 +14516,15 @@ Array ActionHappened --> 0 0 0 0 0 0;
         ! [7: end unless]
         }
 
-        } else if (debug_rules > 1) DB_Rule(R_855, 855, 'action');
+        } else if (debug_rules > 1) DB_Rule(R_856, 856, 'action');
         rfalse;
 ];
 ! No specific request
 ! Before switching on Big Red Button:
-[ R_856 ;
-    if ((((action ==##SwitchOn) &&  (actor==player) && ((noun == I211_big_red_button) && (true))))) { ! Runs only when pattern matches
+[ R_857 ;
+    if ((((action ==##SwitchOn) &&  (actor==player) && ((noun == I210_big_red_button) && (true))))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_856, 856);
+    if (debug_rules) DB_Rule(R_857, 857);
     ! [1: if ship power is 0 begin]
     if ((((Global_Vars-->11) == 0))){
         ! [2: say ~Nothing happens. The ship's power appears to be off.~]
@@ -14553,14 +14534,14 @@ Array ActionHappened --> 0 0 0 0 0 0;
         ! [4: otherwise]
         } else {
 
-        ! [5: say ~The ship's engine roars to life and the ship floods with light. It begins shuddering  and shaking as though it were falling apart and growing hotter by the minute. You sprint for the exit, stumbling out of the ship's door and across the ice splitting under foot. As you sprint for the elavator, a low moan begins from the direction of the eye in the wall, rising quickly to an earsplitting shriek that seems to reverberate into your very soul. You skid into the elevator ans swipe your card without heasitation and as you look through the door sliding shut, you see the wall that the eye was behind go white and split down the middle. It is stirring. You have to find your crew and escape. [line break] Our protagonist returned in a frothy panic to the expidition base to find the rest of his crew returned from another study site. A last-minute change of plans had diverted them from their original day plan and they'd spent a pleasant day studying the social behavior of phosphorescent space penguins. Upon feeling the tremors, the crew decided, despite their skepticism, to abide by the protagonist's warning and return to the shuttle. As the shuttle took off and escaped the moon's orbit, if any of them had been looking out of the right window, they'd have seen the dig site collapse in the wake of an explosion, collapsing on the eldritch something beneath the ice. A horrid shriek and one wiry arm protruding from the ice in a post-mortem grasp for vengance would be all that remained of the fate that they so narrowly escaped.~]
-        say__p=1;ParaContent(); print "The ship's engine roars to life and the ship floods with light. It begins shuddering  and shaking as though it were falling apart and growing hotter by the minute. You sprint for the exit, stumbling out of the ship's door and across the ice splitting under foot. As you sprint for the elavator, a low moan begins from the direction of the eye in the wall, rising quickly to an earsplitting shriek that seems to reverberate into your very soul. You skid into the elevator ans swipe your card without heasitation and as you look through the door sliding shut, you see the wall that the eye was behind go white and split down the middle. It is stirring. You have to find your crew and escape. ";ParaContent(); new_line;ParaContent(); print " Our protagonist returned in a frothy panic to the expidition base to find the rest of his crew returned from another study site. A last-minute change of plans had diverted them from their original day plan and they'd spent a pleasant day studying the social behavior of phosphorescent space penguins. Upon feeling the tremors, the crew decided, despite their skepticism, to abide by the protagonist's warning and return to the shuttle. As the shuttle took off and escaped the moon's orbit, if any of them had been looking out of the right window, they'd have seen the dig site collapse in the wake of an explosion, collapsing on the eldritch something beneath the ice. A horrid shriek and one wiry arm protruding from the ice in a post-mortem grasp for vengance would be all that remained of the fate that they so narrowly escaped."; new_line; .L_Say28; .L_SayX28;
+        ! [5: say ~The ship's engine roars to life and the ship floods with light. It begins shuddering  and shaking as though it were falling apart and growing hotter by the minute. You sprint for the exit, stumbling out of the ship's door and across the ice splitting under foot. As you sprint for the elavator, a low moan begins from the direction of the eye in the wall, rising quickly to an earsplitting shriek that seems to reverberate into your very soul. You skid into the elevator ans swipe your card without heasitation and as you look through the door sliding shut, you see the wall that the eye was behind go white and split down the middle. It is stirring. You have to find your crew and escape. [line break] Our protagonist returned in a frothy panic to the expidition base to find the rest of his crew returned from another study site. A last-minute change of plans, which was Carl's for some reason leaving the bathroom keys back at their last expedition near the colony of phosphorescent space penguins and Kendall crankily insisting that she did not wish to replace the bathroom handle, had diverted them from their original day plan and they'd spent a pleasant day studying the social behavior of the glowing flightless birds. Upon feeling the tremors, the crew decided, despite their skepticism, to abide by the protagonist's warning and return to the shuttle. As the shuttle took off and escaped the moon's orbit, if any of them had been looking out of the right window, they'd have seen the dig site collapse in the wake of an explosion, collapsing on the eldritch something beneath the ice. A horrid shriek and one wiry arm protruding from the ice in a post-mortem grasp for vengance would be all that remained of the fate that they so narrowly escaped.~]
+        say__p=1;ParaContent(); print "The ship's engine roars to life and the ship floods with light. It begins shuddering  and shaking as though it were falling apart and growing hotter by the minute. You sprint for the exit, stumbling out of the ship's door and across the ice splitting under foot. As you sprint for the elavator, a low moan begins from the direction of the eye in the wall, rising quickly to an earsplitting shriek that seems to reverberate into your very soul. You skid into the elevator ans swipe your card without heasitation and as you look through the door sliding shut, you see the wall that the eye was behind go white and split down the middle. It is stirring. You have to find your crew and escape. ";ParaContent(); new_line;ParaContent(); print " Our protagonist returned in a frothy panic to the expidition base to find the rest of his crew returned from another study site. A last-minute change of plans, which was Carl's for some reason leaving the bathroom keys back at their last expedition near the colony of phosphorescent space penguins and Kendall crankily insisting that she did not wish to replace the bathroom handle, had diverted them from their original day plan and they'd spent a pleasant day studying the social behavior of the glowing flightless birds. Upon feeling the tremors, the crew decided, despite their skepticism, to abide by the protagonist's warning and return to the shuttle. As the shuttle took off and escaped the moon's orbit, if any of them had been looking out of the right window, they'd have seen the dig site collapse in the wake of an explosion, collapsing on the eldritch something beneath the ice. A horrid shriek and one wiry arm protruding from the ice in a post-mortem grasp for vengance would be all that remained of the fate that they so narrowly escaped."; new_line; .L_Say28; .L_SayX28;
         ! [6: end the story]
         deadflag=3; story_complete=false;
         ! [7: end if]
         }
 
-        } else if (debug_rules > 1) DB_Rule(R_856, 856, 'action');
+        } else if (debug_rules > 1) DB_Rule(R_857, 857, 'action');
         rfalse;
 ];
 ! From "Rideable Vehicles" by Graham Nelson
@@ -14653,48 +14634,50 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ! ----------------------------------------------------------------------------------------------------
 ! Rules in rulebook: Instead (B20_instead)
 ! ----------------------------------------------------------------------------------------------------
-! Rule 1/10 ! Instead of setting The Ship Door numerically to the number understood:
+! Rule 1/11 ! Instead of setting The Ship Door numerically to the number understood:
 !   >>> III.3.1 - Action/What/Second Thing Acted On >>>
-! Rule 2/10 ! Instead of taking alarm clock:
+! Rule 2/11 ! Instead of taking alarm clock:
 !   === equally specific with ===
-! Rule 3/10 ! Instead of taking the microscope:
+! Rule 3/11 ! Instead of taking the microscope:
 !   === equally specific with ===
-! Rule 4/10 ! Instead of eating the microscope:
+! Rule 4/11 ! Instead of eating the microscope:
 !   === equally specific with ===
-! Rule 5/10 ! Instead of taking the preserved thoracic sac:
+! Rule 5/11 ! Instead of taking the preserved thoracic sac:
 !   === equally specific with ===
-! Rule 6/10 ! instead of taking the clothes:
+! Rule 6/11 ! instead of taking the clothes:
 !   === equally specific with ===
-! Rule 7/10 ! instead of taking the Elvish Sword:
+! Rule 7/11 ! instead of taking the Elvish Sword:
 !   === equally specific with ===
-! Rule 8/10 ! Instead of opening the bathroom door:
+! Rule 8/11 ! Instead of opening the bathroom door:
 !   === equally specific with ===
-! Rule 9/10 ! Instead of climbing Ledge:
+! Rule 9/11 ! Instead of climbing Ladder:
+!   === equally specific with ===
+! Rule 10/11 ! Instead of climbing Ledge:
 !   >>> III.3.2 - Action/What/Thing Acted On >>>
-! Rule 10/10 ! Instead of looking under a thing which is underlaid by something ( called the lost object ):
+! Rule 11/11 ! Instead of looking under a thing which is underlaid by something ( called the lost object ):
 ! ----------------------------------------------------------------------------------------------------
 ! No specific request
 ! Instead of setting The Ship Door numerically to the number understood:
-[ R_854 ;
-    if ((((action ==##A80_setting_it_numerically_t) &&  (actor==player) && ((noun == I200_ship_door) && (true)) && ((parsed_number == parsed_number) && (true))))) { ! Runs only when pattern matches
+[ R_855 ;
+    if ((((action ==##A80_setting_it_numerically_t) &&  (actor==player) && ((noun == I199_ship_door) && (true)) && ((parsed_number == parsed_number) && (true))))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_854, 854);
+    if (debug_rules) DB_Rule(R_855, 855);
     ! [1: truncate the current combination of the ship door to the last 2 entries]
-    LIST_OF_TY_SetLength(GProperty(10, I200_ship_door,p15_current_combination), 2, -1, -1);
+    LIST_OF_TY_SetLength(GProperty(10, I199_ship_door,p15_current_combination), 2, -1, -1);
     ! [2: add the number understood to the current combination of the ship door]
-    LIST_OF_TY_InsertItem(GProperty(10, I200_ship_door,p15_current_combination), parsed_number, 0, 0, 0);
+    LIST_OF_TY_InsertItem(GProperty(10, I199_ship_door,p15_current_combination), parsed_number, 0, 0, 0);
     ! [3: if the ship door is locked and the current combination of the ship door is the true combination of the ship door begin]
-    if (((((Adj_78_t1_v10(I200_ship_door))))) && ((( BlkValueCompare(GProperty(10, I200_ship_door,p15_current_combination), GProperty(10, I200_ship_door,p16_true_combination)) == 0)))){
+    if (((((Adj_78_t1_v10(I199_ship_door))))) && ((( BlkValueCompare(GProperty(10, I199_ship_door,p15_current_combination), GProperty(10, I199_ship_door,p16_true_combination)) == 0)))){
         ! [4: say ~You enter [the number understood], and [the Ship Door] gives a joyous CLICK.~]
-        say__p=1;ParaContent(); print "You enter ";ParaContent(); print (say__n=parsed_number);ParaContent(); print ", and ";ParaContent(); print (the) I200_ship_door;ParaContent(); print " gives a joyous CLICK."; new_line; .L_Say29; .L_SayX29;
+        say__p=1;ParaContent(); print "You enter ";ParaContent(); print (say__n=parsed_number);ParaContent(); print ", and ";ParaContent(); print (the) I199_ship_door;ParaContent(); print " gives a joyous CLICK."; new_line; .L_Say29; .L_SayX29;
         ! [5: now the ship door is unlocked]
-        (Adj_79_t2_v10(I200_ship_door));
+        (Adj_79_t2_v10(I199_ship_door));
         ! [6: otherwise if ship door is unlocked and the ship door is closed and the current combination of the ship door is not the true combination of the ship door]
-        } else if (((((Adj_79_t1_v10(I200_ship_door))))) && (((((Adj_74_t1_v10(I200_ship_door))))) && (((~~(( BlkValueCompare(GProperty(10, I200_ship_door,p15_current_combination), GProperty(10, I200_ship_door,p16_true_combination)) == 0))))))) {
+        } else if (((((Adj_79_t1_v10(I199_ship_door))))) && (((((Adj_74_t1_v10(I199_ship_door))))) && (((~~(( BlkValueCompare(GProperty(10, I199_ship_door,p15_current_combination), GProperty(10, I199_ship_door,p16_true_combination)) == 0))))))) {
         ! [7: say ~Now [the Ship Door] clicks locked.~]
-        say__p=1;ParaContent(); print "Now ";ParaContent(); print (the) I200_ship_door;ParaContent(); print " clicks locked."; new_line; .L_Say30; .L_SayX30;
+        say__p=1;ParaContent(); print "Now ";ParaContent(); print (the) I199_ship_door;ParaContent(); print " clicks locked."; new_line; .L_Say30; .L_SayX30;
         ! [8: now the ship door is locked]
-        (Adj_78_t2_v10(I200_ship_door));
+        (Adj_78_t2_v10(I199_ship_door));
         ! [9: otherwise]
         } else {
 
@@ -14704,7 +14687,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
         }
 
         RulebookFails(); rtrue;
-        } else if (debug_rules > 1) DB_Rule(R_854, 854, 'action');
+        } else if (debug_rules > 1) DB_Rule(R_855, 855, 'action');
         rfalse;
 ];
 ! No specific request
@@ -14792,15 +14775,27 @@ Array ActionHappened --> 0 0 0 0 0 0;
     rfalse;
 ];
 ! No specific request
-! Instead of climbing Ledge:
-[ R_846 ;
-    if ((((action ==##Climb) &&  (actor==player) && ((noun == I183_ledge) && (true))))) { ! Runs only when pattern matches
+! Instead of climbing Ladder:
+[ R_841 ;
+    if ((((action ==##Climb) &&  (actor==player) && ((noun == I165_ladder) && (true))))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_846, 846);
-    ! [1: try entering ledge]
-    TryAction(0, player, ##Enter, I183_ledge, 0);;
+    if (debug_rules) DB_Rule(R_841, 841);
+    ! [1: try entering ladder]
+    TryAction(0, player, ##Enter, I165_ladder, 0);;
     RulebookFails(); rtrue;
-    } else if (debug_rules > 1) DB_Rule(R_846, 846, 'action');
+    } else if (debug_rules > 1) DB_Rule(R_841, 841, 'action');
+    rfalse;
+];
+! No specific request
+! Instead of climbing Ledge:
+[ R_847 ;
+    if ((((action ==##Climb) &&  (actor==player) && ((noun == I182_ledge) && (true))))) { ! Runs only when pattern matches
+    self = noun;
+    if (debug_rules) DB_Rule(R_847, 847);
+    ! [1: try entering ledge]
+    TryAction(0, player, ##Enter, I182_ledge, 0);;
+    RulebookFails(); rtrue;
+    } else if (debug_rules > 1) DB_Rule(R_847, 847, 'action');
     rfalse;
 ];
 ! No specific request
@@ -22512,13 +22507,13 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ! ----------------------------------------------------------------------------------------------------
 ! No specific request
 ! Check setting something numerically to ( this is the block setting numerically rule ):
-[ R_853 ;
+[ R_854 ;
     if ((( (actor==player) && ((noun ofclass K2_thing))))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_853, 853);
+    if (debug_rules) DB_Rule(R_854, 854);
     ! [1: say ~[The noun] cannot be set.~]
     say__p=1;ParaContent(); print (The) noun;ParaContent(); print " cannot be set."; new_line; .L_Say334; .L_SayX334;
-    } else if (debug_rules > 1) DB_Rule(R_853, 853, 'action');
+    } else if (debug_rules > 1) DB_Rule(R_854, 854, 'action');
     rfalse;
 ];
 ! ----------------------------------------------------------------------------------------------------
@@ -24652,18 +24647,10 @@ Constant B7_when_scene_ends = EMPTY_RULEBOOK;
     original_deadflag ! saved state
     ;
     original_deadflag = deadflag;
-    rv = R_844();
+    rv = R_845();
     if (rv) {
         if (rv == 2) return reason_the_action_failed;
-        return R_844;
-    }
-    latest_rule_result-->0 = 0;
-    if (original_deadflag ~= deadflag) return 0;
-    if (say__p) RulebookParBreak(forbid_breaks);
-    rv = R_849();
-    if (rv) {
-        if (rv == 2) return reason_the_action_failed;
-        return R_849;
+        return R_845;
     }
     latest_rule_result-->0 = 0;
     if (original_deadflag ~= deadflag) return 0;
@@ -24672,6 +24659,14 @@ Constant B7_when_scene_ends = EMPTY_RULEBOOK;
     if (rv) {
         if (rv == 2) return reason_the_action_failed;
         return R_850;
+    }
+    latest_rule_result-->0 = 0;
+    if (original_deadflag ~= deadflag) return 0;
+    if (say__p) RulebookParBreak(forbid_breaks);
+    rv = R_851();
+    if (rv) {
+        if (rv == 2) return reason_the_action_failed;
+        return R_851;
     }
     latest_rule_result-->0 = 0;
     return 0; ! 3 rule(s)
@@ -25035,26 +25030,26 @@ Constant B17_persuasion = EMPTY_RULEBOOK;
     ;
     original_deadflag = deadflag;
     if (action == ##Go) {
-        rv = R_847();
-        if (rv) {
-            if (rv == 2) return reason_the_action_failed;
-            return R_847;
-        }
-        latest_rule_result-->0 = 0;
-        if (original_deadflag ~= deadflag) return 0;
-        if (say__p) RulebookParBreak(forbid_breaks);
-        rv = R_852();
-        if (rv) {
-            if (rv == 2) return reason_the_action_failed;
-            return R_852;
-        }
-        latest_rule_result-->0 = 0;
-        if (original_deadflag ~= deadflag) return 0;
-        if (say__p) RulebookParBreak(forbid_breaks);
         rv = R_848();
         if (rv) {
             if (rv == 2) return reason_the_action_failed;
             return R_848;
+        }
+        latest_rule_result-->0 = 0;
+        if (original_deadflag ~= deadflag) return 0;
+        if (say__p) RulebookParBreak(forbid_breaks);
+        rv = R_853();
+        if (rv) {
+            if (rv == 2) return reason_the_action_failed;
+            return R_853;
+        }
+        latest_rule_result-->0 = 0;
+        if (original_deadflag ~= deadflag) return 0;
+        if (say__p) RulebookParBreak(forbid_breaks);
+        rv = R_849();
+        if (rv) {
+            if (rv == 2) return reason_the_action_failed;
+            return R_849;
         }
         latest_rule_result-->0 = 0;
     } else {
@@ -25095,14 +25090,6 @@ Constant B17_persuasion = EMPTY_RULEBOOK;
         latest_rule_result-->0 = 0;
         if (original_deadflag ~= deadflag) return 0;
         if (say__p) RulebookParBreak(forbid_breaks);
-        rv = R_841();
-        if (rv) {
-            if (rv == 2) return reason_the_action_failed;
-            return R_841;
-        }
-        latest_rule_result-->0 = 0;
-        if (original_deadflag ~= deadflag) return 0;
-        if (say__p) RulebookParBreak(forbid_breaks);
         rv = R_842();
         if (rv) {
             if (rv == 2) return reason_the_action_failed;
@@ -25117,16 +25104,24 @@ Constant B17_persuasion = EMPTY_RULEBOOK;
             return R_843;
         }
         latest_rule_result-->0 = 0;
+        if (original_deadflag ~= deadflag) return 0;
+        if (say__p) RulebookParBreak(forbid_breaks);
+        rv = R_844();
+        if (rv) {
+            if (rv == 2) return reason_the_action_failed;
+            return R_844;
+        }
+        latest_rule_result-->0 = 0;
     } else {
         if (say__p) RulebookParBreak(forbid_breaks);
     }
     if (action == ##Take) {
         if (original_deadflag ~= deadflag) return 0;
         if (say__p) RulebookParBreak(forbid_breaks);
-        rv = R_845();
+        rv = R_846();
         if (rv) {
             if (rv == 2) return reason_the_action_failed;
-            return R_845;
+            return R_846;
         }
         latest_rule_result-->0 = 0;
     } else {
@@ -25135,18 +25130,18 @@ Constant B17_persuasion = EMPTY_RULEBOOK;
     if (action == ##A79_melting) {
         if (original_deadflag ~= deadflag) return 0;
         if (say__p) RulebookParBreak(forbid_breaks);
-        rv = R_851();
+        rv = R_852();
         if (rv) {
             if (rv == 2) return reason_the_action_failed;
-            return R_851;
+            return R_852;
         }
         latest_rule_result-->0 = 0;
         if (original_deadflag ~= deadflag) return 0;
         if (say__p) RulebookParBreak(forbid_breaks);
-        rv = R_855();
+        rv = R_856();
         if (rv) {
             if (rv == 2) return reason_the_action_failed;
-            return R_855;
+            return R_856;
         }
         latest_rule_result-->0 = 0;
     } else {
@@ -25155,10 +25150,10 @@ Constant B17_persuasion = EMPTY_RULEBOOK;
     if (action == ##SwitchOn) {
         if (original_deadflag ~= deadflag) return 0;
         if (say__p) RulebookParBreak(forbid_breaks);
-        rv = R_856();
+        rv = R_857();
         if (rv) {
             if (rv == 2) return reason_the_action_failed;
-            return R_856;
+            return R_857;
         }
         latest_rule_result-->0 = 0;
     } else {
@@ -25237,10 +25232,10 @@ Constant B17_persuasion = EMPTY_RULEBOOK;
     ;
     original_deadflag = deadflag;
     if (action == ##A80_setting_it_numerically_t) {
-        rv = R_854();
+        rv = R_855();
         if (rv) {
             if (rv == 2) return reason_the_action_failed;
-            return R_854;
+            return R_855;
         }
         latest_rule_result-->0 = 0;
     } else {
@@ -25321,10 +25316,18 @@ Constant B17_persuasion = EMPTY_RULEBOOK;
     if (action == ##Climb) {
         if (original_deadflag ~= deadflag) return 0;
         if (say__p) RulebookParBreak(forbid_breaks);
-        rv = R_846();
+        rv = R_841();
         if (rv) {
             if (rv == 2) return reason_the_action_failed;
-            return R_846;
+            return R_841;
+        }
+        latest_rule_result-->0 = 0;
+        if (original_deadflag ~= deadflag) return 0;
+        if (say__p) RulebookParBreak(forbid_breaks);
+        rv = R_847();
+        if (rv) {
+            if (rv == 2) return reason_the_action_failed;
+            return R_847;
         }
         latest_rule_result-->0 = 0;
     } else {
@@ -25342,7 +25345,7 @@ Constant B17_persuasion = EMPTY_RULEBOOK;
     } else {
         if (say__p) RulebookParBreak(forbid_breaks);
     }
-    return 0; ! 10 rule(s)
+    return 0; ! 11 rule(s)
 ];
 Constant B21_check = EMPTY_RULEBOOK;
 Constant B22_carry_out = EMPTY_RULEBOOK;
@@ -28611,10 +28614,10 @@ Constant B369_report_melting = EMPTY_RULEBOOK;
     forbid_breaks ! Implied call parameter
     rv ! return value
     ;
-    rv = R_853();
+    rv = R_854();
     if (rv) {
         if (rv == 2) return reason_the_action_failed;
-        return R_853;
+        return R_854;
     }
     latest_rule_result-->0 = 0;
     return 0; ! 1 rule(s)
@@ -31659,7 +31662,7 @@ Array FWMatrix --> NUM_ROOMS*NUM_ROOMS;
 ! Relations.i6t: Relation Route-Finding
 ! ==== ==== ==== ==== ==== ==== ==== ==== ==== ====
 
-Constant MAX_ROUTE_LENGTH = 99 + 32;
+Constant MAX_ROUTE_LENGTH = 98 + 32;
 
 [ RelationRouteTo relation from to count  handler;
 	if (count) {
@@ -33108,7 +33111,7 @@ Array RulebookNames -->
         if (R == R_826) { print "standard dismounting rule"; return; } ! rule 283
         if (R == R_827) { print "standard report dismounting rule"; return; } ! rule 284
         if (R == R_828) { print "dismounting excuses rule"; return; } ! rule 285
-        if (R == R_853) { print "block setting numerically rule"; return; } ! rule 286
+        if (R == R_854) { print "block setting numerically rule"; return; } ! rule 286
         if (R == LITTLE_USED_DO_NOTHING_R) { print "little-used do nothing rule"; return; } ! rule 287
         if (R == VIRTUAL_MACHINE_STARTUP_R) { print "virtual machine startup rule"; return; } ! rule 288
         if (R == INITIALISE_MEMORY_R) { print "initialise memory rule"; return; } ! rule 289
@@ -33199,21 +33202,22 @@ Array RulebookNames -->
         if (R == R_838) { print "Before opening Base Door"; return; } ! rule 374
         if (R == R_839) { print "Before mounting The Snowmobile"; return; } ! rule 375
         if (R == R_840) { print "Before opening Garage Door"; return; } ! rule 376
-        if (R == R_841) { print "Before opening Ladder"; return; } ! rule 377
-        if (R == R_842) { print "Before opening Elevator door 0"; return; } ! rule 378
-        if (R == R_843) { print "Before opening Elevator Door 1"; return; } ! rule 379
-        if (R == R_844) { print "Every turn"; return; } ! rule 380
-        if (R == R_845) { print "Before taking Portable Laser Jackhammer U"; return; } ! rule 381
-        if (R == R_846) { print "Instead of climbing Ledge"; return; } ! rule 382
-        if (R == R_847) { print "Before going north from First Ledge"; return; } ! rule 383
-        if (R == R_848) { print "Before going from Second Ledge to Third Ledge"; return; } ! rule 384
-        if (R == R_849) { print "Every turn"; return; } ! rule 385
+        if (R == R_841) { print "Instead of climbing Ladder"; return; } ! rule 377
+        if (R == R_842) { print "Before opening Ladder"; return; } ! rule 378
+        if (R == R_843) { print "Before opening Elevator door 0"; return; } ! rule 379
+        if (R == R_844) { print "Before opening Elevator Door 1"; return; } ! rule 380
+        if (R == R_845) { print "Every turn"; return; } ! rule 381
+        if (R == R_846) { print "Before taking Portable Laser Jackhammer U"; return; } ! rule 382
+        if (R == R_847) { print "Instead of climbing Ledge"; return; } ! rule 383
+        if (R == R_848) { print "Before going north from First Ledge"; return; } ! rule 384
+        if (R == R_849) { print "Before going from Second Ledge to Third Ledge"; return; } ! rule 385
         if (R == R_850) { print "Every turn"; return; } ! rule 386
-        if (R == R_851) { print "Before melting the Patch of thin ice"; return; } ! rule 387
-        if (R == R_852) { print "Before going west from Dim Cavern"; return; } ! rule 388
-        if (R == R_854) { print "Instead of setting The Ship Door numerically to the number understood"; return; } ! rule 389
-        if (R == R_855) { print "Before melting wires 3"; return; } ! rule 390
-        if (R == R_856) { print "Before switching on Big Red Button"; return; } ! rule 391
+        if (R == R_851) { print "Every turn"; return; } ! rule 387
+        if (R == R_852) { print "Before melting the Patch of thin ice"; return; } ! rule 388
+        if (R == R_853) { print "Before going west from Dim Cavern"; return; } ! rule 389
+        if (R == R_855) { print "Instead of setting The Ship Door numerically to the number understood"; return; } ! rule 390
+        if (R == R_856) { print "Before melting wires 3"; return; } ! rule 391
+        if (R == R_857) { print "Before switching on Big Red Button"; return; } ! rule 392
 
 		print "(nameless rule at address ", R, ")";
 	}
@@ -39821,7 +39825,7 @@ if (t_0 ofclass K6_supporter) {if (na > 0) { na = 0; print "^"; }
 if (t_0 ofclass K8_person) {if (na > 0) { na = 0; print "^"; }
     print "carrying capacity: "; print (DecimalNumber) GProperty(OBJECT_TY, t_0, capacity), "^";
 }
-if (t_0 == I200_ship_door) {if (na > 0) { na = 0; print "^"; }
+if (t_0 == I199_ship_door) {if (na > 0) { na = 0; print "^"; }
     print "current combination: "; print (LIST_OF_TY_Say) GProperty(OBJECT_TY, t_0, p15_current_combination), "^";
     print "true combination: "; print (LIST_OF_TY_Say) GProperty(OBJECT_TY, t_0, p16_true_combination), "^";
 }
@@ -40203,7 +40207,7 @@ Verb meta 'tree'
 ! ==== ==== ==== ==== ==== ==== ==== ==== ==== ====
 
 
-Array LIST_CONST_16926 --> (85721088) LIST_OF_TY MAX_POSITIVE_NUMBER NUMBER_TY 3 (23) (16) (9) ;
+Array LIST_CONST_16936 --> (85721088) LIST_OF_TY MAX_POSITIVE_NUMBER NUMBER_TY 3 (23) (16) (9) ;
 
 
 
@@ -44084,21 +44088,21 @@ Array TX_R_399 --> CONSTANT_PACKED_TEXT_STORAGE TX_R_399_R;
     ResponseViaActivity(R_109_RESP_A);
 ];
 [ R_TX_S_132 ;
-    #ifdef DEBUG; if (suppress_text_substitution) { print "~I only have one of these. Better it for the boss fight. [']Boss fight?['], you think. [']What boss fight?[']~"; rtrue; }
+    #ifdef DEBUG; if (suppress_text_substitution) { print "~You only have one of these. Better it for the boss fight. [']Boss fight?['], you think. [']What boss fight?[']~"; rtrue; }
     #endif; ! DEBUG
-    say__p=1;ParaContent(); print "I only have one of these. Better it for the boss fight. ";ParaContent(); print "'";ParaContent(); print "Boss fight?";ParaContent(); print "'";ParaContent(); print ", you think. ";ParaContent(); print "'";ParaContent(); print "What boss fight?";ParaContent(); print "'"; .L_Say508; .L_SayX506;
+    say__p=1;ParaContent(); print "You only have one of these. Better it for the boss fight. ";ParaContent(); print "'";ParaContent(); print "Boss fight?";ParaContent(); print "'";ParaContent(); print ", you think. ";ParaContent(); print "'";ParaContent(); print "What boss fight?";ParaContent(); print "'"; .L_Say508; .L_SayX506;
     rtrue;
 ];
 [ R_TX_S_133 ;
-    #ifdef DEBUG; if (suppress_text_substitution) { print "~Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the lab tables in the middle of the room, scientific research abandoned each morning to persue scientific FIELD research. You are not a scientist and do not understand what the other members of the expidition are doing when they peer at the artefacts they[']ve uncovered and make sounds like [']hmm['] and [']fascinating['].[line break] To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside.~"; rtrue; }
+    #ifdef DEBUG; if (suppress_text_substitution) { print "~Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the lab table in the middle of the room, scientific research abandoned each morning to persue scientific FIELD research. You are not a scientist and do not understand what the other members of the expidition are doing when they peer at the artefacts they[']ve uncovered and make sounds like [']hmm['] and [']fascinating['].[line break] To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside.~"; rtrue; }
     #endif; ! DEBUG
-    say__p=1;ParaContent(); print "Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the lab tables in the middle of the room, scientific research abandoned each morning to persue scientific FIELD research. You are not a scientist and do not understand what the other members of the expidition are doing when they peer at the artefacts they";ParaContent(); print "'";ParaContent(); print "ve uncovered and make sounds like ";ParaContent(); print "'";ParaContent(); print "hmm";ParaContent(); print "'";ParaContent(); print " and ";ParaContent(); print "'";ParaContent(); print "fascinating";ParaContent(); print "'";ParaContent(); print ".";ParaContent(); new_line;ParaContent(); print " To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside."; .L_Say509; .L_SayX507;
+    say__p=1;ParaContent(); print "Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the lab table in the middle of the room, scientific research abandoned each morning to persue scientific FIELD research. You are not a scientist and do not understand what the other members of the expidition are doing when they peer at the artefacts they";ParaContent(); print "'";ParaContent(); print "ve uncovered and make sounds like ";ParaContent(); print "'";ParaContent(); print "hmm";ParaContent(); print "'";ParaContent(); print " and ";ParaContent(); print "'";ParaContent(); print "fascinating";ParaContent(); print "'";ParaContent(); print ".";ParaContent(); new_line;ParaContent(); print " To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside."; .L_Say509; .L_SayX507;
     rtrue;
 ];
 [ R_TX_S_134 ;
-    #ifdef DEBUG; if (suppress_text_substitution) { print "~A PB & J sandwich with the perfect ratio of delectable crunchy peanut butter to grape jely and pleasantly soft, yet not soggy, bread. [']This is truly a work of art['], you think.~"; rtrue; }
+    #ifdef DEBUG; if (suppress_text_substitution) { print "~A PB & J sandwich with the perfect ratio of delectable crunchy peanut butter to grape jelly and pleasantly soft, yet not soggy, bread. [']This is truly a work of art['], you think.~"; rtrue; }
     #endif; ! DEBUG
-    say__p=1;ParaContent(); print "A PB & J sandwich with the perfect ratio of delectable crunchy peanut butter to grape jely and pleasantly soft, yet not soggy, bread. ";ParaContent(); print "'";ParaContent(); print "This is truly a work of art";ParaContent(); print "'";ParaContent(); print ", you think."; .L_Say510; .L_SayX508;
+    say__p=1;ParaContent(); print "A PB & J sandwich with the perfect ratio of delectable crunchy peanut butter to grape jelly and pleasantly soft, yet not soggy, bread. ";ParaContent(); print "'";ParaContent(); print "This is truly a work of art";ParaContent(); print "'";ParaContent(); print ", you think."; .L_Say510; .L_SayX508;
     rtrue;
 ];
 [ R_TX_S_135 ;
@@ -51832,60 +51836,60 @@ Verb 'solder'
 
 
 Constant TX_PS_101 = ".";
-Constant TX_PS_168 = ">";
-Constant TX_PS_57 = "A Honeycrisp Apple. The superior apple, ever since you discovered Red Delicious Apples were filled of lies and gravel. They are nither red nor delicious and you hate them for their duplicity. How can you learn to trust again?";
-Constant TX_PS_89 = "A current-model hover snow bike, but you and your friends all just call it a snowmobile, sort of in the same vein of how people call tissues Kleenex. You catch a glimpse of something shiny beneath the snowmobile.";
-Constant TX_PS_175 = "A deadly-looking weapon left by lost civilization of the strata you are at. Why someone would need such a vicious projectile makes you shudder. The alien glyphs carved into it correspond to the numbers 23, 16, and 9.";
-Array TX_L_175 --> CONSTANT_PACKED_TEXT_STORAGE TX_PS_175;
-Constant TX_PS_177 = "A deadly-looking weapon left by lost civilization of the strata you are at. Why someone would need such a vicious projectile makes you shudder. There are strange alien glyphs carved into the barrel.";
-Array TX_L_177 --> CONSTANT_PACKED_TEXT_STORAGE TX_PS_177;
-Constant TX_PS_146 = "A deadly-looking weapon left by lost civilization of the strata you are at. Why someone would need such a vicious projectile makes you shudder.";
-Constant TX_PS_137 = "A highly volitile cell that will power a portable lazer jackhammer.";
+Constant TX_PS_167 = ">";
+Constant TX_PS_57 = "A Honeycrisp Apple. The superior apple, ever since you discovered Red Delicious Apples were filled of lies and gravel. They are neither red nor delicious and you hate them for their duplicity. How can you learn to trust again?";
+Constant TX_PS_89 = "A current model hover-snow bike, but you and your friends all just call it a snowmobile, sort of in the same vein of how people call tissues Kleenex. You catch a glimpse of something shiny beneath the snowmobile.";
+Constant TX_PS_174 = "A deadly-looking weapon left by lost civilization of the strata you are at. Why someone would need such a vicious projectile makes you shudder. The alien glyphs carved into it correspond to the numbers 23, 16, and 9.";
+Array TX_L_174 --> CONSTANT_PACKED_TEXT_STORAGE TX_PS_174;
+Constant TX_PS_176 = "A deadly-looking weapon left by lost civilization of the strata you are at. Why someone would need such a vicious projectile makes you shudder. There are strange alien glyphs carved into the barrel.";
+Array TX_L_176 --> CONSTANT_PACKED_TEXT_STORAGE TX_PS_176;
+Constant TX_PS_145 = "A deadly-looking weapon left by lost civilization of the strata you are at. Why someone would need such a vicious projectile makes you shudder.";
+Constant TX_PS_136 = "A highly volitile cell that will power a portable lazer jackhammer.";
 Constant TX_PS_69 = "A laser scalpel.  It can clean cuts or cauterize a wound. It can even do both at the same time, but that wouldn't be very effective at... anything, really.";
 Constant TX_PS_54 = "A sack lunch";
 Constant TX_PS_59 = "A sweetroll. A roll that is sweet. Stealing them is a high crime, and you may find yourself persued by cranky, bad-kneed guards if you were to accidentially pilfer one.";
 Constant TX_PS_38 = "Alarm Clock";
-Constant TX_PS_119 = "All charged up now.";
+Constant TX_PS_118 = "All charged up now.";
 Constant TX_PS_3 = "An Interactive Fiction";
 Constant TX_PS_108 = "Artifact room";
 Constant TX_PS_36 = "As good-looking as ever.";
-Constant TX_PS_129 = "Atop the canyon, the world seems eerily still. The snowy world around you is silent and vacant. A sense of peace comes over you here. There is a wall of Mysterious Glyphs that Russeau has been hard at work translating into meanings you can understand. His Translation Matrix lies abandoned in the snow. What happened to him?";
+Constant TX_PS_128 = "Atop the canyon, the world seems eerily still. The snowy world around you is silent and vacant. A sense of peace comes over you here. There is a wall of Mysterious Glyphs that Russeau has been hard at work translating into meanings you can understand. His Translation Matrix lies abandoned in the snow. What happened to him?";
 Constant TX_PS_43 = "Backpack";
-Constant TX_PS_136 = "Backup Power Cell";
+Constant TX_PS_135 = "Backup Power Cell";
 Constant TX_PS_77 = "Bandages and old bottles of red liquid will cure almost any wound, as any purveyor of video games will know.";
 Constant TX_PS_83 = "Base Door";
-Constant TX_PS_153 = "Big Red Button";
-Constant TX_PS_122 = "Broken Ladder";
-Constant TX_PS_133 = "Carl's Notes 1";
+Constant TX_PS_152 = "Big Red Button";
+Constant TX_PS_121 = "Broken Ladder";
+Constant TX_PS_132 = "Carl's Notes 1";
 Constant TX_PS_66 = "Chapter 1";
 Constant TX_PS_67 = "Chapter 2";
 Constant TX_PS_51 = "Common Room";
-Constant TX_PS_156 = "Compartment 1";
-Constant TX_PS_160 = "Compartment 2";
-Constant TX_PS_162 = "Compartment 3";
-Constant TX_PS_166 = "Compartment 4";
-Constant TX_PS_151 = "Control Room";
+Constant TX_PS_155 = "Compartment 1";
+Constant TX_PS_159 = "Compartment 2";
+Constant TX_PS_161 = "Compartment 3";
+Constant TX_PS_165 = "Compartment 4";
+Constant TX_PS_150 = "Control Room";
 Constant TX_PS_93 = "Dig Site";
-Constant TX_PS_138 = "Dim Cavern";
+Constant TX_PS_137 = "Dim Cavern";
 Constant TX_PS_80 = "Dresser";
 Constant TX_PS_95 = "Drilling rig";
 Constant TX_PS_64 = "EDP";
 Constant TX_PS_104 = "Elevator Door";
 Constant TX_PS_105 = "Elevator";
 Constant TX_PS_82 = "Elvish Sword";
-Constant TX_PS_154 = "Engine Room";
+Constant TX_PS_153 = "Engine Room";
 Constant TX_PS_99 = "Everyone in the group is issued a passcard. You can use it to access Level 1 and Level 2 of the dig site. There has been significantly more research done on Level 1 than Level 2";
 Constant TX_PS_71 = "Female Sleeping Quarters";
-Constant TX_PS_169 = "Fiction";
-Constant TX_PS_124 = "First Ledge";
+Constant TX_PS_168 = "Fiction";
+Constant TX_PS_123 = "First Ledge";
 Constant TX_PS_50 = "Flare";
 Constant TX_PS_48 = "Flashlight";
 Constant TX_PS_90 = "Garage Door";
 Constant TX_PS_86 = "Garage";
 Constant TX_PS_75 = "Good for bullet wounds, nose bleeds, and, of course, female hygiene.";
 Constant TX_PS_63 = "Gross.";
-Constant TX_PS_106 = "Ground Level.";
-Constant TX_PS_121 = "Here the ice falters, cascading downward in what may once have been a waterfall in a cup-shaped canyon east of the City Ruins. Beyond and above a series of ledges there is a wall of glyphs that Russeau has been translating.  There is a series of three ledges that crawl across the lip of the round canyon to the Glyph Wall. The artifact room is back to the west.";
+Constant TX_PS_106 = "Ground Level. Exit is to the south.";
+Constant TX_PS_120 = "Here the ice falters, cascading downward in what may once have been a waterfall in a cup-shaped canyon east of the City Ruins. Beyond and above a series of ledges there is a wall of glyphs that Russeau has been translating.  There is a series of three ledges that crawl across the lip of the round canyon to the Glyph Wall. The artifact room is back to the west.";
 Constant TX_PS_2 = "IFF";
 Constant TX_PS_79 = "It's crunchier than you would like it to be. Why is there a granola bar in a first aid kit, anyway?";
 Constant TX_PS_4 = "Joseph Farleo, Andrew Slembarski, and Sydney Young";
@@ -51893,67 +51897,66 @@ Constant TX_PS_98 = "Keycard";
 Constant TX_PS_92 = "Keys";
 Constant TX_PS_85 = "Kind of nippy out here. That is to say, the frigid winds of the surface feel like they're slicing you through to the bone and you are eternally humbled by the vast empty expanse of the surface, which makes you feel very small, and very insignificant, and very cold, but you hate to be melodramatic. To the north, you can see the covered area that houses the snowmobiles.";
 Constant TX_PS_52 = "Kitchen Table";
-Constant TX_PS_60 = "Lab Tables";
+Constant TX_PS_60 = "Lab Table";
 Constant TX_PS_103 = "Ladder";
-Constant TX_PS_120 = "Ledge Room.";
-Constant TX_PS_123 = "Ledge";
-Constant TX_PS_107 = "Level 1.";
-Constant TX_PS_135 = "Level 2.";
+Constant TX_PS_119 = "Ledge Room.";
+Constant TX_PS_122 = "Ledge";
+Constant TX_PS_107 = "Level 1. Exit is to the south.";
+Constant TX_PS_134 = "Level 2.";
 Constant TX_PS_112 = "Makeshift Grappling Hook";
 Constant TX_PS_33 = "Male Sleeping Quarters";
-Constant TX_PS_147 = "Monolith";
-Constant TX_PS_132 = "Mysterious Glyphs";
+Constant TX_PS_146 = "Monolith";
+Constant TX_PS_131 = "Mysterious Glyphs";
 Constant TX_PS_84 = "Outside the Base";
 Constant TX_PS_55 = "PB & J sandwich";
-Constant TX_PS_140 = "Patch of thin ice";
-Constant TX_PS_118 = "Portable Laser Jackhammer (Charged)";
-Constant TX_PS_117 = "Portable Laser Jackhammer (Uncharged)";
-Constant TX_PS_115 = "Portable Laser Jackhammer U";
-Constant TX_PS_42 = "Puffed up to the brim with the finest Groobler feathers. This blue coat is sure to keep me nice and toasty down to 50 Kelvin. The Groobler has truly incredible plumage. It is your favorite bird.";
-Constant TX_PS_173 = "QUIT";
-Constant TX_PS_170 = "RESTART";
-Constant TX_PS_171 = "RESTORE a saved game";
-Constant TX_PS_131 = "Russeau's translations. He has been spending a lot of time on decyphering the glyphs with this.";
-Constant TX_PS_126 = "Second Ledge";
-Constant TX_PS_143 = "Secret Cavern";
-Constant TX_PS_148 = "Ship Room";
-Constant TX_PS_149 = "Ship door";
+Constant TX_PS_139 = "Patch of thin ice";
+Constant TX_PS_117 = "Portable Laser Jackhammer (Charged)";
+Constant TX_PS_115 = "Portable Laser Jackhammer (Uncharged)";
+Constant TX_PS_42 = "Puffed up to the brim with the finest Groobler feathers. This blue coat is sure to keep you nice and toasty down to 50 Kelvin. The Groobler has truly incredible plumage. It is your favorite bird.";
+Constant TX_PS_172 = "QUIT";
+Constant TX_PS_169 = "RESTART";
+Constant TX_PS_170 = "RESTORE a saved game";
+Constant TX_PS_130 = "Russeau's translations. He has been spending a lot of time on decyphering the glyphs with this.";
+Constant TX_PS_125 = "Second Ledge";
+Constant TX_PS_142 = "Secret Cavern";
+Constant TX_PS_147 = "Ship Room";
+Constant TX_PS_148 = "Ship door";
 Constant TX_PS_88 = "Snowmobile";
 Constant TX_PS_100 = "Space Suit";
-Constant TX_PS_145 = "Spear Gun";
+Constant TX_PS_144 = "Spear Gun";
 Constant TX_PS_113 = "Specimen Room";
 Constant TX_PS_110 = "Supply crate";
-Constant TX_PS_144 = "Teal light seeps from  a levitating black stone monolith in the room above the underwater tunnel. The monolith is inscribed with glyphs similar to those on the Glyph Wall above. There is what looks like an alien spear gun lying on the floor before it.";
+Constant TX_PS_143 = "Teal light seeps from  a levitating black stone monolith in the room above the underwater tunnel. The monolith is inscribed with glyphs similar to those on the Glyph Wall above. There is what looks like an alien spear gun lying on the floor before it.";
 Constant TX_PS_65 = "The Environmental Discovery Pager. Each of the archeologists is supposed to have one. Looks like Carl forgot to take his with him. Again. I had better return it to him.";
 Constant TX_PS_114 = "The artifact room is back to the east.";
 Constant TX_PS_73 = "The first aid kit for the team. Kendall must have left it open when she went to restock it with tampons. It doesn't look like she's done so yet.";
-Constant TX_PS_127 = "The first ledge is back to the south across the surprisingly-finite-pit. There is another ledge above you, leading to the Glyph Wall.";
-Constant TX_PS_176 = "The glyphs are translatable with the Matrix you have and the experience from the wall of glyphs above. They tell of an impending freeze that would end the world as the contemporary peoplee knew it, and of the ship they crafted to try and escape. The monolith tells of the risk to aircraft posed by the beast beneath the waves and how they were running out of time. The launch date seems to have been very important to the people of the time. That date was 23, 16, 09 on their calendar system.";
-Array TX_L_176 --> CONSTANT_PACKED_TEXT_STORAGE TX_PS_176;
+Constant TX_PS_126 = "The first ledge is back to the south across the surprisingly finite pit. There is another ledge above you, leading to the Glyph Wall.";
+Constant TX_PS_175 = "The glyphs are translatable with the Matrix you have and the experience from the wall of glyphs above. They tell of an impending freeze that would end the world as the contemporary peoplee knew it, and of the ship they crafted to try and escape. The monolith tells of the risk to aircraft posed by the beast beneath the waves and how they were running out of time. The launch date seems to have been very important to the people of the time. That date was 23, 16, 09 on their calendar system.";
+Array TX_L_175 --> CONSTANT_PACKED_TEXT_STORAGE TX_PS_175;
 Constant TX_PS_116 = "The power cell appears to be missing. Typical.";
-Constant TX_PS_142 = "The underwater tunnel is unsettling. The teal light convuses your eyes and sometimes the water feels thicker, sliding past your body like some sort of obscene invisible serpent.";
+Constant TX_PS_141 = "The underwater tunnel is unsettling. The teal light convuses your eyes and sometimes the water feels thicker, sliding past your body like some sort of obscene invisible serpent.";
 Constant TX_PS_96 = "There are controls here for the laser drill used to create the hole in the ice. Try not to break them, double-oh-seven. You can see a coil of rope and a passcard here.";
-Constant TX_PS_157 = "There is a compartment beneath a dome-like lid that cacn be easily screwed off. Beneath the lid is an array of wires, completely intact.";
-Constant TX_PS_163 = "There is a compartment beneath a dome-like lid that cacn be easily screwed off. The lid appears to have been torn to shreds by large claws. Beneath the lid is an array of wires, many of which have been torn, presumably by the same thing that damaged the lid.";
+Constant TX_PS_156 = "There is a compartment beneath a dome-like lid that cacn be easily screwed off. Beneath the lid is an array of wires, completely intact.";
+Constant TX_PS_162 = "There is a compartment beneath a dome-like lid that cacn be easily screwed off. The lid appears to have been torn to shreds by large claws. Beneath the lid is an array of wires, many of which have been torn, presumably by the same thing that damaged the lid.";
 Constant TX_PS_94 = "There is a huge crater where a series of expiditions have unearthed layers upon layers of ancient species that have rizen in the thawed cycles of this water moon and fallen during the freezing cycles. The moon is a scientific marvel, where new species rise and fall in a cycle of evolution and mass extinction. The crater is surrounded by a lattice of drilling rigs and decends through strata that encompass entire lifetimes of civilizations. To the north is the elevator that leads down the hole. You can see a ladder leading up to the drilling rig. In the distance to the east, you can barely see the outline of the garage door";
-Constant TX_PS_134 = "These are Carl's first set of notes. They say ~~.";
-Constant TX_PS_159 = "These wires are all intact and (at least look like) they are right where they need to be.";
-Constant TX_PS_165 = "These wires are all torn to shreds, but they look like they could be soldered back together.";
-Constant TX_PS_128 = "Third Ledge";
-Constant TX_PS_150 = "This appears to be a door into the ship. It takes the shape of a hemisphere, whith a circular keypad in the center. The keypad has three two-digit displays into which can be entered a numeral from the alien base-ten counting system. From the windows, you can see that the door opens west into a room.";
+Constant TX_PS_133 = "These are Carl's first set of notes. They say ~~.";
+Constant TX_PS_158 = "These wires are all intact and (at least look like) they are right where they need to be.";
+Constant TX_PS_164 = "These wires are all torn to shreds, but they look like they could be soldered back together.";
+Constant TX_PS_127 = "Third Ledge";
+Constant TX_PS_149 = "This appears to be a door into the ship. It takes the shape of a hemisphere, whith a circular keypad in the center. The keypad has three two-digit displays into which can be entered a numeral from the alien base-ten counting system. From the windows, you can see that the door opens west into a room.";
 Constant TX_PS_47 = "This hat is thickly woven out of only the finest space-age polymers. It is guranteed to keep your ears warm for the remainder of your life, should you be trapped out in the brooding wastes of some forsaken ice-planet.";
 Constant TX_PS_34 = "This is the male sleeping quarters for this expidition. The walls are covered in movie posters and there are odds and ends, dishes and cups strewn everywhere. Somewhere in this dump there are records of the history-altering discoveries this expidition has made. To the southeast is the common room.";
 Constant TX_PS_87 = "This is the parking area for the snowmobiles. The edges are lined with benches that are covered in tools that you won't need. All the spaces for snowmobiles are empty except for one.";
-Constant TX_PS_139 = "This level is significantly darker than the layer above. You are now deep in the ice caves, where very little research has been done. Light glistens off of the walls and cieling of the chamber, casting eeire shadows that obscuree the vague, yet menacing somethings frozen in the walls of the chamber. Your eyes drift across the dancing shadows on the ice until they reach the far wall of the chamber and meet another, much, much larger eye. It seems fixated on you though, frozen solid in ice, it cannot move. In the ice beyond, you see the shilouette of some hideous monster, bigger than any thing you thought could live. Jenkies. You feel the sudden urge to to be very very quiet. There is a patch of thin ice covering the west bottom quarter of an expanse of the chamber some ways down. To the east there seems to be the nose of some bizarre ship protruding from the ice, the rest of it frozen into the floor of the ice cave.";
-Constant TX_PS_152 = "This looks like a control room. It is aesthetically similar to the rest of ths ship's rooms, but the walls are absolutely covered in readouts and displays. There is a wireframe sphere in the center of the room with even more consoles covering the interior. Within the control spere in the center of the control room you can see a comically conspicuous Big Red Button: the universal indicator that at some point you should push that button. A hatch leads downward into the Engine Room.";
-Constant TX_PS_155 = "This looks like some sort of engine room.  There are three compartments, each covered by a hemispherical cover that looks like it can be rotated off.";
+Constant TX_PS_138 = "This level is significantly darker than the layer above. You are now deep in the ice caves, where very little research has been done. Light glistens off of the walls and cieling of the chamber, casting eeire shadows that obscuree the vague, yet menacing somethings frozen in the walls of the chamber. Your eyes drift across the dancing shadows on the ice until they reach the far wall of the chamber and meet another, much, much larger eye. It seems fixated on you though, frozen solid in ice, it cannot move. In the ice beyond, you see the shilouette of some hideous monster, bigger than any thing you thought could live. Jenkies. You feel the sudden urge to to be very very quiet. There is a patch of thin ice covering the west bottom quarter of an expanse of the chamber some ways down. To the east there seems to be the nose of some bizarre ship protruding from the ice, the rest of it frozen into the floor of the ice cave.";
+Constant TX_PS_151 = "This looks like a control room. It is aesthetically similar to the rest of ths ship's rooms, but the walls are absolutely covered in readouts and displays. There is a wireframe sphere in the center of the room with even more consoles covering the interior. Within the control spere in the center of the control room you can see a comically conspicuous Big Red Button: the universal indicator that at some point you should push that button. A hatch leads downward into the Engine Room.";
+Constant TX_PS_154 = "This looks like some sort of engine room.  There are three compartments, each covered by a hemispherical cover that looks like it can be rotated off.";
 Constant TX_PS_49 = "This solar-powered flashlight traps light from the sun until you need to use it later.";
-Constant TX_PS_125 = "To the north, across the bottomless pit, you see another ledge. A third appears to be above it. The pit is, of course, not literally bottomless. That would be nonsense. It is, in actuality, merely a very deep pit. Certainly deep enough to send your frail mortal frame to a horribly unpleasant demise. Better be careful, hmm?";
-Constant TX_PS_178 = "To the north, across the not-quite-bottomless pit, you see another ledge. A third appears to be above it. The broken ladder now acts as a rickety excuse for a  bridge across the gap. Are you actually going to walk on that?";
-Array TX_L_178 --> CONSTANT_PACKED_TEXT_STORAGE TX_PS_178;
-Constant TX_PS_130 = "Translation Matrix";
-Constant TX_PS_174 = "UNDO the last command";
-Constant TX_PS_141 = "Underwater tunnel";
+Constant TX_PS_124 = "To the north, across the bottomless pit, you see another ledge. A third appears to be above it. The pit is, of course, not literally bottomless. That would be nonsense. It is, in actuality, merely a very deep pit. Certainly deep enough to send your frail mortal frame to a horribly unpleasant demise. Better be careful, hmm?";
+Constant TX_PS_177 = "To the north, across the not-quite-bottomless pit, you see another ledge. A third appears to be above it. The broken ladder now acts as a rickety excuse for a  bridge across the gap. Are you actually going to walk on that?";
+Array TX_L_177 --> CONSTANT_PACKED_TEXT_STORAGE TX_PS_177;
+Constant TX_PS_129 = "Translation Matrix";
+Constant TX_PS_173 = "UNDO the last command";
+Constant TX_PS_140 = "Underwater tunnel";
 Constant TX_PS_40 = "Wardrobe";
 Constant TX_PS_109 = "You are in the artifact room, so called because it appears to be the remains of a city that seems to have faltered in its development during a medieval period. Among the stony alien ruins lie a plethora of ancient artifacts and tools . There is a supply crate in the room, The specimen room is to the west and the ledge room is to the east.";
 Constant TX_PS_45 = "You don't want frostbite. The frost is vicious and will bite your fingers clean off, or so you've been told. You had better put these on.";
@@ -51995,7 +51998,7 @@ Constant TX_PS_11 = "rideable animals";
 Constant TX_PS_6 = "rideable vehicles";
 Constant TX_PS_97 = "rope";
 Constant TX_PS_53 = "sack lunch";
-Constant TX_PS_172 = "see some suggestions for AMUSING things to do";
+Constant TX_PS_171 = "see some suggestions for AMUSING things to do";
 Constant TX_PS_24 = "south";
 Constant TX_PS_25 = "southeast";
 Constant TX_PS_26 = "southwest";
@@ -52006,10 +52009,10 @@ Constant TX_PS_21 = "the";
 Constant TX_PS_29 = "up";
 Constant TX_PS_14 = "vehicles";
 Constant TX_PS_28 = "west";
-Constant TX_PS_158 = "wires 1";
-Constant TX_PS_161 = "wires 2";
-Constant TX_PS_164 = "wires 3";
-Constant TX_PS_167 = "wires 4";
+Constant TX_PS_157 = "wires 1";
+Constant TX_PS_160 = "wires 2";
+Constant TX_PS_163 = "wires 3";
+Constant TX_PS_166 = "wires 4";
 Constant TX_PS_9 = "women";
 Constant TX_PS_35 = "yourself";
 Array TX_L_35 --> CONSTANT_PACKED_TEXT_STORAGE TX_PS_35;
@@ -59646,25 +59649,25 @@ Array BC_476 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_477 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_478 --> PACKED_TEXT_STORAGE TX_PS_115;
 Array BC_479 --> PACKED_TEXT_STORAGE TX_PS_116;
-Array BC_480 --> PACKED_TEXT_STORAGE TX_PS_115;
+Array BC_480 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_481 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_482 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_483 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_484 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_485 --> PACKED_TEXT_STORAGE TX_PS_117;
+Array BC_484 --> PACKED_TEXT_STORAGE TX_PS_117;
+Array BC_485 --> PACKED_TEXT_STORAGE TX_PS_118;
 Array BC_486 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_487 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_488 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_489 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_490 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_491 --> PACKED_TEXT_STORAGE TX_PS_118;
-Array BC_492 --> PACKED_TEXT_STORAGE TX_PS_119;
+Array BC_490 --> PACKED_TEXT_STORAGE TX_PS_119;
+Array BC_491 --> PACKED_TEXT_STORAGE TX_PS_120;
+Array BC_492 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_493 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_494 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_495 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_496 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_497 --> PACKED_TEXT_STORAGE TX_PS_120;
-Array BC_498 --> PACKED_TEXT_STORAGE TX_PS_121;
+Array BC_495 --> PACKED_TEXT_STORAGE TX_PS_121;
+Array BC_496 --> PACKED_TEXT_STORAGE TX_PS_121;
+Array BC_497 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_498 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_499 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_500 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_501 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
@@ -59673,206 +59676,199 @@ Array BC_503 --> PACKED_TEXT_STORAGE TX_PS_122;
 Array BC_504 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_505 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_506 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_507 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_507 --> PACKED_TEXT_STORAGE TX_PS_12;
 Array BC_508 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_509 --> PACKED_TEXT_STORAGE TX_PS_123;
-Array BC_510 --> PACKED_TEXT_STORAGE TX_PS_123;
-Array BC_511 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_510 --> PACKED_TEXT_STORAGE TX_PS_124;
+Array BC_511 --> PACKED_TEXT_STORAGE TX_PS_123;
 Array BC_512 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_513 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_514 --> PACKED_TEXT_STORAGE TX_PS_12;
-Array BC_515 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_516 --> PACKED_TEXT_STORAGE TX_PS_124;
+Array BC_514 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_515 --> PACKED_TEXT_STORAGE TX_PS_125;
+Array BC_516 --> PACKED_TEXT_STORAGE TX_PS_126;
 Array BC_517 --> PACKED_TEXT_STORAGE TX_PS_125;
-Array BC_518 --> PACKED_TEXT_STORAGE TX_PS_124;
+Array BC_518 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_519 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_520 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_521 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_522 --> PACKED_TEXT_STORAGE TX_PS_126;
+Array BC_521 --> PACKED_TEXT_STORAGE TX_PS_127;
+Array BC_522 --> PACKED_TEXT_STORAGE TX_PS_128;
 Array BC_523 --> PACKED_TEXT_STORAGE TX_PS_127;
-Array BC_524 --> PACKED_TEXT_STORAGE TX_PS_126;
+Array BC_524 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_525 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_526 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_527 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_528 --> PACKED_TEXT_STORAGE TX_PS_128;
+Array BC_527 --> PACKED_TEXT_STORAGE TX_PS_129;
+Array BC_528 --> PACKED_TEXT_STORAGE TX_PS_130;
 Array BC_529 --> PACKED_TEXT_STORAGE TX_PS_129;
-Array BC_530 --> PACKED_TEXT_STORAGE TX_PS_128;
+Array BC_530 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_531 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_532 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_533 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_534 --> PACKED_TEXT_STORAGE TX_PS_130;
+Array BC_534 --> PACKED_TEXT_STORAGE TX_PS_131;
 Array BC_535 --> PACKED_TEXT_STORAGE TX_PS_131;
-Array BC_536 --> PACKED_TEXT_STORAGE TX_PS_130;
+Array BC_536 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_537 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_538 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_539 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_540 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_541 --> PACKED_TEXT_STORAGE TX_PS_132;
-Array BC_542 --> PACKED_TEXT_STORAGE TX_PS_132;
-Array BC_543 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_542 --> PACKED_TEXT_STORAGE TX_PS_133;
+Array BC_543 --> PACKED_TEXT_STORAGE TX_PS_132;
 Array BC_544 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_545 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_546 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_547 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_548 --> PACKED_TEXT_STORAGE TX_PS_133;
-Array BC_549 --> PACKED_TEXT_STORAGE TX_PS_134;
-Array BC_550 --> PACKED_TEXT_STORAGE TX_PS_133;
+Array BC_548 --> PACKED_TEXT_STORAGE TX_PS_104;
+Array BC_549 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_550 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_551 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_552 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_552 --> PACKED_TEXT_STORAGE TX_PS_12;
 Array BC_553 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_554 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_555 --> PACKED_TEXT_STORAGE TX_PS_104;
+Array BC_554 --> PACKED_TEXT_STORAGE TX_PS_105;
+Array BC_555 --> PACKED_TEXT_STORAGE TX_PS_134;
 Array BC_556 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_557 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_558 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_559 --> PACKED_TEXT_STORAGE TX_PS_12;
-Array BC_560 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_561 --> PACKED_TEXT_STORAGE TX_PS_105;
-Array BC_562 --> PACKED_TEXT_STORAGE TX_PS_135;
+Array BC_559 --> PACKED_TEXT_STORAGE TX_PS_135;
+Array BC_560 --> PACKED_TEXT_STORAGE TX_PS_136;
+Array BC_561 --> PACKED_TEXT_STORAGE TX_PS_135;
+Array BC_562 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_563 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_564 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_565 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_566 --> PACKED_TEXT_STORAGE TX_PS_136;
-Array BC_567 --> PACKED_TEXT_STORAGE TX_PS_137;
-Array BC_568 --> PACKED_TEXT_STORAGE TX_PS_136;
+Array BC_566 --> PACKED_TEXT_STORAGE TX_PS_137;
+Array BC_567 --> PACKED_TEXT_STORAGE TX_PS_138;
+Array BC_568 --> PACKED_TEXT_STORAGE TX_PS_137;
 Array BC_569 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_570 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_571 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_572 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_573 --> PACKED_TEXT_STORAGE TX_PS_138;
+Array BC_572 --> PACKED_TEXT_STORAGE TX_PS_139;
+Array BC_573 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_144;
 Array BC_574 --> PACKED_TEXT_STORAGE TX_PS_139;
-Array BC_575 --> PACKED_TEXT_STORAGE TX_PS_138;
+Array BC_575 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_576 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_577 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_578 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_579 --> PACKED_TEXT_STORAGE TX_PS_140;
-Array BC_580 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_144;
+Array BC_580 --> PACKED_TEXT_STORAGE TX_PS_141;
 Array BC_581 --> PACKED_TEXT_STORAGE TX_PS_140;
 Array BC_582 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_583 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_584 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_585 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_586 --> PACKED_TEXT_STORAGE TX_PS_141;
+Array BC_585 --> PACKED_TEXT_STORAGE TX_PS_142;
+Array BC_586 --> PACKED_TEXT_STORAGE TX_PS_143;
 Array BC_587 --> PACKED_TEXT_STORAGE TX_PS_142;
-Array BC_588 --> PACKED_TEXT_STORAGE TX_PS_141;
+Array BC_588 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_589 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_590 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_591 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_592 --> PACKED_TEXT_STORAGE TX_PS_143;
+Array BC_591 --> PACKED_TEXT_STORAGE TX_PS_144;
+Array BC_592 --> PACKED_TEXT_STORAGE TX_PS_145;
 Array BC_593 --> PACKED_TEXT_STORAGE TX_PS_144;
-Array BC_594 --> PACKED_TEXT_STORAGE TX_PS_143;
+Array BC_594 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_595 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_596 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_597 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_598 --> PACKED_TEXT_STORAGE TX_PS_145;
+Array BC_598 --> PACKED_TEXT_STORAGE TX_PS_146;
 Array BC_599 --> PACKED_TEXT_STORAGE TX_PS_146;
-Array BC_600 --> PACKED_TEXT_STORAGE TX_PS_145;
+Array BC_600 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_601 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_602 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_603 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_604 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_605 --> PACKED_TEXT_STORAGE TX_PS_147;
-Array BC_606 --> PACKED_TEXT_STORAGE TX_PS_147;
-Array BC_607 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_606 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_145;
+Array BC_607 --> PACKED_TEXT_STORAGE TX_PS_147;
 Array BC_608 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_609 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_610 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_611 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_612 --> PACKED_TEXT_STORAGE TX_PS_148;
-Array BC_613 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_145;
-Array BC_614 --> PACKED_TEXT_STORAGE TX_PS_148;
+Array BC_611 --> PACKED_TEXT_STORAGE TX_PS_148;
+Array BC_612 --> PACKED_TEXT_STORAGE TX_PS_149;
+Array BC_613 --> LIST_CONST_16936 0;
+Array BC_614 --> Default_Value_0 0;
 Array BC_615 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_616 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_617 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_618 --> PACKED_TEXT_STORAGE TX_PS_149;
+Array BC_617 --> PACKED_TEXT_STORAGE TX_PS_12;
+Array BC_618 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_619 --> PACKED_TEXT_STORAGE TX_PS_150;
-Array BC_620 --> LIST_CONST_16926 0;
-Array BC_621 --> Default_Value_0 0;
+Array BC_620 --> PACKED_TEXT_STORAGE TX_PS_151;
+Array BC_621 --> PACKED_TEXT_STORAGE TX_PS_150;
 Array BC_622 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_623 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_624 --> PACKED_TEXT_STORAGE TX_PS_12;
-Array BC_625 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_626 --> PACKED_TEXT_STORAGE TX_PS_151;
+Array BC_624 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_625 --> PACKED_TEXT_STORAGE TX_PS_152;
+Array BC_626 --> PACKED_TEXT_STORAGE TX_PS_101;
 Array BC_627 --> PACKED_TEXT_STORAGE TX_PS_152;
-Array BC_628 --> PACKED_TEXT_STORAGE TX_PS_151;
+Array BC_628 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_629 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_630 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_630 --> PACKED_TEXT_STORAGE TX_PS_17;
 Array BC_631 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_632 --> PACKED_TEXT_STORAGE TX_PS_153;
-Array BC_633 --> PACKED_TEXT_STORAGE TX_PS_101;
+Array BC_633 --> PACKED_TEXT_STORAGE TX_PS_154;
 Array BC_634 --> PACKED_TEXT_STORAGE TX_PS_153;
 Array BC_635 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_636 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_637 --> PACKED_TEXT_STORAGE TX_PS_17;
-Array BC_638 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_639 --> PACKED_TEXT_STORAGE TX_PS_154;
+Array BC_637 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_638 --> PACKED_TEXT_STORAGE TX_PS_155;
+Array BC_639 --> PACKED_TEXT_STORAGE TX_PS_156;
 Array BC_640 --> PACKED_TEXT_STORAGE TX_PS_155;
-Array BC_641 --> PACKED_TEXT_STORAGE TX_PS_154;
+Array BC_641 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_642 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_643 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_643 --> PACKED_TEXT_STORAGE TX_PS_13;
 Array BC_644 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_645 --> PACKED_TEXT_STORAGE TX_PS_156;
-Array BC_646 --> PACKED_TEXT_STORAGE TX_PS_157;
-Array BC_647 --> PACKED_TEXT_STORAGE TX_PS_156;
+Array BC_645 --> PACKED_TEXT_STORAGE TX_PS_157;
+Array BC_646 --> PACKED_TEXT_STORAGE TX_PS_158;
+Array BC_647 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_648 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_649 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_650 --> PACKED_TEXT_STORAGE TX_PS_13;
-Array BC_651 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_652 --> PACKED_TEXT_STORAGE TX_PS_158;
+Array BC_650 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_651 --> PACKED_TEXT_STORAGE TX_PS_159;
+Array BC_652 --> PACKED_TEXT_STORAGE TX_PS_156;
 Array BC_653 --> PACKED_TEXT_STORAGE TX_PS_159;
 Array BC_654 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_655 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_656 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_656 --> PACKED_TEXT_STORAGE TX_PS_13;
 Array BC_657 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_658 --> PACKED_TEXT_STORAGE TX_PS_160;
-Array BC_659 --> PACKED_TEXT_STORAGE TX_PS_157;
-Array BC_660 --> PACKED_TEXT_STORAGE TX_PS_160;
+Array BC_659 --> PACKED_TEXT_STORAGE TX_PS_158;
+Array BC_660 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_661 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_662 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_663 --> PACKED_TEXT_STORAGE TX_PS_13;
-Array BC_664 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_665 --> PACKED_TEXT_STORAGE TX_PS_161;
-Array BC_666 --> PACKED_TEXT_STORAGE TX_PS_159;
+Array BC_663 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_664 --> PACKED_TEXT_STORAGE TX_PS_161;
+Array BC_665 --> PACKED_TEXT_STORAGE TX_PS_162;
+Array BC_666 --> PACKED_TEXT_STORAGE TX_PS_161;
 Array BC_667 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_668 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_669 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_669 --> PACKED_TEXT_STORAGE TX_PS_13;
 Array BC_670 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_671 --> PACKED_TEXT_STORAGE TX_PS_162;
-Array BC_672 --> PACKED_TEXT_STORAGE TX_PS_163;
-Array BC_673 --> PACKED_TEXT_STORAGE TX_PS_162;
+Array BC_671 --> PACKED_TEXT_STORAGE TX_PS_163;
+Array BC_672 --> PACKED_TEXT_STORAGE TX_PS_164;
+Array BC_673 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_674 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_675 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_676 --> PACKED_TEXT_STORAGE TX_PS_13;
-Array BC_677 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_678 --> PACKED_TEXT_STORAGE TX_PS_164;
+Array BC_676 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_677 --> PACKED_TEXT_STORAGE TX_PS_165;
+Array BC_678 --> PACKED_TEXT_STORAGE TX_PS_156;
 Array BC_679 --> PACKED_TEXT_STORAGE TX_PS_165;
 Array BC_680 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_681 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_682 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_682 --> PACKED_TEXT_STORAGE TX_PS_13;
 Array BC_683 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_684 --> PACKED_TEXT_STORAGE TX_PS_166;
-Array BC_685 --> PACKED_TEXT_STORAGE TX_PS_157;
-Array BC_686 --> PACKED_TEXT_STORAGE TX_PS_166;
+Array BC_685 --> PACKED_TEXT_STORAGE TX_PS_158;
+Array BC_686 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_687 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_688 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_689 --> PACKED_TEXT_STORAGE TX_PS_13;
-Array BC_690 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_691 --> PACKED_TEXT_STORAGE TX_PS_167;
-Array BC_692 --> PACKED_TEXT_STORAGE TX_PS_159;
-Array BC_693 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_689 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_690 --> PACKED_TEXT_STORAGE TX_PS_167;
+Array BC_691 --> PACKED_TEXT_STORAGE TX_PS_4;
+Array BC_692 --> PACKED_TEXT_STORAGE TX_PS_3;
+Array BC_693 --> PACKED_TEXT_STORAGE TX_PS_168;
 Array BC_694 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_695 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_696 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_697 --> PACKED_TEXT_STORAGE TX_PS_168;
-Array BC_698 --> PACKED_TEXT_STORAGE TX_PS_4;
-Array BC_699 --> PACKED_TEXT_STORAGE TX_PS_3;
-Array BC_700 --> PACKED_TEXT_STORAGE TX_PS_169;
-Array BC_701 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_702 --> PACKED_TEXT_STORAGE TX_PS_170;
-Array BC_703 --> PACKED_TEXT_STORAGE TX_PS_171;
-Array BC_704 --> PACKED_TEXT_STORAGE TX_PS_172;
-Array BC_705 --> PACKED_TEXT_STORAGE TX_PS_173;
-Array BC_706 --> PACKED_TEXT_STORAGE TX_PS_174;
+Array BC_695 --> PACKED_TEXT_STORAGE TX_PS_169;
+Array BC_696 --> PACKED_TEXT_STORAGE TX_PS_170;
+Array BC_697 --> PACKED_TEXT_STORAGE TX_PS_171;
+Array BC_698 --> PACKED_TEXT_STORAGE TX_PS_172;
+Array BC_699 --> PACKED_TEXT_STORAGE TX_PS_173;
 
 
 
