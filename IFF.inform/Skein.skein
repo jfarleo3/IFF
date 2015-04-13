@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-0x025A48A0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x025FF6E0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Inform 7 for Windows</generator>
-  <activeNode nodeId="node-0x025B5F40"/>
-  <item nodeId="node-0x025A48A0">
+  <activeNode nodeId="node-0x025E05F0"/>
+  <item nodeId="node-0x025FF6E0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">IFF&#x000A;An Interactive Fiction by Joseph Farleo, Andrew Slembarski, and Sydney Young&#x000A;Release 1 / Serial number 150412 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Male Sleeping Quarters&#x000A;This is the male sleeping quarters for this expidition. The walls are covered in movie posters and there are odds and ends, dishes and cups strewn everywhere. Somewhere in this dump there are records of the history-altering discoveries this expidition has made. To the southeast is the common room.&#x000A;&#x000A;You can see an Alarm Clock, a Wardrobe (closed) and a Backpack (closed) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -10,12 +10,12 @@
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <children>
-      <child nodeId="node-0x00303A80"/>
-      <child nodeId="node-0x025B5FB0"/>
-      <child nodeId="node-0x025B5D80"/>
+      <child nodeId="node-0x025D47E0"/>
+      <child nodeId="node-0x025D5430"/>
+      <child nodeId="node-0x025FE9A0"/>
     </children>
   </item>
-  <item nodeId="node-0x00303A80">
+  <item nodeId="node-0x025D47E0">
     <command xml:space="preserve">look around</command>
     <result xml:space="preserve">Male Sleeping Quarters&#x000A;This is the male sleeping quarters for this expidition. The walls are covered in movie posters and there are odds and ends, dishes and cups strewn everywhere. Somewhere in this dump there are records of the history-altering discoveries this expidition has made. To the southeast is the common room.&#x000A;&#x000A;You can see an Alarm Clock, a Wardrobe (closed) and a Backpack (closed) here.&#x000A;&#x000A;We come in peace. Take me to your leader. Klaatu barada nikto. Koona t'chuta Solo? All will be one. Resistance is futile. That's not what these glyphs say. You have no idea what the glyphs say. They won't make any sense without a translator.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -23,10 +23,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x003038C0"/>
+      <child nodeId="node-0x025D4850"/>
     </children>
   </item>
-  <item nodeId="node-0x003038C0">
+  <item nodeId="node-0x025D4850">
     <command xml:space="preserve">go southeast</command>
     <result xml:space="preserve">Common Room&#x000A;Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the lab tables in the middle of the room, scientific research abandoned each morning to persue scientific FIELD research. You are not a scientist and do not understand what the other members of the expidition are doing when they peer at the artefacts they've uncovered and make sounds like 'hmm' and 'fascinating'.&#x000A; To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside.&#x000A;&#x000A;You can see Base Door, Kitchen Table (on which is a sack lunch (closed)), a Lab Tables (on which are a microscope, a preserved thoracic sac, an EDP (in which are a Chapter 1 and a Chapter 2) and a laser scalpel) and a bathroom door here.&#x000A;&#x000A;We come in peace. Take me to your leader. Klaatu barada nikto. Koona t'chuta Solo? All will be one. Resistance is futile. That's not what these glyphs say. You have no idea what the glyphs say. They won't make any sense without a translator.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -34,10 +34,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x00303930"/>
+      <child nodeId="node-0x025D53C0"/>
     </children>
   </item>
-  <item nodeId="node-0x00303930">
+  <item nodeId="node-0x025D53C0">
     <command xml:space="preserve">go southwest</command>
     <result xml:space="preserve">Female Sleeping Quarters&#x000A;Sleeping quarters for the women on this expedition. It's rather rude of you to go snooping around people's personal spaces when they're not around, you know. Tsk. Don't expect to get invited to my house anytime soon. The room is far from tidy, but it seems impeccable compared to the rest of this outpost. There is a first-aid kit atop the side table, and a dresser in the far corner of the room. An Elvish Sword is mounted above one of the beds&#x000A;&#x000A;You can see a first aid kit (in which are a tampon, a bandage and a granola bar), a Dresser (closed) and an Elvish Sword here.&#x000A;&#x000A;We come in peace. Take me to your leader. Klaatu barada nikto. Koona t'chuta Solo? All will be one. Resistance is futile. That's not what these glyphs say. You have no idea what the glyphs say. They won't make any sense without a translator.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -45,7 +45,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x025B5FB0">
+  <item nodeId="node-0x025D5430">
     <command xml:space="preserve">go southeast</command>
     <result xml:space="preserve">Common Room&#x000A;Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the lab tables in the middle of the room, scientific research abandoned each morning to persue scientific FIELD research. You are not a scientist and do not understand what the other members of the expidition are doing when they peer at the artefacts they've uncovered and make sounds like 'hmm' and 'fascinating'.&#x000A; To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside.&#x000A;&#x000A;You can see Base Door, Kitchen Table (on which is a sack lunch (closed)), a Lab Tables (on which are a microscope, a preserved thoracic sac, an EDP (in which are a Chapter 1 and a Chapter 2) and a laser scalpel) and a bathroom door here.&#x000A;&#x000A;We come in peace. Take me to your leader. Klaatu barada nikto. Koona t'chuta Solo? All will be one. Resistance is futile. That's not what these glyphs say. You have no idea what the glyphs say. They won't make any sense without a translator.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -53,10 +53,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x025B6020"/>
+      <child nodeId="node-0x025D54A0"/>
     </children>
   </item>
-  <item nodeId="node-0x025B6020">
+  <item nodeId="node-0x025D54A0">
     <command xml:space="preserve">go southwest</command>
     <result xml:space="preserve">Female Sleeping Quarters&#x000A;Sleeping quarters for the women on this expedition. It's rather rude of you to go snooping around people's personal spaces when they're not around, you know. Tsk. Don't expect to get invited to my house anytime soon. The room is far from tidy, but it seems impeccable compared to the rest of this outpost. There is a first-aid kit atop the side table, and a dresser in the far corner of the room. An Elvish Sword is mounted above one of the beds&#x000A;&#x000A;You can see a first aid kit (in which are a tampon, a bandage and a granola bar), a Dresser (closed) and an Elvish Sword here.&#x000A;&#x000A;We come in peace. Take me to your leader. Klaatu barada nikto. Koona t'chuta Solo? All will be one. Resistance is futile. That's not what these glyphs say. You have no idea what the glyphs say. They won't make any sense without a translator.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -64,10 +64,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x025B6090"/>
+      <child nodeId="node-0x025D5510"/>
     </children>
   </item>
-  <item nodeId="node-0x025B6090">
+  <item nodeId="node-0x025D5510">
     <command xml:space="preserve">examine dresser</command>
     <result xml:space="preserve">You know, you shouldn't go through people's belongings without their permission, especailly when they're away. There are clothes in the dresser. Why would you want to root through people's clothes, anyway? Creep.&#x000A;&#x000A;We come in peace. Take me to your leader. Klaatu barada nikto. Koona t'chuta Solo? All will be one. Resistance is futile. That's not what these glyphs say. You have no idea what the glyphs say. They won't make any sense without a translator.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -75,10 +75,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x025B62C0"/>
+      <child nodeId="node-0x002C3BC0"/>
     </children>
   </item>
-  <item nodeId="node-0x025B62C0">
+  <item nodeId="node-0x002C3BC0">
     <command xml:space="preserve">examine clothes</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -86,10 +86,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x025B5D10"/>
+      <child nodeId="node-0x002C3C30"/>
     </children>
   </item>
-  <item nodeId="node-0x025B5D10">
+  <item nodeId="node-0x002C3C30">
     <command xml:space="preserve">take clothes</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -97,10 +97,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x025B5DF0"/>
+      <child nodeId="node-0x002C3F00"/>
     </children>
   </item>
-  <item nodeId="node-0x025B5DF0">
+  <item nodeId="node-0x002C3F00">
     <command xml:space="preserve">open dresser</command>
     <result xml:space="preserve">You open the Dresser, revealing a clothes.&#x000A;&#x000A;We come in peace. Take me to your leader. Klaatu barada nikto. Koona t'chuta Solo? All will be one. Resistance is futile. That's not what these glyphs say. You have no idea what the glyphs say. They won't make any sense without a translator.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -108,10 +108,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x025B64F0"/>
+      <child nodeId="node-0x025FE930"/>
     </children>
   </item>
-  <item nodeId="node-0x025B64F0">
+  <item nodeId="node-0x025FE930">
     <command xml:space="preserve">take clothes</command>
     <result xml:space="preserve">Those reallt don't suit your style. Also, they do not belong to you. They belong to someone else, who is not you. Please leave the clothes alone.&#x000A;&#x000A;We come in peace. Take me to your leader. Klaatu barada nikto. Koona t'chuta Solo? All will be one. Resistance is futile. That's not what these glyphs say. You have no idea what the glyphs say. They won't make any sense without a translator.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -119,7 +119,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x025B5D80">
+  <item nodeId="node-0x025FE9A0">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">Backpack: Taken.&#x000A;&#x000A;We come in peace. Take me to your leader. Klaatu barada nikto. Koona t'chuta Solo? All will be one. Resistance is futile. That's not what these glyphs say. You have no idea what the glyphs say. They won't make any sense without a translator.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -127,10 +127,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x025B6170"/>
+      <child nodeId="node-0x02606C40"/>
     </children>
   </item>
-  <item nodeId="node-0x025B6170">
+  <item nodeId="node-0x02606C40">
     <command xml:space="preserve">go southeast</command>
     <result xml:space="preserve">Common Room&#x000A;Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the lab tables in the middle of the room, scientific research abandoned each morning to persue scientific FIELD research. You are not a scientist and do not understand what the other members of the expidition are doing when they peer at the artefacts they've uncovered and make sounds like 'hmm' and 'fascinating'.&#x000A; To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside.&#x000A;&#x000A;You can see Base Door, Kitchen Table (on which is a sack lunch (closed)), a Lab Tables (on which are a microscope, a preserved thoracic sac, an EDP (in which are a Chapter 1 and a Chapter 2) and a laser scalpel) and a bathroom door here.&#x000A;&#x000A;We come in peace. Take me to your leader. Klaatu barada nikto. Koona t'chuta Solo? All will be one. Resistance is futile. That's not what these glyphs say. You have no idea what the glyphs say. They won't make any sense without a translator.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -138,10 +138,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x025B61E0"/>
+      <child nodeId="node-0x02606F68"/>
     </children>
   </item>
-  <item nodeId="node-0x025B61E0">
+  <item nodeId="node-0x02606F68">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">sack lunch: Taken.&#x000A;EDP: Taken.&#x000A;Chapter 1: Taken.&#x000A;Chapter 2: Taken.&#x000A;laser scalpel: Taken.&#x000A;&#x000A;We come in peace. Take me to your leader. Klaatu barada nikto. Koona t'chuta Solo? All will be one. Resistance is futile. That's not what these glyphs say. You have no idea what the glyphs say. They won't make any sense without a translator.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -149,10 +149,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x025B5CA0"/>
+      <child nodeId="node-0x025E0660"/>
     </children>
   </item>
-  <item nodeId="node-0x025B5CA0">
+  <item nodeId="node-0x025E0660">
     <command xml:space="preserve">go east</command>
     <result xml:space="preserve">(first opening Base Door)&#x000A;You can't go out there dressed like this! Your tauntaun will freeze before you reach the first marker! 'Then I'll see you in hell', you chuckle to no-one in particular. What a nerd.&#x000A;&#x000A;We come in peace. Take me to your leader. Klaatu barada nikto. Koona t'chuta Solo? All will be one. Resistance is futile. That's not what these glyphs say. You have no idea what the glyphs say. They won't make any sense without a translator.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -160,10 +160,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x025B5AE0"/>
+      <child nodeId="node-0x025E0350"/>
     </children>
   </item>
-  <item nodeId="node-0x025B5AE0">
+  <item nodeId="node-0x025E0350">
     <command xml:space="preserve">wear jacket</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -171,10 +171,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x025B5E60"/>
+      <child nodeId="node-0x025E0890"/>
     </children>
   </item>
-  <item nodeId="node-0x025B5E60">
+  <item nodeId="node-0x025E0890">
     <command xml:space="preserve">take jacket</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -182,10 +182,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x025B6250"/>
+      <child nodeId="node-0x025E0430"/>
     </children>
   </item>
-  <item nodeId="node-0x025B6250">
+  <item nodeId="node-0x025E0430">
     <command xml:space="preserve">open backpack</command>
     <result xml:space="preserve">You open the Backpack, revealing a pair of gloves, a hat, a Flashlight and a Flare.&#x000A;&#x000A;We come in peace. Take me to your leader. Klaatu barada nikto. Koona t'chuta Solo? All will be one. Resistance is futile. That's not what these glyphs say. You have no idea what the glyphs say. They won't make any sense without a translator.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -193,10 +193,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x025B6330"/>
+      <child nodeId="node-0x025E0580"/>
     </children>
   </item>
-  <item nodeId="node-0x025B6330">
+  <item nodeId="node-0x025E0580">
     <command xml:space="preserve">wear gloves</command>
     <result xml:space="preserve">(first taking the pair of gloves)&#x000A;You put on the pair of gloves.&#x000A;&#x000A;We come in peace. Take me to your leader. Klaatu barada nikto. Koona t'chuta Solo? All will be one. Resistance is futile. That's not what these glyphs say. You have no idea what the glyphs say. They won't make any sense without a translator.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -204,10 +204,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x025B5F40"/>
+      <child nodeId="node-0x025E05F0"/>
     </children>
   </item>
-  <item nodeId="node-0x025B5F40">
+  <item nodeId="node-0x025E05F0">
     <command xml:space="preserve">wear hat</command>
     <result xml:space="preserve">(first taking the hat)&#x000A;You put on the hat.&#x000A;&#x000A;We come in peace. Take me to your leader. Klaatu barada nikto. Koona t'chuta Solo? All will be one. Resistance is futile. That's not what these glyphs say. You have no idea what the glyphs say. They won't make any sense without a translator.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
