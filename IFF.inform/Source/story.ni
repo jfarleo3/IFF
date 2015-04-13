@@ -1,7 +1,6 @@
 "IFF" by Joseph Farleo, Andrew Slembarski, and Sydney Young
 
 Include Rideable Vehicles by Graham Nelson.
-[need to change everything to second person]
 
 Understand "look around" as looking.
 Understand "examine room" as looking.
@@ -13,23 +12,7 @@ Instead of looking under a thing which is underlaid by something (called the los
 	Say "You[']ve discovered [the list of things which underlie the noun]!";
 	now every thing which underlies the noun is carried by the player;
 	now every thing which underlies the noun does not underlie the noun.
-	
-[Hiding it under is an action applying to one carried thing and one thing. Understand "put [something preferably held] under [something]" as hiding it under.
-Understand "hide [something preferably held] under [something]" as hiding it under.
-Understand the commands "shove" and "conceal" and "stick" as "hide".
 
-Check hiding it under:
-	if the second noun is not fixed in place:
-		say "[The second noun] wouldn't be a very effective place of concealment. Try hiding [the first noun] with something that isn't so likely to be picked up and carried off, perhaps instead.".
-	
-Carry out hiding it under:
-	now the noun is nowhere;
-	now the noun underlies the second noun.
-	
-Report hiding it under:
-	say "You shove [the noun] out of sight beneath [the second noun]. I'm sure you won't forget where you hid it this time, like you did with your arsenal of chargers and keys back home."]
-
-[Rooms & their locations]
 [Sleeping Quarters: contains backpack, clock, and wardrobe]
 Male Sleeping Quarters is a room with description "This is the male sleeping quarters for this expidition. The walls are covered in movie posters and there are odds and ends, dishes and cups strewn everywhere. Somewhere in this dump there are records of the history-altering discoveries this expidition has made. To the southeast is the common room.". 
 The player is in Male Sleeping Quarters. 
@@ -222,17 +205,14 @@ Mysterious Glyphs is an object in Third Ledge. Mysterious Glyphs is fixed in pla
 
 Every turn:
 	if the player carries Translation Matrix:
-		say "The glyphs start to makes sense.";
+		now the description of Spear gun is "A deadly-looking weapon left by lost civilization of the strata you are at. Why someone would need such a vicious projectile makes you shudder. The alien glyphs carved into it correspond to the numbers 23, 16, and 9.";
 		now the description of Mysterious Glyphs is "The glyphs start to make sense. They tell of hard times and troubles of mythic proportions. The glyph wall appears to recall a legend of a great beast from the warming sea, who swallowed cities and snatched prey from the air, dragging it back to the depths below. The glyphs also relate archeological discoveries by contemporaries that also tell of the tentacled, clawed beast from the sea and warn of its return. If this creature is real, it has been alive for a very, very long time. You start to wonder about the ruins and how they seem to have been smashed to pieces before the great freeze... [line break]Maybe Russeau, Carl, Reala and the others went to Level 2 to persue the archological findings detailed on the Glyph Wall. That doesn't explain why their belongings are just scattered around, but at least it's a lead.";
 	otherwise:
 		now the description of Mysterious Glyphs is "They say [']We come in peace. Take me to your leader. Klaatu barada nikto. Koona t'chuta Solo? All will be one. Resistance is futile.['] That's not what these glyphs say. You have no idea what the glyphs say. They won't make any sense without a translator.";
-		now the description of Spear gun is "The glyphs start to make sense. They say ";
+		now the description of Spear gun is "A deadly-looking weapon left by lost civilization of the strata you are at. Why someone would need such a vicious projectile makes you shudder. There are strange alien glyphs carved into the barrel.";
 	
 Carl's Notes 1 is an object with description "These are Carl's first set of notes. They say ''.".
-
-
 		
-[Level 2 keycard is an object. ]
 Elevator Door 2 is a door with printed name "Elevator Door". Elevator Door 2 is below Elevator Level 1. 
 Elevator level 2 is a room with description "Level 2." and printed name "Elevator". Elevator level 2 is below the Elevator Door 2. 
 
@@ -245,12 +225,10 @@ Every turn:
 		now the player carries the Portable Laser Jackhammer C;
 		say "You use the power cell from the elevator to power the jackhammer.";
 
-[We need to decide on a name for the first room on floor 2. For now I've just named it "Room 1"]
+Dim Cavern is a room with description "This level is significantly darker than the layer above. You are now deep in the ice caves, where very little research has been done. Light glistens off of the walls and cieling of the chamber, casting eeire shadows that obscuree the vague, yet menacing somethings frozen in the walls of the chamber. Your eyes drift across the dancing shadows on the ice until they reach the far wall of the chamber and meet another, much, much larger eye. It seems fixated on you though, frozen solid in ice, it cannot move. In the ice beyond, you see the shilouette of some hideous monster, bigger than any thing you thought could live. Jenkies. You feel the sudden urge to to be very very quiet. There is a patch of thin ice covering the west bottom quarter of an expanse of the chamber some ways down. To the east there seems to be the nose of some bizarre ship protruding from the ice, the rest of it frozen into the floor of the ice cave.". Dim Cavern is south of Elevator Level 2. 
+Underwater tunnel is a room with description "The underwater tunnel is unsettling. The teal light convuses your eyes and sometimes the water feels thicker, sliding past your body like some sort of obscene invisible serpent.". Underwater tunnel is west of Dim Cavern.
 
-Room 1 is a room with description "This level is significantly darker than the layer above. You are now deep in the ice caves, where very little research has been done. Light glistens off of the walls and cieling of the chamber, casting eeire shadows that obscuree the vague, yet menacing somethings frozen in the walls of the chamber. Your eyes drift across the dancing shadows on the ice until they reach the far wall of the chamber and meet another, much, much larger eye. It seems fixated on you though, frozen solid in ice, it cannot move. In the ice beyond, you see the shilouette of some hideous monster, bigger than any thing you thought could live. Jenkies. You feel the sudden urge to to be very very quiet. There is a patch of thin ice covering the west bottom quarter of an expanse of the chamber some ways down. To the east there seems to be the nose of some bizarre ship protruding from the ice, the rest of it frozen into the floor of the ice cave.". Room 1 is south of Elevator Level 2. 
-Underwater tunnel is a room with description "The underwater tunnel is unsettling. The teal light convuses your eyes and sometimes the water feels thicker, sliding past your body like some sort of obscene invisible serpent.". Underwater tunnel is west of Room 1.
-
-Patch of thin ice is an object with description "There is a patch of thinner, lighter ice here. It is thick enough to support your weight, but if you had something to heat it up, you might be able to melt it. You swear you can see something flicking back and forth beneath the ice. You can feel the great eye burrowing into your back. [']I'm sure it will be fine,['] you think. Funny how people only ever say they[']re sure it will be fine when they[']re sure it won't. You reveal an underwater tunnel leading west. The light gleams teal from the path you've cleared.". Patch of thin ice is in Room 1.
+Patch of thin ice is an object with description "There is a patch of thinner, lighter ice here. It is thick enough to support your weight, but if you had something to heat it up, you might be able to melt it. You swear you can see something flicking back and forth beneath the ice. You can feel the great eye burrowing into your back. [']I'm sure it will be fine,['] you think. Funny how people only ever say they[']re sure it will be fine when they[']re sure it won't. You reveal an underwater tunnel leading west. The light gleams teal from the path you've cleared.". Patch of thin ice is in Dim Cavern.
 
 Melting is an action applying to one visible thing.
 Understand "melt [thing]" as melting.
@@ -264,8 +242,8 @@ Before melting the Patch of thin ice:
 		say "If only you had some tool to help you.";
 		stop the action;
 		
-Before going west from Room 1:
-	if the Patch of thin ice is in room 1:
+Before going west from Dim Cavern:
+	if the Patch of thin ice is in Dim Cavern:
 		say "This ice is in your way.";
 		stop the action;
 	otherwise:
@@ -275,7 +253,7 @@ Before going west from Room 1:
 Secret Cavern is a room with description "Teal light seeps from  a levitating black stone monolith in the room above the underwater tunnel. The monolith is inscribed with glyphs similar to those on the Glyph Wall above. There is what looks like an alien spear gun lying on the floor before it.". Secret Cavern is above Underwater tunnel. 
 Spear Gun is an object with description "A deadly-looking weapon left by lost civilization of the strata you are at. Why someone would need such a vicious projectile makes you shudder.". Spear gun is in Secret Cavern. 
 
-Ship Room is a room with description "It[']s all yellow metal and glowing blue orbs. A vague ambient humming meets your ears and the room smells not dissimilar to a hospital.". Ship room is east of Room 1.
+Ship Room is a room with description "It[']s all yellow metal and glowing blue orbs. A vague ambient humming meets your ears and the room smells not dissimilar to a hospital.". Ship room is east of Dim Cavern.
 
 [Taken from IF7 Documentation: Example 431 - Eyes, Fingers, Toes]
 The Ship door is a door with description "This appears to be a door into the ship. It takes the shape of a hemisphere, whith a circular keypad in the center. The keypad has three two-digit displays into which can be entered a numeral from the alien base-ten counting system. From the windows, you can see that the door opens west into a room.". Ship door is east of Ship room. Ship door is locked. 
@@ -334,9 +312,3 @@ Before switching on Big Red Button:
 	otherwise:
 		say "The ship's engine roars to life and the ship floods with light. It begins shuddering  and shaking as though it were falling apart and growing hotter by the minute. You sprint for the exit, stumbling out of the ship's door and across the ice splitting under foot. As you sprint for the elavator, a low moan begins from the direction of the eye in the wall, rising quickly to an earsplitting shriek that seems to reverberate into your very soul. You skid into the elevator ans swipe your card without heasitation and as you look through the door sliding shut, you see the wall that the eye was behind go white and split down the middle. It is stirring. You have to find your crew and escape. [line break] Our protagonist returned in a frothy panic to the expidition base to find the rest of his crew returned from another study site. A last-minute change of plans had diverted them from their original day plan and they'd spent a pleasant day studying the social behavior of phosphorescent space penguins. Upon feeling the tremors, the crew decided, despite their skepticism, to abide by the protagonist's warning and return to the shuttle. As the shuttle took off and escaped the moon's orbit, if any of them had been looking out of the right window, they'd have seen the dig site collapse in the wake of an explosion, collapsing on the eldritch something beneath the ice. A horrid shriek and one wiry arm protruding from the ice in a post-mortem grasp for vengance would be all that remained of the fate that they so narrowly escaped.";
 		end the story;
-
-
-[Before opening Elevator Door 2:
-	unless the player is holding Level 2 Keycard:
-		say "ACCESS DENIED";
-		stop the action.]
