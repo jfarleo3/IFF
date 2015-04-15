@@ -231,7 +231,7 @@ Every turn:
 	if the player carries Translation Matrix:
 		[now the description of Spear gun is "A deadly-looking weapon left by lost civilization of the strata you are at. Why someone would need such a vicious projectile makes you shudder. The alien glyphs carved into it correspond to the numbers 23, 16, and 9.";]
 		now the description of Mysterious Glyphs is "The glyphs start to make sense. They tell of hard times and troubles of mythic proportions. The glyph wall appears to recall a legend of a great beast from the warming sea, who swallowed cities and snatched prey from the air, dragging it back to the depths below. The glyphs also relate archeological discoveries by contemporaries that also tell of the tentacled, clawed beast from the sea and warn of its return. If this creature is real, it has been alive for a very, very long time. You start to wonder about the ruins and how they seem to have been smashed to pieces before the great freeze... [line break]Maybe Russeau, Carl, Reala and the others went to Level 2 to pursue the archological findings detailed on the Glyph Wall. That doesn't explain why their belongings are just scattered around, but at least it's a lead.";
-		now the description of the Monolith is "The glyphs are translatable with the Matrix you have and the experience from the wall of glyphs above. They tell of an impending freeze that would end the world as the contemporary peoplee knew it, and of the ship they crafted to try and escape. The monolith tells of the risk to aircraft posed by the beast beneath the waves and how they were running out of time. The launch date seems to have been very important to the people of the time. That date was 23, 16, 09 on their calendar system.";
+		now the description of the Monolith is "The glyphs are translatable with the Matrix you have and the experience from the wall of glyphs above. They tell of an impending freeze that would end the world as the contemporary peoplee knew it, and of the ship they crafted to try and escape. The monolith tells of the risk to aircraft posed by the beast beneath the waves and how they were running out of time. The launch date seems to have been very important to the people of the time. That date was 17, 74, 45 on their calendar system.";
 	otherwise:
 		now the description of Mysterious Glyphs is "They say [']We come in peace. Take me to your leader. Klaatu barada nikto. Koona t'chuta Solo? All will be one. Resistance is futile.['] That's not what these glyphs say. You have no idea what the glyphs say. They won't make any sense without a translator.";
 		now the description of the the Monolith is "They say [']We come in peace. Take me to your leader. Klaatu barada nikto. Koona t'chuta Solo? All will be one. Resistance is futile.['] That's not what these glyphs say. You have no idea what the glyphs say. They won't make any sense without a translator.";
@@ -301,7 +301,7 @@ The Ship door is a door with description "This appears to be a door into the shi
 
 The Ship Door has a list of numbers called the current combination.
 
-The Ship Door has a list of numbers called the true combination. The true combination of The Ship Door is {23, 16, 09}.
+The Ship Door has a list of numbers called the true combination. The true combination of The Ship Door is {17, 74, 45}.
 
 Understand "set [something] to [a number]" as setting it numerically to. Setting it numerically to is an action applying to one thing and one number.
 
