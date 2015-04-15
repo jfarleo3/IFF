@@ -1,1507 +1,1103 @@
-<?xml version="1.0"?>
-<Skein rootNode="node-0x1fa990" xmlns="http://www.logicalshift.org.uk/IF/Skein">
-  <generator>Zoom</generator>
-  <activeNode nodeId="node-0xf914300" />
-  <item nodeId="node-0x1fa990">
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x02EE41A0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7 for Windows</generator>
+  <activeNode nodeId="node-0x02EE41A0"/>
+  <item nodeId="node-0x02EE41A0">
     <command xml:space="preserve">- start -</command>
-    <result xml:space="preserve">
-
-
-Fantastic Jurassic Antarctic Cthulhu Adventure
-An Interactive Fiction by Joseph Farleo, Andrew Slembarski, and Sydney Young
-Release 1 / Serial number 150414 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
-
-Male Sleeping Quarters
-This is the male sleeping quarters for this expedition. The walls are covered in movie posters and there are odds and ends, dishes and cups strewn everywhere. Somewhere in this dump there are records of the history-altering discoveries this expedition has made. To the southeast is the common room.
-
-You can see an Alarm Clock, a Wardrobe (closed) and a Backpack (closed) here.
-
-&gt;</result>
+    <result xml:space="preserve">The year is 11057. It has been a few days since you and your crewmates have been dispatched onto the ice planet of Glacis for research purposes. Ever since the expansion in the planetary exploration budget, your home planet naturally sent the finest biologists, zoologists, archeologists, and other various -ologists that could potentially aid the cause of furthering scientific knowledge. &#x000A;&#x000A; And, somehow, you, lucky little intern, won the application lottery and managed to get on the team after writing one of the finest essays that your tiny little Geology undergrad-student mind could churn up. &#x000A;&#x000A; Congratulations. &#x000A;&#x000A; Besides the lack of rocks on the expedition, much to your dismay might I add, you seem to enjoy the experience of digging through the thick ice with a massive laser drill and creating an elevator just east of the base, observing the Phosphorescent Space Penguins, not too far north, and exploring the first floor of the caves underneath the surface with the rest of the crew. The team is a fairly nice bunch and you've quickly learned most of their quirks and abits of the individuals you are with. &#x000A;&#x000A; One of those "quirks" is that the group has a collective problem of assuming that everyone knows where the group will be heading that day without leaving any significant reminders for stragglers. And if one were to sleep in, it is up to him or her to track down the group and get to work before anyone realizes that that person was missing or that person would get quite the lecture from Marcus. &#x000A;&#x000A; You aren't the first to make the blunder of sleeping in, yet here you are. &#x000A;&#x000A; Wake up, sleepy head, the group has already gone to the dig site wihtout you. You had better hurry there or you'll face Marcus's wrath.&#x000A;&#x000A;Fantastic Jurassic Antarctic Cthulhu Adventure&#x000A;An Interactive Fiction by Joseph Farleo, Andrew Slembarski, and Sydney Young&#x000A;Release 1 / Serial number 150414 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Male Sleeping Quarters&#x000A;This is the male sleeping quarters for this expedition. The walls are covered in movie posters and there are odds and ends, dishes and cups strewn everywhere. Somewhere in this dump there are records of the history-altering discoveries this expedition has made. To the southeast is the common room.&#x000A;&#x000A;You can see an Alarm Clock, a Wardrobe (closed) and a Backpack (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <temporary score="5">NO</temporary>
     <children>
-      <child nodeId="node-0x1faa00" />
-      <child nodeId="node-0x1fabd0" />
+      <child nodeId="node-0x02ECB9E8"/>
+      <child nodeId="node-0x02EB4218"/>
     </children>
   </item>
-  <item nodeId="node-0x1fabd0">
-    <command xml:space="preserve">open wardrobe</command>
-    <result xml:space="preserve">You open the Wardrobe, revealing a coat.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="125">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7a670" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7a670">
-    <command xml:space="preserve">wear coat</command>
-    <result xml:space="preserve">(first taking the coat)
-You put on the coat.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="125">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7a6c0" />
-      <child nodeId="node-0xdd7a820" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7a820">
-    <command xml:space="preserve">open backpack</command>
-    <result xml:space="preserve">You open the Backpack, revealing a pair of gloves, a hat, a Flashlight and a Flare.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="101">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7a870" />
-      <child nodeId="node-0xdd7b6b0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7b6b0">
-    <command xml:space="preserve">wear gloves</command>
-    <result xml:space="preserve">(first taking the pair of gloves)
-You put on the pair of gloves.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="101">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7b720" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7b720">
-    <command xml:space="preserve">wear hat</command>
-    <result xml:space="preserve">(first taking the hat)
-You put on the hat.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="101">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7b790" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7b790">
+  <item nodeId="node-0x02ECB9E8">
     <command xml:space="preserve">se</command>
-    <result xml:space="preserve">
-Common Room
-Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment are strewn across the lab table in the middle of the room, scientific research abandoned each morning to persue scientific FIELD research. You are not a scientist and do not understand what the other members of the expedition are doing when they peer at the artefacts they&apos;ve uncovered and make sounds like &apos;hmm&apos; and &apos;fascinating&apos;.
- To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside.
-
-You can see Base Door, Kitchen Table (on which is a sack lunch (closed)), a Lab Table (on which are a microscope, a preserved thoracic sac, an EDP (in which are a Chapter 1 and a Chapter 2) and a laser scalpel) and a bathroom door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="101">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7b800" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7b800">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">(first opening Base Door)
-
-Outside the Base
-Kind of nippy out here. That is to say, the frigid winds of the surface feel like they&apos;re slicing you through to the bone and you are eternally humbled by the vast empty expanse of the surface, which makes you feel very small, and very insignificant, and very cold, but you hate to be melodramatic. To the north, you can see the covered area that houses the snowmobiles.
-
-You can see Base Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="101">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7b870" />
-      <child nodeId="node-0xdd7b950" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7b950">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Garage
-This is the parking area for the snowmobiles. The edges are lined with benches that are covered in tools that you won&apos;t need. All the spaces for snowmobiles are empty except for one.
-
-You can see a Garage Door and a Snowmobile here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="101">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7b9c0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7b9c0">
-    <command xml:space="preserve">look under snowmobile</command>
-    <result xml:space="preserve">You&apos;ve discovered keys!
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7ba30" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7ba30">
-    <command xml:space="preserve">ride snowmobile</command>
-    <result xml:space="preserve">You mount the Snowmobile.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7baa0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7baa0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">(first opening the Garage Door)
-
-Dig Site (on the Snowmobile)
-There is a huge crater where a series of expiditions have unearthed layers upon layers of ancient species that have rizen in the thawed cycles of this water moon and fallen during the freezing cycles. The moon is a scientific marvel, where new species rise and fall in a cycle of evolution and mass extinction. The crater is surrounded by a lattice of drilling rigs and decends through strata that encompass entire lifetimes of civilizations. To the north is the elevator that leads down the hole. You can see a ladder leading up to the drilling rig. In the distance to the east, you can barely see the outline of the garage door
-
-You can see ladder, a Garage Door and Elevator Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7bb10" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7bb10">
-    <command xml:space="preserve">dismount</command>
-    <result xml:space="preserve">You dismount the Snowmobile.
-
-Dig Site
-There is a huge crater where a series of expiditions have unearthed layers upon layers of ancient species that have rizen in the thawed cycles of this water moon and fallen during the freezing cycles. The moon is a scientific marvel, where new species rise and fall in a cycle of evolution and mass extinction. The crater is surrounded by a lattice of drilling rigs and decends through strata that encompass entire lifetimes of civilizations. To the north is the elevator that leads down the hole. You can see a ladder leading up to the drilling rig. In the distance to the east, you can barely see the outline of the garage door
-
-You can see ladder, a Garage Door, a Snowmobile and Elevator Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7bb80" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7bb80">
-    <command xml:space="preserve">u</command>
-    <result xml:space="preserve">
-Drilling rig
-There are controls here for the laser drill used to create the hole in the ice. Try not to break them, double-oh-seven. You can see a coil of rope and a passcard here.
-
-You can see ladder, a rope, Keycard and Space Suit here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7b240" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7b240">
-    <command xml:space="preserve">take all</command>
-    <result xml:space="preserve">rope: Taken.
-Keycard: Taken.
-Space Suit: Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7b2b0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7b2b0">
-    <command xml:space="preserve">d</command>
-    <result xml:space="preserve">
-Dig Site
-There is a huge crater where a series of expiditions have unearthed layers upon layers of ancient species that have rizen in the thawed cycles of this water moon and fallen during the freezing cycles. The moon is a scientific marvel, where new species rise and fall in a cycle of evolution and mass extinction. The crater is surrounded by a lattice of drilling rigs and decends through strata that encompass entire lifetimes of civilizations. To the north is the elevator that leads down the hole. You can see a ladder leading up to the drilling rig. In the distance to the east, you can barely see the outline of the garage door
-
-You can see ladder, a Garage Door, a Snowmobile and Elevator Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7b320" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7b320">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">(first opening Elevator Door)
-
-Elevator
-Ground Level. Exit is to the south.
-
-You can see Elevator Door and Elevator Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7b390" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7b390">
-    <command xml:space="preserve">d</command>
-    <result xml:space="preserve">(first opening Elevator Door)
-
-Elevator
-Level 1. Exit is to the south.
-
-You can see Elevator Door and Elevator Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7b400" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7b400">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Artifact room
-You are in the artifact room, so called because it appears to be the remains of a city that seems to have faltered in its development during a medieval period. Among the stony alien ruins lie a plethora of ancient artifacts and tools . There is a supply crate in the room, The specimen room is to the west and the ledge room is to the east.
-
-You can see Supply crate (in which is an ice pick) here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7bbf0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7bbf0">
-    <command xml:space="preserve">take all</command>
-    <result xml:space="preserve">ice pick: Taken.
-
-You combine the rope with the ice pick to make a makeshift grappling hook. You appear to have secretly been MacGyver all along.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7bc60" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7bc60">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Specimen Room
-The artifact room is back to the east.
-
-You can see Portable Laser Jackhammer (Uncharged) here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7bcd0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7bcd0">
-    <command xml:space="preserve">take all</command>
-    <result xml:space="preserve">Portable Laser Jackhammer (Uncharged): You use the ice pick to break the tool out of the ice.
-
-Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7bd40" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7bd40">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Artifact room
-You are in the artifact room, so called because it appears to be the remains of a city that seems to have faltered in its development during a medieval period. Among the stony alien ruins lie a plethora of ancient artifacts and tools . There is a supply crate in the room, The specimen room is to the west and the ledge room is to the east.
-
-You can see Supply crate (empty) here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7bdb0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7bdb0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Ledge Room.
-Here the ice falters, cascading downward in what may once have been a waterfall in a cup-shaped canyon east of the City Ruins. Beyond and above a series of ledges there is a wall of glyphs that Russeau has been translating.  There is a series of three ledges that crawl across the lip of the round canyon to the Glyph Wall. You can climb up to the first ledge from here. The artifact room is back to the west.
-
-You can see Ledge and Broken Ladder here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7be20" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7be20">
-    <command xml:space="preserve">take all</command>
-    <result xml:space="preserve">Broken Ladder: Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7be90" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7be90">
-    <command xml:space="preserve">climb ledge</command>
-    <result xml:space="preserve">
-First Ledge
-To the north, across the bottomless pit, you see another ledge. A third appears to be above it. The pit is, of course, not literally bottomless. That would be nonsense. It is, in actuality, merely a very deep pit. Certainly deep enough to send your frail mortal frame to a horribly unpleasant demise. Better be careful, hmm?
-
-You can see Ledge here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7bf00" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7bf00">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You use the nearly broken ladder to make a stereotypically-rickety path across to the other side. You would think that on this expididtion full of doctors and geniuses someone would have thought to make a more permenant bridge, but no, that would make too much sense. Leave the intern to improvize his way across, I&apos;m sure it will be fine. You really home this thing can carry your weight. You are more than a little afraid
-Second Ledge
-The first ledge is back to the south across the surprisingly finite pit. There is another ledge above you, leading to the Glyph Wall.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7bf70" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7bf70">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  Portable Laser Jackhammer (Uncharged)
-  Makeshift Grappling Hook
-  Space Suit
-  Keycard
-  keys
-  a hat (being worn)
-  a pair of gloves (being worn)
-  a coat (being worn)
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7bfe0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7bfe0">
-    <command xml:space="preserve">u</command>
-    <result xml:space="preserve">You throw your maksehift grappling hook and it catches in the ice. You can now climb the rope to reach the third ledge. Stunning show, good sir. Somewhere in the distance your childhood adventurer hero sheds a single tear.
-
-Third Ledge
-Atop the canyon, the world seems eerily still. The snowy world around you is silent and vacant. A sense of peace comes over you here. There is a wall of Mysterious Glyphs that Russeau has been hard at work translating into meanings you can understand. His Translation Matrix lies abandoned in the snow. What happened to him?
-
-You can see Translation Matrix and Mysterious Glyphs here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7c050" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7c050">
-    <command xml:space="preserve">take all</command>
-    <result xml:space="preserve">Translation Matrix: Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7c0c0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7c0c0">
-    <command xml:space="preserve">d</command>
-    <result xml:space="preserve">
-Second Ledge
-The first ledge is back to the south across the surprisingly finite pit. There is another ledge above you, leading to the Glyph Wall.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7c130" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7c130">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-First Ledge
-To the north, across the not-quite-bottomless pit, you see another ledge. A third appears to be above it. The broken ladder now acts as a rickety excuse for a  bridge across the gap. Are you actually going to walk on that?
-
-You can see Ledge here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7c1a0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7c1a0">
-    <command xml:space="preserve">d</command>
-    <result xml:space="preserve">
-Ledge Room.
-Here the ice falters, cascading downward in what may once have been a waterfall in a cup-shaped canyon east of the City Ruins. Beyond and above a series of ledges there is a wall of glyphs that Russeau has been translating.  There is a series of three ledges that crawl across the lip of the round canyon to the Glyph Wall. You can climb up to the first ledge from here. The artifact room is back to the west.
-
-You can see Ledge here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7c210" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7c210">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Artifact room
-You are in the artifact room, so called because it appears to be the remains of a city that seems to have faltered in its development during a medieval period. Among the stony alien ruins lie a plethora of ancient artifacts and tools . There is a supply crate in the room, The specimen room is to the west and the ledge room is to the east.
-
-You can see Supply crate (empty) here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7c280" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7c280">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Elevator
-Level 1. Exit is to the south.
-
-You can see Elevator Door and Elevator Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7c2f0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7c2f0">
-    <command xml:space="preserve">d</command>
-    <result xml:space="preserve">(first opening Elevator Door)
-
-Elevator
-Level 2.
-
-You can see Elevator Door and Backup Power Cell here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7c360" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7c360">
-    <command xml:space="preserve">take all</command>
-    <result xml:space="preserve">Backup Power Cell: Taken.
-
-You use the power cell from the elevator to power the jackhammer.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7c3d0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7c3d0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Dim Cavern
-This level is significantly darker than the layer above. You are now deep in the ice caves, where very little research has been done. Light glistens off of the walls and cieling of the chamber, casting eeire shadows that obscuree the vague, yet menacing somethings frozen in the walls of the chamber. Your eyes drift across the dancing shadows on the ice until they reach the far wall of the chamber and meet another, much, much larger eye. It seems fixated on you though, frozen solid in ice, it cannot move. In the ice beyond, you see the shilouette of some hideous monster, bigger than any thing you thought could live. Jenkies. You feel the sudden urge to to be very very quiet. There is a patch of thin ice covering the west bottom quarter of an expanse of the chamber some ways down. To the east there seems to be the nose of some bizarre ship protruding from the ice, the rest of it frozen into the floor of the ice cave.
-
-You can see Patch of thin ice here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7c440" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7c440">
-    <command xml:space="preserve">drop portable</command>
-    <result xml:space="preserve">Dropped.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7c4b0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7c4b0">
-    <command xml:space="preserve">melt ice</command>
-    <result xml:space="preserve">If only you had some tool to help you.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7c520" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7c520">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  Translation Matrix
-  Makeshift Grappling Hook
-  Space Suit
-  Keycard
-  keys
-  a hat (being worn)
-  a pair of gloves (being worn)
-  a coat (being worn)
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7c590" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7c590">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Elevator
-Level 2.
-
-You can see Elevator Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7c600" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7c600">
-    <command xml:space="preserve">u</command>
-    <result xml:space="preserve">
-Elevator
-Level 1. Exit is to the south.
-
-You can see Elevator Door and Elevator Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7c670" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7c670">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7c6e0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7c6e0">
-    <command xml:space="preserve">u</command>
-    <result xml:space="preserve">
-Elevator
-Ground Level. Exit is to the south.
-
-You can see Elevator Door and Elevator Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7c750" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7c750">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Dig Site
-There is a huge crater where a series of expiditions have unearthed layers upon layers of ancient species that have rizen in the thawed cycles of this water moon and fallen during the freezing cycles. The moon is a scientific marvel, where new species rise and fall in a cycle of evolution and mass extinction. The crater is surrounded by a lattice of drilling rigs and decends through strata that encompass entire lifetimes of civilizations. To the north is the elevator that leads down the hole. You can see a ladder leading up to the drilling rig. In the distance to the east, you can barely see the outline of the garage door
-
-You can see Elevator Door, ladder, a Garage Door and a Snowmobile here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7c7c0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7c7c0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Garage
-This is the parking area for the snowmobiles. The edges are lined with benches that are covered in tools that you won&apos;t need. All the spaces for snowmobiles are empty except for one.
-
-You can see a Garage Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7c830" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7c830">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Outside the Base
-Kind of nippy out here. That is to say, the frigid winds of the surface feel like they&apos;re slicing you through to the bone and you are eternally humbled by the vast empty expanse of the surface, which makes you feel very small, and very insignificant, and very cold, but you hate to be melodramatic. To the north, you can see the covered area that houses the snowmobiles.
-
-You can see Base Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7c8a0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7c8a0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Common Room
-Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the lab table in the middle of the room, scientific research abandoned each morning to persue scientific FIELD research. You are not a scientist and do not understand what the other members of the expidition are doing when they peer at the artefacts they&apos;ve uncovered and make sounds like &apos;hmm&apos; and &apos;fascinating&apos;.
- To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside.
-
-You can see Base Door, Kitchen Table (on which is a sack lunch (closed)), a Lab Table (on which are a microscope, a preserved thoracic sac, an EDP (in which are a Chapter 1 and a Chapter 2) and a laser scalpel) and a bathroom door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7c910" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7c910">
-    <command xml:space="preserve">take laser scalpel</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7c980" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7c980">
-    <command xml:space="preserve">nw</command>
-    <result xml:space="preserve">
-Male Sleeping Quarters
-This is the male sleeping quarters for this expidition. The walls are covered in movie posters and there are odds and ends, dishes and cups strewn everywhere. Somewhere in this dump there are records of the history-altering discoveries this expidition has made. To the southeast is the common room.
-
-You can see an Alarm Clock, a Wardrobe (empty) and a Backpack (in which are a Flashlight and a Flare) here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7c9f0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7c9f0">
-    <command xml:space="preserve">take flare</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7ca60" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7ca60">
-    <command xml:space="preserve">se</command>
-    <result xml:space="preserve">
-Common Room
-Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the lab table in the middle of the room, scientific research abandoned each morning to persue scientific FIELD research. You are not a scientist and do not understand what the other members of the expidition are doing when they peer at the artefacts they&apos;ve uncovered and make sounds like &apos;hmm&apos; and &apos;fascinating&apos;.
- To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside.
-
-You can see Base Door, Kitchen Table (on which is a sack lunch (closed)), a Lab Table (on which are a microscope, a preserved thoracic sac and an EDP (in which are a Chapter 1 and a Chapter 2)) and a bathroom door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7cad0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7cad0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Outside the Base
-Kind of nippy out here. That is to say, the frigid winds of the surface feel like they&apos;re slicing you through to the bone and you are eternally humbled by the vast empty expanse of the surface, which makes you feel very small, and very insignificant, and very cold, but you hate to be melodramatic. To the north, you can see the covered area that houses the snowmobiles.
-
-You can see Base Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7cb40" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7cb40">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Garage
-This is the parking area for the snowmobiles. The edges are lined with benches that are covered in tools that you won&apos;t need. All the spaces for snowmobiles are empty except for one.
-
-You can see a Garage Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7cbb0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7cbb0">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7cc20" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7cc20">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Dig Site
-There is a huge crater where a series of expiditions have unearthed layers upon layers of ancient species that have rizen in the thawed cycles of this water moon and fallen during the freezing cycles. The moon is a scientific marvel, where new species rise and fall in a cycle of evolution and mass extinction. The crater is surrounded by a lattice of drilling rigs and decends through strata that encompass entire lifetimes of civilizations. To the north is the elevator that leads down the hole. You can see a ladder leading up to the drilling rig. In the distance to the east, you can barely see the outline of the garage door
-
-You can see a Garage Door, Elevator Door, ladder and a Snowmobile here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7cc90" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7cc90">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Elevator
-Ground Level. Exit is to the south.
-
-You can see Elevator Door and Elevator Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7cd00" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7cd00">
-    <command xml:space="preserve">d</command>
-    <result xml:space="preserve">
-Elevator
-Level 1. Exit is to the south.
-
-You can see Elevator Door and Elevator Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7cd70" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7cd70">
-    <command xml:space="preserve">d</command>
-    <result xml:space="preserve">
-Elevator
-Level 2.
-
-You can see Elevator Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7cde0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7cde0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Dim Cavern
-This level is significantly darker than the layer above. You are now deep in the ice caves, where very little research has been done. Light glistens off of the walls and cieling of the chamber, casting eeire shadows that obscuree the vague, yet menacing somethings frozen in the walls of the chamber. Your eyes drift across the dancing shadows on the ice until they reach the far wall of the chamber and meet another, much, much larger eye. It seems fixated on you though, frozen solid in ice, it cannot move. In the ice beyond, you see the shilouette of some hideous monster, bigger than any thing you thought could live. Jenkies. You feel the sudden urge to to be very very quiet. There is a patch of thin ice covering the west bottom quarter of an expanse of the chamber some ways down. To the east there seems to be the nose of some bizarre ship protruding from the ice, the rest of it frozen into the floor of the ice cave.
-
-You can see Portable Laser Jackhammer (Charged) and Patch of thin ice here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7ce50" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7ce50">
-    <command xml:space="preserve">drop laser</command>
-    <result xml:space="preserve">(the laser scalpel)
-Dropped.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="445">YES</temporary>
-  </item>
-  <item nodeId="node-0xdd7b870">
-    <command xml:space="preserve">take off coat</command>
-    <result xml:space="preserve">You take off the coat.
-
-You freeze to death or something. Game Over.
-
-
-
-    *** The End ***
-
-
-
-
-Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
-&gt; </result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="10">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7b8e0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7b8e0">
-    <command xml:space="preserve">undo</command>
-    <result xml:space="preserve">Outside the Base
-[Previous turn undone.]
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="9">YES</temporary>
-  </item>
-  <item nodeId="node-0xdd7a870">
-    <command xml:space="preserve">wear glove</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="87">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7ad70" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7ad70">
-    <command xml:space="preserve">wear gloves</command>
-    <result xml:space="preserve">(first taking the pair of gloves)
-You put on the pair of gloves.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="87">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7ade0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7ade0">
-    <command xml:space="preserve">wear hat</command>
-    <result xml:space="preserve">(first taking the hat)
-You put on the hat.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="87">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7ae50" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7ae50">
-    <command xml:space="preserve">se</command>
-    <result xml:space="preserve">
-Common Room
-Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment are strewn across the lab table in the middle of the room, scientific research abandoned each morning to persue scientific FIELD research. You are not a scientist and do not understand what the other members of the expedition are doing when they peer at the artefacts they&apos;ve uncovered and make sounds like &apos;hmm&apos; and &apos;fascinating&apos;.
- To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside.
-
-You can see Base Door, Kitchen Table (on which is a sack lunch (closed)), a Lab Table (on which are a microscope, a preserved thoracic sac, an EDP (in which are a Chapter 1 and a Chapter 2) and a laser scalpel) and a bathroom door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="87">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7aec0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7aec0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">(first opening Base Door)
-
-Outside the Base
-Kind of nippy out here. That is to say, the frigid winds of the surface feel like they&apos;re slicing you through to the bone and you are eternally humbled by the vast empty expanse of the surface, which makes you feel very small, and very insignificant, and very cold, but you hate to be melodramatic. To the north, you can see the covered area that houses the snowmobiles.
-
-You can see Base Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="87">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7af30" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7af30">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Garage
-This is the parking area for the snowmobiles. The edges are lined with benches that are covered in tools that you won&apos;t need. All the spaces for snowmobiles are empty except for one.
-
-You can see a Garage Door and a Snowmobile here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="87">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7afa0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7afa0">
-    <command xml:space="preserve">look under snowmobile</command>
-    <result xml:space="preserve">You&apos;ve discovered keys!
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="87">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7b010" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7b010">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You&apos;re not going to walk all the way to the dig site. Do you remember what I told you about your tauntaun freezing? The implication is that you&apos;d freeze too. You can&apos;t walk there.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="87">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7b080" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7b080">
-    <command xml:space="preserve">ride snowmobile</command>
-    <result xml:space="preserve">You mount the Snowmobile.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="87">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7b0f0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7b0f0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">(first opening the Garage Door)
-
-Dig Site (on the Snowmobile)
-There is a huge crater where a series of expeditions have unearthed layers upon layers of ancient species that have risen in the thawed cycles of this water moon and fallen during the freezing cycles. The moon is a scientific marvel, where new species rise and fall in a cycle of evolution and mass extinction. The crater is surrounded by a lattice of drilling rigs and descends through strata that encompass entire lifetimes of civilizations. To the north is the elevator that leads down the hole. You can see a ladder leading up to the drilling rig. In the distance to the east, you can barely see the outline of the garage door
-
-You can see ladder and a Garage Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="87">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7b160" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7b160">
-    <command xml:space="preserve">dismount</command>
-    <result xml:space="preserve">You dismount the Snowmobile.
-
-Dig Site
-There is a huge crater where a series of expeditions have unearthed layers upon layers of ancient species that have risen in the thawed cycles of this water moon and fallen during the freezing cycles. The moon is a scientific marvel, where new species rise and fall in a cycle of evolution and mass extinction. The crater is surrounded by a lattice of drilling rigs and descends through strata that encompass entire lifetimes of civilizations. To the north is the elevator that leads down the hole. You can see a ladder leading up to the drilling rig. In the distance to the east, you can barely see the outline of the garage door
-
-You can see ladder, a Garage Door and a Snowmobile here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="87">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7b1d0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7b1d0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Elevator
-Ground Level. Exit is to the south.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="87">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7abf0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7abf0">
-    <command xml:space="preserve">d</command>
-    <result xml:space="preserve">ACCESS DENIED - KEYCARD REQUIRED
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="87">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7ac60" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7ac60">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Dig Site
-There is a huge crater where a series of expeditions have unearthed layers upon layers of ancient species that have risen in the thawed cycles of this water moon and fallen during the freezing cycles. The moon is a scientific marvel, where new species rise and fall in a cycle of evolution and mass extinction. The crater is surrounded by a lattice of drilling rigs and descends through strata that encompass entire lifetimes of civilizations. To the north is the elevator that leads down the hole. You can see a ladder leading up to the drilling rig. In the distance to the east, you can barely see the outline of the garage door
-
-You can see ladder, a Garage Door and a Snowmobile here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="87">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7acd0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7acd0">
-    <command xml:space="preserve">u</command>
-    <result xml:space="preserve">
-Drilling rig
-There are controls here for the laser drill used to create the hole in the ice. Try not to break them, double-oh-seven. You can see a coil of rope and a passcard here, along with a space suit.
-
-You can see ladder, a rope, Keycard and Space Suit here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="87">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7b480" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7b480">
-    <command xml:space="preserve">take all</command>
-    <result xml:space="preserve">rope: Taken.
-Keycard: Taken.
-Space Suit: Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="87">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7b4f0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7b4f0">
-    <command xml:space="preserve">d</command>
-    <result xml:space="preserve">
-Dig Site
-There is a huge crater where a series of expeditions have unearthed layers upon layers of ancient species that have risen in the thawed cycles of this water moon and fallen during the freezing cycles. The moon is a scientific marvel, where new species rise and fall in a cycle of evolution and mass extinction. The crater is surrounded by a lattice of drilling rigs and descends through strata that encompass entire lifetimes of civilizations. To the north is the elevator that leads down the hole. You can see a ladder leading up to the drilling rig. In the distance to the east, you can barely see the outline of the garage door
-
-You can see ladder, a Garage Door and a Snowmobile here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="87">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7b560" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7b560">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Elevator
-Ground Level. Exit is to the south.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="87">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7b5d0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7b5d0">
-    <command xml:space="preserve">d</command>
-    <result xml:space="preserve">
-Elevator
-Sublevel 1. Exit is to the south.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="87">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7b640" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7b640">
-    <command xml:space="preserve">d</command>
-    <result xml:space="preserve">
-Elevator
-Sublevel 2. Exit is to the south.
-
-You can see Backup Power Cell here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="86">YES</temporary>
-  </item>
-  <item nodeId="node-0xdd7a6c0">
-    <command xml:space="preserve">open bacpack</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="125">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7a710" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7a710">
-    <command xml:space="preserve">open backpack</command>
-    <result xml:space="preserve">You open the Backpack, revealing a pair of gloves, a hat, a Flashlight and a Flare.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="125">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7a760" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7a760">
-    <command xml:space="preserve">wear gloves</command>
-    <result xml:space="preserve">(first taking the pair of gloves)
-You put on the pair of gloves.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="125">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7a7b0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7a7b0">
-    <command xml:space="preserve">wear hat</command>
-    <result xml:space="preserve">(first taking the hat)
-You put on the hat.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="125">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7a8e0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7a8e0">
-    <command xml:space="preserve">take backpack</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="125">YES</temporary>
-    <children>
-      <child nodeId="node-0x1fac60" />
-    </children>
-  </item>
-  <item nodeId="node-0x1fac60">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  a Backpack (open)
-    a Flashlight
-    a Flare
-  a hat (being worn)
-  a pair of gloves (being worn)
-  a coat (being worn)
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="125">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7a950" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7a950">
-    <command xml:space="preserve">se</command>
-    <result xml:space="preserve">
-Common Room
-Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment are strewn across the lab table in the middle of the room, scientific research abandoned each morning to persue scientific FIELD research. You are not a scientist and do not understand what the other members of the expedition are doing when they peer at the artefacts they&apos;ve uncovered and make sounds like &apos;hmm&apos; and &apos;fascinating&apos;.
- To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside.
-
-You can see Base Door, Kitchen Table (on which is a sack lunch (closed)), a Lab Table (on which are a microscope, a preserved thoracic sac, an EDP (in which are a Chapter 1 and a Chapter 2) and a laser scalpel) and a bathroom door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="125">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7a9c0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7a9c0">
-    <command xml:space="preserve">take sack lunch</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="125">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7aa30" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7aa30">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  a sack lunch (closed)
-  a Backpack (open)
-    a Flashlight
-    a Flare
-  a hat (being worn)
-  a pair of gloves (being worn)
-  a coat (being worn)
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="125">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7aaa0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7aaa0">
-    <command xml:space="preserve">take laser scalpel</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="125">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7ab10" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7ab10">
-    <command xml:space="preserve">take edp</command>
-    <result xml:space="preserve">You&apos;re carrying too many things already.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="125">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7ab80" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7ab80">
-    <command xml:space="preserve">i</command>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="124">YES</temporary>
-  </item>
-  <item nodeId="node-0x1faa00">
-    <command xml:space="preserve">se</command>
-    <result xml:space="preserve">
-Common Room
-Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment are strewn across the lab table in the middle of the room, scientific research abandoned each morning to persue scientific FIELD research. You are not a scientist and do not understand what the other members of the expedition are doing when they peer at the artefacts they&apos;ve uncovered and make sounds like &apos;hmm&apos; and &apos;fascinating&apos;.
- To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside.
-
-You can see Base Door, Kitchen Table (on which is a sack lunch (closed)), a Lab Table (on which are a microscope, a preserved thoracic sac, an EDP (in which are a Chapter 1 and a Chapter 2) and a laser scalpel) and a bathroom door here.
-
-&gt;</result>
+    <result xml:space="preserve">&#x000A;Common Room&#x000A;Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment are strewn across the lab table in the middle of the room, scientific research abandoned each morning to persue scientific FIELD research. You are not a scientist and do not understand what the other members of the expedition are doing when they peer at the artefacts they've uncovered and make sounds like 'hmm' and 'fascinating'.&#x000A; To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside.&#x000A;&#x000A;You can see Base Door, Kitchen Table (on which is a sack lunch (closed)), a Lab Table (on which are a microscope, a preserved thoracic sac, an EDP (in which are a Chapter 1 and a Chapter 2) and a laser scalpel) and a bathroom door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="5">YES</temporary>
     <children>
-      <child nodeId="node-0x1faa50" />
-      <child nodeId="node-0xf914300" />
+      <child nodeId="node-0x02ECB908"/>
+      <child nodeId="node-0x02ECBA58"/>
     </children>
   </item>
-  <item nodeId="node-0xf914300">
+  <item nodeId="node-0x02ECB908">
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">&#x000A;Female Sleeping Quarters&#x000A;Sleeping quarters for the women on this expedition. It's rather rude of you to go snooping around people's personal spaces when they're not around, you know. Tsk. Don't expect to get invited to my house anytime soon. The room is far from tidy, but it seems impeccable compared to the rest of this outpost. There is a first-aid kit atop the side table, and a dresser in the far corner of the room. An Elvish Sword is mounted above one of the beds&#x000A;&#x000A;You can see a first aid kit (in which are a tampon, a bandage and a granola bar), a Dresser (closed) and an Elvish Sword here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x02ECB978"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02ECB978">
+    <command xml:space="preserve">open dresser</command>
+    <result xml:space="preserve">You open the Dresser, revealing some clothes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EEEC98"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EEEC98">
+    <command xml:space="preserve">take clothes</command>
+    <result xml:space="preserve">Those really don't suit your style. Also, they do not belong to you. They belong to someone else, who is not you. Please leave the clothes alone.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EEE368"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EEE368">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">&#x000A;Common Room&#x000A;Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment are strewn across the lab table in the middle of the room, scientific research abandoned each morning to persue scientific FIELD research. You are not a scientist and do not understand what the other members of the expedition are doing when they peer at the artefacts they've uncovered and make sounds like 'hmm' and 'fascinating'.&#x000A; To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside.&#x000A;&#x000A;You can see Base Door, Kitchen Table (on which is a sack lunch (closed)), a Lab Table (on which are a microscope, a preserved thoracic sac, an EDP (in which are a Chapter 1 and a Chapter 2) and a laser scalpel) and a bathroom door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="91">YES</temporary>
+  </item>
+  <item nodeId="node-0x02ECBA58">
     <command xml:space="preserve">look under microscope</command>
-    <result xml:space="preserve">You&apos;ve discovered Carl&apos;s Notes 2!
-
-&gt;</result>
+    <result xml:space="preserve">You've discovered Carl's Notes 2!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="4">YES</temporary>
   </item>
-  <item nodeId="node-0x1faa50">
-    <command xml:space="preserve">sw</command>
-    <result xml:space="preserve">
-Female Sleeping Quarters
-Sleeping quarters for the women on this expedition. It&apos;s rather rude of you to go snooping around people&apos;s personal spaces when they&apos;re not around, you know. Tsk. Don&apos;t expect to get invited to my house anytime soon. The room is far from tidy, but it seems impeccable compared to the rest of this outpost. There is a first-aid kit atop the side table, and a dresser in the far corner of the room. An Elvish Sword is mounted above one of the beds
-
-You can see a first aid kit (in which are a tampon, a bandage and a granola bar), a Dresser (closed) and an Elvish Sword here.
-
-&gt;</result>
+  <item nodeId="node-0x02EB4218">
+    <command xml:space="preserve">open wardrobe</command>
+    <result xml:space="preserve">You open the Wardrobe, revealing a coat.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="92">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
     <children>
-      <child nodeId="node-0x1faaa0" />
+      <child nodeId="node-0x02EEBCE0"/>
     </children>
   </item>
-  <item nodeId="node-0x1faaa0">
-    <command xml:space="preserve">open dresser</command>
-    <result xml:space="preserve">You open the Dresser, revealing some clothes.
-
-&gt;</result>
+  <item nodeId="node-0x02EEBCE0">
+    <command xml:space="preserve">wear coat</command>
+    <result xml:space="preserve">(first taking the coat)&#x000A;You put on the coat.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="92">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
     <children>
-      <child nodeId="node-0x1faaf0" />
+      <child nodeId="node-0x02ECAB08"/>
+      <child nodeId="node-0x02EEBE18"/>
     </children>
   </item>
-  <item nodeId="node-0x1faaf0">
-    <command xml:space="preserve">take clothes</command>
-    <result xml:space="preserve">Those really don&apos;t suit your style. Also, they do not belong to you. They belong to someone else, who is not you. Please leave the clothes alone.
-
-&gt;</result>
+  <item nodeId="node-0x02ECAB08">
+    <command xml:space="preserve">open bacpack</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="92">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
     <children>
-      <child nodeId="node-0x1fab60" />
+      <child nodeId="node-0x02ECACC8"/>
     </children>
   </item>
-  <item nodeId="node-0x1fab60">
-    <command xml:space="preserve">ne</command>
-    <result xml:space="preserve">
-Common Room
-Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment are strewn across the lab table in the middle of the room, scientific research abandoned each morning to persue scientific FIELD research. You are not a scientist and do not understand what the other members of the expedition are doing when they peer at the artefacts they&apos;ve uncovered and make sounds like &apos;hmm&apos; and &apos;fascinating&apos;.
- To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside.
-
-You can see Base Door, Kitchen Table (on which is a sack lunch (closed)), a Lab Table (on which are a microscope, a preserved thoracic sac, an EDP (in which are a Chapter 1 and a Chapter 2) and a laser scalpel) and a bathroom door here.
-
-&gt;</result>
+  <item nodeId="node-0x02ECACC8">
+    <command xml:space="preserve">open backpack</command>
+    <result xml:space="preserve">You open the Backpack, revealing a pair of gloves, a hat, a Flashlight and a Flare.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x02ECAD38"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02ECAD38">
+    <command xml:space="preserve">wear gloves</command>
+    <result xml:space="preserve">(first taking the pair of gloves)&#x000A;You put on the pair of gloves.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x02ECADA8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02ECADA8">
+    <command xml:space="preserve">wear hat</command>
+    <result xml:space="preserve">(first taking the hat)&#x000A;You put on the hat.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x02ECAE18"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02ECAE18">
+    <command xml:space="preserve">take backpack</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x02ECAEF8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02ECAEF8">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a Backpack (open)&#x000A;    a Flashlight&#x000A;    a Flare&#x000A;  a hat (being worn)&#x000A;  a pair of gloves (being worn)&#x000A;  a coat (being worn)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x02ECB128"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02ECB128">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">&#x000A;Common Room&#x000A;Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment are strewn across the lab table in the middle of the room, scientific research abandoned each morning to persue scientific FIELD research. You are not a scientist and do not understand what the other members of the expedition are doing when they peer at the artefacts they've uncovered and make sounds like 'hmm' and 'fascinating'.&#x000A; To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside.&#x000A;&#x000A;You can see Base Door, Kitchen Table (on which is a sack lunch (closed)), a Lab Table (on which are a microscope, a preserved thoracic sac, an EDP (in which are a Chapter 1 and a Chapter 2) and a laser scalpel) and a bathroom door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x02ECB198"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02ECB198">
+    <command xml:space="preserve">take sack lunch</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x02ECB3C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02ECB3C8">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a sack lunch (closed)&#x000A;  a Backpack (open)&#x000A;    a Flashlight&#x000A;    a Flare&#x000A;  a hat (being worn)&#x000A;  a pair of gloves (being worn)&#x000A;  a coat (being worn)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="91">YES</temporary>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x02ECB208"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02ECB208">
+    <command xml:space="preserve">take laser scalpel</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x02ECB2E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02ECB2E8">
+    <command xml:space="preserve">take edp</command>
+    <result xml:space="preserve">You're carrying too many things already.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x02ECB4A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02ECB4A8">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="124">YES</temporary>
+  </item>
+  <item nodeId="node-0x02EEBE18">
+    <command xml:space="preserve">open backpack</command>
+    <result xml:space="preserve">You open the Backpack, revealing a pair of gloves, a hat, a Flashlight and a Flare.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC40F0"/>
+      <child nodeId="node-0x02EEBF28"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC40F0">
+    <command xml:space="preserve">wear glove</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="87">YES</temporary>
+    <children>
+      <child nodeId="node-0x02ECB7B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02ECB7B8">
+    <command xml:space="preserve">wear gloves</command>
+    <result xml:space="preserve">(first taking the pair of gloves)&#x000A;You put on the pair of gloves.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="87">YES</temporary>
+    <children>
+      <child nodeId="node-0x02ECB898"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02ECB898">
+    <command xml:space="preserve">wear hat</command>
+    <result xml:space="preserve">(first taking the hat)&#x000A;You put on the hat.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="87">YES</temporary>
+    <children>
+      <child nodeId="node-0x02ECAB78"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02ECAB78">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">&#x000A;Common Room&#x000A;Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment are strewn across the lab table in the middle of the room, scientific research abandoned each morning to persue scientific FIELD research. You are not a scientist and do not understand what the other members of the expedition are doing when they peer at the artefacts they've uncovered and make sounds like 'hmm' and 'fascinating'.&#x000A; To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside.&#x000A;&#x000A;You can see Base Door, Kitchen Table (on which is a sack lunch (closed)), a Lab Table (on which are a microscope, a preserved thoracic sac, an EDP (in which are a Chapter 1 and a Chapter 2) and a laser scalpel) and a bathroom door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="87">YES</temporary>
+    <children>
+      <child nodeId="node-0x02ECB668"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02ECB668">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening Base Door)&#x000A;&#x000A;Outside the Base&#x000A;Kind of nippy out here. That is to say, the frigid winds of the surface feel like they're slicing you through to the bone and you are eternally humbled by the vast empty expanse of the surface, which makes you feel very small, and very insignificant, and very cold, but you hate to be melodramatic. To the north, you can see the covered area that houses the snowmobiles.&#x000A;&#x000A;You can see Base Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="87">YES</temporary>
+    <children>
+      <child nodeId="node-0x02ECAFD8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02ECAFD8">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">&#x000A;Garage&#x000A;This is the parking area for the snowmobiles. The edges are lined with benches that are covered in tools that you won't need. All the spaces for snowmobiles are empty except for one.&#x000A;&#x000A;You can see a Garage Door and a Snowmobile here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="87">YES</temporary>
+    <children>
+      <child nodeId="node-0x02ECB048"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02ECB048">
+    <command xml:space="preserve">look under snowmobile</command>
+    <result xml:space="preserve">You've discovered keys!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="87">YES</temporary>
+    <children>
+      <child nodeId="node-0x02ECB6D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02ECB6D8">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You're not going to walk all the way to the dig site. Do you remember what I told you about your tauntaun freezing? The implication is that you'd freeze too. You can't walk there.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="87">YES</temporary>
+    <children>
+      <child nodeId="node-0x02ECB0B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02ECB0B8">
+    <command xml:space="preserve">ride snowmobile</command>
+    <result xml:space="preserve">You mount the Snowmobile.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="87">YES</temporary>
+    <children>
+      <child nodeId="node-0x02ECB278"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02ECB278">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the Garage Door)&#x000A;&#x000A;Dig Site (on the Snowmobile)&#x000A;There is a huge crater where a series of expeditions have unearthed layers upon layers of ancient species that have risen in the thawed cycles of this water moon and fallen during the freezing cycles. The moon is a scientific marvel, where new species rise and fall in a cycle of evolution and mass extinction. The crater is surrounded by a lattice of drilling rigs and descends through strata that encompass entire lifetimes of civilizations. To the north is the elevator that leads down the hole. You can see a ladder leading up to the drilling rig. In the distance to the east, you can barely see the outline of the garage door&#x000A;&#x000A;You can see ladder and a Garage Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="87">YES</temporary>
+    <children>
+      <child nodeId="node-0x02ECB358"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02ECB358">
+    <command xml:space="preserve">dismount</command>
+    <result xml:space="preserve">You dismount the Snowmobile.&#x000A;&#x000A;Dig Site&#x000A;There is a huge crater where a series of expeditions have unearthed layers upon layers of ancient species that have risen in the thawed cycles of this water moon and fallen during the freezing cycles. The moon is a scientific marvel, where new species rise and fall in a cycle of evolution and mass extinction. The crater is surrounded by a lattice of drilling rigs and descends through strata that encompass entire lifetimes of civilizations. To the north is the elevator that leads down the hole. You can see a ladder leading up to the drilling rig. In the distance to the east, you can barely see the outline of the garage door&#x000A;&#x000A;You can see ladder, a Garage Door and a Snowmobile here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="87">YES</temporary>
+    <children>
+      <child nodeId="node-0x02ECB518"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02ECB518">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">&#x000A;Elevator&#x000A;Ground Level. Exit is to the south.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="87">YES</temporary>
+    <children>
+      <child nodeId="node-0x02ECB748"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02ECB748">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">ACCESS DENIED - KEYCARD REQUIRED&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="87">YES</temporary>
+    <children>
+      <child nodeId="node-0x02ECAE88"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02ECAE88">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">&#x000A;Dig Site&#x000A;There is a huge crater where a series of expeditions have unearthed layers upon layers of ancient species that have risen in the thawed cycles of this water moon and fallen during the freezing cycles. The moon is a scientific marvel, where new species rise and fall in a cycle of evolution and mass extinction. The crater is surrounded by a lattice of drilling rigs and descends through strata that encompass entire lifetimes of civilizations. To the north is the elevator that leads down the hole. You can see a ladder leading up to the drilling rig. In the distance to the east, you can barely see the outline of the garage door&#x000A;&#x000A;You can see ladder, a Garage Door and a Snowmobile here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="87">YES</temporary>
+    <children>
+      <child nodeId="node-0x02ECB828"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02ECB828">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">&#x000A;Drilling rig&#x000A;There are controls here for the laser drill used to create the hole in the ice. Try not to break them, double-oh-seven. You can see a coil of rope and a passcard here, along with a space suit.&#x000A;&#x000A;You can see ladder, a rope, Keycard and Space Suit here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="87">YES</temporary>
+    <children>
+      <child nodeId="node-0x02ECAC58"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02ECAC58">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">rope: Taken.&#x000A;Keycard: Taken.&#x000A;Space Suit: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="87">YES</temporary>
+    <children>
+      <child nodeId="node-0x02ECAF68"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02ECAF68">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">&#x000A;Dig Site&#x000A;There is a huge crater where a series of expeditions have unearthed layers upon layers of ancient species that have risen in the thawed cycles of this water moon and fallen during the freezing cycles. The moon is a scientific marvel, where new species rise and fall in a cycle of evolution and mass extinction. The crater is surrounded by a lattice of drilling rigs and descends through strata that encompass entire lifetimes of civilizations. To the north is the elevator that leads down the hole. You can see a ladder leading up to the drilling rig. In the distance to the east, you can barely see the outline of the garage door&#x000A;&#x000A;You can see ladder, a Garage Door and a Snowmobile here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="87">YES</temporary>
+    <children>
+      <child nodeId="node-0x02ECB588"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02ECB588">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">&#x000A;Elevator&#x000A;Ground Level. Exit is to the south.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="87">YES</temporary>
+    <children>
+      <child nodeId="node-0x02ECABE8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02ECABE8">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">&#x000A;Elevator&#x000A;Sublevel 1. Exit is to the south.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="87">YES</temporary>
+    <children>
+      <child nodeId="node-0x02ECB5F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02ECB5F8">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">&#x000A;Elevator&#x000A;Sublevel 2. Exit is to the south.&#x000A;&#x000A;You can see Backup Power Cell here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="86">YES</temporary>
+  </item>
+  <item nodeId="node-0x02EEBF28">
+    <command xml:space="preserve">wear gloves</command>
+    <result xml:space="preserve">(first taking the pair of gloves)&#x000A;You put on the pair of gloves.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EA44C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EA44C8">
+    <command xml:space="preserve">wear hat</command>
+    <result xml:space="preserve">(first taking the hat)&#x000A;You put on the hat.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EA4538"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EA4538">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">&#x000A;Common Room&#x000A;Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment are strewn across the lab table in the middle of the room, scientific research abandoned each morning to persue scientific FIELD research. You are not a scientist and do not understand what the other members of the expedition are doing when they peer at the artefacts they've uncovered and make sounds like 'hmm' and 'fascinating'.&#x000A; To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside.&#x000A;&#x000A;You can see Base Door, Kitchen Table (on which is a sack lunch (closed)), a Lab Table (on which are a microscope, a preserved thoracic sac, an EDP (in which are a Chapter 1 and a Chapter 2) and a laser scalpel) and a bathroom door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EE2DC0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EE2DC0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening Base Door)&#x000A;&#x000A;Outside the Base&#x000A;Kind of nippy out here. That is to say, the frigid winds of the surface feel like they're slicing you through to the bone and you are eternally humbled by the vast empty expanse of the surface, which makes you feel very small, and very insignificant, and very cold, but you hate to be melodramatic. To the north, you can see the covered area that houses the snowmobiles.&#x000A;&#x000A;You can see Base Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC4160"/>
+      <child nodeId="node-0x02EA47A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC4160">
+    <command xml:space="preserve">take off coat</command>
+    <result xml:space="preserve">You take off the coat.&#x000A;&#x000A;You freeze to death or something. Game Over.&#x000A;&#x000A;&#x000A;&#x000A;    *** The End ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC41D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC41D0">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Outside the Base&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+  </item>
+  <item nodeId="node-0x02EA47A8">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">&#x000A;Garage&#x000A;This is the parking area for the snowmobiles. The edges are lined with benches that are covered in tools that you won't need. All the spaces for snowmobiles are empty except for one.&#x000A;&#x000A;You can see a Garage Door and a Snowmobile here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="101">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EB4968"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EB4968">
+    <command xml:space="preserve">look under snowmobile</command>
+    <result xml:space="preserve">You've discovered keys!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EB49D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EB49D8">
+    <command xml:space="preserve">ride snowmobile</command>
+    <result xml:space="preserve">You mount the Snowmobile.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EB4E48"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EB4E48">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the Garage Door)&#x000A;&#x000A;Dig Site (on the Snowmobile)&#x000A;There is a huge crater where a series of expiditions have unearthed layers upon layers of ancient species that have rizen in the thawed cycles of this water moon and fallen during the freezing cycles. The moon is a scientific marvel, where new species rise and fall in a cycle of evolution and mass extinction. The crater is surrounded by a lattice of drilling rigs and decends through strata that encompass entire lifetimes of civilizations. To the north is the elevator that leads down the hole. You can see a ladder leading up to the drilling rig. In the distance to the east, you can barely see the outline of the garage door&#x000A;&#x000A;You can see ladder, a Garage Door and Elevator Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EB4EB8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EB4EB8">
+    <command xml:space="preserve">dismount</command>
+    <result xml:space="preserve">You dismount the Snowmobile.&#x000A;&#x000A;Dig Site&#x000A;There is a huge crater where a series of expiditions have unearthed layers upon layers of ancient species that have rizen in the thawed cycles of this water moon and fallen during the freezing cycles. The moon is a scientific marvel, where new species rise and fall in a cycle of evolution and mass extinction. The crater is surrounded by a lattice of drilling rigs and decends through strata that encompass entire lifetimes of civilizations. To the north is the elevator that leads down the hole. You can see a ladder leading up to the drilling rig. In the distance to the east, you can barely see the outline of the garage door&#x000A;&#x000A;You can see ladder, a Garage Door, a Snowmobile and Elevator Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC07A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC07A8">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">&#x000A;Drilling rig&#x000A;There are controls here for the laser drill used to create the hole in the ice. Try not to break them, double-oh-seven. You can see a coil of rope and a passcard here.&#x000A;&#x000A;You can see ladder, a rope, Keycard and Space Suit here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC0818"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC0818">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">rope: Taken.&#x000A;Keycard: Taken.&#x000A;Space Suit: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC0658"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC0658">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">&#x000A;Dig Site&#x000A;There is a huge crater where a series of expiditions have unearthed layers upon layers of ancient species that have rizen in the thawed cycles of this water moon and fallen during the freezing cycles. The moon is a scientific marvel, where new species rise and fall in a cycle of evolution and mass extinction. The crater is surrounded by a lattice of drilling rigs and decends through strata that encompass entire lifetimes of civilizations. To the north is the elevator that leads down the hole. You can see a ladder leading up to the drilling rig. In the distance to the east, you can barely see the outline of the garage door&#x000A;&#x000A;You can see ladder, a Garage Door, a Snowmobile and Elevator Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC05E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC05E8">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening Elevator Door)&#x000A;&#x000A;Elevator&#x000A;Ground Level. Exit is to the south.&#x000A;&#x000A;You can see Elevator Door and Elevator Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC0968"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC0968">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">(first opening Elevator Door)&#x000A;&#x000A;Elevator&#x000A;Level 1. Exit is to the south.&#x000A;&#x000A;You can see Elevator Door and Elevator Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC0508"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC0508">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">&#x000A;Artifact room&#x000A;You are in the artifact room, so called because it appears to be the remains of a city that seems to have faltered in its development during a medieval period. Among the stony alien ruins lie a plethora of ancient artifacts and tools . There is a supply crate in the room, The specimen room is to the west and the ledge room is to the east.&#x000A;&#x000A;You can see Supply crate (in which is an ice pick) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC0AB8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC0AB8">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">ice pick: Taken.&#x000A;&#x000A;You combine the rope with the ice pick to make a makeshift grappling hook. You appear to have secretly been MacGyver all along.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC0348"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC0348">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">&#x000A;Specimen Room&#x000A;The artifact room is back to the east.&#x000A;&#x000A;You can see Portable Laser Jackhammer (Uncharged) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC0578"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC0578">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">Portable Laser Jackhammer (Uncharged): You use the ice pick to break the tool out of the ice.&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC09D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC09D8">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">&#x000A;Artifact room&#x000A;You are in the artifact room, so called because it appears to be the remains of a city that seems to have faltered in its development during a medieval period. Among the stony alien ruins lie a plethora of ancient artifacts and tools . There is a supply crate in the room, The specimen room is to the west and the ledge room is to the east.&#x000A;&#x000A;You can see Supply crate (empty) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC0888"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC0888">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">&#x000A;Ledge Room.&#x000A;Here the ice falters, cascading downward in what may once have been a waterfall in a cup-shaped canyon east of the City Ruins. Beyond and above a series of ledges there is a wall of glyphs that Russeau has been translating.  There is a series of three ledges that crawl across the lip of the round canyon to the Glyph Wall. You can climb up to the first ledge from here. The artifact room is back to the west.&#x000A;&#x000A;You can see Ledge and Broken Ladder here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC0A48"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC0A48">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">Broken Ladder: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC03B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC03B8">
+    <command xml:space="preserve">climb ledge</command>
+    <result xml:space="preserve">&#x000A;First Ledge&#x000A;To the north, across the bottomless pit, you see another ledge. A third appears to be above it. The pit is, of course, not literally bottomless. That would be nonsense. It is, in actuality, merely a very deep pit. Certainly deep enough to send your frail mortal frame to a horribly unpleasant demise. Better be careful, hmm?&#x000A;&#x000A;You can see Ledge here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC06C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC06C8">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You use the nearly broken ladder to make a stereotypically-rickety path across to the other side. You would think that on this expididtion full of doctors and geniuses someone would have thought to make a more permenant bridge, but no, that would make too much sense. Leave the intern to improvize his way across, I'm sure it will be fine. You really home this thing can carry your weight. You are more than a little afraid&#x000A;Second Ledge&#x000A;The first ledge is back to the south across the surprisingly finite pit. There is another ledge above you, leading to the Glyph Wall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC0738"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC0738">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  Portable Laser Jackhammer (Uncharged)&#x000A;  Makeshift Grappling Hook&#x000A;  Space Suit&#x000A;  Keycard&#x000A;  keys&#x000A;  a hat (being worn)&#x000A;  a pair of gloves (being worn)&#x000A;  a coat (being worn)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC08F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC08F8">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You throw your maksehift grappling hook and it catches in the ice. You can now climb the rope to reach the third ledge. Stunning show, good sir. Somewhere in the distance your childhood adventurer hero sheds a single tear.&#x000A;&#x000A;Third Ledge&#x000A;Atop the canyon, the world seems eerily still. The snowy world around you is silent and vacant. A sense of peace comes over you here. There is a wall of Mysterious Glyphs that Russeau has been hard at work translating into meanings you can understand. His Translation Matrix lies abandoned in the snow. What happened to him?&#x000A;&#x000A;You can see Translation Matrix and Mysterious Glyphs here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC0428"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC0428">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">Translation Matrix: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC0498"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC0498">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">&#x000A;Second Ledge&#x000A;The first ledge is back to the south across the surprisingly finite pit. There is another ledge above you, leading to the Glyph Wall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC4010"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC4010">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">&#x000A;First Ledge&#x000A;To the north, across the not-quite-bottomless pit, you see another ledge. A third appears to be above it. The broken ladder now acts as a rickety excuse for a  bridge across the gap. Are you actually going to walk on that?&#x000A;&#x000A;You can see Ledge here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC3440"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC3440">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">&#x000A;Ledge Room.&#x000A;Here the ice falters, cascading downward in what may once have been a waterfall in a cup-shaped canyon east of the City Ruins. Beyond and above a series of ledges there is a wall of glyphs that Russeau has been translating.  There is a series of three ledges that crawl across the lip of the round canyon to the Glyph Wall. You can climb up to the first ledge from here. The artifact room is back to the west.&#x000A;&#x000A;You can see Ledge here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC3AD0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC3AD0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">&#x000A;Artifact room&#x000A;You are in the artifact room, so called because it appears to be the remains of a city that seems to have faltered in its development during a medieval period. Among the stony alien ruins lie a plethora of ancient artifacts and tools . There is a supply crate in the room, The specimen room is to the west and the ledge room is to the east.&#x000A;&#x000A;You can see Supply crate (empty) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC3590"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC3590">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">&#x000A;Elevator&#x000A;Level 1. Exit is to the south.&#x000A;&#x000A;You can see Elevator Door and Elevator Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC3980"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC3980">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">(first opening Elevator Door)&#x000A;&#x000A;Elevator&#x000A;Level 2.&#x000A;&#x000A;You can see Elevator Door and Backup Power Cell here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC3C90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC3C90">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">Backup Power Cell: Taken.&#x000A;&#x000A;You use the power cell from the elevator to power the jackhammer.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC4080"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC4080">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">&#x000A;Dim Cavern&#x000A;This level is significantly darker than the layer above. You are now deep in the ice caves, where very little research has been done. Light glistens off of the walls and cieling of the chamber, casting eeire shadows that obscuree the vague, yet menacing somethings frozen in the walls of the chamber. Your eyes drift across the dancing shadows on the ice until they reach the far wall of the chamber and meet another, much, much larger eye. It seems fixated on you though, frozen solid in ice, it cannot move. In the ice beyond, you see the shilouette of some hideous monster, bigger than any thing you thought could live. Jenkies. You feel the sudden urge to to be very very quiet. There is a patch of thin ice covering the west bottom quarter of an expanse of the chamber some ways down. To the east there seems to be the nose of some bizarre ship protruding from the ice, the rest of it frozen into the floor of the ice cave.&#x000A;&#x000A;You can see Patch of thin ice here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC3D70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC3D70">
+    <command xml:space="preserve">drop portable</command>
+    <result xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC3BB0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC3BB0">
+    <command xml:space="preserve">melt ice</command>
+    <result xml:space="preserve">If only you had some tool to help you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC37C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC37C0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  Translation Matrix&#x000A;  Makeshift Grappling Hook&#x000A;  Space Suit&#x000A;  Keycard&#x000A;  keys&#x000A;  a hat (being worn)&#x000A;  a pair of gloves (being worn)&#x000A;  a coat (being worn)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC3360"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC3360">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">&#x000A;Elevator&#x000A;Level 2.&#x000A;&#x000A;You can see Elevator Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC3FA0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC3FA0">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">&#x000A;Elevator&#x000A;Level 1. Exit is to the south.&#x000A;&#x000A;You can see Elevator Door and Elevator Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC3600"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC3600">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC32F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC32F0">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">&#x000A;Elevator&#x000A;Ground Level. Exit is to the south.&#x000A;&#x000A;You can see Elevator Door and Elevator Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC34B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC34B0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">&#x000A;Dig Site&#x000A;There is a huge crater where a series of expiditions have unearthed layers upon layers of ancient species that have rizen in the thawed cycles of this water moon and fallen during the freezing cycles. The moon is a scientific marvel, where new species rise and fall in a cycle of evolution and mass extinction. The crater is surrounded by a lattice of drilling rigs and decends through strata that encompass entire lifetimes of civilizations. To the north is the elevator that leads down the hole. You can see a ladder leading up to the drilling rig. In the distance to the east, you can barely see the outline of the garage door&#x000A;&#x000A;You can see Elevator Door, ladder, a Garage Door and a Snowmobile here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC33D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC33D0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">&#x000A;Garage&#x000A;This is the parking area for the snowmobiles. The edges are lined with benches that are covered in tools that you won't need. All the spaces for snowmobiles are empty except for one.&#x000A;&#x000A;You can see a Garage Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC3C20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC3C20">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">&#x000A;Outside the Base&#x000A;Kind of nippy out here. That is to say, the frigid winds of the surface feel like they're slicing you through to the bone and you are eternally humbled by the vast empty expanse of the surface, which makes you feel very small, and very insignificant, and very cold, but you hate to be melodramatic. To the north, you can see the covered area that houses the snowmobiles.&#x000A;&#x000A;You can see Base Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC3520"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC3520">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">&#x000A;Common Room&#x000A;Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the lab table in the middle of the room, scientific research abandoned each morning to persue scientific FIELD research. You are not a scientist and do not understand what the other members of the expidition are doing when they peer at the artefacts they've uncovered and make sounds like 'hmm' and 'fascinating'.&#x000A; To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside.&#x000A;&#x000A;You can see Base Door, Kitchen Table (on which is a sack lunch (closed)), a Lab Table (on which are a microscope, a preserved thoracic sac, an EDP (in which are a Chapter 1 and a Chapter 2) and a laser scalpel) and a bathroom door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC3830"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC3830">
+    <command xml:space="preserve">take laser scalpel</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC3670"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC3670">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">&#x000A;Male Sleeping Quarters&#x000A;This is the male sleeping quarters for this expidition. The walls are covered in movie posters and there are odds and ends, dishes and cups strewn everywhere. Somewhere in this dump there are records of the history-altering discoveries this expidition has made. To the southeast is the common room.&#x000A;&#x000A;You can see an Alarm Clock, a Wardrobe (empty) and a Backpack (in which are a Flashlight and a Flare) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC39F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC39F0">
+    <command xml:space="preserve">take flare</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC3D00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC3D00">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">&#x000A;Common Room&#x000A;Home sweet home for the rest of the expedition. There is a small kitchen area in the corner. All kinds of lab equipment is strewn across the lab table in the middle of the room, scientific research abandoned each morning to persue scientific FIELD research. You are not a scientist and do not understand what the other members of the expidition are doing when they peer at the artefacts they've uncovered and make sounds like 'hmm' and 'fascinating'.&#x000A; To the north is the bathroom. The male bedrooms are to the northwest, and the female bedrooms are to the southwest. The door to the east leads outside.&#x000A;&#x000A;You can see Base Door, Kitchen Table (on which is a sack lunch (closed)), a Lab Table (on which are a microscope, a preserved thoracic sac and an EDP (in which are a Chapter 1 and a Chapter 2)) and a bathroom door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC36E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC36E0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">&#x000A;Outside the Base&#x000A;Kind of nippy out here. That is to say, the frigid winds of the surface feel like they're slicing you through to the bone and you are eternally humbled by the vast empty expanse of the surface, which makes you feel very small, and very insignificant, and very cold, but you hate to be melodramatic. To the north, you can see the covered area that houses the snowmobiles.&#x000A;&#x000A;You can see Base Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC3750"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC3750">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">&#x000A;Garage&#x000A;This is the parking area for the snowmobiles. The edges are lined with benches that are covered in tools that you won't need. All the spaces for snowmobiles are empty except for one.&#x000A;&#x000A;You can see a Garage Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC38A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC38A0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC3910"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC3910">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">&#x000A;Dig Site&#x000A;There is a huge crater where a series of expiditions have unearthed layers upon layers of ancient species that have rizen in the thawed cycles of this water moon and fallen during the freezing cycles. The moon is a scientific marvel, where new species rise and fall in a cycle of evolution and mass extinction. The crater is surrounded by a lattice of drilling rigs and decends through strata that encompass entire lifetimes of civilizations. To the north is the elevator that leads down the hole. You can see a ladder leading up to the drilling rig. In the distance to the east, you can barely see the outline of the garage door&#x000A;&#x000A;You can see a Garage Door, Elevator Door, ladder and a Snowmobile here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC3A60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC3A60">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">&#x000A;Elevator&#x000A;Ground Level. Exit is to the south.&#x000A;&#x000A;You can see Elevator Door and Elevator Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC3DE0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC3DE0">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">&#x000A;Elevator&#x000A;Level 1. Exit is to the south.&#x000A;&#x000A;You can see Elevator Door and Elevator Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC3E50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC3E50">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">&#x000A;Elevator&#x000A;Level 2.&#x000A;&#x000A;You can see Elevator Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
+    <children>
+      <child nodeId="node-0x02EC3EC0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02EC3EC0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">&#x000A;Dim Cavern&#x000A;This level is significantly darker than the layer above. You are now deep in the ice caves, where very little research has been done. Light glistens off of the walls and cieling of the chamber, casting eeire shadows that obscuree the vague, yet menacing somethings frozen in the walls of the chamber. Your eyes drift across the dancing shadows on the ice until they reach the far wall of the chamber and meet another, much, much larger eye. It seems fixated on you though, frozen solid in ice, it cannot move. In the ice beyond, you see the shilouette of some hideous monster, bigger than any thing you thought could live. Jenkies. You feel the sudden urge to to be very very quiet. There is a patch of thin ice covering the west bottom quarter of an expanse of the chamber some ways down. To the east there seems to be the nose of some bizarre ship protruding from the ice, the rest of it frozen into the floor of the ice cave.&#x000A;&#x000A;You can see Portable Laser Jackhammer (Charged) and Patch of thin ice here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="445">YES</temporary>
   </item>
 </Skein>
