@@ -1,4 +1,4 @@
-"IFF" by Joseph Farleo, Andrew Slembarski, and Sydney Young
+"Fantastic Jurassic Antarctic Cthulhu Adventure" by Joseph Farleo, Andrew Slembarski, and Sydney Young
 
 Include Rideable Vehicles by Graham Nelson.
 
@@ -38,7 +38,7 @@ Every turn:
 	unless the player is wearing the coat and the player is wearing the gloves and the player is wearing the hat:
 		unless the player is wearing the space suit:
 			unless the player is in Male Sleeping Quarters or the player is in Female Sleeping Quarters or the player is in Common Room or the player is in Garage or the player is in Drilling Rig:
-				say "You freeze to death or something. Game Over.";
+				say "You freeze to death. Didn't I tell you it was cold? Game Over.";
 				end the story;
 		
 [Common Room]
@@ -76,7 +76,7 @@ the laser scalpel is an object on the Lab Table with description "A laser scalpe
 
 [Losing Condition]
 Before eating the laser scalpel:
-	say "You lose.";
+	say "You ingest the laser scalpel, and it cuts open your stomach from the inside. You are very dead.";
 	end the story;
 
 Common room is southeast of Male Sleeping Quarters. 
@@ -213,7 +213,8 @@ Before going north from First Ledge:
 			now Bridge is 1;
 			now the description of First Ledge is "To the north, across the not-quite-bottomless pit, you see another ledge. A third appears to be above it. The broken ladder now acts as a rickety excuse for a  bridge across the gap. Are you actually going to walk on that?";
 		otherwise:
-			say "You fall down the pit. Dead.";
+			[Losing condition]
+			say "You fall down the not-quite-bottomless pit. Have a nice trip. See you next fall.";
 			end the story;
 			
 Before going from Second Ledge to Third Ledge:
