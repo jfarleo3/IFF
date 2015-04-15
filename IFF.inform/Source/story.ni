@@ -238,7 +238,7 @@ Every turn:
 		[now the description of Spear gun is "A deadly-looking weapon left by lost civilization of the strata you are at. Why someone would need such a vicious projectile makes you shudder. There are strange alien glyphs carved into the barrel.".]
 
 	
-Carl's Notes 1 is an object with description "These are Carl's first set of notes. They say ''.".
+Carl's Notes 1 is an object with description "These are Carl's first set of notes. They're written in pencil on notebook paper. His handwriting is absolutely atrocious, so you can[']t read any of the words on the page. If only Russeau's translation matrix could help you figure out what Carl is trying to say.". Carl's Notes 1 is in Third Ledge. 
 		
 Elevator level 2 is a room with description "Sublevel 2. Exit is to the south." and printed name "Elevator". Elevator level 2 is below the Elevator Level 1. 
 
